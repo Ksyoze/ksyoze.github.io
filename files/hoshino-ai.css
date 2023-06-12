@@ -35,7 +35,7 @@
     --color-text: 220, 220, 220; /*Color for text in bio.*/
     --color-text-lighter: 192,192,192; /*Color of lists and time.*/
     --color-foreground: 23, 26, 33, 1; /*Main profile color.*/
-    --color-main: 223, 26, 33, 1; /*Main profile color.*/
+    --color-main: 23, 26, 33, 1; /*Main profile color.*/
     --color-main2: 18, 20, 26, 1;
     --color-sub: 88, 63, 171;
     --color-bright: 255, 255, 255;
