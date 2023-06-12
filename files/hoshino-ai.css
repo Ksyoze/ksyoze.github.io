@@ -2,7 +2,7 @@
 
 :root, .site-theme-dark .user-page-unscoped.purple {
     --logo-width: 65px; /*Height of the logo.*/
-    --logo-height: 80px; /*Width of the logo. I recommend you change this to fit the aspect ratio of the image you're using.*/
+    --logo-height: 100px; /*Width of the logo. I recommend you change this to fit the aspect ratio of the image you're using.*/
     --logo-time: 0.5s; /*How long it takes the logo to scale and rotate when hovered over.*/
     --logo-scale: 1.1;
     --head-width: 100%; /*The width of the header and footer.*/
@@ -36,6 +36,7 @@
     --color-text-lighter: 192,192,192; /*Color of lists and time.*/
     --color-foreground: 23, 26, 33, 1; /*Main profile color.*/
     --color-main: 23, 26, 33, 1; /*Main profile color.*/
+    --color-main2: 18, 20, 26, 1;
     --color-sub: 88, 63, 171;
     --color-bright: 255, 255, 255;
     --color-text-light: 181, 181, 181; /*Color of nav bar text.*/
@@ -235,6 +236,7 @@ This section makes the about section and activities display in full instead of h
 
 .nav[data-v-62eacfff] {
     width: var(--head-width);
+    height: 80px;
     border-style: hidden;
     border-bottom-left-radius: var(--curvyness-head);
     border-bottom-right-radius: var(--curvyness-head);
@@ -244,11 +246,13 @@ This section makes the about section and activities display in full instead of h
 .search[data-v-62eacfff] {
     position: absolute;
     left: 0;
+    margin-left: 100px;
 }
 
 .user[data-v-62eacfff] {
     position: absolute;
     right: 0; 
+    margin-right: 100px;
 }
 
 .logo[data-v-62eacfff] {
@@ -266,7 +270,7 @@ This section makes the about section and activities display in full instead of h
 }
 
 .link[data-v-62eacfff]:nth-child(3) {
-    margin-right: 350px;
+    margin-right: 400px;
 }
 
 .wrap[data-v-62eacfff] {
@@ -329,7 +333,6 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 .overview[data-v-5c30286e] .content-wrap {
     border: 3px solid rgb(88, 63, 171);
     border-radius: var(--curvyness-activity);
-
 }
 
 .submissions[data-v-3ed82f3f]{
@@ -676,4 +679,21 @@ This makes links turn blue on hover.*/
 
 .desktop[data-v-63cd3b41]{
     display: none;
+}
+
+.list-stats[data-v-815ccddc] {
+    border-bottom: 3px solid rgb(88, 63, 171) !important;
+    border-radius: var(--curvyness-activity);
+}
+
+.dropdown[data-v-04b245e6] {
+    background: rgb(var(--color-main2));
+}
+
+.footer[data-v-04b245e6] {
+    background: rgb(var(--color-main));
+}
+
+.user .chevron[data-v-62eacfff] {
+    color: rgb(var(--color-bright));
 }
