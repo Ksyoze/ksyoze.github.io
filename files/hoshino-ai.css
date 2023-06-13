@@ -363,7 +363,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 }
 
 .reply[data-v-732ef224] {
-    background: none;
+    background: rgb(var(--color-main));
     border: var(--activity-border) solid rgb(var(--color-sub));
 }
 
@@ -697,3 +697,4 @@ This makes links turn blue on hover.*/
 .user .chevron[data-v-62eacfff] {
     color: rgb(var(--color-bright));
 }
+
