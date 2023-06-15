@@ -219,6 +219,7 @@ This section makes the about section and activities display in full instead of h
     border: var(--activity-border) solid rgb(var(--color-sub));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
+    background: rgb(var(--color-main));
 }
 
 .wrap[data-v-04d66030]:hover {
@@ -306,6 +307,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     border-top-left-radius: var(--curvyness);
     border-top-right-radius: var(--curvyness);
     overflow: hidden;
+    background: rgb(var(--color-main));
 }
 
 .nav[data-v-1cc2919e] {
@@ -333,6 +335,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 .overview[data-v-5c30286e] .content-wrap {
     border: 3px solid rgb(88, 63, 171);
     border-radius: var(--curvyness-activity);
+    background: rgb(var(--color-main));
 }
 
 .submissions[data-v-3ed82f3f]{
@@ -362,6 +365,10 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     border-radius: var(--curvyness);
 }
 
+.markdown-editor {
+    background: rgb(var(--color-main));
+}
+
 .reply[data-v-732ef224] {
     background: rgb(var(--color-main));
     border: var(--activity-border) solid rgb(var(--color-sub));
@@ -370,6 +377,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 .input[data-v-c574a71c] .el-textarea__inner {
     border-bottom: 2px solid rgb(var(--color-bright));
     border-radius: var(--curvyness);
+    background: rgb(var(--color-main));
 }
 
 .el-textarea{
@@ -390,7 +398,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 .theme-switch[data-v-0567dd85]{
     /*This moves the theme switcher at the top right of media lists downwards.*/
     margin-top: 20%;
-    background: rgb(var(--color-sub));
+    background: rgb(var(--color-main));
 }
 
 /*This section gives the navbar the underline when you hover over links. Thank Anzu for that one.*/
@@ -462,7 +470,9 @@ This improves the favourites section a lot.*/
     overflow: visible;
     padding: 20px !important;
     grid-gap: 10px;
+    border: 3px solid rgb(var(--color-sub));
     border-radius: var(--curvyness-fav);
+    background: rgb(var(--color-main));
 }
 
 /*.favourites[data-v-ddf96a3c] {
@@ -698,3 +708,6 @@ This makes links turn blue on hover.*/
     color: rgb(var(--color-bright));
 }
 
+.el-input, .el-textarea {
+    background: rgb(var(--color-main));
+}
