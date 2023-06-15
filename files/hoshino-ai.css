@@ -29,13 +29,20 @@
     --activity-time: 0.3s;
     --activity-border: 3px;
     --cursor-url: url('https://i.imgur.com/SFiJiDK.png'); /*Image for custom cursor.*/
-    --background-img: url("https://i.imgur.com/IziWrBg.png"); /*Image for custom background.*/
+    --background-img: url("https://i.imgur.com/sfZjagz.png"); /*Image for custom background.*/
     --footer-img: url("https://media.tenor.com/aB9pRg5dd_0AAAAC/oshi-no-ko-ai.gif"); /*Image for custom footer.*/
     --content-width: 100%; /*The width of the content box.*/
     --color-main: 23, 26, 33, 0.99; /*Main profile color.*/
     --color-main2: 18, 20, 26, 1;
     --color-sub: 88, 63, 171;
     --color-bright: 255, 255, 255;
+    --color-text: 220, 220, 220; /*Color for text in bio.*/
+    --color-text-lighter: 192,192,192; /*Color of lists and time.*/
+    --color-foreground: 34, 35, 87, 1; /*Main profile color.*/
+    --color-text-light: 181, 181, 181; /*Color of nav bar text.*/
+    --color-blue: 99, 86, 219; /*Main text color.*/
+    --color-blue-dim: 134, 125, 219; /*Second main text color*/
+    --color-overlay: 28, 21, 46;
     --color-header: 229, 231, 234; /*Color of the text in the header.*/
     --opacity-header: 1; /*How opaque the header is: higher number = less seethrough.*/
     --transition-img: 0.5s; /*Transition time from the image in the activity.*/
