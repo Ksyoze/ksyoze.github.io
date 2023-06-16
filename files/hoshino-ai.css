@@ -470,7 +470,6 @@ This improves the favourites section a lot.*/
     overflow: visible;
     padding: 20px !important;
     grid-gap: 10px;
-    border: 3px solid rgb(var(--color-sub));
     border-radius: var(--curvyness-fav);
     background: rgb(var(--color-main));
 }
