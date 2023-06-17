@@ -70,10 +70,6 @@
     text-overflow: ellipsis;
 }
 
-.actions[data-v-04d66030], .donator-badge[data-v-04d66030], .time[data-v-04d66030] {
-    color: none;
-}
-
 .activity-feed {
     max-height: var(--feed-height);
     overflow: auto;
@@ -447,6 +443,10 @@ h2, .time[data-v-04d66030]{
     font-weight: 700;
 }
 
+.time[data-v-04d66030]:hover{
+    background-color: none;
+}
+
 /*favourites
 
 This improves the favourites section a lot.*/
@@ -709,4 +709,8 @@ This makes links turn blue on hover.*/
 
 .el-input, .el-textarea {
     background: rgb(var(--color-main));
+}
+
+.users[data-v-5fb0ec91]{
+    background: transparent;
 }
