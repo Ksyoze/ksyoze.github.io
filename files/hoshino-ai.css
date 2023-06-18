@@ -40,7 +40,7 @@
     --ksyoz-color-text2: 134, 125, 219;
     /*--ksyoz-color-text: 220, 220, 220; 
     --ksyoz-color-text-lighter: 192,192,192; 
-    --color-foreground: 34, 35, 87, 1;
+    --ksyoz-color-main2: 34, 35, 87, 1;
     --ksyoz-color-text-light: 181, 181, 181; 
     --color-blue: 99, 86, 219; 
     --color-blue-dim: 134, 125, 219; */
@@ -801,5 +801,9 @@ This makes links turn blue on hover.*/
 }
 
 .activity-entry > .wrap > .time:hover {
-    background: rgb(var(--color-foreground));
+    background: rgb(var(--ksyoz-color-main2));
+}
+
+.action.likes .button .fa-heart:hover {
+    color: rgb(var(--ksyoz-color-text));
 }
