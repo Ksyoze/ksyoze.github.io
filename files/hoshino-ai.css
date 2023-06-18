@@ -58,7 +58,7 @@
     --social-scale: 1.05;
 }
 
-.a {
+a:visited:hover {
     color: rgb(var(--ksyoz-color-text));
 }
 
@@ -728,7 +728,7 @@ This makes links turn blue on hover.*/
 }
 
 .users[data-v-5fb0ec91]{
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .nav .router-link-active[data-v-1cc2919e] {
