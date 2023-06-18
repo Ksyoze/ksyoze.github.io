@@ -423,12 +423,12 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 .nav > .router-link-active::after {
     left: 0;
     width: 100%;
-    background: rgb(var(--color-blue));
+    background: rgb(var(--ksyoz-color-text));
 }
 .nav > .link:hover::after {
     left: 0;
     width: 100%;
-    background: rgb(var(--color-blue));
+    background: rgb(var(--ksyoz-color-text));
 }
 
 /*This hides part of the stats preview and reveals it when hovered over. Thanks again, Anzu.
