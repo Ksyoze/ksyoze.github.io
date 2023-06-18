@@ -819,3 +819,11 @@ This makes links turn blue on hover.*/
 .extras-dropdown .el-dropdown-link[data-v-04d66030] {
     color: rgb(var(--ksyoz-color-bright));
 }
+
+.medialist.table .list-section {
+    background: rgb(var(--ksyoz-color-main2));
+}
+
+.el-input-group__append, .el-input-group__prepend, .el-input__inner, .el-textarea__inner {
+    background: rgb(var(--ksyoz-color-main2));
+}
