@@ -772,6 +772,10 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-text));
 }
 
+.action.likes .button.liked:hover, .like-wrap.thread_comment .button.liked:hover {
+    color: rgb(var(--ksyoz-color-text));
+}
+
 .nav .link[data-v-1cc2919e]:hover {
     color: rgb(var(--ksyoz-color-text));
 }
