@@ -36,6 +36,7 @@
     --color-main2: 18, 20, 26, 1;
     --color-sub: 88, 63, 171;
     --color-bright: 255, 255, 255;
+    --color-text: 99, 86, 219;
     /*--color-text: 220, 220, 220; 
     --color-text-lighter: 192,192,192; 
     --color-foreground: 34, 35, 87, 1;
@@ -68,6 +69,7 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    color: rgb(var(--color-text));
 }
 
 .activity-feed {
@@ -713,4 +715,33 @@ This makes links turn blue on hover.*/
 
 .users[data-v-5fb0ec91]{
     background: transparent;
+}
+
+.nav .router-link-active[data-v-1cc2919e] {
+    color: rgb(var(--color-text));
+}
+
+.stat .value[data-v-815ccddc] {
+    color: rgb(var(--color-text));
+}
+
+.medialist.cards .entry-card .progress, .medialist.cards .entry-card .score {
+    color: rgb(var(--color-text));
+}
+
+.theme-switch .icon[data-v-0567dd85] {
+    color: rgb(var(--color-text));
+}
+
+.actions>div[data-v-ddf96a3c] {
+    color: rgb(var(--color-text));
+}
+
+.highlight .value[data-v-72dc5b51] {
+    color: rgb(var(--color-text));
+}
+
+.option.active[data-v-05bb5e72] {
+    background: rgb(var(--color-text));
+    color: rgba(var(--color-white),1);
 }
