@@ -843,3 +843,7 @@ This makes links turn blue on hover.*/
 .medialist.cards .entry-card .edit {
     background: rgb(var(--ksyoz-color-text));
 }
+
+.medialist.table .entry:hover {
+    background: rgb(var(--ksyoz-color-text));
+}
