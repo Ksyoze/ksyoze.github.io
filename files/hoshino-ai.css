@@ -728,7 +728,7 @@ This makes links turn blue on hover.*/
 }
 
 .users[data-v-5fb0ec91]{
-    background: transparent;
+    background: rgb(var(--ksyoz-color-text));
 }
 
 .nav .router-link-active[data-v-1cc2919e] {
