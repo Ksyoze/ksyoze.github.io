@@ -36,11 +36,11 @@
     --color-main2: 18, 20, 26, 1;
     --color-sub: 88, 63, 171;
     --color-bright: 255, 255, 255;
-    --color-text: 99, 86, 219;
-    /*--color-text: 220, 220, 220; 
-    --color-text-lighter: 192,192,192; 
+    --ksyoz-color-text: 99, 86, 219;
+    /*--ksyoz-color-text: 220, 220, 220; 
+    --ksyoz-color-text-lighter: 192,192,192; 
     --color-foreground: 34, 35, 87, 1;
-    --color-text-light: 181, 181, 181; 
+    --ksyoz-color-text-light: 181, 181, 181; 
     --color-blue: 99, 86, 219; 
     --color-blue-dim: 134, 125, 219; 
     --color-overlay: 28, 21, 46;
@@ -59,6 +59,7 @@
 
 .text .name[data-v-04d66030] {
     filter: var(--drop-shadow);
+    color: rgb(var(--ksyoz-color-text));
 }
 
 /*Changes the activity box*/
@@ -69,7 +70,7 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    color: rgb(var(--color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .activity-feed {
@@ -137,7 +138,7 @@
 /*Changes the bell*/
 
 .time .action.active[data-v-04d66030] {
-    color: rgb(var(--color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .site-theme-dark .nav-unscoped.transparent {
@@ -221,7 +222,7 @@ This section makes the about section and activities display in full instead of h
 }
 
 .wrap[data-v-04d66030]:hover {
-    border: var(--activity-border) solid rgba(var(--color-blue),.5);
+    border: var(--activity-border) solid rgba(var(--ksyoz-color-text),.5);
     transition: var(--activity-time);
 }
 
@@ -718,34 +719,34 @@ This makes links turn blue on hover.*/
 }
 
 .nav .router-link-active[data-v-1cc2919e] {
-    color: rgb(var(--color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .nav .router-link-active[data-v-1cc2919e]:hover {
-    color: rgb(var(--color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .stat .value[data-v-815ccddc] {
-    color: rgb(var(--color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .medialist.cards .entry-card .progress, .medialist.cards .entry-card .score {
-    color: rgb(var(--color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .theme-switch .icon[data-v-0567dd85] {
-    color: rgb(var(--color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .actions>div[data-v-ddf96a3c] {
-    color: rgb(var(--color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .highlight .value[data-v-72dc5b51] {
-    color: rgb(var(--color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .option.active[data-v-05bb5e72] {
-    background: rgb(var(--color-text));
+    background: rgb(var(--ksyoz-color-text));
     color: rgba(var(--color-white),1);
 }
