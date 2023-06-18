@@ -721,6 +721,10 @@ This makes links turn blue on hover.*/
     color: rgb(var(--color-text));
 }
 
+.nav .router-link-active[data-v-1cc2919e]:hover {
+    color: rgb(var(--color-text));
+}
+
 .stat .value[data-v-815ccddc] {
     color: rgb(var(--color-text));
 }
