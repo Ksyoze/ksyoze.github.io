@@ -860,3 +860,27 @@ This makes links turn blue on hover.*/
 .hohThemeSwitch {
     background: transparent;
 }
+
+.filter-group a.router-link-active[data-v-1e00b9da] {
+    background: rgb(var(--ksyoz-color-main2));
+}
+
+.option[data-v-05bb5e72]:hover {
+    color: rgb(var(--ksyoz-color-text));
+}
+
+.switch[data-v-05bb5e72] {
+    background: rgb(var(--ksyoz-color-main2));
+}
+
+.bar-chart-wrap[data-v-46edc0ca] {
+    background: rgb(var(--ksyoz-color-main2));
+}
+
+.x-axis[data-v-3251fadf] {
+    background: rgb(var(--ksyoz-color-main));
+}
+
+.bar[data-v-46edc0ca] {
+    background: rgb(var(--ksyoz-color-text));
+}
