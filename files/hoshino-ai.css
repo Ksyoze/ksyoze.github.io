@@ -831,3 +831,11 @@ This makes links turn blue on hover.*/
 .filter-group .active[data-v-170179fc] {
     background: rgb(var(--ksyoz-color-main));
 }
+
+.el-slider__button {
+    border-color: rgb(var(--ksyoz-color-text));
+}
+
+.random-btn[data-v-170179fc] {
+    background: rgb(var(--ksyoz-color-text));
+}
