@@ -36,14 +36,14 @@
     --color-main2: 18, 20, 26, 1;
     --color-sub: 88, 63, 171;
     --color-bright: 255, 255, 255;
-    --color-text: 220, 220, 220; /*Color for text in bio.*/
-    --color-text-lighter: 192,192,192; /*Color of lists and time.*/
-    --color-foreground: 34, 35, 87, 1; /*Main profile color.*/
-    --color-text-light: 181, 181, 181; /*Color of nav bar text.*/
-    --color-blue: 99, 86, 219; /*Main text color.*/
-    --color-blue-dim: 134, 125, 219; /*Second main text color*/
+    /*--color-text: 220, 220, 220; 
+    --color-text-lighter: 192,192,192; 
+    --color-foreground: 34, 35, 87, 1;
+    --color-text-light: 181, 181, 181; 
+    --color-blue: 99, 86, 219; 
+    --color-blue-dim: 134, 125, 219; 
     --color-overlay: 28, 21, 46;
-    --color-header: 229, 231, 234; /*Color of the text in the header.*/
+    --color-header: 229, 231, 234; */
     --opacity-header: 1; /*How opaque the header is: higher number = less seethrough.*/
     --transition-img: 0.5s; /*Transition time from the image in the activity.*/
     --transition-txt: 0.8s; /*Transition time from the text in the activity.*/
