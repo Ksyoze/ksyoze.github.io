@@ -686,6 +686,10 @@ This makes links turn blue on hover.*/
     margin-top: -10px;
 }
 
+.el-dropdown:hover {
+    color: rgb(var(--ksyoz-color-text));
+}
+
 .overview[data-v-5c30286e] .section-header {
     padding-top: 2px;
     padding-bottom: 2px;
@@ -758,4 +762,8 @@ This makes links turn blue on hover.*/
 
 .actions[data-v-04d66030], .action.likes .button .fa-heart, .action.likes .button {
     color: rgb(var(--ksyoz-color-text2));
+}
+
+.nav .link[data-v-1cc2919e]:hover {
+    color: rgb(var(--ksyoz-color-text));
 }
