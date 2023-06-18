@@ -58,6 +58,10 @@
     --social-scale: 1.05;
 }
 
+.a {
+    color: rgb(var(--ksyoz-color-text));
+}
+
 .text .name[data-v-04d66030] {
     filter: var(--drop-shadow);
     color: rgb(var(--ksyoz-color-text));
