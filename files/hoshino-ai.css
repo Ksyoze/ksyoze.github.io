@@ -43,9 +43,9 @@
     --color-foreground: 34, 35, 87, 1;
     --ksyoz-color-text-light: 181, 181, 181; 
     --color-blue: 99, 86, 219; 
-    --color-blue-dim: 134, 125, 219; 
-    --color-overlay: 28, 21, 46;
-    --color-header: 229, 231, 234; */
+    --color-blue-dim: 134, 125, 219; */
+    --ksyoz-color-overlay: 28, 21, 46;
+    --ksyoz-color-header: 229, 231, 234;
     --opacity-header: 1; /*How opaque the header is: higher number = less seethrough.*/
     --transition-img: 0.5s; /*Transition time from the image in the activity.*/
     --transition-txt: 0.8s; /*Transition time from the text in the activity.*/
@@ -148,17 +148,17 @@
 
 .site-theme-dark .nav-unscoped.transparent {
     background: rgb(var(--ksyoz-color-main));
-    color: rgb(var(--color-header));
+    color: rgb(var(--ksyoz-color-header));
 }
 
 .site-theme-dark .nav-unscoped.transparent:hover {
     background: rgb(var(--ksyoz-color-main));
-    color: rgb(var(--color-header));
+    color: rgb(var(--ksyoz-color-header));
 }
 
 .site-theme-dark .nav-unscoped {
     background: rgb(var(--ksyoz-color-main));
-    color: rgb(var(--color-header));
+    color: rgb(var(--ksyoz-color-header));
 }
 
 body {
@@ -531,7 +531,7 @@ This gives the footer a similar design to the header.*/
     /*This curves the footer's corners and lightens the background to the same color as the header.*/
     border-radius: var(--curvyness) var(--curvyness) 0px 0px;
     background: rgb(var(--ksyoz-color-main));
-    color: rgb(var(--color-header));
+    color: rgb(var(--ksyoz-color-header));
 }
 
 /*scrollbarFix
@@ -618,7 +618,7 @@ This makes links turn blue on hover.*/
 /*Lists*/
 
 .medialist.cards .entry-card .title {
-    background: rgba(var(--color-overlay),0.8);
+    background: rgba(var(--ksyoz-color-overlay),0.8);
     border-radius: 0px;
     min-height: 62px;
     display: block;
