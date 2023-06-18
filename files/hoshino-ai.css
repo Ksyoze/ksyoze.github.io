@@ -824,6 +824,10 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-main2));
 }
 
-.el-input-group__append, .el-input-group__prepend, .el-input__inner, .el-textarea__inner {
+.el-input-group__append, .el-input-group__prepend, .el-input__inner, .el-textarea__inner, .el-input--small .el-input__inner {
     background: rgb(var(--ksyoz-color-main2));
+}
+
+.filter-group .active[data-v-170179fc] {
+    background: rgb(var(--ksyoz-color-main));
 }
