@@ -402,7 +402,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 .theme-switch[data-v-0567dd85]{
     /*This moves the theme switcher at the top right of media lists downwards.*/
     margin-top: 20%;
-    background: rgb(var(--ksyoz-color-main));
+    background: transparent;
 }
 
 /*This section gives the navbar the underline when you hover over links. Thank Anzu for that one.*/
