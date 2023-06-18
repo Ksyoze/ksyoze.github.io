@@ -32,11 +32,12 @@
     --background-img: url("https://i.imgur.com/sfZjagz.png"); /*Image for custom background.*/
     --footer-img: url("https://media.tenor.com/aB9pRg5dd_0AAAAC/oshi-no-ko-ai.gif"); /*Image for custom footer.*/
     --content-width: 100%; /*The width of the content box.*/
-    --color-main: 23, 26, 33, 0.99; /*Main profile color.*/
-    --color-main2: 18, 20, 26, 1;
-    --color-sub: 88, 63, 171;
-    --color-bright: 255, 255, 255;
+    --ksyoz-color-main: 23, 26, 33, 0.99; /*Main profile color.*/
+    --ksyoz-color-main2: 18, 20, 26, 1;
+    --ksyoz-color-sub: 88, 63, 171;
+    --ksyoz-color-bright: 255, 255, 255;
     --ksyoz-color-text: 99, 86, 219;
+    --ksyoz-color-text2: 134, 125, 219;
     /*--ksyoz-color-text: 220, 220, 220; 
     --ksyoz-color-text-lighter: 192,192,192; 
     --color-foreground: 34, 35, 87, 1;
@@ -142,17 +143,17 @@
 }
 
 .site-theme-dark .nav-unscoped.transparent {
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--color-header));
 }
 
 .site-theme-dark .nav-unscoped.transparent:hover {
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--color-header));
 }
 
 .site-theme-dark .nav-unscoped {
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--color-header));
 }
 
@@ -168,31 +169,31 @@ body {
 }
 
 .history-day.lv-1[data-v-b79eb0f0], .tooltip .circle.lv-1[data-v-b79eb0f0] {
-    background: rgba(var(--color-bright),0.7);
+    background: rgba(var(--ksyoz-color-bright),0.7);
 }
 
 .history-day.lv-2[data-v-b79eb0f0], .tooltip .circle.lv-2[data-v-b79eb0f0] {
-    background: rgb(var(--color-bright),0.75);
+    background: rgb(var(--ksyoz-color-bright),0.75);
 }
 
 .history-day.lv-3[data-v-b79eb0f0], .tooltip .circle.lv-3[data-v-b79eb0f0] {
-    background: rgba(var(--color-bright),0.8);
+    background: rgba(var(--ksyoz-color-bright),0.8);
 }
 
 .history-day.lv-4[data-v-b79eb0f0], .tooltip .circle.lv-4[data-v-b79eb0f0] {
-    background: rgba(var(--color-bright),0.85);
+    background: rgba(var(--ksyoz-color-bright),0.85);
 }
 
 .history-day.lv-5[data-v-b79eb0f0], .tooltip .circle.lv-5[data-v-b79eb0f0] {
-    background: rgba(var(--color-bright),0.9);
+    background: rgba(var(--ksyoz-color-bright),0.9);
 }
 
 .history-day.lv-6[data-v-b79eb0f0], .history-day.lv-7[data-v-b79eb0f0], .history-day.lv-8[data-v-b79eb0f0], .history-day.lv-9[data-v-b79eb0f0], .tooltip .circle.lv-6[data-v-b79eb0f0], .tooltip .circle.lv-7[data-v-b79eb0f0], .tooltip .circle.lv-8[data-v-b79eb0f0], .tooltip .circle.lv-9[data-v-b79eb0f0] {
-    background: rgb(var(--color-bright),0.95);
+    background: rgb(var(--ksyoz-color-bright),0.95);
 }
 
 .history-day.lv-8[data-v-b79eb0f0], .history-day.lv-9[data-v-b79eb0f0], .tooltip .circle.lv-8[data-v-b79eb0f0], .tooltip .circle.lv-9[data-v-b79eb0f0] {
-    background: rgb(var(--color-bright));
+    background: rgb(var(--ksyoz-color-bright));
 }
 
 /*milestones*/
@@ -215,10 +216,10 @@ This section makes the about section and activities display in full instead of h
 }
 
 .wrap[data-v-04d66030] {
-    border: var(--activity-border) solid rgb(var(--color-sub));
+    border: var(--activity-border) solid rgb(var(--ksyoz-color-sub));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .wrap[data-v-04d66030]:hover {
@@ -306,7 +307,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     border-top-left-radius: var(--curvyness);
     border-top-right-radius: var(--curvyness);
     overflow: hidden;
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .nav[data-v-1cc2919e] {
@@ -326,7 +327,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     max-width: 1520px;
     margin: 0% 0% 2% 0%;
     padding: 2% 5% 5% 5%;
-    background-color: rgb(var(--color-main));
+    background-color: rgb(var(--ksyoz-color-main));
     border-bottom-left-radius: var(--curvyness);
     border-bottom-right-radius: var(--curvyness);
 }
@@ -334,7 +335,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 .overview[data-v-5c30286e] .content-wrap {
     border: 3px solid rgb(88, 63, 171);
     border-radius: var(--curvyness-activity);
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .submissions[data-v-3ed82f3f]{
@@ -365,18 +366,18 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 }
 
 .markdown-editor {
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .reply[data-v-732ef224] {
-    background: rgb(var(--color-main));
-    border: var(--activity-border) solid rgb(var(--color-sub));
+    background: rgb(var(--ksyoz-color-main));
+    border: var(--activity-border) solid rgb(var(--ksyoz-color-sub));
 }
 
 .input[data-v-c574a71c] .el-textarea__inner {
-    border-bottom: 2px solid rgb(var(--color-bright));
+    border-bottom: 2px solid rgb(var(--ksyoz-color-bright));
     border-radius: var(--curvyness);
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .el-textarea{
@@ -397,7 +398,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 .theme-switch[data-v-0567dd85]{
     /*This moves the theme switcher at the top right of media lists downwards.*/
     margin-top: 20%;
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 /*This section gives the navbar the underline when you hover over links. Thank Anzu for that one.*/
@@ -442,7 +443,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 /*This makes the title text more readable.*/
 
 h2, .time[data-v-04d66030]{
-    color: rgb(var(--color-bright));
+    color: rgb(var(--ksyoz-color-bright));
     font-weight: 700;
 }
 
@@ -474,7 +475,7 @@ This improves the favourites section a lot.*/
     padding: 20px !important;
     grid-gap: 10px;
     border-radius: var(--curvyness-fav);
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 /*.favourites[data-v-ddf96a3c] {
@@ -485,7 +486,7 @@ This improves the favourites section a lot.*/
 }*/
 
 .favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c], .favourites.preview .favourites-wrap>div[data-v-ddf96a3c] {
-    border: var(--border-fav) solid rgb(var(--color-sub));
+    border: var(--border-fav) solid rgb(var(--ksyoz-color-sub));
 }
 
 .overview .favourite.studio {
@@ -503,7 +504,7 @@ This improves the favourites section a lot.*/
 /*Stats page*/
 
 .highlights[data-v-72dc5b51] {
-    background: rgb(var(--color-sub));
+    background: rgb(var(--ksyoz-color-sub));
     border-radius: var(--curvyness);
     padding: 15px !important;
 }
@@ -525,7 +526,7 @@ This gives the footer a similar design to the header.*/
 .footer[data-v-0f519cab] {
     /*This curves the footer's corners and lightens the background to the same color as the header.*/
     border-radius: var(--curvyness) var(--curvyness) 0px 0px;
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--color-header));
 }
 
@@ -588,17 +589,17 @@ This makes links turn blue on hover.*/
 
 .avatar[data-v-39573fe2]{
     border-radius: var(--curvyness-social);
-    border: var(--border-socials) solid rgb(var(--color-sub)); 
+    border: var(--border-socials) solid rgb(var(--ksyoz-color-sub)); 
 }
 
 .user[data-v-5fb0ec91] {
     border-radius: var(--curvyness-social);
-    border: var(--border-socials) solid rgb(var(--color-sub));
+    border: var(--border-socials) solid rgb(var(--ksyoz-color-sub));
 }
 
 .hohSocialContent .avatar {
     border-radius: var(--curvyness-social);
-    border: var(--border-socials) solid rgb(var(--color-sub));
+    border: var(--border-socials) solid rgb(var(--ksyoz-color-sub));
 }
 
 .follow-card:hover {
@@ -699,19 +700,19 @@ This makes links turn blue on hover.*/
 }
 
 .dropdown[data-v-04b245e6] {
-    background: rgb(var(--color-main2));
+    background: rgb(var(--ksyoz-color-main2));
 }
 
 .footer[data-v-04b245e6] {
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .user .chevron[data-v-62eacfff] {
-    color: rgb(var(--color-bright));
+    color: rgb(var(--ksyoz-color-bright));
 }
 
 .el-input, .el-textarea {
-    background: rgb(var(--color-main));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .users[data-v-5fb0ec91]{
@@ -749,4 +750,8 @@ This makes links turn blue on hover.*/
 .option.active[data-v-05bb5e72] {
     background: rgb(var(--ksyoz-color-text));
     color: rgba(var(--color-white),1);
+}
+
+.actions[data-v-04d66030], .action.likes .button .fa-heart, .action.likes .button {
+    color: rgb(var(--ksyoz-color-text2));
 }
