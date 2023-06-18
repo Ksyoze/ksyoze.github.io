@@ -811,3 +811,7 @@ This makes links turn blue on hover.*/
 .action.likes .button .fa-heart:hover {
     stroke: rgb(var(--ksyoz-color-text));
 }
+
+.action.likes .button.liked .fa-heart:hover {
+    color: rgb(var(--ksyoz-color-text));
+}
