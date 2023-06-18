@@ -815,3 +815,7 @@ This makes links turn blue on hover.*/
 .action.likes .button.liked .fa-heart:hover {
     color: rgb(var(--ksyoz-color-text));
 }
+
+.extras-dropdown .el-dropdown-link[data-v-04d66030] {
+    color: rgb(var(--ksyoz-color-bright));
+}
