@@ -839,3 +839,7 @@ This makes links turn blue on hover.*/
 .random-btn[data-v-170179fc] {
     background: rgb(var(--ksyoz-color-text));
 }
+
+.medialist.cards .entry-card .edit {
+    background: rgb(var(--ksyoz-color-text));
+}
