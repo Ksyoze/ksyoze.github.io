@@ -739,7 +739,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-text));
 }
 
-.theme-switch .icon[data-v-0567dd85] {
+.theme-switch .active[data-v-0567dd85] {
     color: rgb(var(--ksyoz-color-text));
 }
 
