@@ -505,6 +505,10 @@ This improves the favourites section a lot.*/
     content: none;
 }
 
+a.favourite.studio:hover {
+    color: rgb(var(--ksyoz-color-text));
+}
+
 /*Stats page*/
 
 .highlights[data-v-72dc5b51] {
@@ -760,7 +764,7 @@ This makes links turn blue on hover.*/
     color: rgba(var(--color-white),1);
 }
 
-.actions[data-v-04d66030], .action.likes .button .fa-heart, .action.likes .button {
+.actions[data-v-04d66030], .action.likes .button {
     color: rgb(var(--ksyoz-color-text2));
 }
 
