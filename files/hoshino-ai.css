@@ -889,3 +889,15 @@ This makes links turn blue on hover.*/
 .hohThemeSwitch .active {
     color: rgb(var(--ksyoz-color-text));
 }
+
+.button[data-v-c574a71c] {
+    background: rgb(var(--ksyoz-color-text));
+}
+
+.markdown-editor > [title="Link"] {
+    background: rgb(var(--ksyoz-color-text));
+}
+
+.markdown-editor>div:hover {
+    background: rgb(var(--ksyoz-color-text));
+}
