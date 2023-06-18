@@ -752,7 +752,7 @@ This makes links turn blue on hover.*/
 }
 
 .actions>div[data-v-ddf96a3c] {
-    color: rgb(var(--ksyoz-color-bright));
+    background: rgb(var(--ksyoz-color-text));
 }
 
 .highlight .value[data-v-72dc5b51] {
