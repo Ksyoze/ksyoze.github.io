@@ -791,3 +791,11 @@ This makes links turn blue on hover.*/
 .time .action[data-v-04d66030]:hover {
     color: rgb(var(--ksyoz-color-text));
 }
+
+.name[data-v-732ef224] {
+    color: rgb(var(--ksyoz-color-text));
+}
+
+.actions .action .action[data-v-732ef224]:hover {
+    color: rgb(var(--ksyoz-color-text));
+}
