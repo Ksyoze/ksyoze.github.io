@@ -783,3 +783,11 @@ This makes links turn blue on hover.*/
 .actions .action[data-v-04d66030]:hover {
     color: rgb(var(--ksyoz-color-text));
 }
+
+.user .activity-feed-wrap .section-header .el-dropdown-menu__item:hover {
+    color: rgb(var(--ksyoz-color-text));
+}
+
+.time .action[data-v-04d66030]:hover {
+    color: rgb(var(--ksyoz-color-text));
+}
