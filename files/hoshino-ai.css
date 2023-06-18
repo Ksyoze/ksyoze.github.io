@@ -32,7 +32,8 @@
     --background-img: url("https://i.imgur.com/sfZjagz.png"); /*Image for custom background.*/
     --footer-img: url("https://media.tenor.com/aB9pRg5dd_0AAAAC/oshi-no-ko-ai.gif"); /*Image for custom footer.*/
     --content-width: 100%; /*The width of the content box.*/
-    --ksyoz-color-main: 23, 26, 33, 0.99; /*Main profile color.*/
+    --ksyoz-color-main: 23, 26, 33, 1; /*Main profile color.*/
+    --ksyoz-color-main-t: 23, 26, 33, 0.99;
     --ksyoz-color-main2: 18, 20, 26, 1;
     --ksyoz-color-sub: 88, 63, 171;
     --ksyoz-color-bright: 255, 255, 255;
@@ -331,7 +332,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     max-width: 1520px;
     margin: 0% 0% 2% 0%;
     padding: 2% 5% 5% 5%;
-    background-color: rgb(var(--ksyoz-color-main));
+    background-color: rgb(var(--ksyoz-color-main-t));
     border-bottom-left-radius: var(--curvyness);
     border-bottom-right-radius: var(--curvyness);
 }
