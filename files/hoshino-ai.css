@@ -417,7 +417,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     left: 50%;
     height: 2px;
     width: 0;
-    background: rgb(var(--color-blue));
+    background: rgb(var(--ksyoz-color-text));
     transition: all var(--underline-time) ease;
 }
 .nav > .router-link-active::after {
