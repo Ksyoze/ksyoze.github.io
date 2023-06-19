@@ -313,7 +313,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     border-top-left-radius: var(--curvyness);
     border-top-right-radius: var(--curvyness);
     overflow: hidden;
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-main-t));
 }
 
 .nav[data-v-1cc2919e] {
