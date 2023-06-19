@@ -905,3 +905,11 @@ This makes links turn blue on hover.*/
 .medialist .filters .filter-group:first-child > span .count {
     right: 10px;
 }
+
+.stat .label[data-v-815ccddc] {
+    color: rgb(var(--ksyoz-color-bright));
+}
+
+.home .activity-feed-wrap .section-header .el-dropdown-menu__item, .user .activity-feed-wrap .section-header .el-dropdown-menu__item {
+    color: rgb(var(--ksyoz-color-bright));
+}
