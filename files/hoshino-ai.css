@@ -514,9 +514,10 @@ a.favourite.studio:hover {
 /*Stats page*/
 
 .highlights[data-v-72dc5b51] {
-    background: rgb(var(--ksyoz-color-sub));
+    background: rgb(var(--ksyoz-color-main2));
     border-radius: var(--curvyness);
     padding: 15px !important;
+    box-shadow: 0 14px 30px rgba(var(--color-shadow-blue),.15),0 4px 4px rgba(var(--color-shadow-blue),.05);
 }
 
 .highlight .circle[data-v-72dc5b51] {
