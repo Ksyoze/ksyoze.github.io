@@ -918,3 +918,7 @@ This makes links turn blue on hover.*/
 .home .activity-feed-wrap .section-header .el-dropdown-menu__item, .user .activity-feed-wrap .section-header .el-dropdown-menu__item {
     color: rgb(var(--ksyoz-color-bright));
 }
+
+.dropdown[data-v-04b245e6]:before {
+    color: rgb(var(--ksyoz-color-main2));
+}
