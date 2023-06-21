@@ -90,6 +90,8 @@ a:visited:hover {
 
 .details .status {
     transition: var(--transition-txt);
+    filter: var(--drop-shadow);
+    color: rgb(var(--ksyoz-color-bright));
 }
 
 .activity-entry .wrap:hover .details .status {
@@ -119,10 +121,6 @@ a:visited:hover {
 .activity-entry .wrap:hover .list.small .cover{
     margin-right: 50px;
     transition: var(--transition-img);
-}
-
-.details .status {
-    filter: var(--drop-shadow);
 }
 
 .activity-entry .wrap:hover .list.small div div.status a {
@@ -939,4 +937,8 @@ This makes links turn blue on hover.*/
 
 .dropdown[data-v-04b245e6]:before {
     color: rgb(var(--ksyoz-color-main2));
+}
+
+.actions[data-v-732ef224] {
+    color: rgb(var(--ksyoz-color-brighter));
 }
