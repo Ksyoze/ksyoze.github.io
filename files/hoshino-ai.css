@@ -453,9 +453,12 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 
 /*This makes the title text more readable.*/
 
-h2, .time[data-v-04d66030]{
+h2{
     color: rgb(var(--ksyoz-color-brightest));
     font-weight: 700;
+}
+.time[data-v-04d66030] {
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .time[data-v-04d66030]:hover{
@@ -922,11 +925,11 @@ This makes links turn blue on hover.*/
 }
 
 .stat .label[data-v-815ccddc] {
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .home .activity-feed-wrap .section-header .el-dropdown-menu__item, .user .activity-feed-wrap .section-header .el-dropdown-menu__item {
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .dropdown[data-v-04b245e6]:before {
