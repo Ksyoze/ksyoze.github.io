@@ -376,6 +376,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 
 .markdown-editor {
     background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .reply[data-v-732ef224] {
