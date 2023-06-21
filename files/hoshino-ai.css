@@ -905,7 +905,7 @@ This makes links turn blue on hover.*/
 }
 
 .markdown-editor>div:hover {
-    background: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .medialist .filters .filter-group:first-child > span .count {
