@@ -942,3 +942,7 @@ This makes links turn blue on hover.*/
 .actions[data-v-732ef224] {
     color: rgb(var(--ksyoz-color-brighter));
 }
+
+.reply[data-v-732ef224] .markdown {
+    color: rgb(var(--ksyoz-color-bright));
+}
