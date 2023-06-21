@@ -38,7 +38,7 @@
     --ksyoz-color-sub: 88, 63, 171;
     --ksyoz-color-brightest: 255, 255, 255;
     --ksyoz-color-brighter: 212, 212, 212;
-    --ksyoz-color-brifght: 200, 200, 200;
+    --ksyoz-color-bright: 200, 200, 200;
     --ksyoz-color-text: 99, 86, 219;
     --ksyoz-color-text2: 134, 125, 219;
     /*--ksyoz-color-text: 220, 220, 220; 
@@ -453,10 +453,15 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 
 /*This makes the title text more readable.*/
 
-h2{
+h1 {
+    color: rgb(var(--ksyoz-color-bright));
+}
+
+h2 {
     color: rgb(var(--ksyoz-color-brightest));
     font-weight: 700;
 }
+
 .time[data-v-04d66030] {
     color: rgb(var(--ksyoz-color-brighter));
 }
