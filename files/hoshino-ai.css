@@ -775,7 +775,7 @@ This makes links turn blue on hover.*/
 
 .option.active[data-v-05bb5e72] {
     background: rgb(var(--ksyoz-color-text));
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-brighter)) !important;
 }
 
 .actions[data-v-04d66030], .action.likes .button {
@@ -978,4 +978,8 @@ This makes links turn blue on hover.*/
 
 .line-chart-wrap[data-v-84e71bc6] {
     background: rgb(var(--ksyoz-color-main2));
+}
+
+.actions .action[data-v-732ef224] {
+    color: rgb(var(--ksyoz-color-brighter));
 }
