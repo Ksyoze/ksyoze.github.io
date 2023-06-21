@@ -766,6 +766,7 @@ This makes links turn blue on hover.*/
 
 .actions>div[data-v-ddf96a3c] {
     background: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .highlight .value[data-v-72dc5b51] {
@@ -774,7 +775,7 @@ This makes links turn blue on hover.*/
 
 .option.active[data-v-05bb5e72] {
     background: rgb(var(--ksyoz-color-text));
-    color: rgba(var(--color-white),1);
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .actions[data-v-04d66030], .action.likes .button {
@@ -957,4 +958,8 @@ This makes links turn blue on hover.*/
 
 .transparent .search[data-v-62eacfff] svg {
     color: rgb(var(--ksyoz-color-brightest));
+}
+
+.heading[data-v-72dc5b51] .switch .option {
+    color: rgb(var(--ksyoz-color-bright));
 }
