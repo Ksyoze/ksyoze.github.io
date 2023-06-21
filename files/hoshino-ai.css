@@ -454,7 +454,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 /*This makes the title text more readable.*/
 
 h2, .time[data-v-04d66030]{
-    color: rgb(var(--ksyoz-color-bright));
+    color: rgb(var(--ksyoz-color-brightest));
     font-weight: 700;
 }
 
