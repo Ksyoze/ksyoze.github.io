@@ -914,6 +914,7 @@ This makes links turn blue on hover.*/
 
 .button[data-v-c574a71c] {
     background: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .markdown-editor > [title="Link"] {
@@ -950,4 +951,9 @@ This makes links turn blue on hover.*/
 
 .site-theme-dark .overview .favourite.studio {
     background-color: rgb(var(--ksyoz-color-main2));
+}
+
+.button.cancel[data-v-c574a71c] {
+    background: rgb(var(--ksyoz-color-main2));
+    color: rgb(var(--ksyoz-color-brighter));
 }
