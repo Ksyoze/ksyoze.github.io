@@ -409,6 +409,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     /*This moves the theme switcher at the top right of media lists downwards.*/
     margin-top: 20%;
     background: transparent;
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 /*This section gives the navbar the underline when you hover over links. Thank Anzu for that one.*/
@@ -647,6 +648,9 @@ This makes links turn blue on hover.*/
     white-space: nowrap;
     text-overflow: ellipsis;
     backdrop-filter: blur(var(--blur-backdrop));
+    width: 100%;
+    border-radius: 0px 0px var(--curvyness-list) var(--curvyness-list);
+    z-index: -1;
 }
 
 .title > a {
@@ -657,11 +661,6 @@ This makes links turn blue on hover.*/
     border-radius: var(--curvyness-list);
 }
 
-.medialist.cards .entry-card .title {
-    width: 100%;
-    border-radius: 0px 0px var(--curvyness-list) var(--curvyness-list);
-}
-
 .medialist.cards .entry-card {
     transition: var(--list-time);
 }
@@ -669,11 +668,6 @@ This makes links turn blue on hover.*/
 .medialist.cards .entry-card:hover {
     transform: scale(var(--list-scale));
     transition: var(--list-time);
-}
-
-.medialist.cards .entry-card .title {
-   width: 100%;
-   z-index: -1;
 }
 
 .medialist.cards .entry-card .cover {
