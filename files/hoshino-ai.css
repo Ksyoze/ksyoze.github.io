@@ -749,7 +749,7 @@ This makes links turn blue on hover.*/
 }
 
 .nav .router-link-active[data-v-1cc2919e] {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-text)) !important;
 }
 
 .nav .router-link-active[data-v-1cc2919e]:hover {
