@@ -901,7 +901,7 @@ This makes links turn blue on hover.*/
 }
 
 .markdown-editor > [title="Link"] {
-    background: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .markdown-editor>div:hover {
