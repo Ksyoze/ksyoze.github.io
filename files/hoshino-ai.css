@@ -504,6 +504,7 @@ This improves the favourites section a lot.*/
 
 .favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c], .favourites.preview .favourites-wrap>div[data-v-ddf96a3c] {
     border: var(--border-fav) solid rgb(var(--ksyoz-color-sub));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .overview .favourite.studio {
@@ -945,4 +946,8 @@ This makes links turn blue on hover.*/
 
 .reply[data-v-732ef224] .markdown {
     color: rgb(var(--ksyoz-color-bright));
+}
+
+.site-theme-dark .overview .favourite.studio {
+    background-color: rgb(var(--ksyoz-color-main2));
 }
