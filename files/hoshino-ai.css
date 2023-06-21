@@ -960,3 +960,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-main2));
     color: rgb(var(--ksyoz-color-brighter));
 }
+
+.transparent .search[data-v-62eacfff] svg {
+    color: rgb(var(--ksyoz-color-brightest));
+}
