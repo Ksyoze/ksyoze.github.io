@@ -36,8 +36,9 @@
     --ksyoz-color-main-t: 23, 26, 33, 0.99;
     --ksyoz-color-main2: 18, 20, 26, 1;
     --ksyoz-color-sub: 88, 63, 171;
-    --ksyoz-color-brighter: 255, 255, 255;
-    --ksyoz-color-bright: 212, 212, 212;
+    --ksyoz-color-brightest: 255, 255, 255;
+    --ksyoz-color-brighter: 212, 212, 212;
+    --ksyoz-color-brifght: 200, 200, 200;
     --ksyoz-color-text: 99, 86, 219;
     --ksyoz-color-text2: 134, 125, 219;
     /*--ksyoz-color-text: 220, 220, 220; 
@@ -175,31 +176,31 @@ body {
 }
 
 .history-day.lv-1[data-v-b79eb0f0], .tooltip .circle.lv-1[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-brighter),0.7);
+    background: rgba(var(--ksyoz-color-brightest),0.7);
 }
 
 .history-day.lv-2[data-v-b79eb0f0], .tooltip .circle.lv-2[data-v-b79eb0f0] {
-    background: rgb(var(--ksyoz-color-brighter),0.75);
+    background: rgb(var(--ksyoz-color-brightest),0.75);
 }
 
 .history-day.lv-3[data-v-b79eb0f0], .tooltip .circle.lv-3[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-brighter),0.8);
+    background: rgba(var(--ksyoz-color-brightest),0.8);
 }
 
 .history-day.lv-4[data-v-b79eb0f0], .tooltip .circle.lv-4[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-brighter),0.85);
+    background: rgba(var(--ksyoz-color-brightest),0.85);
 }
 
 .history-day.lv-5[data-v-b79eb0f0], .tooltip .circle.lv-5[data-v-b79eb0f0] {
-    background: rgba(var(--ksyoz-color-brighter),0.9);
+    background: rgba(var(--ksyoz-color-brightest),0.9);
 }
 
 .history-day.lv-6[data-v-b79eb0f0], .history-day.lv-7[data-v-b79eb0f0], .history-day.lv-8[data-v-b79eb0f0], .history-day.lv-9[data-v-b79eb0f0], .tooltip .circle.lv-6[data-v-b79eb0f0], .tooltip .circle.lv-7[data-v-b79eb0f0], .tooltip .circle.lv-8[data-v-b79eb0f0], .tooltip .circle.lv-9[data-v-b79eb0f0] {
-    background: rgb(var(--ksyoz-color-brighter),0.95);
+    background: rgb(var(--ksyoz-color-brightest),0.95);
 }
 
 .history-day.lv-8[data-v-b79eb0f0], .history-day.lv-9[data-v-b79eb0f0], .tooltip .circle.lv-8[data-v-b79eb0f0], .tooltip .circle.lv-9[data-v-b79eb0f0] {
-    background: rgb(var(--ksyoz-color-brighter));
+    background: rgb(var(--ksyoz-color-brightest));
 }
 
 /*milestones*/
@@ -381,7 +382,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 }
 
 .input[data-v-c574a71c] .el-textarea__inner {
-    border-bottom: 2px solid rgb(var(--ksyoz-color-brighter));
+    border-bottom: 2px solid rgb(var(--ksyoz-color-brightest));
     border-radius: var(--curvyness);
     background: rgb(var(--ksyoz-color-main));
 }
@@ -449,7 +450,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 /*This makes the title text more readable.*/
 
 h2, .time[data-v-04d66030]{
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-bright));
     font-weight: 700;
 }
 
@@ -724,7 +725,7 @@ This makes links turn blue on hover.*/
 }
 
 .user .chevron[data-v-62eacfff] {
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 .el-input, .el-textarea {
@@ -825,7 +826,7 @@ This makes links turn blue on hover.*/
 }
 
 .extras-dropdown .el-dropdown-link[data-v-04d66030] {
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 .medialist.table .list-section {
@@ -913,11 +914,11 @@ This makes links turn blue on hover.*/
 }
 
 .stat .label[data-v-815ccddc] {
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 .home .activity-feed-wrap .section-header .el-dropdown-menu__item, .user .activity-feed-wrap .section-header .el-dropdown-menu__item {
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 .dropdown[data-v-04b245e6]:before {
