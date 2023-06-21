@@ -688,6 +688,7 @@ This makes links turn blue on hover.*/
 /*Load More button*/
 .load-more[data-v-6f203cf2] {
     border-radius: var(--curvyness-loadmore);
+    background: rgb(var(--ksyoz-color-main2));
     padding: 16px !important;
     font-size: 17px;
     border-width: 4px;
@@ -701,6 +702,7 @@ This makes links turn blue on hover.*/
 .load-more[data-v-6f203cf2]:hover {
     border-width: 12px;
     width: 100%;
+    color: rgb(var(--ksyoz-color-text));
 }
 
 .el-dropdown[data-v-eb51fd0e] {
