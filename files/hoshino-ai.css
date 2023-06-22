@@ -1004,3 +1004,7 @@ This makes links turn blue on hover.*/
 .primary-link[data-v-04b245e6]:hover {
     color: rgb(var(--ksyoz-color-text));
 }
+
+.medialist .filters .filter-group:first-child > span {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
