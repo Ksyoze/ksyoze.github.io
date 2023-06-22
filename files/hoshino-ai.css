@@ -1018,3 +1018,8 @@ This makes links turn blue on hover.*/
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     text-transform: lowercase;
 }
+
+.medialist.cards .section-name {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    text-transform: lowercase;
+}
