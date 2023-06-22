@@ -1013,3 +1013,8 @@ This makes links turn blue on hover.*/
 .filter-group .action[data-v-170179fc]:hover {
     color: rgb(var(--ksyoz-color-text));
 }
+
+.filter-group .draggable>span[data-v-170179fc] {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    text-transform: lowercase;
+}
