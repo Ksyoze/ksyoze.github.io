@@ -1035,3 +1035,8 @@ This makes links turn blue on hover.*/
 .area[data-v-84e71bc6] {
     fill: rgb(var(--ksyoz-color-brightest));
 }
+
+path[Attributes Style] {
+    fill: rgb(var(--ksyoz-color-text));
+    d: path("M 2.44929e-15 -40 A 40 40 0 1 1 -2.44929e-15 40 A 40 40 0 1 1 2.44929e-15 -40 Z");
+}
