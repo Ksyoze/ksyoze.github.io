@@ -1027,3 +1027,11 @@ This makes links turn blue on hover.*/
 .pie-chart[data-v-26dc9635] {
     background: rgb(var(--ksyoz-color-main2));
 }
+
+.line[data-v-84e71bc6] {
+    stroke: rgb(var(--ksyoz-color-text));
+}
+
+.area[data-v-84e71bc6] {
+    fill: rgb(var(--ksyoz-color-brightest));
+}
