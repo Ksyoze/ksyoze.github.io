@@ -1023,3 +1023,7 @@ This makes links turn blue on hover.*/
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     text-transform: lowercase;
 }
+
+.pie-chart[data-v-26dc9635] {
+    background: rgb(var(--ksyoz-color-main2));
+}
