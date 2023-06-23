@@ -138,7 +138,7 @@ a:visited:hover {
     width: 20%;
     height: 113%;
     display: block;
-    z-index: -2;
+    z-index: 0;
     position: absolute;
     top: -5px;
     left: 25px;
