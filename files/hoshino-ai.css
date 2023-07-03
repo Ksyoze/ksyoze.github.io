@@ -62,6 +62,10 @@
     --social-scale: 1.05;
 }
 
+.markdown a, .markdown a:visited {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 a:hover {
     color: rgb(var(--ksyoz-color-text));
 }
