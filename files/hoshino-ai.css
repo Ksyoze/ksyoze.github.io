@@ -229,6 +229,7 @@ This section makes the about section and activities display in full instead of h
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
     background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-bright));
 }
 
 .wrap[data-v-04d66030]:hover {
@@ -464,6 +465,10 @@ h1 {
 h2 {
     color: rgb(var(--ksyoz-color-brightest));
     font-weight: 700;
+}
+
+.markdown h2 {
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .time[data-v-04d66030] {
