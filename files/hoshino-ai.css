@@ -724,9 +724,20 @@ This makes links turn blue on hover.*/
     display: none;
 }
 
-.list-stats[data-v-815ccddc] {
+.list-stats[data-v-815ccddc]:nth-child(1) {
     border-bottom: 3px solid rgb(88, 63, 171) !important;
-    border-radius: var(--curvyness-activity);
+    border-top: 3px solid rgb(88, 63, 171) !important;
+    border-left: 3px solid rgb(88, 63, 171) !important;
+    border-right: transparent !important;
+    border-radius: var(--curvyness-activity) 0px 0px var(--curvyness-activity);
+}
+
+.list-stats[data-v-815ccddc]:nth-child(2) {
+    border-bottom: 3px solid rgb(88, 63, 171) !important;
+    border-top: 3px solid rgb(88, 63, 171) !important;
+    border-left: transparent !important;
+    border-right: 3px solid rgb(88, 63, 171) !important;
+    border-radius: 0px var(--curvyness-activity) var(--curvyness-activity) 0px;
 }
 
 .dropdown[data-v-04b245e6] {
