@@ -67,7 +67,7 @@
 }
 
 .markdown a, .markdown a:visited {
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-text));
 }
 
 a:hover {
