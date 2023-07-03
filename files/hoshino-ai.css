@@ -62,6 +62,10 @@
     --social-scale: 1.05;
 }
 
+.stats-wrap[data-v-5c30286e] {
+    grid-column-gap: 0px;
+}
+
 .markdown a, .markdown a:visited {
     color: rgb(var(--ksyoz-color-brightest));
 }
