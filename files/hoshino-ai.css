@@ -41,6 +41,7 @@
     --ksyoz-color-bright: 200, 200, 200;
     --ksyoz-color-text: 99, 86, 219;
     --ksyoz-color-text2: 134, 125, 219;
+    --ksyoz-color-post: 159,173,189;
     /*--ksyoz-color-text: 220, 220, 220; 
     --ksyoz-color-text-lighter: 192,192,192; 
     --ksyoz-color-main2: 34, 35, 87, 1;
@@ -229,7 +230,7 @@ This section makes the about section and activities display in full instead of h
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
     background: rgb(var(--ksyoz-color-main));
-    color: rgb(var(--ksyoz-color-bright));
+    color: rgb(var(--ksyoz-color-post));
 }
 
 .wrap[data-v-04d66030]:hover {
@@ -468,7 +469,7 @@ h2 {
 }
 
 .markdown h2 {
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-post));
 }
 
 .time[data-v-04d66030] {
@@ -965,7 +966,7 @@ This makes links turn blue on hover.*/
 }
 
 .reply[data-v-732ef224] .markdown {
-    color: rgb(var(--ksyoz-color-bright));
+    color: rgb(var(--ksyoz-color-post));
 }
 
 .site-theme-dark .overview .favourite.studio {
