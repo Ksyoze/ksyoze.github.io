@@ -62,6 +62,18 @@
     --social-scale: 1.05;
 }
 
+.title[data-v-13cdaed6] {
+    color: rgb(var(--ksyoz-color-text));
+}
+
+.info[data-v-13cdaed6] {
+    color: rgb(var(--ksyoz-color-post));
+}
+
+.embed[data-v-13cdaed6] {
+    background: rgb(var(--ksyoz-color-main2));
+}
+
 .stats-wrap[data-v-5c30286e] {
     grid-column-gap: 0px;
 }
