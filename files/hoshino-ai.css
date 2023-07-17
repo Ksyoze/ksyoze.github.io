@@ -1076,3 +1076,7 @@ This makes links turn blue on hover.*/
 .point[data-v-84e71bc6] {
     fill: rgb(var(--ksyoz-color-text));
 }
+
+.markdown .markdown-spoiler:before {
+    color: rgb(var(--ksyoz-color-text));
+}
