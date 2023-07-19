@@ -40,7 +40,7 @@
     --ksyoz-color-brighter: 212, 212, 212;
     --ksyoz-color-bright: 200, 200, 200;
     --ksyoz-color-text: 152, 201, 239;
-    --ksyoz-color-text2: 134, 125, 219;
+    --ksyoz-color-text2: 116, 160, 194;
     --ksyoz-color-post: 159,173,189;
     /*--ksyoz-color-text: 220, 220, 220; 
     --ksyoz-color-text-lighter: 192,192,192; 
@@ -368,7 +368,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 }
 
 .overview[data-v-5c30286e] .content-wrap {
-    border: 3px solid rgb(88, 63, 171);
+    border: 3px solid rgb(136, 183, 219);
     border-radius: var(--curvyness-activity);
     background: rgb(var(--ksyoz-color-main));
 }
@@ -751,18 +751,18 @@ This makes links turn blue on hover.*/
 }
 
 .list-stats[data-v-815ccddc]:nth-child(1) {
-    border-bottom: 3px solid rgb(88, 63, 171) !important;
-    border-top: 3px solid rgb(88, 63, 171) !important;
-    border-left: 3px solid rgb(88, 63, 171) !important;
+    border-bottom: 3px solid rgb(136, 183, 219) !important;
+    border-top: 3px solid rgb(136, 183, 219) !important;
+    border-left: 3px solid rgb(136, 183, 219) !important;
     border-right: transparent !important;
     border-radius: var(--curvyness-activity) 0px 0px var(--curvyness-activity);
 }
 
 .list-stats[data-v-815ccddc]:nth-child(2) {
-    border-bottom: 3px solid rgb(88, 63, 171) !important;
-    border-top: 3px solid rgb(88, 63, 171) !important;
+    border-bottom: 3px solid rgb(136, 183, 219) !important;
+    border-top: 3px solid rgb(136, 183, 219) !important;
     border-left: transparent !important;
-    border-right: 3px solid rgb(88, 63, 171) !important;
+    border-right: 3px solid rgb(136, 183, 219) !important;
     border-radius: 0px var(--curvyness-activity) var(--curvyness-activity) 0px;
 }
 
