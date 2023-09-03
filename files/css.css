@@ -23,7 +23,7 @@ These can be changed at your own discretion. A short description of each variabl
     --favourite-scale: 1.1; /*How much the favourite images scale when hovered over.*/
     --favourite-time: 0.2s; /*The time taken for the favourite animation to finish.*/
     --cursor-url: url('https://i.imgur.com/SFiJiDK.png');
-    --background-img: url("https://i.imgur.com/4izOF34.png");
+    --background-img: url("https://i.imgur.com/00PyZ6Y.jpg");
     --footer-img: url("");
     --color-text: 220, 220, 220;
     --color-text-lighter: 192,192,192;
@@ -113,10 +113,6 @@ This section makes the about section and activities display in full instead of h
     width: var(--logo-width);
     height: var(--logo-height);
     transition: transform var(--logo-transition-time);
-}
-
-.logo[data-v-62eacfff]:hover {
-    transform: scale(1.15);
 }
 
 /*header*/
@@ -458,9 +454,6 @@ body {
     max-height: 230px;
     max-width: 160px;
     width: 100%;
-    border: 9px solid rgb(var(--color-blue));
-    border-radius: 50%;
-    margin-bottom: 5px;
 }
 
 .avatar[data-v-1cc2919e]:hover {
