@@ -1089,10 +1089,12 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-post));
 }
 
-.pinned {
-    color: rgb(var(--ksyoz-color-text));
+.hohPinned .text .avatar, .hohPinned .text .name, .hohPinned .time, .hohPinned .actions {
+    display: none;
 }
 
-.hohtimegeneric {
-    color: rgb(var(--ksyoz-color-brighter));
+.hohPinned .markdown {
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
 }
