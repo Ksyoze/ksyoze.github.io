@@ -1097,6 +1097,7 @@ This makes links turn blue on hover.*/
     text-align: center;
     font-weight: 600;
     font-size: xx-large;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 .hohPinned .markdown img {
