@@ -150,8 +150,8 @@ a:visited:hover {
 
 .activity-entry .wrap:hover .cover{
     transition: var(--transition-img);
-    transform: scale(9.12);
-    filter: blur(1px) opacity(50%);
+    width: 406px;
+    filter: blur(5px) opacity(50%);
 }
 
 .activity-entry .wrap:hover .list.small div div.status a {
