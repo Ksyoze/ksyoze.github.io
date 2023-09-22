@@ -149,7 +149,6 @@ a:visited:hover {
 }
 
 .activity-entry .wrap:hover .cover{
-    margin-left: 356px;
     transition: var(--transition-img);
     width: 406px;
     filter: opacity(0,6);
