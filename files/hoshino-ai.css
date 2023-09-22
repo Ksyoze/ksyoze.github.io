@@ -158,7 +158,11 @@ a:visited:hover {
 .activity-entry .wrap:hover .list.small div div.status a {
     width: 270px;
     transition: var(--transition-txt);
-  }
+}
+
+.activity-entry.full-width .wrap:hover .cover {
+    width: 852px;
+}
 
 /*.activity-feed > div > div.wrap > div.list.small > a::before {
     content: "";
