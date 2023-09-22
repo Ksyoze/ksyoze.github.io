@@ -143,9 +143,16 @@ a:visited:hover {
     transition: var(--transition-img);
 }
 
-.activity-entry .wrap:hover .list.small .cover{
+.activity-entry .wrap:hover .details[data-v-04d66030]{
     margin-right: 50px;
     transition: var(--transition-img);
+}
+
+.activity-entry .wrap:hover .cover{
+    margin-left: 356px;
+    transition: var(--transition-img);
+    width: 406px;
+    filter: opacity(0.8);
 }
 
 .activity-entry .wrap:hover .list.small div div.status a {
