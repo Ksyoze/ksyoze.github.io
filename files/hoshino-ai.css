@@ -538,7 +538,7 @@ This improves the favourites section a lot.*/
     padding: 20px !important;
     grid-gap: 10px;
     border-radius: var(--curvyness-fav);
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-main2));
 }
 
 /*.favourites[data-v-ddf96a3c] {
@@ -822,7 +822,12 @@ This makes links turn blue on hover.*/
 
 .actions>div[data-v-ddf96a3c] {
     background: rgb(var(--ksyoz-color-text));
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+.actions .cancel[data-v-ddf96a3c] {
+    background: rgb(var(--color-foreground));
+    color: rgb(var(--color-text-light));
 }
 
 .highlight .value[data-v-72dc5b51] {
