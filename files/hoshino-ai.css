@@ -1099,6 +1099,7 @@ This makes links turn blue on hover.*/
 
 .markdown .markdown-spoiler:before {
     color: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main2));
 }
 
 .hohPinned .wrap {
