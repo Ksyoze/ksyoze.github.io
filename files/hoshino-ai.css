@@ -152,7 +152,7 @@ a:visited:hover {
 .activity-entry .wrap:hover .cover{
     transition: var(--transition-img);
     width: 410px;
-    filter: blur(10px) opacity(20%);
+    filter: blur(8px) opacity(20%);
 }
 
 .activity-entry .wrap:hover .list.small div div.status a {
@@ -163,7 +163,7 @@ a:visited:hover {
 .activity-entry.full-width .wrap:hover .cover {
     transition: var(--transition-img);
     width: 854px;
-    
+
 }
 
 /*.activity-feed > div > div.wrap > div.list.small > a::before {
