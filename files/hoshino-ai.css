@@ -507,6 +507,7 @@ h2 {
 
 .time[data-v-04d66030] {
     color: rgb(var(--ksyoz-color-brighter));
+    filter: var(--drop-shadow);
 }
 
 .time[data-v-04d66030]:hover{
@@ -835,6 +836,7 @@ This makes links turn blue on hover.*/
 
 .actions[data-v-04d66030], .action.likes .button {
     color: rgb(var(--ksyoz-color-text2));
+    filter: var(--drop-shadow);
 }
 
 .action.likes .button:hover, .like-wrap.thread_comment .button:hover {
@@ -879,12 +881,6 @@ This makes links turn blue on hover.*/
 
 .activity-entry > .wrap > .time:hover {
     background: none;
-    filter: var(--drop-shadow);
-}
-
-.activity-entry > .wrap > .actions:hover {
-    background: none;
-    filter: var(--drop-shadow);
 }
 
 .action.likes .button .fa-heart:hover {
