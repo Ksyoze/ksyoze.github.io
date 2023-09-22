@@ -826,8 +826,8 @@ This makes links turn blue on hover.*/
 }
 
 .actions .cancel[data-v-ddf96a3c] {
-    background: rgb(var(--color-foreground));
-    color: rgb(var(--color-text-light));
+    background: rgb(var(--ksyoz-color-main2));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .highlight .value[data-v-72dc5b51] {
