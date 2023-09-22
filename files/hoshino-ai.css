@@ -152,7 +152,7 @@ a:visited:hover {
     margin-left: 356px;
     transition: var(--transition-img);
     width: 406px;
-    filter: opacity(0.8);
+    filter: opacity(0,6);
 }
 
 .activity-entry .wrap:hover .list.small div div.status a {
