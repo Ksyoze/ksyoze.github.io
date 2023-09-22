@@ -260,7 +260,7 @@ This section makes the about section and activities display in full instead of h
     color: rgb(var(--ksyoz-color-post));
 }
 
-.wrap[data-v-04d66030]:hover {
+.wrap[data-v-04d66030]:hover, .reply[data-v-732ef224]:hover {
     border: var(--activity-border) solid rgba(var(--ksyoz-color-text),.5);
     transition: var(--activity-time);
 }
