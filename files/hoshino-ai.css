@@ -872,7 +872,13 @@ This makes links turn blue on hover.*/
 }
 
 .activity-entry > .wrap > .time:hover {
-    background: rgb(var(--ksyoz-color-main));
+    background: none;
+    filter: var(--drop-shadow);
+}
+
+.activity-entry > .wrap > .actions:hover {
+    background: none;
+    filter: var(--drop-shadow);
 }
 
 .action.likes .button .fa-heart:hover {
