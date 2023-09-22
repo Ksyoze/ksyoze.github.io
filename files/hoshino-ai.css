@@ -141,6 +141,7 @@ a:visited:hover {
 
 .list.small .cover{
     transition: var(--transition-img);
+    width: 50px;
 }
 
 .activity-entry .wrap:hover .details[data-v-04d66030]{
