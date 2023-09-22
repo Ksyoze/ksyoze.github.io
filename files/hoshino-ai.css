@@ -144,10 +144,10 @@ a:visited:hover {
     width: 50px;
 }
 
-.activity-entry .wrap:hover .details[data-v-04d66030]{
+/*.activity-entry .wrap:hover .details[data-v-04d66030]{
     margin-right: 50px;
     transition: var(--transition-text);
-}
+}*/
 
 .activity-entry .wrap:hover .cover{
     transition: var(--transition-img);
