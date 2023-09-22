@@ -163,6 +163,7 @@ a:visited:hover {
 .activity-entry.full-width .wrap:hover .cover {
     transition: var(--transition-img);
     width: 854px;
+    
 }
 
 /*.activity-feed > div > div.wrap > div.list.small > a::before {
