@@ -1147,3 +1147,7 @@ This makes links turn blue on hover.*/
 .list-editor-wrap .el-input__inner, .list-editor-wrap .el-textarea__inner {
     background: rgb(var(--ksyoz-color-main2));
 }
+
+.list-editor-wrap .list-editor .body .input-title {
+    color: rgb(var(--ksyoz-color-brighter));
+}
