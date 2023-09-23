@@ -54,6 +54,7 @@
     --transition-img: 0.5s; /*Transition time from the image in the activity.*/
     --transition-txt: 0.6s; /*Transition time from the text in the activity.*/
     --drop-shadow: drop-shadow(0px 0px 6px black);
+    --drop-shadow-b: drop-shadow(0px 0px 6px white);
     --blur-activity: 1.5px;
     --blur-activity2: 1.75px;
     --blur-backdrop: 3px;
@@ -1132,6 +1133,7 @@ This makes links turn blue on hover.*/
 
 .input[data-v-17620a08] {
     background: rgb(var(--ksyoz-color-main));
+    filter: var(--drop-shadow-b);
 }
 
 .input .icon[data-v-17620a08], .input input[data-v-17620a08], .input .icon[data-v-17620a08] {
