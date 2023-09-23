@@ -1161,3 +1161,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-main2));
     color: rgb(var(--ksyoz-color-brightest));
 }
+
+.el-dialog__headerbtn:focus .el-dialog__close, .el-dialog__headerbtn:hover .el-dialog__close {
+    color: rgb(var(--ksyoz-color-text));
+}
