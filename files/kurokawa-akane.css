@@ -1005,7 +1005,7 @@ This makes links turn blue on hover.*/
 }
 
 .site-theme-dark .overview .favourite.studio {
-    background-color: rgb(var(--ksyoz-color-background-d));
+    background-color: rgb(var(--ksyoz-color-background-d)) !important;
 }
 
 .button.cancel[data-v-c574a71c] {
