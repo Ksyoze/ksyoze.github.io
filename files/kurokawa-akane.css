@@ -32,22 +32,16 @@
     --background-img: url("https://i.imgur.com/vPgO8FI.png"); /*Image for custom background.*/
     --footer-img: url("xxxx"); /*Image for custom footer.*/
     --content-width: 100%; /*The width of the content box.*/
-    --ksyoz-color-main: 23, 26, 33, 1; /*Main profile color.*/
-    --ksyoz-color-main-t: 23, 26, 33, 0.99;
-    --ksyoz-color-main2: 18, 20, 26, 1;
+    --ksyoz-color-background: 23, 26, 33, 1; /*Main profile color.*/
+    --ksyoz-color-background-t: 23, 26, 33, 0.99;
+    --ksyoz-color-background-d: 18, 20, 26, 1;
     --ksyoz-color-sub: 136, 183, 219;
     --ksyoz-color-brightest: 255, 255, 255;
     --ksyoz-color-brighter: 212, 212, 212;
     --ksyoz-color-bright: 200, 200, 200;
-    --ksyoz-color-text: 152, 201, 239;
-    --ksyoz-color-text2: 116, 160, 194;
+    --ksyoz-color-main: 152, 201, 239;
+    --ksyoz-color-main-d: 116, 160, 194;
     --ksyoz-color-post: 159,173,189;
-    /*--ksyoz-color-text: 220, 220, 220; 
-    --ksyoz-color-text-lighter: 192,192,192; 
-    --ksyoz-color-main2: 34, 35, 87, 1;
-    --ksyoz-color-text-light: 181, 181, 181; 
-    --color-blue: 99, 86, 219; 
-    --color-blue-dim: 134, 125, 219; */
     --ksyoz-color-overlay: 28, 21, 46;
     --ksyoz-color-header: 229, 231, 234;
     --opacity-header: 1; /*How opaque the header is: higher number = less seethrough.*/
@@ -64,7 +58,7 @@
 }
 
 .title[data-v-13cdaed6] {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .info[data-v-13cdaed6] {
@@ -72,7 +66,7 @@
 }
 
 .embed[data-v-13cdaed6] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .stats-wrap[data-v-5c30286e] {
@@ -80,20 +74,20 @@
 }
 
 .markdown a, .markdown a:visited {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 a:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 a:visited:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .text .name[data-v-04d66030] {
     filter: var(--drop-shadow);
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 /*Changes the activity box*/
@@ -104,7 +98,7 @@ a:visited:hover {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .activity-feed {
@@ -183,21 +177,21 @@ a:visited:hover {
 /*Changes the bell*/
 
 .time .action.active[data-v-04d66030] {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .site-theme-dark .nav-unscoped.transparent {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
 }
 
 .site-theme-dark .nav-unscoped.transparent:hover {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
 }
 
 .site-theme-dark .nav-unscoped {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
 }
 
@@ -260,15 +254,15 @@ This section makes the about section and activities display in full instead of h
 }
 
 .wrap[data-v-04d66030] {
-    border: var(--activity-border) solid rgb(var(--ksyoz-color-sub));
+    border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-post));
 }
 
 .wrap[data-v-04d66030]:hover, .reply[data-v-732ef224]:hover {
-    border: var(--activity-border) solid rgba(var(--ksyoz-color-text),.5);
+    border: var(--activity-border) solid rgba(var(--ksyoz-color-main),.5);
     transition: var(--activity-time);
 }
 
@@ -356,7 +350,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     border-top-left-radius: var(--curvyness);
     border-top-right-radius: var(--curvyness);
     overflow: hidden;
-    background: rgb(var(--ksyoz-color-main-t));
+    background: rgb(var(--ksyoz-color-background-t));
 }
 
 .nav[data-v-1cc2919e] {
@@ -376,15 +370,15 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     max-width: 1520px;
     margin: 0% 0% 2% 0%;
     padding: 2% 5% 5% 5%;
-    background-color: rgb(var(--ksyoz-color-main-t));
+    background-color: rgb(var(--ksyoz-color-background-t));
     border-bottom-left-radius: var(--curvyness);
     border-bottom-right-radius: var(--curvyness);
 }
 
 .overview[data-v-5c30286e] .content-wrap {
-    border: 3px solid rgb(136, 183, 219);
+    border: 3px solid rgb(152, 201, 239);
     border-radius: var(--curvyness-activity);
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
 }
 
 .submissions[data-v-3ed82f3f]{
@@ -392,7 +386,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     min-width: 100%;
     margin: 0% 0% 2% 0% !important;
     padding: 2% 5% 5% 5% !important;
-    background-color: rgb(var(--ksyoz-color-main-t));
+    background-color: rgb(var(--ksyoz-color-background-t));
     border-bottom-left-radius: var(--curvyness);
     border-bottom-right-radius: var(--curvyness); 
 }
@@ -415,19 +409,19 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 }
 
 .markdown-editor {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
 .reply[data-v-732ef224] {
-    background: rgb(var(--ksyoz-color-main));
-    border: var(--activity-border) solid rgb(var(--ksyoz-color-sub));
+    background: rgb(var(--ksyoz-color-background));
+    border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
 }
 
 .input[data-v-c574a71c] .el-textarea__inner {
     border-bottom: 2px solid rgb(var(--ksyoz-color-brightest));
     border-radius: var(--curvyness);
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
 }
 
 .el-textarea{
@@ -464,18 +458,18 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     left: 50%;
     height: 2px;
     width: 0;
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
     transition: all var(--underline-time) ease;
 }
 .nav > .router-link-active::after {
     left: 0;
     width: 100%;
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
 }
 .nav > .link:hover::after {
     left: 0;
     width: 100%;
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 /*This hides part of the stats preview and reveals it when hovered over. Thanks again, Anzu.
@@ -539,7 +533,7 @@ This improves the favourites section a lot.*/
     padding: 20px !important;
     grid-gap: 10px;
     border-radius: var(--curvyness-fav);
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 /*.favourites[data-v-ddf96a3c] {
@@ -550,7 +544,7 @@ This improves the favourites section a lot.*/
 }*/
 
 .favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c], .favourites.preview .favourites-wrap>div[data-v-ddf96a3c] {
-    border: var(--border-fav) solid rgb(var(--ksyoz-color-sub));
+    border: var(--border-fav) solid rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -567,13 +561,13 @@ This improves the favourites section a lot.*/
 }
 
 a.favourite.studio:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 /*Stats page*/
 
 .highlights[data-v-72dc5b51] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
     border-radius: var(--curvyness);
     padding: 15px !important;
     box-shadow: 0 14px 30px rgba(var(--color-shadow-blue),.15),0 4px 4px rgba(var(--color-shadow-blue),.05);
@@ -597,7 +591,7 @@ This gives the footer a similar design to the header.*/
 .footer[data-v-0f519cab] {
     /*This curves the footer's corners and lightens the background to the same color as the header.*/
     border-radius: var(--curvyness) var(--curvyness) 0px 0px;
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
 }
 
@@ -660,17 +654,17 @@ This makes links turn blue on hover.*/
 
 .avatar[data-v-39573fe2]{
     border-radius: var(--curvyness-social);
-    border: var(--border-socials) solid rgb(var(--ksyoz-color-sub)); 
+    border: var(--border-socials) solid rgb(var(--ksyoz-color-main)); 
 }
 
 .user[data-v-5fb0ec91] {
     border-radius: var(--curvyness-social);
-    border: var(--border-socials) solid rgb(var(--ksyoz-color-sub));
+    border: var(--border-socials) solid rgb(var(--ksyoz-color-main));
 }
 
 .hohSocialContent .avatar {
     border-radius: var(--curvyness-social);
-    border: var(--border-socials) solid rgb(var(--ksyoz-color-sub));
+    border: var(--border-socials) solid rgb(var(--ksyoz-color-main));
 }
 
 .follow-card:hover {
@@ -727,7 +721,7 @@ This makes links turn blue on hover.*/
 /*Load More button*/
 .load-more[data-v-6f203cf2] {
     border-radius: var(--curvyness-loadmore);
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
     padding: 16px !important;
     font-size: 17px;
     border-width: 4px;
@@ -742,7 +736,7 @@ This makes links turn blue on hover.*/
 .load-more[data-v-6f203cf2]:hover {
     border-width: 12px;
     width: 100%;
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .el-dropdown[data-v-eb51fd0e] {
@@ -750,7 +744,7 @@ This makes links turn blue on hover.*/
 }
 
 .el-dropdown:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .overview[data-v-5c30286e] .section-header {
@@ -766,27 +760,27 @@ This makes links turn blue on hover.*/
 }
 
 .list-stats[data-v-815ccddc]:nth-child(1) {
-    border-bottom: 3px solid rgb(136, 183, 219) !important;
-    border-top: 3px solid rgb(136, 183, 219) !important;
-    border-left: 3px solid rgb(136, 183, 219) !important;
+    border-bottom: 3px solid rgb(152, 201, 239) !important;
+    border-top: 3px solid rgb(152, 201, 239) !important;
+    border-left: 3px solid rgb(152, 201, 239) !important;
     border-right: transparent !important;
     border-radius: var(--curvyness-activity) 0px 0px var(--curvyness-activity);
 }
 
 .list-stats[data-v-815ccddc]:nth-child(2) {
-    border-bottom: 3px solid rgb(136, 183, 219) !important;
-    border-top: 3px solid rgb(136, 183, 219) !important;
+    border-bottom: 3px solid rgb(152, 201, 239) !important;
+    border-top: 3px solid rgb(152, 201, 239) !important;
     border-left: transparent !important;
-    border-right: 3px solid rgb(136, 183, 219) !important;
+    border-right: 3px solid rgb(152, 201, 239) !important;
     border-radius: 0px var(--curvyness-activity) var(--curvyness-activity) 0px;
 }
 
 .dropdown[data-v-04b245e6] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .footer[data-v-04b245e6] {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
 }
 
 .user .chevron[data-v-62eacfff] {
@@ -794,7 +788,7 @@ This makes links turn blue on hover.*/
 }
 
 .el-input, .el-textarea {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
 }
 
 .users[data-v-5fb0ec91]{
@@ -802,55 +796,55 @@ This makes links turn blue on hover.*/
 }
 
 .nav .router-link-active[data-v-1cc2919e] {
-    color: rgb(var(--ksyoz-color-text)) !important;
+    color: rgb(var(--ksyoz-color-main)) !important;
 }
 
 .nav .router-link-active[data-v-1cc2919e]:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .stat .value[data-v-815ccddc] {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .medialist.cards .entry-card .progress, .medialist.cards .entry-card .score {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .theme-switch .active[data-v-0567dd85] {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .actions>div[data-v-ddf96a3c] {
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
 .actions .cancel[data-v-ddf96a3c] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
 .highlight .value[data-v-72dc5b51] {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .option.active[data-v-05bb5e72] {
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brighter)) !important;
 }
 
 .actions[data-v-04d66030], .action.likes .button {
-    color: rgb(var(--ksyoz-color-text2));
+    color: rgb(var(--ksyoz-color-main-d));
     filter: var(--drop-shadow);
 }
 
 .action.likes .button:hover, .like-wrap.thread_comment .button:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .action.likes .button.liked:hover, .like-wrap.thread_comment .button.liked:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .nav .link[data-v-1cc2919e] {
@@ -858,31 +852,31 @@ This makes links turn blue on hover.*/
 }
 
 .nav .link[data-v-1cc2919e]:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .action.likes .button .fa-heart, .like-wrap.thread_comment .button .fa-heart {
-    stroke: rgb(var(--ksyoz-color-text2));
+    stroke: rgb(var(--ksyoz-color-main-d));
 }
 
 .actions .action[data-v-04d66030]:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .user .activity-feed-wrap .section-header .el-dropdown-menu__item:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .time .action[data-v-04d66030]:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .name[data-v-732ef224] {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .actions .action .action[data-v-732ef224]:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .activity-entry > .wrap > .time:hover {
@@ -890,15 +884,15 @@ This makes links turn blue on hover.*/
 }
 
 .action.likes .button .fa-heart:hover {
-    stroke: rgb(var(--ksyoz-color-text));
+    stroke: rgb(var(--ksyoz-color-main));
 }
 
 .action.likes .button.liked .fa-heart:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .action.likes .button.liked:hover .fa-heart, .like-wrap.thread_comment .button.liked:hover .fa-heart {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .extras-dropdown .el-dropdown-link[data-v-04d66030] {
@@ -906,39 +900,39 @@ This makes links turn blue on hover.*/
 }
 
 .medialist.table .list-section {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .el-input-group__append, .el-input-group__prepend, .el-input__inner, .el-textarea__inner, .el-input--small .el-input__inner {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .filter-group .active[data-v-170179fc] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .el-slider__button {
-    border-color: rgb(var(--ksyoz-color-text));
+    border-color: rgb(var(--ksyoz-color-main));
 }
 
 .random-btn[data-v-170179fc] {
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .medialist.cards .entry-card .edit {
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .medialist.table .entry:hover {
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .filter-group span.active[data-v-3ed82f3f], .submission[data-v-736992dc] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .user-social .filter-group span.active {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .hohThemeSwitch {
@@ -946,44 +940,44 @@ This makes links turn blue on hover.*/
 }
 
 .filter-group a.router-link-active[data-v-1e00b9da] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .option[data-v-05bb5e72]:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .switch[data-v-05bb5e72] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .bar-chart-wrap[data-v-46edc0ca] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .x-axis[data-v-3251fadf] {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
 }
 
 .bar[data-v-46edc0ca] {
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .hohThemeSwitch .active {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .button[data-v-c574a71c] {
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
 .markdown-editor > [title="Link"] {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .markdown-editor>div:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .medialist .filters .filter-group:first-child > span .count {
@@ -999,7 +993,7 @@ This makes links turn blue on hover.*/
 }
 
 .dropdown[data-v-04b245e6]:before {
-    color: rgb(var(--ksyoz-color-main2));
+    color: rgb(var(--ksyoz-color-background-d));
 }
 
 .actions[data-v-732ef224] {
@@ -1011,11 +1005,11 @@ This makes links turn blue on hover.*/
 }
 
 .site-theme-dark .overview .favourite.studio {
-    background-color: rgb(var(--ksyoz-color-main2));
+    background-color: rgb(var(--ksyoz-color-background-d));
 }
 
 .button.cancel[data-v-c574a71c] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -1036,11 +1030,11 @@ This makes links turn blue on hover.*/
 }
 
 [data-v-72dc5b51] .horizontal-scroller {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .line-chart-wrap[data-v-84e71bc6] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .actions .action[data-v-732ef224] {
@@ -1048,11 +1042,11 @@ This makes links turn blue on hover.*/
 }
 
 .link[data-v-62eacfff]:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .search[data-v-62eacfff]:hover svg {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .primary-link[data-v-04b245e6] {
@@ -1060,7 +1054,7 @@ This makes links turn blue on hover.*/
 }
 
 .primary-link[data-v-04b245e6]:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .medialist .filters .filter-group:first-child > span {
@@ -1069,7 +1063,7 @@ This makes links turn blue on hover.*/
 }
 
 .filter-group .action[data-v-170179fc]:hover {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .filter-group .draggable>span[data-v-170179fc] {
@@ -1083,11 +1077,11 @@ This makes links turn blue on hover.*/
 }
 
 .pie-chart[data-v-26dc9635] {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .line[data-v-84e71bc6] {
-    stroke: rgb(var(--ksyoz-color-text));
+    stroke: rgb(var(--ksyoz-color-main));
 }
 
 .area[data-v-84e71bc6] {
@@ -1095,19 +1089,19 @@ This makes links turn blue on hover.*/
 }
 
 .point[data-v-84e71bc6] {
-    fill: rgb(var(--ksyoz-color-text));
+    fill: rgb(var(--ksyoz-color-main));
 }
 
 .markdown .markdown-spoiler:before {
-    color: rgb(var(--ksyoz-color-text));
-    background: rgb(var(--ksyoz-color-main2));
+    color: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .hohPinned .wrap {
-    border: var(--activity-border) solid rgb(var(--ksyoz-color-sub));
+    border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-post));
 }
 
@@ -1128,11 +1122,11 @@ This makes links turn blue on hover.*/
     max-height: 800px;
     max-width: 100%;
     width: 600px;
-    border: 3px solid rgb(var(--ksyoz-color-text));
+    border: 3px solid rgb(var(--ksyoz-color-main));
 }
 
 .input[data-v-17620a08] {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
     filter: var(--drop-shadow-b);
 }
 
@@ -1141,11 +1135,11 @@ This makes links turn blue on hover.*/
 }
 
 .list-editor-wrap .list-editor .body {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
 }
 
 .list-editor-wrap .el-input__inner, .list-editor-wrap .el-textarea__inner {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -1154,16 +1148,16 @@ This makes links turn blue on hover.*/
 }
 
 .list-editor-wrap .header .save-btn {
-    background: rgb(var(--ksyoz-color-text));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .list-editor-wrap .list-editor .body .delete-btn {
-    background: rgb(var(--ksyoz-color-main2));
+    background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
 .el-dialog__headerbtn:focus .el-dialog__close, .el-dialog__headerbtn:hover .el-dialog__close {
-    color: rgb(var(--ksyoz-color-text));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 .el-checkbox {
@@ -1171,5 +1165,5 @@ This makes links turn blue on hover.*/
 }
 
 .entry-dropdown[data-v-04d66030]:hover {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background));
 }
