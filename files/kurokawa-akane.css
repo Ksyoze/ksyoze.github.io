@@ -1146,7 +1146,7 @@ This makes links turn blue on hover.*/
 
 .list-editor-wrap .el-input__inner, .list-editor-wrap .el-textarea__inner {
     background: rgb(var(--ksyoz-color-main2));
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .list-editor-wrap .list-editor .body .input-title {
@@ -1159,9 +1159,13 @@ This makes links turn blue on hover.*/
 
 .list-editor-wrap .list-editor .body .delete-btn {
     background: rgb(var(--ksyoz-color-main2));
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .el-dialog__headerbtn:focus .el-dialog__close, .el-dialog__headerbtn:hover .el-dialog__close {
     color: rgb(var(--ksyoz-color-text));
+}
+
+.el-checkbox {
+    color: rgb(var(--ksyoz-color-brightest));
 }
