@@ -1169,3 +1169,7 @@ This makes links turn blue on hover.*/
 .el-checkbox {
     color: rgb(var(--ksyoz-color-brightest));
 }
+
+.entry-dropdown[data-v-04d66030]:hover {
+    background: rgb(var(--ksyoz-color-main));
+}
