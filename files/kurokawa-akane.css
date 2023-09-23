@@ -1129,3 +1129,11 @@ This makes links turn blue on hover.*/
     width: 600px;
     border: 3px solid rgb(var(--ksyoz-color-text));
 }
+
+.input[data-v-17620a08] {
+    background: rgb(var(--ksyoz-color-main));
+}
+
+.input .icon[data-v-17620a08], .input input[data-v-17620a08], .input .icon[data-v-17620a08] {
+    color: rgb(var(--ksyoz-color-brightest));
+}
