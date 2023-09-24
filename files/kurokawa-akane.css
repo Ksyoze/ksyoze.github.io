@@ -1169,24 +1169,31 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background));
 }
 
-.favourites .favourites-wrap.characters a:nth-child(1) {
+.favourites > .characters > .character:nth-child(1) {
     background-image: url("https://c4.wallpaperflare.com/wallpaper/677/371/803/oshi-no-ko-kurokawa-akane-hd-wallpaper-preview.jpg") !important;
-}
-
-.favourites > .favourites-wrap.characters a:nth-child(1):hover {
+  }
+  
+  .favourites.desktop > .characters > .character:nth-child(1) {
+    transition: 0.5s ease;
+    z-index: 1;
+  }
+  
+  .favourites.desktop > .characters > .character:nth-child(1):hover {
     grid-column: span 5;
     width: 470px;
-    transition: 1s;
-}
-
-.favourites > .favourites-wrap.characters a:nth-child(1)::before {
-    color: rgb(var(--ksyoz-color-main));
-    font-size: 30px;
-    font-weight: 600;
-    font-family: Overpass, sans-serif;
-    filter: var(--drop-shadow);
+  }
+  
+  .favourites.desktop > .characters > .character:nth-child(1)::before {
     content: "QUEEN";
-    position: absolute;
-    margin-left: 180.992px;
-    margin-top: 77.5px;
-}
+    font-size: 0px;
+    font-weight: 600;
+    color: transparent;
+    position: relative;
+    top: 70%;
+    left: 40%;
+  }
+  
+  .favourites.desktop > .characters > .character:nth-child(1):hover::before {
+    font-size: 30px;
+    color: rgb(var(--ksyoz-color-main));
+  }
