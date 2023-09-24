@@ -1181,6 +1181,7 @@ This makes links turn blue on hover.*/
     color: silver;
     filter: var(--drop-shadow);
     content: "QUEEN";
-    margin-left: 234.5px;
-    margin-top: 57.5px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 93px;
 }
