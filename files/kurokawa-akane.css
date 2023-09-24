@@ -1180,6 +1180,7 @@ This makes links turn blue on hover.*/
 .favourites > .favourites-wrap.characters a:nth-child(1)::before {
     color: rgb(var(--ksyoz-color-main));
     font-size: 30px;
+    font-weight: 600;
     font-family: Overpass, sans-serif;
     filter: var(--drop-shadow);
     content: "QUEEN";
