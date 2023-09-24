@@ -1174,7 +1174,7 @@ This makes links turn blue on hover.*/
 
 .favourites > .favourites-wrap.characters a:nth-child(1) {
     grid-column: span 5;
-    width: auto;
+    width: 470px;
 }
 
 .favourites > .favourites-wrap.characters a:nth-child(1)::before {
