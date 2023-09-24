@@ -1167,3 +1167,19 @@ This makes links turn blue on hover.*/
 .entry-dropdown[data-v-04d66030]:hover {
     background: rgb(var(--ksyoz-color-background));
 }
+
+.favourites .favourites-wrap.characters a:nth-child(1) {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/677/371/803/oshi-no-ko-kurokawa-akane-hd-wallpaper-preview.jpg");
+}
+
+.favourites > .favourites-wrap a:nth-child(1) {
+    grid-column: span 5;
+    width: auto;
+}
+
+.favourites > .favourites-wrap a:nth-child(1):before {
+    color: silver;
+    filter: var(--drop-shadow);
+    content: "QUEEN";
+    margin: auto;
+}
