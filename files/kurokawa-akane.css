@@ -546,6 +546,7 @@ This improves the favourites section a lot.*/
 .favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c], .favourites.preview .favourites-wrap>div[data-v-ddf96a3c] {
     border: var(--border-fav) solid rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brighter));
+    transition: 1s;
 }
 
 .overview .favourite.studio {
@@ -1172,9 +1173,10 @@ This makes links turn blue on hover.*/
     background-image: url("https://c4.wallpaperflare.com/wallpaper/677/371/803/oshi-no-ko-kurokawa-akane-hd-wallpaper-preview.jpg") !important;
 }
 
-.favourites > .favourites-wrap.characters a:nth-child(1) {
+.favourites > .favourites-wrap.characters a:nth-child(1):hover {
     grid-column: span 5;
     width: 470px;
+    transition: 1s;
 }
 
 .favourites > .favourites-wrap.characters a:nth-child(1)::before {
