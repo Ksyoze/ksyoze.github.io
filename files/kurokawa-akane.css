@@ -1177,7 +1177,7 @@ This makes links turn blue on hover.*/
     width: auto;
 }
 
-.favourites > .favourites-wrap.characters a:nth-child(1):before {
+.favourites > .favourites-wrap.characters a:nth-child(1)::before {
     color: silver;
     filter: var(--drop-shadow);
     content: "QUEEN";
