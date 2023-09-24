@@ -1172,12 +1172,12 @@ This makes links turn blue on hover.*/
     background-image: url("https://c4.wallpaperflare.com/wallpaper/677/371/803/oshi-no-ko-kurokawa-akane-hd-wallpaper-preview.jpg");
 }
 
-.favourites > .favourites-wrap a:nth-child(1) {
+.favourites > .favourites-wrap.characters a:nth-child(1) {
     grid-column: span 5;
     width: auto;
 }
 
-.favourites > .favourites-wrap a:nth-child(1):before {
+.favourites > .favourites-wrap.characters a:nth-child(1):before {
     color: silver;
     filter: var(--drop-shadow);
     content: "QUEEN";
