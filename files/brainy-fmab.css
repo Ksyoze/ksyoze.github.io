@@ -31,6 +31,14 @@ body {
     background-color: rgb(var(--color-background));
 }
 
+.banner{
+    visibility: hidden !important;
+}
+
+.banner-content{
+    visibility: visible !important;
+}
+
 .hohPinned .list {
     display: grid;
     font-size: 1.4rem;
