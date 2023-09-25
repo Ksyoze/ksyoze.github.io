@@ -1,0 +1,46 @@
+
+:root, .site-theme-dark .user-page-unscoped.purple {
+    --brainy-page-width: 70%;
+    --brainy-corners: 8px;
+    --background: url("https://cdn.discordapp.com/attachments/1076578678701572157/1153089522708525096/581575-Alex-Louis-Armstrong.png")
+}
+
+body {
+    background: var(--background) center top / 100% fixed;
+}
+
+.nav-wrap[data-v-1cc2919e] {
+    background: rgb(var(--color-foreground));
+    width: var(--brainy-page-width);
+    margin: auto;
+    max-width: 1520px;
+    border-top-left-radius: var(--brainy-corners);
+    border-top-right-radius: var(--brainy-corners);
+}
+
+.content {
+    width: var(--brainy-page-width);
+    height: auto;
+    padding: 0%;
+    background-color: rgb(var(--color-background));
+
+}
+
+.overview[data-v-5c30286e], .medialist[data-v-0567dd85], .favourites, .stats[data-v-1e00b9da], .user-social[data-v-e4963b98], .user-reviews {
+    padding: 30px 20px 20px 20px;
+    margin-top: 0px;
+    background-color: rgb(var(--color-background));
+}
+
+.hohPinned .list {
+    display: grid;
+    font-size: 1.4rem;
+    grid-template-columns: 50px auto;
+    height: 100%;
+    min-height: 70px;
+}
+
+.hohPinned .list .details {
+    padding: 14px 16px;
+    padding-right: 100px;
+}
