@@ -989,7 +989,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.home .activity-feed-wrap .section-header .el-dropdown-menu__item, .user .activity-feed-wrap .section-header .el-dropdown-menu__item {
+.home .activity-feed-wrap .section-header .el-dropdown-menu__item, .user .activity-feed-wrap .section-header .el-dropdown-menu__item, .el-dropdown-menu, .el-dropdown-menu__item {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -1197,4 +1197,17 @@ This makes links turn blue on hover.*/
 .favourites.desktop > .characters > .character:nth-child(1):hover::before {
     font-size: 30px;
     color: rgb(var(--ksyoz-color-main));
+}
+
+.activity-extras-dropdown.el-popper[x-placement^=bottom][data-v-04d66030] {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
+    background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+.el-dialog__body {
+    background: rgb(var(--ksyoz-color-background-d));
 }
