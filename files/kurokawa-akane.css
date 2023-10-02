@@ -57,7 +57,7 @@
     --social-scale: 1.05;
 }
 
-@keyframes infobg {
+@keyframes stars {
     0% {
       background-position: 0 0;
     }
@@ -606,7 +606,6 @@ This gives the footer a similar design to the header.*/
 }
 
 .footer[data-v-0f519cab]::before {
-    /*This curves the footer's corners and lightens the background to the same color as the header.*/
     content: "";
     display: block;
     position: absolute;
@@ -615,7 +614,7 @@ This gives the footer a similar design to the header.*/
     top: 0;
     left: 0;
     background: var(--footer-img);
-    animation: infobg 40s infinite linear;
+    animation: stars 40s infinite linear;
 }
 
 /*scrollbarFix
