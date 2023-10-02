@@ -617,7 +617,7 @@ This gives the footer a similar design to the header.*/
     top: 0;
     left: 0;
     background: var(--footer-img);
-    animation: stars 30s infinite linear;
+    animation: stars 20s infinite linear;
 }
 
 /*scrollbarFix
