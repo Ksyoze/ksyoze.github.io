@@ -1244,16 +1244,15 @@ This makes links turn blue on hover.*/
 .about .markdown > center > div {
     background: rgb(var(--ksyoz-color-background));
     background-image: url("https://i.imgur.com/kj1U8w8.png");
-    background-repeat: no-repeat;
-    background-position: center 40%;
-    background-size: 1000px;
+    background-repeat: repeat;
+    background-size: 1920px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
     z-index: 1000;
-    animation: stars 3s infinite linear 1s;
+    animation: stars 12s infinite linear 1s;
 }
 
 #app > .progress{
