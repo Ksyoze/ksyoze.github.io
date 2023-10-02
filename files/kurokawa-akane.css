@@ -1241,7 +1241,7 @@ This makes links turn blue on hover.*/
     text-transform: uppercase;
 }
 
-.about .markdown > center > div{
+.about .markdown > center > div {
     background: rgb(var(--ksyoz-color-background));
     background-image: url("https://i.imgur.com/kj1U8w8.png");
     background-repeat: no-repeat;
@@ -1253,7 +1253,7 @@ This makes links turn blue on hover.*/
     width: 100vw;
     height: 100vh;
     z-index: 1000;
-    animation: stars 12s infinite linear;
+    animation: stars 3s infinite linear 1s;
 }
 
 #app > .progress{
