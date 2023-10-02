@@ -364,6 +364,8 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 
 .nav[data-v-1cc2919e] {
     font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .content{
@@ -1275,5 +1277,5 @@ This makes links turn blue on hover.*/
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 16px;
 }
