@@ -1238,4 +1238,5 @@ This makes links turn blue on hover.*/
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    text-transform: uppercase;
 }
