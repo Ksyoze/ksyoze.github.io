@@ -603,6 +603,7 @@ This gives the footer a similar design to the header.*/
     border-radius: var(--curvyness) var(--curvyness) 0px 0px;
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
+    position: relative;
 }
 
 .footer[data-v-0f519cab]::before {
