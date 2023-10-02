@@ -30,7 +30,7 @@
     --activity-border: 3px;
     --cursor-url: url('https://i.imgur.com/qtxRLwX.png'); /*Image for custom cursor.*/
     --background-img: url("https://i.imgur.com/vPgO8FI.png"); /*Image for custom background.*/
-    --footer-img: url("xxxx"); /*Image for custom footer.*/
+    --footer-img: url("https://i.imgur.com/kVrnxkE.png"); /*Image for custom footer.*/
     --content-width: 100%; /*The width of the content box.*/
     --ksyoz-color-background: 23, 26, 33, 1; /*Main profile color.*/
     --ksyoz-color-background-t: 23, 26, 33, 0.99;
@@ -55,6 +55,15 @@
     --border-socials: 2px;
     --social-time: 0.5s;
     --social-scale: 1.05;
+}
+
+@keyframes infobg {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0px -1676px;
+    }
 }
 
 .title[data-v-13cdaed6] {
