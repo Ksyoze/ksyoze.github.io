@@ -1270,3 +1270,11 @@ This makes links turn blue on hover.*/
       visibility: hidden;
     }
 }
+
+.header-wrap[data-v-1cc2919e] {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 80px;
+    padding-right: 80px;
+}
