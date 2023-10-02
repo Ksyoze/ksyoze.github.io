@@ -1252,7 +1252,7 @@ This makes links turn blue on hover.*/
     width: 100vw;
     height: 100vh;
     z-index: 1000;
-    animation: stars 12s infinite linear 1s;
+    animation: loadingstars 12s infinite linear 1s;
 }
 
 #app > .progress{
@@ -1302,6 +1302,17 @@ This makes links turn blue on hover.*/
         opacity: 0;
         visibility: hidden;
         width: 400px;
+    }
+}
+
+@keyframes loadingstars {
+    0% {
+      background-position: 0 0;
+      opacity: 1;
+    }
+    100% {
+      background-position: 0px -1080px;
+      opacity: 0;
     }
 }
 
