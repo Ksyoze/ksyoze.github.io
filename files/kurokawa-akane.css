@@ -607,6 +607,7 @@ This gives the footer a similar design to the header.*/
 
 .footer[data-v-0f519cab]::before {
     /*This curves the footer's corners and lightens the background to the same color as the header.*/
+    content: "";
     background: var(--footer-img);
     animation: infobg 40s infinite linear;
 
