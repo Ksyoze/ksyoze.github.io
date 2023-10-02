@@ -1267,5 +1267,6 @@ This makes links turn blue on hover.*/
     100% {
       background-position: 0px -1080px;
       opacity: 0;
+      visibility: hidden;
     }
 }
