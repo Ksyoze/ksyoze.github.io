@@ -605,6 +605,13 @@ This gives the footer a similar design to the header.*/
     color: rgb(var(--ksyoz-color-header));
 }
 
+.footer[data-v-0f519cab]::before {
+    /*This curves the footer's corners and lightens the background to the same color as the header.*/
+    background: var(--footer-img);
+    animation: infobg 40s infinite linear;
+
+}
+
 /*scrollbarFix
 
 This is required if you're using backgroundFix. If you're not, don't bother adding this bit.*/
