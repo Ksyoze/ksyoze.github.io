@@ -1233,3 +1233,9 @@ This makes links turn blue on hover.*/
 .el-dialog__body {
     background: rgb(var(--ksyoz-color-background-d));
 }
+
+.links[data-v-62eacfff] {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
