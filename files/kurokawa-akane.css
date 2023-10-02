@@ -1240,3 +1240,82 @@ This makes links turn blue on hover.*/
     font-size: 16px;
     text-transform: uppercase;
 }
+
+.about .markdown > center > div{
+    background: rgb(var(--color-blue-dim));
+    background-image: url(https://svgshare.com/i/vMv.svg);
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    background-size: 1000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    animation: progressdiv 3s ease forwards 1s;
+}
+
+#app > .progress{
+    display: none;
+}
+
+
+/*Loading progress bar*/
+.about .markdown > center > div a[href="progress"] {
+    pointer-events: none;
+    top: calc(40% + 160px);
+    left: calc(50% - 200px);
+    position: fixed;
+    width: 0px;
+    background: white;
+    height: 10px;
+    border-radius: 50px;
+    animation: progressbar 3s ease forwards 1s;
+}
+
+
+/*Loading text*/
+.about .markdown > center > div a[href="progress"]:after {
+    content: 'Loading';
+    color: white;
+    position: absolute;
+    width: 60px;
+    left: 0;
+    top: -25px;
+    
+}
+
+
+/*Loading Amimations*/
+@keyframes progressbar {
+    0% {
+        width: 0;
+    }
+    90% {
+        opacity: 1;
+        width: 400px;
+    }
+    99% {
+        opacity: 0;
+        width: 400px;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+        width: 400px;
+    }
+}
+
+@keyframes progressdiv {
+    90% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
