@@ -1252,57 +1252,11 @@ This makes links turn blue on hover.*/
     width: 100vw;
     height: 100vh;
     z-index: 1000;
-    animation: loadingstars 12s infinite linear 1s;
+    animation: loadingstars 8s ease forwards 1s;
 }
 
 #app > .progress{
     display: none;
-}
-
-/*Loading progress bar
-.about .markdown > center > div a[href="stars"] {
-    pointer-events: none;
-    top: calc(40% + 160px);
-    left: calc(50% - 200px);
-    position: fixed;
-    width: 0px;
-    background: white;
-    height: 10px;
-    border-radius: 50px;
-    animation: progressbar 3s ease forwards 1s;
-}*/
-
-
-/*Loading text
-.about .markdown > center > div a[href="progress"]:after {
-    content: 'Loading';
-    color: white;
-    position: absolute;
-    width: 60px;
-    left: 0;
-    top: -25px;
-    
-}
-
-
-/*Loading Amimations*/
-@keyframes progressbar {
-    0% {
-        width: 0;
-    }
-    90% {
-        opacity: 1;
-        width: 400px;
-    }
-    99% {
-        opacity: 0;
-        width: 400px;
-    }
-    100% {
-        opacity: 0;
-        visibility: hidden;
-        width: 400px;
-    }
 }
 
 @keyframes loadingstars {
@@ -1313,18 +1267,5 @@ This makes links turn blue on hover.*/
     100% {
       background-position: 0px -1080px;
       opacity: 0;
-    }
-}
-
-@keyframes progressdiv {
-    90% {
-        opacity: 1;
-    }
-    99% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-        visibility: hidden;
     }
 }
