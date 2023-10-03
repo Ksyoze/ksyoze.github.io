@@ -1332,3 +1332,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-main));
 }
+
+.mod-badge-wrap[data-v-1cc2919e] {
+    margin-left: 80px;
+}
