@@ -1318,3 +1318,8 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
+
+.nav-btn[data-v-1cc2919e]:hover {
+    background: rgb(var(--ksyoz-color-main));
+    filter: contrast(1.2);
+}
