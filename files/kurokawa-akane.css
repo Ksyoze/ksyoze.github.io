@@ -1189,8 +1189,8 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.entry-dropdown[data-v-04d66030]:hover {
-    background: rgb(var(--ksyoz-color-background));
+.entry-dropdown[data-v-04d66030] {
+    background: none;
 }
 
 .favourites > .characters > .character:nth-child(1) {
