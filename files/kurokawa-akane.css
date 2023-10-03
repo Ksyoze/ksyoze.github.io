@@ -1298,7 +1298,7 @@ This makes links turn blue on hover.*/
     position: absolute;
     filter: drop-shadow(0px 0px 2px black);
     margin: 0 0 0 12px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .entry-dropdown[data-v-04d66030]:hover {
