@@ -1311,10 +1311,10 @@ This makes links turn blue on hover.*/
 
 .follower-badge[data-v-1cc2919e] {
     background: rgb(var(--ksyoz-color-main));
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 .nav-btn[data-v-1cc2919e] {
     background: rgb(var(--ksyoz-color-main));
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-brightest));
 }
