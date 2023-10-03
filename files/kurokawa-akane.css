@@ -1254,7 +1254,7 @@ This makes links turn blue on hover.*/
     width: 100vw;
     height: 100vh;
     z-index: 1000;
-    animation: loadingstars 5s ease forwards 1s;
+    animation: loadingstars 3s ease forwards 1s;
 }
 
 #app > .progress{
@@ -1272,7 +1272,7 @@ This makes links turn blue on hover.*/
     }
 
     100% {
-      background-position: 0px -1080px;
+      background-position: 0px -400px;
       opacity: 0;
       visibility: hidden;
     }
