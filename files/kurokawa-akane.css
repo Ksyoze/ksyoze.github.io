@@ -1229,7 +1229,7 @@ This makes links turn blue on hover.*/
 
 .el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
     background: rgb(var(--ksyoz-color-main));
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 .el-dialog__body {
@@ -1303,4 +1303,8 @@ This makes links turn blue on hover.*/
 
 .entry-dropdown[data-v-04d66030]:hover {
     background: none;
+}
+
+.site-theme-dark .el-dropdown-menu {
+    background: rgb(var(--ksyoz-color-background));
 }
