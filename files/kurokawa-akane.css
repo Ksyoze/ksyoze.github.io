@@ -1319,7 +1319,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.nav-btn[data-v-1cc2919e]:hover {
+.nav-btn[data-v-1cc2919e]:hover, .follower-badge[data-v-1cc2919e]:hover {
     background: rgb(var(--ksyoz-color-main));
     filter: contrast(1.2);
 }
