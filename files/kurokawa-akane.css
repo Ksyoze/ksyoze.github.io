@@ -1308,3 +1308,11 @@ This makes links turn blue on hover.*/
 .site-theme-dark .el-dropdown-menu {
     background: rgb(var(--ksyoz-color-background));
 }
+
+.follower-badge[data-v-1cc2919e] {
+    background: rgb(var(--ksyoz-color-main));
+}
+
+.nav-btn[data-v-1cc2919e] {
+    background: rgb(var(--ksyoz-color-main));
+}
