@@ -1209,15 +1209,15 @@ This makes links turn blue on hover.*/
 }
 
 .favourites.desktop > .characters > .character:nth-child(3):hover {
-    background-image: url("https://i.imgur.com/EqAu18N.gif");
+    background-image: url("https://i.imgur.com/EqAu18N.gif") !important;
 }
 
 .favourites.desktop > .characters > .character:nth-child(5):hover {
-    background-image: url("https://i.imgur.com/4lasn1R.gif");
+    background-image: url("https://i.imgur.com/4lasn1R.gif") !important; 
 }
 
 .favourites.desktop > .characters > .character:nth-child(9):hover {
-    background-image: url("https://i.imgur.com/EHoainq.gif");
+    background-image: url("https://i.imgur.com/EHoainq.gif") !important;
 }
   
 .favourites.desktop > .characters > .character:nth-child(1)::before {
