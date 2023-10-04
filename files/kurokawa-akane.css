@@ -1267,6 +1267,7 @@ This makes links turn blue on hover.*/
     position: relative;
     top: 70%;
     left: 40%;
+    filter: var(--drop-shadow);
 }
   
 .favourites.desktop > .characters > .character:nth-child(1):hover::before {
