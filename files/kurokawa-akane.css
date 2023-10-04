@@ -1244,8 +1244,16 @@ This makes links turn blue on hover.*/
     background-image: url("https://i.imgur.com/A2D5X7E.gif") !important;
 }
 
+.favourites.desktop > .characters > .character:nth-child(21):hover {
+    background-image: url("https://i.imgur.com/k9k7Xnv.gif") !important;
+}
+
 .favourites.desktop > .characters > .character:nth-child(23):hover {
     background-image: url("https://i.imgur.com/58qs1Fy.gif") !important;
+}
+
+.favourites.desktop > .characters > .character:nth-child(25):hover {
+    background-image: url("") !important;
 }
 
 .favourites.desktop > .characters > .character:nth-child(1)::before {
