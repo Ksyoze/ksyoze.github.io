@@ -1253,7 +1253,7 @@ This makes links turn blue on hover.*/
 }
 
 .favourites.desktop > .characters > .character:nth-child(25):hover {
-    background-image: url("") !important;
+    background-image: url("https://i.imgur.com/bsONPgn.gif") !important;
 }
 
 .favourites.desktop > .characters > .character:nth-child(1)::before {
