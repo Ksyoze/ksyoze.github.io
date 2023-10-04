@@ -1193,19 +1193,22 @@ This makes links turn blue on hover.*/
     background: none;
 }
 
+/*
 .favourites > .characters > .character:nth-child(1) {
     background-image: url("https://c4.wallpaperflare.com/wallpaper/677/371/803/oshi-no-ko-kurokawa-akane-hd-wallpaper-preview.jpg") !important;
 }
+*/
   
 .favourites.desktop > .characters > .character:nth-child(1) {
     transition: 0.5s ease;
     z-index: 1;
-    background-position-y: 24%;
 }
   
 .favourites.desktop > .characters > .character:nth-child(1):hover {
     grid-column: span 5;
     width: 470px;
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjY2aTJ0aDllMnl3aGQzd3gyc2FkajY5dmFnY3BhbGc4NzR4eDNmeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cxReraxQ5TEqAnI6h3/giphy.gif) !important;
+    background-position-y: 50%;
 }
 
 .favourites.desktop > .characters > .character:nth-child(3):hover {
