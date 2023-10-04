@@ -1213,50 +1213,62 @@ This makes links turn blue on hover.*/
 
 .favourites.desktop > .characters > .character:nth-child(3):hover {
     background-image: url("https://i.imgur.com/EqAu18N.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(5):hover {
-    background-image: url("https://i.imgur.com/4lasn1R.gif") !important; 
+    background-image: url("https://i.imgur.com/4lasn1R.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(7):hover {
-    background-image: url("https://i.imgur.com/QyOLVr8.gif") !important; 
+    background-image: url("https://i.imgur.com/QyOLVr8.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(9):hover {
     background-image: url("https://i.imgur.com/EHoainq.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(11):hover {
     background-image: url("https://i.imgur.com/2MwR31Y.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(13):hover {
     background-image: url("https://i.imgur.com/lKLDSVe.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(15):hover {
     background-image: url("https://i.imgur.com/p9y6213.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(17):hover {
     background-image: url("https://i.imgur.com/ASro6D2.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(19):hover {
     background-image: url("https://i.imgur.com/A2D5X7E.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(21):hover {
     background-image: url("https://i.imgur.com/k9k7Xnv.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(23):hover {
     background-image: url("https://i.imgur.com/58qs1Fy.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(25):hover {
     background-image: url("https://i.imgur.com/bsONPgn.gif") !important;
+    transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(1)::before {
