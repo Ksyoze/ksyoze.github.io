@@ -1216,10 +1216,22 @@ This makes links turn blue on hover.*/
     background-image: url("https://i.imgur.com/4lasn1R.gif") !important; 
 }
 
+.favourites.desktop > .characters > .character:nth-child(7):hover {
+    background-image: url("") !important; 
+}
+
 .favourites.desktop > .characters > .character:nth-child(9):hover {
     background-image: url("https://i.imgur.com/EHoainq.gif") !important;
 }
-  
+
+.favourites.desktop > .characters > .character:nth-child(11):hover {
+    background-image: url("https://i.imgur.com/2MwR31Y.gif") !important;
+}
+
+.favourites.desktop > .characters > .character:nth-child(13):hover {
+    background-image: url("") !important;
+}
+
 .favourites.desktop > .characters > .character:nth-child(1)::before {
     content: "QUEEN";
     font-size: 0px;
