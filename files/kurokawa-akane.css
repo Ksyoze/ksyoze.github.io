@@ -1216,6 +1216,9 @@ This makes links turn blue on hover.*/
     background-image: url("https://i.imgur.com/4lasn1R.gif");
 }
 
+.favourites.desktop > .characters > .character:nth-child(9):hover {
+    background-image: url("https://i.imgur.com/EHoainq.gif");
+}
   
 .favourites.desktop > .characters > .character:nth-child(1)::before {
     content: "QUEEN";
