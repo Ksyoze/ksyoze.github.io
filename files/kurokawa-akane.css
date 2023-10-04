@@ -1217,7 +1217,7 @@ This makes links turn blue on hover.*/
 }
 
 .favourites.desktop > .characters > .character:nth-child(7):hover {
-    background-image: url("") !important; 
+    background-image: url("https://i.imgur.com/QyOLVr8.gif") !important; 
 }
 
 .favourites.desktop > .characters > .character:nth-child(9):hover {
@@ -1247,7 +1247,6 @@ This makes links turn blue on hover.*/
 .favourites.desktop > .characters > .character:nth-child(23):hover {
     background-image: url("https://i.imgur.com/58qs1Fy.gif") !important;
 }
-
 
 .favourites.desktop > .characters > .character:nth-child(1)::before {
     content: "QUEEN";
