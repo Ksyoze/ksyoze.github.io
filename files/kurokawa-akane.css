@@ -1207,6 +1207,15 @@ This makes links turn blue on hover.*/
     grid-column: span 5;
     width: 470px;
 }
+
+.favourites.desktop > .characters > .character:nth-child(3):hover {
+    background-image: url("https://i.imgur.com/EqAu18N.gif");
+}
+
+.favourites.desktop > .characters > .character:nth-child(5):hover {
+    background-image: url("https://i.imgur.com/4lasn1R.gif");
+}
+
   
 .favourites.desktop > .characters > .character:nth-child(1)::before {
     content: "QUEEN";
