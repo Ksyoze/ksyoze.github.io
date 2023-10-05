@@ -1251,8 +1251,18 @@ This makes links turn blue on hover.*/
     transition-delay: 1s;
 }
 
+.favourites.desktop > .characters > .character:nth-child(10):hover {
+    background-image: url("https://i.imgur.com/PhWZNsi.gif") !important;
+    transition-delay: 1s;
+}
+
 .favourites.desktop > .characters > .character:nth-child(11):hover {
     background-image: url("https://i.imgur.com/2MwR31Y.gif") !important;
+    transition-delay: 1s;
+}
+
+.favourites.desktop > .characters > .character:nth-child(12):hover {
+    background-image: url("https://i.imgur.com/va5EwCr.gif") !important;
     transition-delay: 1s;
 }
 
@@ -1261,8 +1271,18 @@ This makes links turn blue on hover.*/
     transition-delay: 1s;
 }
 
+.favourites.desktop > .characters > .character:nth-child(14):hover {
+    background-image: url("https://i.imgur.com/Ffgs3FI.gif") !important;
+    transition-delay: 1s;
+}
+
 .favourites.desktop > .characters > .character:nth-child(15):hover {
     background-image: url("https://i.imgur.com/p9y6213.gif") !important;
+    transition-delay: 1s;
+}
+
+.favourites.desktop > .characters > .character:nth-child(16):hover {
+    background-image: url("https://i.imgur.com/nL1lNsA.gif") !important;
     transition-delay: 1s;
 }
 
@@ -1271,13 +1291,28 @@ This makes links turn blue on hover.*/
     transition-delay: 1s;
 }
 
+.favourites.desktop > .characters > .character:nth-child(18):hover {
+    background-image: url("https://i.imgur.com/9JmlEhI.gif") !important;
+    transition-delay: 1s;
+}
+
 .favourites.desktop > .characters > .character:nth-child(19):hover {
     background-image: url("https://i.imgur.com/A2D5X7E.gif") !important;
     transition-delay: 1s;
 }
 
+.favourites.desktop > .characters > .character:nth-child(20):hover {
+    background-image: url("https://i.imgur.com/kVRp20e.gif") !important;
+    transition-delay: 1s;
+}
+
 .favourites.desktop > .characters > .character:nth-child(21):hover {
     background-image: url("https://i.imgur.com/k9k7Xnv.gif") !important;
+    transition-delay: 1s;
+}
+
+.favourites.desktop > .characters > .character:nth-child(22):hover {
+    background-image: url("https://i.imgur.com/fyaAivX.gif") !important;
     transition-delay: 1s;
 }
 
