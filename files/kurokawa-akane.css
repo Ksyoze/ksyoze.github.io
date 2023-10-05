@@ -1211,8 +1211,18 @@ This makes links turn blue on hover.*/
     background-position-y: 50%;
 }
 
+.favourites.desktop > .characters > .character:nth-child(2):hover {
+    background-image: url("https://i.imgur.com/erx1OUA.gif") !important;
+    transition-delay: 1s;
+}
+
 .favourites.desktop > .characters > .character:nth-child(3):hover {
     background-image: url("https://i.imgur.com/EqAu18N.gif") !important;
+    transition-delay: 1s;
+}
+
+.favourites.desktop > .characters > .character:nth-child(4):hover {
+    background-image: url("https://i.imgur.com/RP9SV6r.gif") !important;
     transition-delay: 1s;
 }
 
@@ -1221,8 +1231,18 @@ This makes links turn blue on hover.*/
     transition-delay: 1s;
 }
 
+.favourites.desktop > .characters > .character:nth-child(6):hover {
+    background-image: url("https://i.imgur.com/7wITscj.gif") !important;
+    transition-delay: 1s;
+}
+
 .favourites.desktop > .characters > .character:nth-child(7):hover {
     background-image: url("https://i.imgur.com/QyOLVr8.gif") !important;
+    transition-delay: 1s;
+}
+
+.favourites.desktop > .characters > .character:nth-child(8):hover {
+    background-image: url("https://i.imgur.com/sqUFXAo.gif") !important;
     transition-delay: 1s;
 }
 
@@ -1263,6 +1283,11 @@ This makes links turn blue on hover.*/
 
 .favourites.desktop > .characters > .character:nth-child(23):hover {
     background-image: url("https://i.imgur.com/58qs1Fy.gif") !important;
+    transition-delay: 1s;
+}
+
+.favourites.desktop > .characters > .character:nth-child(24):hover {
+    background-image: url("https://i.imgur.com/AkvJGKH.gif") !important;
     transition-delay: 1s;
 }
 
