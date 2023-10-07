@@ -541,11 +541,15 @@ This improves the favourites section a lot.*/
 
 .favourites-wrap[data-v-ddf96a3c]{
     /*This makes the Favourites section more visually pleasing; it packs the images closer together, and curves the boxes.*/
-    overflow: hidden;
+    overflow: auto;
     padding: 20px !important;
     grid-gap: 10px;
     border-radius: var(--curvyness-fav);
     background: rgb(var(--ksyoz-color-background-d));
+}
+
+.favourites.preview .favourites-wrap[data-v-ddf96a3c] {
+    visibility: hidden;
 }
 
 /*.favourites[data-v-ddf96a3c] {
