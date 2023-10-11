@@ -1472,3 +1472,8 @@ This makes links turn blue on hover.*/
     position: relative;
     z-index: 999;
 }
+
+.theme-preview.dark-contrast {
+    position: relative;
+    z-index: 999;
+}
