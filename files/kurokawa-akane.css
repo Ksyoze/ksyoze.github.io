@@ -1467,3 +1467,8 @@ This makes links turn blue on hover.*/
 .mod-badge-wrap[data-v-1cc2919e] {
     margin-left: 80px;
 }
+
+.theme-preview[data-v-0f519cab] {
+    position: relative;
+    z-index: 999;
+}
