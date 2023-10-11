@@ -190,7 +190,7 @@ a:visited:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.site-theme-dark .nav-unscoped.transparent {
+.site-theme-dark .nav-unscoped.transparent, .nav[data-v-62eacfff], .solid[data-v-62eacfff], .transparent[data-v-62eacfff]:hover, .transparent[data-v-62eacfff] {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
 }
