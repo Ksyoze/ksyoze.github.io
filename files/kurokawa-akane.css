@@ -1493,7 +1493,7 @@ This makes links turn blue on hover.*/
     top: -2px;
 }
 
-@media (max-width: 1480px) {.list-stats[data-v-815ccddc] {
-        border: 3px solid rgb(152, 201, 239) !important;
+@media (max-width: 1540px) {.list-stats[data-v-815ccddc] {
+        grid-template-columns: 1fr 1fr;
     }
 }
