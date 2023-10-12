@@ -1497,6 +1497,14 @@ This makes links turn blue on hover.*/
     grid-template-columns: calc(45% - 40px) 55% !important;
 }
 
+.hamburger[data-v-8aeb5e9a], .menu[data-v-8aeb5e9a] {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+.hamburger svg[data-v-8aeb5e9a] {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 @media (max-width: 1540px) {.stats-wrap[data-v-5c30286e] {
         grid-template-columns: 1fr 1fr;
     }
