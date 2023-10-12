@@ -1135,9 +1135,9 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-post));
 }
 
-/*.hohPinned .text .avatar, .hohPinned .text .name, .hohPinned .time, .hohPinned .actions {
+.hohPinned .text .avatar, .hohPinned .text .name, .hohPinned .time, .hohPinned .actions {
     display: none;
-}*/
+}
 
 .hohPinned .markdown {
     text-align: center;
