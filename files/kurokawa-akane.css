@@ -1512,6 +1512,12 @@ This makes links turn blue on hover.*/
     margin-left: 50px;
     }
 }
+
+@media (max-width: 1540px) {.banner-content[data-v-1cc2919e] {
+    margin-left: 100px;
+    }
+}
+
 .user .overview {
     grid-template-columns: calc(45% - 40px) 55% !important;
 }
