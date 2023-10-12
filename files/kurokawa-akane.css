@@ -1499,5 +1499,5 @@ This makes links turn blue on hover.*/
 }
 
 .user .overview {
-    grid-template-columns: calc(45% - 40px) 55%;
+    grid-template-columns: calc(45% - 40px) 55% !important;
 }
