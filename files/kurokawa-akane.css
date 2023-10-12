@@ -1493,6 +1493,7 @@ This makes links turn blue on hover.*/
     top: -2px;
 }
 
-.header > a[href="/user/Ksyoz/"].name:after {
-    content: "♛";
+@media (max-width: 1480px) {.list-stats[data-v-815ccddc] {
+        border: 3px solid rgb(152, 201, 239) !important;
+    }
 }
