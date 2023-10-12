@@ -1493,6 +1493,10 @@ This makes links turn blue on hover.*/
     top: -2px;
 }
 
+.user .overview {
+    grid-template-columns: calc(45% - 40px) 55% !important;
+}
+
 @media (max-width: 1540px) {.stats-wrap[data-v-5c30286e] {
         grid-template-columns: 1fr 1fr;
     }
@@ -1516,8 +1520,4 @@ This makes links turn blue on hover.*/
 @media (max-width: 1540px) {.banner-content[data-v-1cc2919e] {
     margin-left: 100px;
     }
-}
-
-.user .overview {
-    grid-template-columns: calc(45% - 40px) 55% !important;
 }
