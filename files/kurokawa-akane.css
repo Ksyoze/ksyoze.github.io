@@ -1501,6 +1501,24 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
+.header > .name:after {
+    background: var(--ksyoz-color-background-d);
+    border-radius: 4px;
+    color: var(--ksyoz-color-brightest);
+    font-family: Overpass, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    margin-left: 5px;
+    padding: 4px 7px;
+    position: relative;
+    top: -2px;
+}
+
+.header > a[href="/user/BrainyElric/"].name:after {
+    content: "annoying brat";
+}
+
 @media (max-width: 1540px) {.stats-wrap[data-v-5c30286e] {
         grid-template-columns: 1fr 1fr;
     }
