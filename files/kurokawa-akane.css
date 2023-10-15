@@ -1478,21 +1478,6 @@ This makes links turn blue on hover.*/
     z-index: 999;
 }
 
-.header > .name:after {
-    background: var(--ksyoz-color-main);
-    border-radius: 3px;
-    color: var(--ksyoz-color-brightest);
-    cursor: text;
-    font-family: var(--badge-font), -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 800;
-    letter-spacing: 0.03em;
-    margin-left: 5px;
-    padding: 4px 7px;
-    position: relative;
-    top: -2px;
-}
-
 .hamburger[data-v-8aeb5e9a], .menu[data-v-8aeb5e9a] {
     background: rgb(var(--ksyoz-color-background-d));
 }
