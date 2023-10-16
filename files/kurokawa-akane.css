@@ -1123,6 +1123,7 @@ This makes links turn blue on hover.*/
 }
 
 .markdown .markdown-spoiler:before {
+    content: "Spoiler";
     color: rgb(var(--ksyoz-color-main));
     background: rgb(var(--ksyoz-color-background-d));
 }
