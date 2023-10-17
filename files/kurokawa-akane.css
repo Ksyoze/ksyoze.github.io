@@ -1505,6 +1505,21 @@ This makes links turn blue on hover.*/
     content: "annoying brat";
 }
 
+@media (min-width: 1540px) {body::before {
+    z-index: 999;
+    content: "Brian, if you see this message, zoom out you dumb fuck";
+    position: fixed;
+    font-size: 3vh;
+    text-shadow: 0 0 3px wheat;
+    top: 45%;
+    left: 0;
+    padding-block: 1em;
+    width: 100vw;
+    text-align: center;
+    background-color: rgba(0 0 0 / .8);
+    }
+}
+
 @media (max-width: 1540px) {.stats-wrap[data-v-5c30286e] {
         grid-template-columns: 1fr 1fr;
     }
