@@ -1505,6 +1505,11 @@ This makes links turn blue on hover.*/
     content: "annoying brat";
 }
 
+.favourites.preview .favourites-wrap.studios[data-v-ddf96a3c] {
+    grid-template-rows: repeat(auto-fill,45px);
+}
+
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
