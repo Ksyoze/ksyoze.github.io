@@ -1501,7 +1501,7 @@ This makes links turn blue on hover.*/
     top: -2px;
 }
 
-.header > a[href="/user/BrainyElric/"].name:after {
+.header > a[href="/user/BrainyElric/"].name::after {
     content: "annoying brat";
 }
 
@@ -1509,6 +1509,10 @@ This makes links turn blue on hover.*/
     grid-template-rows: repeat(auto-fill,45px);
 }
 
+.medialist .filters .filter-group:first-child > span:nth-child(14)::after {
+    content: "(1083 episodes)";
+    display: block;
+}
 
 @media (max-width: 1540px) {body::before {
     z-index: 999;
