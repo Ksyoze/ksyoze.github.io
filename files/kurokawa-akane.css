@@ -1529,6 +1529,10 @@ This makes links turn blue on hover.*/
     }
 }
 
+.full-width.activity-anime_list > .wrap > .list.small > div > div.status > a, .full-width.activity-manga_list > .wrap > .list.small > div > div.status > a {
+    width: 460px;
+}
+
 @media (max-width: 1540px) {.stats-wrap[data-v-5c30286e] {
         grid-template-columns: 1fr 1fr;
     }
