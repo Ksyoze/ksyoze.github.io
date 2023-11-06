@@ -1424,6 +1424,7 @@ This makes links turn blue on hover.*/
 .name-wrapper::after {
     content: "黒川" "あかね";
     color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: repeating-linear-gradient( to right, #98c9ef, #98c9ef, white, white, white);
