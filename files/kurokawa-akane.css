@@ -1488,7 +1488,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.header > .name::after {
+/*.header > .name::after {
     background: rgb(var(--ksyoz-color-background-d));
     border-radius: 4px;
     color: rgb(var(--ksyoz-color-brightest));
@@ -1504,6 +1504,22 @@ This makes links turn blue on hover.*/
 
 .header > a[href="/user/BrainyElric/"].name::after {
     content: "annoying brat";
+}*/
+
+.header > .name::after {
+    content: "» Visitor";
+    font-size: 9px;
+    color: white;
+    display: block;
+    padding-left: 2px;
+}
+
+.header > a[href="/user/BrainyElric/"].name::after {
+    content: "» Owner" !important;
+}
+
+.header > a[href="/user/BrainyElric/"].name::after {
+    content: "» annoying brat" !important;
 }
 
 .favourites.preview .favourites-wrap.studios[data-v-ddf96a3c] {
