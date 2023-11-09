@@ -1514,7 +1514,7 @@ This makes links turn blue on hover.*/
     padding-left: 2px;
 }
 
-.header > a[href="/user/BrainyElric/"].name::after {
+.header > a[href="/user/Ksyoz/"].name::after {
     content: "» Owner" !important;
 }
 
