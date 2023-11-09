@@ -99,6 +99,7 @@ a:visited:hover {
     filter: var(--drop-shadow);
     color: rgb(var(--ksyoz-color-main));
     padding-top: 10px;
+    line-height: 15px;
 }
 
 /*Changes the activity box*/
