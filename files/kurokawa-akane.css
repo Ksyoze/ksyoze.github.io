@@ -1531,6 +1531,14 @@ This makes links turn blue on hover.*/
     display: block;
 }
 
+.full-width.activity-anime_list > .wrap > .list.small > div > div.status > a, .full-width.activity-manga_list > .wrap > .list.small > div > div.status > a {
+    width: 600px;
+}
+
+.full-width.activity-anime_list > .wrap:hover > .list.small > div > div.status > a, .full-width.activity-manga_list > .wrap:hover > .list.small > div > div.status > a {
+    width: 600px;
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
@@ -1546,12 +1554,18 @@ This makes links turn blue on hover.*/
     }
 }
 
-.full-width.activity-anime_list > .wrap > .list.small > div > div.status > a, .full-width.activity-manga_list > .wrap > .list.small > div > div.status > a {
-    width: 600px;
+.donator-badge[data-v-04d66030] {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brightest));
+
 }
 
-.full-width.activity-anime_list > .wrap:hover > .list.small > div > div.status > a, .full-width.activity-manga_list > .wrap:hover > .list.small > div > div.status > a {
-    width: 600px;
+.donator-badge .icon[data-v-04d66030] {
+    display: none;
+}
+
+.has-label[data-v-04d66030]:before {
+    content: none;
 }
 
 @media (max-width: 1540px) {.stats-wrap[data-v-5c30286e] {
