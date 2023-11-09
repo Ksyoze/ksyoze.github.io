@@ -95,7 +95,7 @@ a:visited:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.text .name[data-v-04d66030], .name[data-v-732ef224] {
+.text .name[data-v-04d66030] {
     filter: var(--drop-shadow);
     color: rgb(var(--ksyoz-color-main));
     padding-top: 10px;
@@ -903,6 +903,12 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
+.name[data-v-732ef224] {
+    filter: var(--drop-shadow);
+    color: rgb(var(--ksyoz-color-main));
+    line-height: 15px;
+}
+
 .actions .action .action[data-v-732ef224]:hover {
     color: rgb(var(--ksyoz-color-main));
 }
@@ -1215,7 +1221,7 @@ This makes links turn blue on hover.*/
     background-position-y: 50%;
 }
 
-/* ONLY TESTING */
+/* ONY TESTING */
 
 .favourites.desktop > .characters > .character:nth-child(2):hover {
     background-image: url("https://i.imgur.com/erx1OUA.gif") !important;
