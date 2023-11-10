@@ -1511,7 +1511,7 @@ This makes links turn blue on hover.*/
 }*/
 
 .header > .name::after {
-    content: "» Guests";
+    content: "• Guests";
     font-size: 9px;
     color: white;
     display: block;
@@ -1519,11 +1519,11 @@ This makes links turn blue on hover.*/
 }
 
 .header > a[href="/user/Ksyoz/"].name::after {
-    content: "» Lead Actress" !important;
+    content: "★ Lead Actress ★" !important;
 }
 
 .header > a[href="/user/BrainyElric/"].name::after {
-    content: "» annoying brat" !important;
+    content: "» annoying brat «" !important;
 }
 
 .favourites.preview .favourites-wrap.studios[data-v-ddf96a3c] {
