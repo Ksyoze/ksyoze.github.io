@@ -1594,12 +1594,12 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.title[data-v-366e5d34], .tooltip.bottom[data-v-366e5d34]:after {
+.title[data-v-366e5d34] {
     background: rgb(var(--ksyoz-color-background));
 }
 
-.tooltip[data-v-366e5d34] {
-    background: rgba(var(--ksyoz-color-main),.85);
+.tooltip[data-v-366e5d34],  .tooltip.bottom[data-v-366e5d34]:after {
+    background: rgba(var(--ksyoz-color-main),.4);
 }
 
 @media (max-width: 1540px) {body::before {
