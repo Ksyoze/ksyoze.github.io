@@ -1511,7 +1511,7 @@ This makes links turn blue on hover.*/
 }*/
 
 .header > .name::after {
-    content: "» Visitor";
+    content: "» Guests";
     font-size: 9px;
     color: white;
     display: block;
