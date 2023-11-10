@@ -1560,6 +1560,10 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background-d));
 }
 
+.dropdown[data-v-38edf8f8]:before {
+    color: rgb(var(--ksyoz-color-background-d));
+}
+
 .primary-link[data-v-38edf8f8] {
     color: rgb(var(--ksyoz-color-brightest));
 }
