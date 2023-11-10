@@ -1598,6 +1598,10 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background));
 }
 
+.tooltip[data-v-366e5d34] {
+    background: rgba(var(--ksyoz-color-main),.85);
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
