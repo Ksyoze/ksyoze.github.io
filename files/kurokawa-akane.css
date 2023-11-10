@@ -1519,7 +1519,7 @@ This makes links turn blue on hover.*/
 }
 
 .header > a[href="/user/Ksyoz/"].name::after {
-    content: "» Owner" !important;
+    content: "» Lead Actress" !important;
 }
 
 .header > a[href="/user/BrainyElric/"].name::after {
