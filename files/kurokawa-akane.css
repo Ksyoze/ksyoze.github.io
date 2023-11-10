@@ -1558,6 +1558,7 @@ This makes links turn blue on hover.*/
 
 .dropdown[data-v-38edf8f8] {
     background: rgb(var(--ksyoz-color-background-d));
+    text-transform: capitalize;
 }
 
 .dropdown[data-v-38edf8f8]:before {
