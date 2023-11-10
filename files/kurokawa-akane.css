@@ -1566,7 +1566,7 @@ This makes links turn blue on hover.*/
 }
 
 .primary-link[data-v-38edf8f8] {
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .primary-link-text[data-v-38edf8f8] {
@@ -1584,6 +1584,10 @@ This makes links turn blue on hover.*/
 .footer[data-v-38edf8f8] {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-brighter));
+}
+
+.footer[data-v-04b245e6] {
+    color: rgb(var(--ksyoz-color-bright));
 }
 
 @media (max-width: 1540px) {body::before {
