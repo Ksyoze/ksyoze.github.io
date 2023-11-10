@@ -1594,6 +1594,10 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
+.title[data-v-366e5d34] {
+    background: rgb(var(--ksyoz-color-background));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
