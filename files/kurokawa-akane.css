@@ -1556,6 +1556,15 @@ This makes links turn blue on hover.*/
     content: none;
 }
 
+.dropdown[data-v-38edf8f8] {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+.footer[data-v-38edf8f8] {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
