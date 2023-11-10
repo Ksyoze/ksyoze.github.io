@@ -1598,7 +1598,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background));
 }
 
-.tooltip[data-v-366e5d34] {
+.tooltip[data-v-366e5d34], .tooltip.bottom[data-v-366e5d34]:after {
     background: rgba(var(--ksyoz-color-main),.85);
 }
 
