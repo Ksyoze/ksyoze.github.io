@@ -1527,7 +1527,7 @@ This makes links turn blue on hover.*/
     content: "⇒ annoying brat ⇐" !important;
 }
 
-.header > a[href="/user/Smitch/"].name::after, .header > a[href="/user/Markizz/"].name::after, .header > a[href="/user/TropicalMarc/"].name::after, .header > a[href="/user/Champi/"].name::after, .header > a[href="/user/ThunderBlaze/"].name::after, .header > a[href="/user/Epic/"].name::after, .header > a[href="/user/Heavenly/"].name::after, .header > a[href="/user/Ameer/"].name::after, .header > a[href="/user/Robiracer/"].name::after, .header > a[href="/user/Ziombal/"].name::after, .header > a[href="/user/MrMediocretaste/"].name::after  {
+.header > a[href="/user/Smitch/"].name::after, .header > a[href="/user/Markizz/"].name::after, .header > a[href="/user/TropicalMarc/"].name::after, .header > a[href="/user/Champi/"].name::after, .header > a[href="/user/ThunderBlaze/"].name::after, .header > a[href="/user/Epic/"].name::after, .header > a[href="/user/Heavenly/"].name::after, .header > a[href="/user/Ameer/"].name::after, .header > a[href="/user/Robiracer/"].name::after, .header > a[href="/user/Ziombal/"].name::after, .header > a[href="/user/MrMediocretaste/"].name::after, .header > a[href="/user/ThunderBlaze/"].name::after, .header > a[href="/user/Epic/"].name::after, .header > a[href="/user/Heavenly/"].name::after, .header > a[href="/user/Ameer/"].name::after, .header > a[href="/user/Robiracer/"].name::after, .header > a[href="/user/Ziombal/"].name::after, .header > a[href="/user/RizzGodThotSlayer/"].name::after  {
     content: "✩ Supporting Actor ✩" !important;
 }
 
