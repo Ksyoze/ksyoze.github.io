@@ -1615,6 +1615,12 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background));
 }
 
+.el-checkbox__input.is-checked+.el-checkbox__label, .el-checkbox__input.is-checked .el-checkbox__inner {
+    color: rgb(var(--ksyoz-color-main));
+    background-color: rgb(var(--ksyoz-color-main));
+    border-color: rgb(var(--ksyoz-color-main));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
