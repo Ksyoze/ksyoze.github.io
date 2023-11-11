@@ -1603,11 +1603,11 @@ This makes links turn blue on hover.*/
 }
 
 .title[data-v-366e5d34] {
-    background: rgb(var(--ksyoz-color-background));
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 .tooltip[data-v-366e5d34],  .tooltip.bottom[data-v-366e5d34]:after {
-    background: rgba(var(--ksyoz-color-main),.4);
+    background: rgb(var(--ksyoz-color-background));
 }
 
 @media (max-width: 1540px) {body::before {
