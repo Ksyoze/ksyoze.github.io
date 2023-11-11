@@ -1615,8 +1615,11 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background));
 }
 
-.el-checkbox__input.is-checked+.el-checkbox__label, .el-checkbox__input.is-checked .el-checkbox__inner {
+.el-checkbox__input.is-checked+.el-checkbox__label {
     color: rgb(var(--ksyoz-color-main));
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner {
     background-color: rgb(var(--ksyoz-color-main));
     border-color: rgb(var(--ksyoz-color-main));
 }
