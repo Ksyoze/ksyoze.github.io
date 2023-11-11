@@ -1654,6 +1654,10 @@ This makes links turn blue on hover.*/
     border-bottom: 1px solid rgb(var(--ksyoz-color-background));
 }
 
+.el-date-table td.next-month, .el-date-table td.prev-month {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
