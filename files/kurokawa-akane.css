@@ -1631,6 +1631,10 @@ This makes links turn blue on hover.*/
     }
 }
 
+@media (max-width: 1540px){ .banner-content[data-v-1cc2919e] {
+    margin-left: 170px;
+    }
+}
 @media (max-width: 1540px) {.stats-wrap[data-v-5c30286e] {
         grid-template-columns: 1fr 1fr;
     }
