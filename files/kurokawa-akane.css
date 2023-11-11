@@ -1650,7 +1650,7 @@ This makes links turn blue on hover.*/
 }
 
 .el-date-table th {
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-bright));
     border-bottom: 1px solid rgb(var(--ksyoz-color-background));
 }
 
@@ -1659,7 +1659,7 @@ This makes links turn blue on hover.*/
 }
 
 .el-picker-panel {
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-bright));
 }
 
 .el-date-table td.current:not(.disabled) span {
