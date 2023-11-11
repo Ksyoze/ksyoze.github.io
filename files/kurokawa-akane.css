@@ -1640,6 +1640,15 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
+.el-picker-panel {
+    border: 1px solid rgb(var(--ksyoz-color-background-d));
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+.el-picker-panel__icon-btn, .el-date-picker__header-label {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
