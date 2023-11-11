@@ -1621,6 +1621,10 @@ This makes links turn blue on hover.*/
     border-color: rgb(var(--ksyoz-color-main));
 }
 
+.hohRangeSetter {
+    background: rgb(var(--ksyoz-color-main));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
