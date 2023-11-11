@@ -1625,6 +1625,13 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-main));
 }
 
+.el-select-dropdown__item {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+.site-theme-dark .quick-search.el-select .el-input.el-input__inner, .site-theme-dark .quick-search .el-select .el-input.is-focus .el-input__inner, .site-theme-dark .el-select-dropdown, .site-theme-dark .el-dropdown-menu, .site-theme-dark .el-dropdown-menu__item--divided::before {
+    background: rgb(var(--ksyoz-color-background-d));
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
