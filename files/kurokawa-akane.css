@@ -1523,15 +1523,15 @@ This makes links turn blue on hover.*/
 }
 
 .header > a[href="/user/BrainyElric/"].name::after {
-    content: "» annoying brat «" !important;
+    content: "⇒ annoying brat ⇐" !important;
 }
 
 .header > a[href="/user/Smitch/"].name::after, .header > a[href="/user/Markizz/"].name::after, .header > a[href="/user/TropicalMarc/"].name::after, .header > a[href="/user/Champi/"].name::after, .header > a[href="/user/ThunderBlaze/"].name::after, .header > a[href="/user/Epic/"].name::after, .header > a[href="/user/Heavenly/"].name::after, .header > a[href="/user/Ameer/"].name::after, .header > a[href="/user/Robiracer/"].name::after {
-    content: "» Supporting Actor «" !important;
+    content: "✩ Supporting Actor ✩" !important;
 }
 
 .header > a[href="/user/Noya/"].name::after, .header > a[href="/user/dazra/"].name::after, .header > a[href="/user/keinigami/"].name::after {
-    content: "» Supporting Actress «" !important;
+    content: "✩ Supporting Actress ✩" !important;
 }
 
 .favourites.preview .favourites-wrap.studios[data-v-ddf96a3c] {
