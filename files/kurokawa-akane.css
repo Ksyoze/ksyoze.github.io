@@ -1626,6 +1626,11 @@ This makes links turn blue on hover.*/
     }
 }
 
+@media (min-width: 1040px) and (max-width: 1540px){ .container {
+    max-width: none;
+    }
+}
+
 @media (max-width: 1540px) {.stats-wrap[data-v-5c30286e] {
         grid-template-columns: 1fr 1fr;
     }
