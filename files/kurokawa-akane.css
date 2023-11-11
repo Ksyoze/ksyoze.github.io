@@ -1631,6 +1631,11 @@ This makes links turn blue on hover.*/
 
 .site-theme-dark .quick-search.el-select .el-input.el-input__inner, .site-theme-dark .quick-search .el-select .el-input.is-focus .el-input__inner, .site-theme-dark .el-select-dropdown, .site-theme-dark .el-dropdown-menu, .site-theme-dark .el-dropdown-menu__item--divided::before {
     background: rgb(var(--ksyoz-color-background-d));
+}
+
+.el-select-dropdown__item.selected {
+    color: rgb(var(--ksyoz-color-main));
+}
 
 @media (max-width: 1540px) {body::before {
     z-index: 999;
