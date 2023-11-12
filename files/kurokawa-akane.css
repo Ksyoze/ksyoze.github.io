@@ -1675,7 +1675,7 @@ This makes links turn blue on hover.*/
 }
 
 .status.pending[data-v-736992dc] {
-    color: rgb(var(--ksyoz-color-main))
+    background: rgb(var(--ksyoz-color-main));
 }
 
 .new-badge[data-v-736992dc] {
