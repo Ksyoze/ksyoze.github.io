@@ -1612,7 +1612,7 @@ This makes links turn blue on hover.*/
 }
 
 .tooltip[data-v-366e5d34],  .tooltip.bottom[data-v-366e5d34]:after {
-    background: rgb(var(--ksyoz-color-background));
+    border-top-color: rgb(var(--ksyoz-color-background));
 }
 
 .el-checkbox__input.is-checked+.el-checkbox__label {
@@ -1672,6 +1672,14 @@ This makes links turn blue on hover.*/
 
 .el-date-table td.available:hover {
     color: rgb(var(--ksyoz-color-main));
+}
+
+.status.pending[data-v-736992dc] {
+    color: rgb(var(--ksyoz-color-main))
+}
+
+.new-badge[data-v-736992dc] {
+    background: rgb(var(--ksyoz-color-main));
 }
 
 @media (max-width: 1540px) {body::before {
