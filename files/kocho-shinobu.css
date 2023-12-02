@@ -55,6 +55,7 @@ These can be changed at your own discretion. A short description of each variabl
     position: absolute;
     top: -5px;
     left: 14px;
+    filter: blur(0px);
     -webkit-filter: blur(1.7px);
 }
 
