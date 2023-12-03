@@ -1543,10 +1543,14 @@ This makes links turn blue on hover.*/
     grid-template-rows: repeat(auto-fill,45px);
 }
 
+
+/*
 .medialist .filters .filter-group:first-child > span:nth-child(14)::after {
     content: "(1083 episodes)";
     display: block;
 }
+*/
+
 
 .full-width.activity-anime_list > .wrap > .list.small > div > div.status > a, .full-width.activity-manga_list > .wrap > .list.small > div > div.status > a {
     width: 600px;
@@ -1555,6 +1559,8 @@ This makes links turn blue on hover.*/
 .full-width.activity-anime_list > .wrap:hover > .list.small > div > div.status > a, .full-width.activity-manga_list > .wrap:hover > .list.small > div > div.status > a {
     width: 600px;
 }
+
+span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap > 
 
 .donator-badge[data-v-04d66030] {
     background: rgb(var(--ksyoz-color-background-d));
