@@ -1716,7 +1716,7 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 
 .el-message-box .el-button {
     background: rgb(var(--ksyoz-color-background-d));
-    color: rgb(var(--ksyoz-color-bright));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .el-message-box .el-button--primary {
