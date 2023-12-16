@@ -1232,7 +1232,7 @@ This makes links turn blue on hover.*/
     background-position-y: 50%;
 }
 
-/* ONY TESTING */
+/* ONLY TESTING */
 
 .favourites.desktop > .characters > .character:nth-child(2):hover {
     background-image: url("https://i.imgur.com/erx1OUA.gif") !important;
