@@ -1688,6 +1688,14 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     background: rgb(var(--ksyoz-color-main));
 }
 
+.el-select__tags .el-tag, .el-select__tags .el-tag--info {
+    background: rgb(var(--ksyoz-color-background));
+}
+
+.el-tag--info {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
