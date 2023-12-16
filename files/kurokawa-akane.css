@@ -1726,6 +1726,10 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     cursor: var(--cursor-url);
 }
 
+.el-message-box__headerbtn:focus .el-message-box__close, .el-message-box__headerbtn:hover .el-message-box__close {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
