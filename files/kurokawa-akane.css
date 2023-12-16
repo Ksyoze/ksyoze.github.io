@@ -1742,7 +1742,7 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     color: rgb(var(--ksyoz-color-main));
 }
 
-.secondary-links a[data-v-38edf8f8] {
+.secondary-links a[data-v-38edf8f8]:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
