@@ -1544,14 +1544,12 @@ This makes links turn blue on hover.*/
     grid-template-rows: repeat(auto-fill,45px);
 }
 
-
 /*
 .medialist .filters .filter-group:first-child > span:nth-child(14)::after {
     content: "(1083 episodes)";
     display: block;
 }
 */
-
 
 .full-width.activity-anime_list > .wrap > .list.small > div > div.status > a, .full-width.activity-manga_list > .wrap > .list.small > div > div.status > a {
     width: 600px;
@@ -1722,6 +1720,10 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 .el-message-box .el-button--primary {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
+}
+
+.list-editor-wrap .el-textarea__inner {
+    cursor: var(--cursor-url);
 }
 
 @media (max-width: 1540px) {body::before {
