@@ -1185,6 +1185,7 @@ This makes links turn blue on hover.*/
 
 .list-editor-wrap .header .save-btn {
     background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 .list-editor-wrap .list-editor .body .delete-btn {
