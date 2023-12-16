@@ -1705,7 +1705,10 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 
 .el-message-box {
     background: rgb(var(--ksyoz-color-background));
-    color: rgb(var(--ksyoz-color-bright));
+}
+
+.el-message-box, .el-message-box .el-message-box__content, .el-message-box .el-message-box__title {
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .el-message-box__headerbtn .el-message-box__close {
