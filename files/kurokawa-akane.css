@@ -1730,6 +1730,10 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     color: rgb(var(--ksyoz-color-main));
 }
 
+.secondary-links a[data-v-38edf8f8] {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
