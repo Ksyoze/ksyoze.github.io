@@ -1748,6 +1748,26 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+.stat-card[data-v-686e8358] {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+.relations-wrap[data-v-686e8358] {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+.count[data-v-686e8358]{
+    background: rgb(var(--ksyoz-color-main));
+}
+
+.details .label[data-v-686e8358]{
+    color: rgb(var(--ksyoz-color-bright));
+}
+
+.details .value[data-v-686e8358] {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
