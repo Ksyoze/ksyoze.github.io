@@ -1630,6 +1630,10 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     border-top-color: rgb(var(--ksyoz-color-background));
 }
 
+.tooltip[data-v-366e5d34] {
+    background: rgba(23, 26, 33, 0.95);
+}
+
 .el-checkbox__input.is-checked+.el-checkbox__label {
     color: rgb(var(--ksyoz-color-main));
 }
