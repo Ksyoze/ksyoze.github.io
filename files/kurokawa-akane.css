@@ -1531,7 +1531,7 @@ This makes links turn blue on hover.*/
     content: "✩ Supporting Actor ✩" !important;
 }
 
-.header > a[href="/user/Noya/"].name::after, .header > a[href="/user/dazra/"].name::after, .header > a[href="/user/keinigami/"].name::after {
+.header > a[href="/user/Noya/"].name::after, .header > a[href="/user/dazra/"].name::after, .header > a[href="/user/keinigami/"].name::after, .header > a[href="/user/Ginchan/"].name::after {
     content: "✩ Supporting Actress ✩" !important;
 }
 
