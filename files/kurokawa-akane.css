@@ -668,7 +668,17 @@ This makes links turn blue on hover.*/
     cursor: var(--cursor-url), auto;
 }
 
-.markdown-spoiler::before, .el-dropdown-menu__item, .search[data-v-62eacfff] svg, .user[data-v-62eacfff], .actions .action[data-v-04d66030], .time .action[data-v-04d66030], .el-dropdown[data-v-eb51fd0e], .favourite[data-v-0317d914], .overview .favourite.studio, .button[data-v-5fb0ec91], .theme-preview[data-v-0f519cab], .theme-preview.dark-contrast, .load-more[data-v-6f203cf2], .actions .action[data-v-732ef224], .actions .time .action[data-v-732ef224], .theme-switch .icon[data-v-0567dd85], .filter-group .draggable>span[data-v-170179fc], .filter-group>span[data-v-170179fc], .medialist.cards .entry-card .edit, .hohChangeScore, .el-select .el-input__inner, .el-select .el-input .el-select__caret, .hohStepper, .el-slider__button.hover, .el-slider__button:hover, .el-slider__button-wrapper.hover, .el-slider__button-wrapper:hover, .random-btn[data-v-170179fc], .hohButton, .el-slider__runway, .medialist .entry-card .plus-progress, .actions>div[data-v-ddf96a3c], .delete[data-v-0317d914], .filter-group a[data-v-1e00b9da], .option[data-v-05bb5e72], .hohStatsTrigger, .unfollow[data-v-39573fe2], .user-social .filter-group span, .filter-group span[data-v-3ed82f3f], .button[data-v-c574a71c], .filter-group .action[data-v-170179fc], .markdown .markdown-spoiler::before, .el-checkbox, .list-editor-wrap .header .favourite, .list-editor-wrap .header .save-btn, .el-input-number__decrease, .el-input-number__increase, .list-editor-wrap .list-editor .body .delete-btn, .nav-btn[data-v-1cc2919e], .dropdown[data-v-1cc2919e] {
+.markdown-spoiler::before, .el-dropdown-menu__item, .search[data-v-62eacfff] svg, .user[data-v-62eacfff], .actions .action[data-v-04d66030], .time .action[data-v-04d66030],
+.el-dropdown[data-v-eb51fd0e], .favourite[data-v-0317d914], .overview .favourite.studio, .button[data-v-5fb0ec91], .theme-preview[data-v-0f519cab], .theme-preview.dark-contrast,
+.load-more[data-v-6f203cf2], .actions .action[data-v-732ef224], .actions .time .action[data-v-732ef224], .theme-switch .icon[data-v-0567dd85],
+.filter-group .draggable>span[data-v-170179fc], .filter-group>span[data-v-170179fc], .medialist.cards .entry-card .edit, .hohChangeScore, .el-select .el-input__inner,
+.el-select .el-input .el-select__caret, .hohStepper, .el-slider__button.hover, .el-slider__button:hover, .el-slider__button-wrapper.hover, .el-slider__button-wrapper:hover,
+.random-btn[data-v-170179fc], .hohButton, .el-slider__runway, .medialist .entry-card .plus-progress, .actions>div[data-v-ddf96a3c], .delete[data-v-0317d914],
+.filter-group a[data-v-1e00b9da], .option[data-v-05bb5e72], .hohStatsTrigger, .unfollow[data-v-39573fe2], .user-social .filter-group span, .filter-group span[data-v-3ed82f3f],
+.button[data-v-c574a71c], .filter-group .action[data-v-170179fc], .markdown .markdown-spoiler::before, .el-checkbox, .list-editor-wrap .header .favourite,
+.list-editor-wrap .header .save-btn, .el-input-number__decrease, .el-input-number__increase, .list-editor-wrap .list-editor .body .delete-btn, .nav-btn[data-v-1cc2919e],
+.dropdown[data-v-1cc2919e], .el-button, .el-message-box__headerbtn, .el-input__suffix-inner, .el-tag .el-icon-close, .list-editor-wrap .el-textarea__inner, .el-picker-panel__icon-btn,
+.el-date-picker__header-label, .el-date-table td, .el-input-number__decrease.is-disabled, .el-input-number__increase.is-disabled, .hohRangeSetter, .button[data-v-686e8358] {
     /*This fixes the issue of spoiler tags reverting the cursor to the original.*/
     cursor: var(--cursor-url), auto;
 }
@@ -1185,6 +1195,7 @@ This makes links turn blue on hover.*/
 
 .list-editor-wrap .header .save-btn {
     background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 .list-editor-wrap .list-editor .body .delete-btn {
@@ -1222,7 +1233,7 @@ This makes links turn blue on hover.*/
     background-position-y: 50%;
 }
 
-/* ONY TESTING */
+/* ONLY TESTING */
 
 .favourites.desktop > .characters > .character:nth-child(2):hover {
     background-image: url("https://i.imgur.com/erx1OUA.gif") !important;
@@ -1527,7 +1538,7 @@ This makes links turn blue on hover.*/
     content: "⇒ Annoying Brat ⇐" !important;
 }
 
-.header > a[href="/user/Smitch/"].name::after, .header > a[href="/user/TeeqZz/"].name::after, .header > a[href="/user/Markizz/"].name::after, .header > a[href="/user/TropicalMarc/"].name::after, .header > a[href="/user/Champi/"].name::after, .header > a[href="/user/ThunderBlaze/"].name::after, .header > a[href="/user/Epic/"].name::after, .header > a[href="/user/Heavenly/"].name::after, .header > a[href="/user/Ameer/"].name::after, .header > a[href="/user/Robiracer/"].name::after, .header > a[href="/user/Ziombal/"].name::after, .header > a[href="/user/MrMediocretaste/"].name::after, .header > a[href="/user/ThunderBlaze/"].name::after, .header > a[href="/user/Epic/"].name::after, .header > a[href="/user/Heavenly/"].name::after, .header > a[href="/user/Ameer/"].name::after, .header > a[href="/user/Robiracer/"].name::after, .header > a[href="/user/Ziombal/"].name::after, .header > a[href="/user/RizzGodThotSlayer/"].name::after  {
+.header > a[href="/user/Smitch/"].name::after, .header > a[href="/user/TeeqZz/"].name::after, .header > a[href="/user/Markizz/"].name::after, .header > a[href="/user/TropicalMarc/"].name::after, .header > a[href="/user/Champi/"].name::after, .header > a[href="/user/ThunderBlaze/"].name::after, .header > a[href="/user/Epic/"].name::after, .header > a[href="/user/Heavenly/"].name::after, .header > a[href="/user/Ameer/"].name::after, .header > a[href="/user/Robiracer/"].name::after, .header > a[href="/user/Ziombal/"].name::after, .header > a[href="/user/MrMediocretaste/"].name::after, .header > a[href="/user/ThunderBlaze/"].name::after, .header > a[href="/user/Epic/"].name::after, .header > a[href="/user/Heavenly/"].name::after, .header > a[href="/user/Ameer/"].name::after, .header > a[href="/user/Robiracer/"].name::after, .header > a[href="/user/Ziombal/"].name::after, .header > a[href="/user/RizzGodThotSlayer/"].name::after, .header > a[href="/user/Rirnok/"].name::after  {
     content: "✩ Supporting Actor ✩" !important;
 }
 
@@ -1543,14 +1554,12 @@ This makes links turn blue on hover.*/
     grid-template-rows: repeat(auto-fill,45px);
 }
 
-
 /*
 .medialist .filters .filter-group:first-child > span:nth-child(14)::after {
     content: "(1083 episodes)";
     display: block;
 }
 */
-
 
 .full-width.activity-anime_list > .wrap > .list.small > div > div.status > a, .full-width.activity-manga_list > .wrap > .list.small > div > div.status > a {
     width: 600px;
@@ -1621,6 +1630,10 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     border-top-color: rgb(var(--ksyoz-color-background));
 }
 
+.tooltip[data-v-366e5d34] {
+    background: rgba(23, 26, 33, 0.95);
+}
+
 .el-checkbox__input.is-checked+.el-checkbox__label {
     color: rgb(var(--ksyoz-color-main));
 }
@@ -1688,6 +1701,86 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     background: rgb(var(--ksyoz-color-main));
 }
 
+.el-select__tags .el-tag, .el-select__tags .el-tag--info {
+    background: rgb(var(--ksyoz-color-background));
+}
+
+.el-tag--info {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+.el-input-group__append, .el-input-group__prepend, .el-input__inner, .el-textarea__inner {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+.el-slider__runway {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+.el-message-box {
+    background: rgb(var(--ksyoz-color-background));
+}
+
+.el-message-box, .el-message-box .el-message-box__content, .el-message-box .el-message-box__title {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+.el-message-box__headerbtn .el-message-box__close {
+    color: rgb(var(--ksyoz-color-bright));
+}
+
+.el-message-box .el-button {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+.el-message-box .el-button--primary {
+    background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+.el-message-box__headerbtn:focus .el-message-box__close, .el-message-box__headerbtn:hover .el-message-box__close {
+    color: rgb(var(--ksyoz-color-main));
+}
+
+.secondary-links a[data-v-38edf8f8]:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
+.donator-badge[data-v-04d66030] {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+.stat-card[data-v-686e8358] {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+.relations-wrap[data-v-686e8358] {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+.count[data-v-686e8358]{
+    background: rgb(var(--ksyoz-color-main));
+}
+
+.details .label[data-v-686e8358]{
+    color: rgb(var(--ksyoz-color-bright));
+}
+
+.details .value[data-v-686e8358] {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+.favourites .favourite {
+    background-color: rgb(var(--ksyoz-color-background));
+}
+
+.markdown blockquote {
+    background: rgb(var(--ksyoz-color-background-d));
+    border-left: rgb(var(--ksyoz-color-brightest));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
@@ -1718,11 +1811,7 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 }
 
 @media (max-width: 1540px) {.links[data-v-62eacfff] {
-    font-size: 10px;
-    }
-}
-
-@media (max-width: 1540px) {.user[data-v-62eacfff] {
+    font-size: 16px;
     margin-right: 50px;
     }
 }
