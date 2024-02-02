@@ -1782,16 +1782,10 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 }
 
 .list-stats[data-v-815ccddc]:nth-child(1) {
-    border-bottom: 3px solid rgb(23, 26, 33) !important;
-    border-top: 3px solid rgb(23, 26, 33) !important;
-    border-left: 3px solid rgb(23, 26, 33) !important;
     background: rgb(var(--ksyoz-color-main)) !important;
 }
 
 .list-stats[data-v-815ccddc]:nth-child(2) {
-    border-bottom: 3px solid rgb(23, 26, 33) !important;
-    border-top: 3px solid rgb(23, 26, 33) !important;
-    border-right: 3px solid rgb(23, 26, 33) !important;
     background: rgb(var(--ksyoz-color-main)) !important;
 }
 
