@@ -1796,7 +1796,7 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 }
 
 .stat .value[data-v-815ccddc], .stat .label[data-v-815ccddc] {
-    color: rgb(var(--ksyoz-color-background));
+    color: rgb(var(--ksyoz-color-background)) !important;
 }
 
 @media (max-width: 1540px) {body::before {
