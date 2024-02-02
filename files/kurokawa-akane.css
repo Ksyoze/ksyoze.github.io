@@ -1793,6 +1793,10 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     color: rgb(var(--ksyoz-color-background)) !important;
 }
 
+.activity-history[data-v-b79eb0f0] {
+    background: rgb(var(--ksyoz-color-main)) !important;
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
