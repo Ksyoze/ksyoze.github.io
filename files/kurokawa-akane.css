@@ -1781,6 +1781,24 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     border-left: rgb(var(--ksyoz-color-brightest));
 }
 
+.list-stats[data-v-815ccddc]:nth-child(1) {
+    border-bottom: 3px solid rgb(23, 26, 33) !important;
+    border-top: 3px solid rgb(23, 26, 33) !important;
+    border-left: 3px solid rgb(23, 26, 33) !important;
+    background: rgb(var(--ksyoz-color-main)) !important;
+}
+
+.list-stats[data-v-815ccddc]:nth-child(2) {
+    border-bottom: 3px solid rgb(23, 26, 33) !important;
+    border-top: 3px solid rgb(23, 26, 33) !important;
+    border-right: 3px solid rgb(23, 26, 33) !important;
+    background: rgb(var(--ksyoz-color-main)) !important;
+}
+
+.stat .value[data-v-815ccddc], .stat .label[data-v-815ccddc] {
+    color: rgb(var(--ksyoz-color-background));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
