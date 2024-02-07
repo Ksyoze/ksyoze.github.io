@@ -60,7 +60,6 @@
 
 .site-theme-contrast, .about .content-wrap[data-v-5c30286e], .text[data-v-04d66030] .markdown {
     max-height: 960px !important;
-    overflow: hidden !important;
 }
 
 @keyframes stars {
