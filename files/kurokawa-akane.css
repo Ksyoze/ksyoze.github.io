@@ -59,7 +59,7 @@
     --scroll: none;
 }
 
-:root, .site-theme-contrast {
+.site-theme-contrast {
     --scroll: 960px;
 }
 
