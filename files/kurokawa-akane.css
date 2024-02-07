@@ -1802,6 +1802,11 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     background: rgb(var(--ksyoz-color-main)) !important;
 }
 
+.result-col[data-v-17620a08] {
+    background: rgb(var(--ksyoz-color-background));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
