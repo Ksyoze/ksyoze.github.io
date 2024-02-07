@@ -29,7 +29,7 @@
     --list-time: 0.4s; /*The time taken for the favourite animation to finish.*/
     --activity-time: 0.3s;
     --activity-border: 3px;
-    --cursor-url: url('https://i.imgur.com/qtxRLwX.png'); /*Image for custom cursor.*/
+    --cursor-url: url("https://i.imgur.com/qtxRLwX.png"); /*Image for custom cursor.*/
     --background-img: url("https://i.imgur.com/vPgO8FI.png"); /*Image for custom background.*/
     --footer-img: url("https://i.imgur.com/kj1U8w8.png"); /*Image for custom footer.*/
     --content-width: 100%; /*The width of the content box.*/
