@@ -1807,6 +1807,12 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+.page-content .wrap:has(.footer) .theme-selector {
+    position: fixed; 
+    left: 10px; 
+    bottom: 10px;
+}
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
