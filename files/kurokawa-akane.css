@@ -1054,7 +1054,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-post));
 }
 
-.site-theme-dark .overview .favourite.studio {
+.overview .favourite.studio {
     background-color: rgb(var(--ksyoz-color-background-d)) !important;
 }
 
