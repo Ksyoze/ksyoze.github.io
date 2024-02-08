@@ -1828,6 +1828,11 @@ h2[data-v-0f519cab] {
     visibility: hidden;
 }
 
+.links[data-v-0f519cab] {
+    margin: auto;
+    margin-left: inherit;
+}
+
 .el-tooltip__pooper.is-dark::after {
     content: "NoScroll";
 }
