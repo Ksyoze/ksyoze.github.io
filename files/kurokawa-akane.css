@@ -1855,6 +1855,10 @@ h2[data-v-0f519cab] {
     transform: translateY(18px) translateX(-20px);
 }
 
+.site-theme-dark .overview .favourite.studio {
+    background-color: rgb(var(--ksyoz-color-background-d));
+}
+
 @keyframes stars {
     0% {
       background-position: 0 0;
