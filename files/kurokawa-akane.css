@@ -1832,6 +1832,24 @@ h2[data-v-0f519cab] {
     content: "NoScroll";
 }
 
+.el-tooltip__popper.is-dark {
+    background: rgba(var(--color-custom-red-transparent));
+}
+
+.el-tooltip__popper.is-dark:after {
+    content: "NoScroll";
+}
+
+.el-tooltip__popper {
+    margin-left: 150px;
+    transform: translateY(120px);
+}
+
+.el-tooltip__popper .popper__arrow {
+    rotate: 90deg;
+    transform: translateY(18px) translateX(-20px);
+}
+
 @keyframes stars {
     0% {
       background-position: 0 0;
