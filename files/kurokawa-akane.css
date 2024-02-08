@@ -1820,7 +1820,9 @@ h2[data-v-0f519cab] {
     visibility: hidden;
 }
 
-
+.el-tooltip__pooper.is-dark::after {
+    content: "NoScroll";
+}
 
 @keyframes stars {
     0% {
