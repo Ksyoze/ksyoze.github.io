@@ -1488,6 +1488,7 @@ This makes links turn blue on hover.*/
 }
 
 .theme-preview.dark-contrast {
+    visibility: hidden;
     position: relative;
     z-index: 999;
 }
@@ -1812,11 +1813,14 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 .dark[data-v-0f519cab] {
     left: 50px;
     bottom: 10px;
+    background: rgb(var(--ksyoz-color-background));
 }
 
 h2[data-v-0f519cab] {
     visibility: hidden;
 }
+
+
 
 @keyframes stars {
     0% {
