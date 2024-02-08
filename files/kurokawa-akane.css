@@ -1814,6 +1814,10 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     bottom: 10px;
 }
 
+h2[data-v-0f519cab] {
+    visibility: hidden;
+}
+
 @keyframes stars {
     0% {
       background-position: 0 0;
