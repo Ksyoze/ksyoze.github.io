@@ -1506,24 +1506,6 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-/*.header > .name::after {
-    background: rgb(var(--ksyoz-color-background-d));
-    border-radius: 4px;
-    color: rgb(var(--ksyoz-color-brightest));
-    font-family: Overpass, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 0.03em;
-    margin-left: 5px;
-    padding: 4px 7px;
-    position: relative;
-    top: -2px;
-}
-
-.header > a[href="/user/BrainyElric/"].name::after {
-    content: "annoying brat";
-}*/
-
 .header > .name::after {
     content: "⌈ Audience ⌋";
     font-size: 10px;
@@ -1555,13 +1537,6 @@ This makes links turn blue on hover.*/
 .favourites.preview .favourites-wrap.studios[data-v-ddf96a3c] {
     grid-template-rows: repeat(auto-fill,45px);
 }
-
-/*
-.medialist .filters .filter-group:first-child > span:nth-child(14)::after {
-    content: "(1083 episodes)";
-    display: block;
-}
-*/
 
 .full-width.activity-anime_list > .wrap > .list.small > div > div.status > a, .full-width.activity-manga_list > .wrap > .list.small > div > div.status > a {
     width: 600px;
