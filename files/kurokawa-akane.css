@@ -1486,7 +1486,10 @@ This makes links turn blue on hover.*/
     position: fixed;
     z-index: 999;
     padding-left: 0px;
-    padding-right: 0px;
+    padding-top: 0px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(var(--ksyoz-color-main));
 }
 
 .theme-preview.dark-contrast {
@@ -1811,14 +1814,14 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     left: 10px;
     bottom: 10px;
     content: url(https://i.imgur.com/a0g3TFv.png);
-    background-color: rgb(var(--ksyoz-color-background));
+    background-color: rgb(var(--ksyoz-color-brightest));
 }
 
 .dark[data-v-0f519cab] {
-    left: 50px;
+    left: 60px;
     bottom: 10px;
     content: url(https://i.imgur.com/08z8dgE.png);
-    background-color: rgb(var(--ksyoz-color-background));
+    background-color: rgb(var(--ksyoz-color-brightest));
 }
 
 h2[data-v-0f519cab] {
