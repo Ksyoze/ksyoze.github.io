@@ -1210,12 +1210,6 @@ This makes links turn blue on hover.*/
 .entry-dropdown[data-v-04d66030] {
     background: none;
 }
-
-/*
-.favourites > .characters > .character:nth-child(1) {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/677/371/803/oshi-no-ko-kurokawa-akane-hd-wallpaper-preview.jpg") !important;
-}
-*/
   
 .favourites.desktop > .characters > .character:nth-child(1) {
     transition: 0.5s ease;
