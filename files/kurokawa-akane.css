@@ -1851,7 +1851,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 }
     
 .el-tooltip__popper.is-dark::after {
-    content: 'Lorem ipsum';
+    content: 'Scroll Behaviour';
     font-size: 12px;
 }
 
