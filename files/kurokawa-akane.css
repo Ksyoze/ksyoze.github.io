@@ -1825,7 +1825,7 @@ h2[data-v-0f519cab] {
 }
 
 .site-theme-dark .overview .favourite.studio {
-    background-color: rgb(var(--ksyoz-color-background-d));
+    background-color: rgb(var(--ksyoz-color-background-d)) !important;
 }
 
 @keyframes stars {
