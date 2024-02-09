@@ -565,6 +565,11 @@ This improves the favourites section a lot.*/
     font-size: 12px;
     min-height: 45px;
     max-height: 45px;
+    background-color: rgb(var(--ksyoz-color-background-d)) !important;
+}
+
+.site-theme-dark .overview .favourite.studio {
+    background-color: rgb(var(--ksyoz-color-background-d)) !important;
 }
 
 .overview .favourite.studio::after {
@@ -1043,10 +1048,6 @@ This makes links turn blue on hover.*/
 
 .reply[data-v-732ef224] .markdown {
     color: rgb(var(--ksyoz-color-post));
-}
-
-.overview .favourite.studio {
-    background-color: rgb(var(--ksyoz-color-background-d)) !important;
 }
 
 .button.cancel[data-v-c574a71c] {
@@ -1822,10 +1823,6 @@ h2[data-v-0f519cab] {
 .el-tooltip__popper .popper__arrow {
     rotate: 90deg;
     transform: translateY(18px) translateX(-20px);
-}
-
-.site-theme-dark .overview .favourite.studio {
-    background-color: rgb(var(--ksyoz-color-background-d)) !important;
 }
 
 @keyframes stars {
