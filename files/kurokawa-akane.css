@@ -1809,6 +1809,19 @@ body:not(.site-theme-dark) .theme-preview.default {
     overflow: hidden
 }
 
+.theme-preview.dark::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 2px;
+    background: rgb(152, 201, 239);
+    top: 5px;
+    left: 0;
+    position: absolute;
+    rotate: -35deg;
+    animation: strikethrough 0.2s linear forwards;
+    }
+
 @keyframes strikethrough {
     0% {
     height: 0;
