@@ -1780,18 +1780,55 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     bottom: 10px;
 }
 
-.default[data-v-0f519cab] {
-    right: 10px;
-    bottom: 10px;
-    content: url(https://i.imgur.com/a0g3TFv.png);
-    background-color: rgb(var(--ksyoz-color-brightest));
+.theme-preview:not(.default, .dark) {
+    display: none;
 }
 
-.dark[data-v-0f519cab] {
-    right: 60px;
-    bottom: 10px;
-    content: url(https://i.imgur.com/08z8dgE.png);
-    background-color: rgb(var(--ksyoz-color-brightest));
+body.site-theme-dark .theme-preview.dark {
+    display: none;
+}
+
+body:not(.site-theme-dark) .theme-preview.default {
+    display: none;
+}
+
+.theme-preview:is(.default, .dark) {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    border: none;
+    font-size: 0;
+    background-image: url(https://files.catbox.moe/e9nqyi.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-color: rgb(92, 124, 148);
+    overflow: hidden
+}
+
+.theme-preview.default::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 2px;
+    background: rgb(152, 201, 239);
+    top: 5px;
+    left: 0;
+    position: absolute;
+    rotate: -35deg;
+    animation: strikethrough 0.2s linear reverse forwards;
+}
+
+.el-tooltip__popper.is-dark {
+    font-size: 0;
+}
+    
+.el-tooltip__popper.is-dark::after {
+    content: 'Lorem ipsum';
+    font-size: 12px;
 }
 
 h2[data-v-0f519cab] {
@@ -1801,19 +1838,6 @@ h2[data-v-0f519cab] {
 .links[data-v-0f519cab] {
     margin: auto;
     margin-left: inherit;
-}
-
-.el-tooltip:hover::after { 
-    content: 'scroll'; 
-    position: relative; 
-    top: -180%; 
-    left: -100%; 
-    background: rgb(var(--color-foreground)); 
-    color: rgb(var(--color-text)); 
-}
-
-.el-tooltip.dark:hover::after { 
-    content: 'visible'; 
 }
 
 .markdown-editor > [title="Image"], .markdown-editor > [title="Youtube Video"], .markdown-editor > [title="WebM Video"] {
