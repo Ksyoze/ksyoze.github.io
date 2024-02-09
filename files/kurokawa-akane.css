@@ -1803,26 +1803,17 @@ h2[data-v-0f519cab] {
     margin-left: inherit;
 }
 
-.el-tooltip__pooper.is-dark::after {
-    content: "NoScroll";
+.el-tooltip:hover::after { 
+    content: 'scroll'; 
+    position: relative; 
+    top: -180%; 
+    left: -100%; 
+    background: rgb(var(--color-foreground)); 
+    color: rgb(var(--color-text)); 
 }
 
-.el-tooltip__popper.is-dark {
-    background: rgba(var(--color-custom-red-transparent));
-}
-
-.el-tooltip__popper.is-dark:after {
-    content: "NoScroll";
-}
-
-.el-tooltip__popper {
-    margin-left: 150px;
-    transform: translateY(120px);
-}
-
-.el-tooltip__popper .popper__arrow {
-    rotate: 90deg;
-    transform: translateY(18px) translateX(-20px);
+.el-tooltip.dark:hover::after { 
+    content: 'visible'; 
 }
 
 .markdown-editor > [title="Image"], .markdown-editor > [title="Youtube Video"], .markdown-editor > [title="WebM Video"] {
