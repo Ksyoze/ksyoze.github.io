@@ -1781,14 +1781,14 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 }
 
 .default[data-v-0f519cab] {
-    left: 10px;
+    right: 10px;
     bottom: 10px;
     content: url(https://i.imgur.com/a0g3TFv.png);
     background-color: rgb(var(--ksyoz-color-brightest));
 }
 
 .dark[data-v-0f519cab] {
-    left: 60px;
+    right: 60px;
     bottom: 10px;
     content: url(https://i.imgur.com/08z8dgE.png);
     background-color: rgb(var(--ksyoz-color-brightest));
