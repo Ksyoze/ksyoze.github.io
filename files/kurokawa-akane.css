@@ -1825,6 +1825,10 @@ h2[data-v-0f519cab] {
     transform: translateY(18px) translateX(-20px);
 }
 
+.markdown-editor > [title="Image"], .markdown-editor > [title="Youtube Video"], .markdown-editor > [title="WebM Video"] {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 @keyframes stars {
     0% {
       background-position: 0 0;
