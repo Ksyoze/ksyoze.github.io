@@ -1856,7 +1856,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 }
 
 h2[data-v-0f519cab] {
-    visibility: hidden;
+    display: none;
 }
 
 .links[data-v-0f519cab] {
