@@ -1211,12 +1211,12 @@ This makes links turn blue on hover.*/
 .entry-dropdown[data-v-04d66030] {
     background: none;
 }
-  
+/*
 .favourites.desktop > .characters > .character:nth-child(1) {
     transition: 0.5s ease;
     z-index: 1;
 }
-  
+
 .favourites.desktop > .characters > .character:nth-child(1):hover {
     grid-column: span 5;
     width: 470px;
@@ -1225,7 +1225,7 @@ This makes links turn blue on hover.*/
 }
 
 /* ONLY TESTING */
-
+/*
 .favourites.desktop > .characters > .character:nth-child(2):hover {
     background-image: url("https://i.imgur.com/nnQwPz8.gif") !important;
     transition-delay: 1s;
@@ -1356,7 +1356,7 @@ This makes links turn blue on hover.*/
     left: 40%;
     filter: var(--drop-shadow);
 }
-  
+*/
 .favourites.desktop > .characters > .character:nth-child(1):hover::before {
     font-size: 30px;
     color: rgb(var(--ksyoz-color-main));
