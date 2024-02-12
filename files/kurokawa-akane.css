@@ -1227,7 +1227,7 @@ This makes links turn blue on hover.*/
 /* ONLY TESTING */
 
 .favourites.desktop > .characters > .character:nth-child(2):hover {
-    background-image: url("https://i.imgur.com/ptEqMp5.gif") !important;
+    background-image: url("https://i.imgur.com/nnQwPz8.gif") !important;
     transition-delay: 1s;
 }
 
@@ -1267,7 +1267,7 @@ This makes links turn blue on hover.*/
 }
 
 .favourites.desktop > .characters > .character:nth-child(10):hover {
-    background-image: url("https://i.imgur.com/PhWZNsi.gif") !important;
+    background-image: url("https://i.imgur.com/OQqoEjj.gif") !important;
     transition-delay: 1s;
 }
 
