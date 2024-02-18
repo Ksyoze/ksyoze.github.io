@@ -1277,12 +1277,12 @@ This makes links turn blue on hover.*/
 
 /* ONLY TESTING */
 
-body > .favourites.desktop > .characters > .character:nth-child(2):hover {
+.favourites.desktop > .characters > .character:nth-child(2):hover {
     background-image: var(--gif2) !important;
     transition-delay: var(--gif-delay);
 }
 
-body > .favourites.desktop > .characters > .character:nth-child(3):hover {
+.favourites.desktop > .characters > .character:nth-child(3):hover {
     background-image: var(--gif3) !important;
     transition-delay: var(--gif-delay);
 }
