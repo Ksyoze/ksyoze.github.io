@@ -57,10 +57,59 @@
     --social-time: 0.5s;
     --social-scale: 1.05;
     --scroll: 960px;
+    --gif2: url("https://i.imgur.com/nnQwPz8.gif");
+    --gif3: url("https://i.imgur.com/EqAu18N.gif");
+    --gif4: url("https://i.imgur.com/58qs1Fy.gif");
+    --gif5: url("https://i.imgur.com/Nxp3je5.gif");
+    --gif6: url("https://i.imgur.com/P4PTCf8.gif");
+    --gif7: url("https://i.imgur.com/lKLDSVe.gif");
+    --gif8: url("https://i.imgur.com/A2D5X7E.gif");
+    --gif9: url("https://i.imgur.com/4lasn1R.gif");
+    --gif10: url("https://i.imgur.com/OQqoEjj.gif");
+    --gif11: url("https://i.imgur.com/EHoainq.gif");
+    --gif12: url("https://i.imgur.com/2MwR31Y.gif");
+    --gif13: url("https://i.imgur.com/QyOLVr8.gif");
+    --gif14: url("https://i.imgur.com/p9y6213.gif");
+    --gif15: url("https://i.imgur.com/bsONPgn.gif");
+    --gif16: url("https://i.imgur.com/k9k7Xnv.gif");
+    --gif17: url("https://i.imgur.com/RP9SV6r.gif");
+    --gif18: url("https://i.imgur.com/Ffgs3FI.gif");
+    --gif19: url("https://i.imgur.com/nL1lNsA.gif");
+    --gif20: url("https://i.imgur.com/va5EwCr.gif");
+    --gif21: url("https://i.imgur.com/PhWZNsi.gif");
+    --gif22: url("https://i.imgur.com/kVRp20e.gif");
+    --gif23: url("https://i.imgur.com/erx1OUA.gif");
+    --gif24: url("https://i.imgur.com/fyaAivX.gif");
+    --gif25: url("https://i.imgur.com/AkvJGKH.gif");
 }
 
 .site-theme-dark {
     --scroll: none;
+    --gif1: none;
+    --gif2: none;
+    --gif3: none;
+    --gif4: none;
+    --gif5: none;
+    --gif6: none;
+    --gif7: none;
+    --gif8: none;
+    --gif9: none;
+    --gif10: none;
+    --gif11: none;
+    --gif12: none;
+    --gif13: none;
+    --gif14: none;
+    --gif15: none;
+    --gif16: none;
+    --gif17: none;
+    --gif18: none;
+    --gif19: none;
+    --gif20: none;
+    --gif21: none;
+    --gif22: none;
+    --gif23: none;
+    --gif24: none;
+    --gif25: none;
 }
 
 .title[data-v-13cdaed6] {
@@ -1225,127 +1274,127 @@ This makes links turn blue on hover.*/
 }
 
 /* ONLY TESTING */
-/*
+
 .favourites.desktop > .characters > .character:nth-child(2):hover {
-    background-image: url("https://i.imgur.com/nnQwPz8.gif") !important;
+    background-image: var(--gif2) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(3):hover {
-    background-image: url("https://i.imgur.com/EqAu18N.gif") !important;
+    background-image: var(--gif3) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(4):hover {
-    background-image: url("https://i.imgur.com/58qs1Fy.gif") !important;
+    background-image: var(--gif4) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(5):hover {
-    background-image: url("https://i.imgur.com/Nxp3je5.gif") !important;
+    background-image: var(--gif5) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(6):hover {
-    background-image: url("https://i.imgur.com/P4PTCf8.gif") !important;
+    background-image: var(--gif6) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(7):hover {
-    background-image: url("https://i.imgur.com/lKLDSVe.gif") !important;
+    background-image: var(--gif7) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(8):hover {
-    background-image: url("https://i.imgur.com/A2D5X7E.gif") !important;
+    background-image: var(--gif8) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(9):hover {
-    background-image: url("https://i.imgur.com/4lasn1R.gif") !important;
+    background-image: var(--gif9) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(10):hover {
-    background-image: url("https://i.imgur.com/OQqoEjj.gif") !important;
+    background-image: var(--gif10) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(11):hover {
-    background-image: url("https://i.imgur.com/EHoainq.gif") !important;
+    background-image: var(--gif11) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(12):hover {
-    background-image: url("https://i.imgur.com/2MwR31Y.gif") !important;
+    background-image: var(--gif12) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(13):hover {
-    background-image: url("https://i.imgur.com/QyOLVr8.gif") !important;
+    background-image: var(--gif13) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(14):hover {
-    background-image: url("https://i.imgur.com/p9y6213.gif") !important;
+    background-image: var(--gif14) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(15):hover {
-    background-image: url("https://i.imgur.com/bsONPgn.gif") !important;
+    background-image: var(--gif15) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(16):hover {
-    background-image: url("https://i.imgur.com/k9k7Xnv.gif") !important;
+    background-image: var(--gif16) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(17):hover {
-    background-image: url("https://i.imgur.com/RP9SV6r.gif") !important;
+    background-image: var(--gif17) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(18):hover {
-    background-image: url("https://i.imgur.com/Ffgs3FI.gif") !important;
+    background-image: var(--gif18) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(19):hover {
-    background-image: url("https://i.imgur.com/nL1lNsA.gif") !important;
+    background-image: var(--gif19) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(20):hover {
-    background-image: url("https://i.imgur.com/va5EwCr.gif") !important;
+    background-image: var(--gif20) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(21):hover {
-    background-image: url("https://i.imgur.com/PhWZNsi.gif") !important;
+    background-image: var(--gif21) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(22):hover {
-    background-image: url("https://i.imgur.com/kVRp20e.gif") !important;
+    background-image: var(--gif22) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(23):hover {
-    background-image: url("https://i.imgur.com/erx1OUA.gif") !important;
+    background-image: var(--gif23) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(24):hover {
-    background-image: url("https://i.imgur.com/fyaAivX.gif") !important;
+    background-image: var(--gif24) !important;
     transition-delay: 1s;
 }
 
 .favourites.desktop > .characters > .character:nth-child(25):hover {
-    background-image: url("https://i.imgur.com/AkvJGKH.gif") !important;
+    background-image: var(--gif25) !important;
     transition-delay: 1s;
 }
-
+/*
 .favourites.desktop > .characters > .character:nth-child(1)::before {
     content: "QUEEN";
     font-size: 0px;
