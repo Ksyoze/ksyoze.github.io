@@ -117,8 +117,8 @@
     --gif25: url("https://s4.anilist.co/file/anilistcdn/character/large/b5-RxGEMJZLW4cy.png");
     --gif-delay: 0s;
     --akane-tag: "";
-    --akane-width: unset;
-    --akane-column: unset;
+    --akane-width: 85px;
+    --akane-column: span 1;
 }
 
 .title[data-v-13cdaed6] {
