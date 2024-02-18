@@ -90,35 +90,35 @@
 
 .site-theme-dark {
     --scroll: none;
-    --gif1: "unset";
-    --gif2: "unset";
-    --gif3: "unset";
-    --gif4: "unset";
-    --gif5: "unset";
-    --gif6: "unset";
-    --gif7: "unset";
-    --gif8: "unset";
-    --gif9: "unset";
-    --gif10: "unset";
-    --gif11: "unset";
-    --gif12: "unset";
-    --gif13: "unset";
-    --gif14: "unset";
-    --gif15: "unset";
-    --gif16: "unset";
-    --gif17: "unset";
-    --gif18: "unset";
-    --gif19: "unset";
-    --gif20: "unset";
-    --gif21: "unset";
-    --gif22: "unset";
-    --gif23: "unset";
-    --gif24: "unset";
-    --gif25: "unset";
+    --gif1: url("https://s4.anilist.co/file/anilistcdn/character/large/b203384-YuSppFDMw2wn.png");
+    --gif2: url("https://s4.anilist.co/file/anilistcdn/character/large/b138789-AhE8m0LWjE7E.png");
+    --gif3: url("https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png");
+    --gif4: url("https://s4.anilist.co/file/anilistcdn/character/large/b162248-57Xgk6EmwKRQ.png");
+    --gif5: url("https://s4.anilist.co/file/anilistcdn/character/large/b126374-MiOaRIGQj4fg.png");
+    --gif6: url("https://s4.anilist.co/file/anilistcdn/character/large/b64511-zr1ivnK8qPF2.jpg");
+    --gif7: url("https://s4.anilist.co/file/anilistcdn/character/large/b36828-j5ib0adAzGMx.png");
+    --gif8: url("https://s4.anilist.co/file/anilistcdn/character/large/b5186-izgXf2S86K9u.png");
+    --gif9: url("https://s4.anilist.co/file/anilistcdn/character/large/b35253-u6QVgLLyHq2W.png");
+    --gif10: url("https://s4.anilist.co/file/anilistcdn/character/large/b141122-6Zk52eU3VK3O.png");
+    --gif11: url("https://s4.anilist.co/file/anilistcdn/character/large/b75284-4Hiyq7DOwvy7.png");
+    --gif12: url("https://s4.anilist.co/file/anilistcdn/character/large/b171759-sgjVEczQZ8i4.jpg");
+    --gif13: url("https://s4.anilist.co/file/anilistcdn/character/large/b151352-ekpKR8GKirbh.png");
+    --gif14: url("https://s4.anilist.co/file/anilistcdn/character/large/b136070-MC9LLxJsHyHE.png");
+    --gif15: url("https://s4.anilist.co/file/anilistcdn/character/large/b90169-4wr1Zehnsac8.png");
+    --gif16: url("https://s4.anilist.co/file/anilistcdn/character/large/b127596-VJjQQk2uWrgM.png");
+    --gif17: url("https://s4.anilist.co/file/anilistcdn/character/large/b210-mw01NrQfRjzT.png");
+    --gif18: url("https://s4.anilist.co/file/anilistcdn/character/large/b130050-qsLThJs5VIbz.png");
+    --gif19: url("https://s4.anilist.co/file/anilistcdn/character/large/b141694-0COi0GVXPuEn.png");
+    --gif20: url("https://s4.anilist.co/file/anilistcdn/character/large/b6356-RImEfUfHpC58.png");
+    --gif21: url("https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png");
+    --gif22: url("https://s4.anilist.co/file/anilistcdn/character/large/b1533-EN0IUUtm3w8D.png");
+    --gif23: url("https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg");
+    --gif24: url("https://s4.anilist.co/file/anilistcdn/character/large/b2282-X0uYqwmwxiPo.png");
+    --gif25: url("https://s4.anilist.co/file/anilistcdn/character/large/b5-RxGEMJZLW4cy.png");
     --gif-delay: 0s;
-    --akane-tag: "unset";
-    --akane-width: "unset";
-    --akane-column: "unset";
+    --akane-tag: "";
+    --akane-width: unset;
+    --akane-column: unset;
 }
 
 .title[data-v-13cdaed6] {
