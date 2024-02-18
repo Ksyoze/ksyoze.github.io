@@ -57,6 +57,7 @@
     --social-time: 0.5s;
     --social-scale: 1.05;
     --scroll: 960px;
+    --gif1: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjY2aTJ0aDllMnl3aGQzd3gyc2FkajY5dmFnY3BhbGc4NzR4eDNmeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cxReraxQ5TEqAnI6h3/giphy.gif");
     --gif2: url("https://i.imgur.com/nnQwPz8.gif");
     --gif3: url("https://i.imgur.com/EqAu18N.gif");
     --gif4: url("https://i.imgur.com/58qs1Fy.gif");
@@ -87,31 +88,31 @@
 
 .site-theme-dark {
     --scroll: none;
-    --gif1: "";
-    --gif2: "";
-    --gif3: "";
-    --gif4: "";
-    --gif5: "";
-    --gif6: "";
-    --gif7: "";
-    --gif8: "";
-    --gif9: "";
-    --gif10: "";
-    --gif11: "";
-    --gif12: "";
-    --gif13: "";
-    --gif14: "";
-    --gif15: "";
-    --gif16: "";
-    --gif17: "";
-    --gif18: "";
-    --gif19: "";
-    --gif20: "";
-    --gif21: "";
-    --gif22: "";
-    --gif23: "";
-    --gif24: "";
-    --gif25: "";
+    --gif1: unset;
+    --gif2: unset;
+    --gif3: unset;
+    --gif4: unset;
+    --gif5: unset;
+    --gif6: unset;
+    --gif7: unset;
+    --gif8: unset;
+    --gif9: unset;
+    --gif10: unset;
+    --gif11: unset;
+    --gif12: unset;
+    --gif13: unset;
+    --gif14: unset;
+    --gif15: unset;
+    --gif16: unset;
+    --gif17: unset;
+    --gif18: unset;
+    --gif19: unset;
+    --gif20: unset;
+    --gif21: unset;
+    --gif22: unset;
+    --gif23: unset;
+    --gif24: unset;
+    --gif25: unset;
     --gif-delay: 0s;
     --akane-tag: "";
 }
@@ -1273,7 +1274,7 @@ This makes links turn blue on hover.*/
 .favourites.desktop > .characters > .character:nth-child(1):hover {
     grid-column: span 5;
     width: 470px;
-    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjY2aTJ0aDllMnl3aGQzd3gyc2FkajY5dmFnY3BhbGc4NzR4eDNmeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cxReraxQ5TEqAnI6h3/giphy.gif) !important;
+    background-image: var(--gif1) !important;
     background-position-y: 50%;
 }
 
