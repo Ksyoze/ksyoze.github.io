@@ -90,35 +90,35 @@
 
 .site-theme-dark {
     --scroll: none;
-    --gif1: unset;
-    --gif2: unset;
-    --gif3: unset;
-    --gif4: unset;
-    --gif5: unset;
-    --gif6: unset;
-    --gif7: unset;
-    --gif8: unset;
-    --gif9: unset;
-    --gif10: unset;
-    --gif11: unset;
-    --gif12: unset;
-    --gif13: unset;
-    --gif14: unset;
-    --gif15: unset;
-    --gif16: unset;
-    --gif17: unset;
-    --gif18: unset;
-    --gif19: unset;
-    --gif20: unset;
-    --gif21: unset;
-    --gif22: unset;
-    --gif23: unset;
-    --gif24: unset;
-    --gif25: unset;
+    --gif1: "unset";
+    --gif2: "unset";
+    --gif3: "unset";
+    --gif4: "unset";
+    --gif5: "unset";
+    --gif6: "unset";
+    --gif7: "unset";
+    --gif8: "unset";
+    --gif9: "unset";
+    --gif10: "unset";
+    --gif11: "unset";
+    --gif12: "unset";
+    --gif13: "unset";
+    --gif14: "unset";
+    --gif15: "unset";
+    --gif16: "unset";
+    --gif17: "unset";
+    --gif18: "unset";
+    --gif19: "unset";
+    --gif20: "unset";
+    --gif21: "unset";
+    --gif22: "unset";
+    --gif23: "unset";
+    --gif24: "unset";
+    --gif25: "unset";
     --gif-delay: 0s;
-    --akane-tag: unset;
-    --akane-width: unset;
-    --akane-column: unset;
+    --akane-tag: "unset";
+    --akane-width: "unset";
+    --akane-column: "unset";
 }
 
 .title[data-v-13cdaed6] {
