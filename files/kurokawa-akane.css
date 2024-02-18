@@ -84,6 +84,8 @@
     --gif25: url("https://i.imgur.com/AkvJGKH.gif");
     --gif-delay: 1s;
     --akane-tag: "QUEEN";
+    --akane-width: 470px;
+    --akane-column: span 5;
 }
 
 .site-theme-dark {
@@ -114,7 +116,9 @@
     --gif24: unset;
     --gif25: unset;
     --gif-delay: 0s;
-    --akane-tag: "";
+    --akane-tag: unset;
+    --akane-width: unset;
+    --akane-column: unset;
 }
 
 .title[data-v-13cdaed6] {
@@ -1272,8 +1276,8 @@ This makes links turn blue on hover.*/
 }
 
 .favourites.desktop > .characters > .character:nth-child(1):hover {
-    grid-column: span 5;
-    width: 470px;
+    grid-column: var(--akane-column);
+    width: var(--akane-width);
     background-image: var(--gif1) !important;
     background-position-y: 50%;
 }
@@ -1281,17 +1285,17 @@ This makes links turn blue on hover.*/
 /* ONLY TESTING */
 
 .favourites.desktop > .characters > .character:nth-child(2):hover {
-    background-image: var(--gif2);
+    background-image: var(--gif2) !important;
     transition-delay: var(--gif-delay);
 }
 
 .favourites.desktop > .characters > .character:nth-child(3):hover {
-    background-image: var(--gif3);
+    background-image: var(--gif3) !important;
     transition-delay: var(--gif-delay);
 }
 
 .favourites.desktop > .characters > .character:nth-child(4):hover {
-    background-image: var(--gif4);
+    background-image: var(--gif4) !important;
     transition-delay: var(--gif-delay);
 }
 
