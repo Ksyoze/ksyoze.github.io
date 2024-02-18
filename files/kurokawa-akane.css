@@ -57,9 +57,9 @@
     --social-time: 0.5s;
     --social-scale: 1.05;
     --scroll: 960px;
-    --gif2: url("https://i.imgur.com/nnQwPz8.gif");
-    --gif3: url("https://i.imgur.com/EqAu18N.gif");
-    --gif4: url("https://i.imgur.com/58qs1Fy.gif");
+    --gif2: url("https://i.imgur.com/nnQwPz8.gif") !important;
+    --gif3: url("https://i.imgur.com/EqAu18N.gif") !important;
+    --gif4: url("https://i.imgur.com/58qs1Fy.gif") !important;
     --gif5: url("https://i.imgur.com/Nxp3je5.gif");
     --gif6: url("https://i.imgur.com/P4PTCf8.gif");
     --gif7: url("https://i.imgur.com/lKLDSVe.gif");
@@ -1264,7 +1264,7 @@ This makes links turn blue on hover.*/
 .entry-dropdown[data-v-04d66030] {
     background: none;
 }
-/*
+
 .favourites.desktop > .characters > .character:nth-child(1) {
     transition: 0.5s ease;
     z-index: 1;
@@ -1280,17 +1280,17 @@ This makes links turn blue on hover.*/
 /* ONLY TESTING */
 
 .favourites.desktop > .characters > .character:nth-child(2):hover {
-    background-image: var(--gif2) !important;
+    background-image: var(--gif2);
     transition-delay: var(--gif-delay);
 }
 
 .favourites.desktop > .characters > .character:nth-child(3):hover {
-    background-image: var(--gif3) !important;
+    background-image: var(--gif3);
     transition-delay: var(--gif-delay);
 }
 
 .favourites.desktop > .characters > .character:nth-child(4):hover {
-    background-image: var(--gif4) !important;
+    background-image: var(--gif4);
     transition-delay: var(--gif-delay);
 }
 
