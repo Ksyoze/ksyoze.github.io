@@ -86,7 +86,7 @@
 
 .site-theme-dark {
     --scroll: none;
-    --gif1: none;
+    /*--gif1: none;
     --gif2: none;
     --gif3: none;
     --gif4: none;
@@ -111,7 +111,7 @@
     --gif23: none;
     --gif24: none;
     --gif25: none;
-    --gif-delay: s;
+    --gif-delay: 0s;*/
 }
 
 .title[data-v-13cdaed6] {
@@ -1277,12 +1277,12 @@ This makes links turn blue on hover.*/
 
 /* ONLY TESTING */
 
-.favourites.desktop > .characters > .character:nth-child(2):hover {
+body > .favourites.desktop > .characters > .character:nth-child(2):hover {
     background-image: var(--gif2) !important;
     transition-delay: var(--gif-delay);
 }
 
-.favourites.desktop > .characters > .character:nth-child(3):hover {
+body > .favourites.desktop > .characters > .character:nth-child(3):hover {
     background-image: var(--gif3) !important;
     transition-delay: var(--gif-delay);
 }
