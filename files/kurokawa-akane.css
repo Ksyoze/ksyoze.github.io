@@ -82,6 +82,7 @@
     --gif24: url("https://i.imgur.com/fyaAivX.gif");
     --gif25: url("https://i.imgur.com/AkvJGKH.gif");
     --gif-delay: 1s;
+    --akane-tag: "QUEEN";
 }
 
 .site-theme-dark {
@@ -112,6 +113,7 @@
     --gif24: none;
     --gif25: none;
     --gif-delay: 0s;
+    --akane-tag: "";
 }
 
 .title[data-v-13cdaed6] {
@@ -1396,9 +1398,9 @@ This makes links turn blue on hover.*/
     background-image: var(--gif25) !important;
     transition-delay: var(--gif-delay);
 }
-/*
+
 .favourites.desktop > .characters > .character:nth-child(1)::before {
-    content: "QUEEN";
+    content: var(--akane-tag);
     font-size: 0px;
     font-weight: 600;
     color: transparent;
@@ -1407,7 +1409,7 @@ This makes links turn blue on hover.*/
     left: 40%;
     filter: var(--drop-shadow);
 }
-*/
+
 .favourites.desktop > .characters > .character:nth-child(1):hover::before {
     font-size: 30px;
     color: rgb(var(--ksyoz-color-main));
