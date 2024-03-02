@@ -83,6 +83,7 @@
     --gif24: url("https://i.imgur.com/fyaAivX.gif");
     --gif25: url("https://i.imgur.com/AkvJGKH.gif");
     --gif-delay: 1s;
+    --gif-delay2: 0.5s;
     --akane-tag: "QUEEN";
     --akane-width: 470px;
     --akane-column: span 5;
@@ -116,6 +117,7 @@
     --gif24: url("https://s4.anilist.co/file/anilistcdn/character/large/b2282-X0uYqwmwxiPo.png");
     --gif25: url("https://s4.anilist.co/file/anilistcdn/character/large/b5-RxGEMJZLW4cy.png");
     --gif-delay: 0s;
+    --gif-delay2: 0s;
     --akane-tag: "";
     --akane-width: 85px;
     --akane-column: span 1;
@@ -1272,7 +1274,7 @@ This makes links turn blue on hover.*/
 }
 
 .favourites.desktop > .characters > .character:nth-child(1) {
-    transition: var(--gif-delay) ease;
+    transition: var(--gif-delay2) ease;
     z-index: 1;
 }
 
