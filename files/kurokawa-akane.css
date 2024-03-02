@@ -725,6 +725,7 @@ This makes links turn blue on hover.*/
 * {
     /*This sets the cursor to the custom one for every element, including text and hyperlinks.*/
     cursor: var(--cursor-url), auto;
+    scrollbar-width: none;
 }
 
 .markdown-spoiler::before, .el-dropdown-menu__item, .search[data-v-62eacfff] svg, .user[data-v-62eacfff], .actions .action[data-v-04d66030], .time .action[data-v-04d66030],
@@ -1879,6 +1880,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     rotate: -35deg;
     animation: strikethrough 0.2s linear forwards;
     }
+
+.text div.markdown {
+    scrollbar-width: none;
+}
 
 @keyframes strikethrough {
     0% {
