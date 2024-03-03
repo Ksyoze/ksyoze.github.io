@@ -1933,6 +1933,10 @@ h2[data-v-0f519cab] {
     color: rgb(var(--ksyoz-color-main));
 }
 
+.user .about > div.content-wrap {
+    scrollbar-width: none;
+}
+
 @keyframes stars {
     0% {
       background-position: 0 0;
