@@ -1945,6 +1945,8 @@ h2[data-v-0f519cab] {
     }
 }
 
+/*
+
 @media (max-width: 1540px) {body::before {
     z-index: 999;
     content: "Brian, if you see this message, zoom out you dumb fuck";
@@ -1959,6 +1961,8 @@ h2[data-v-0f519cab] {
     background-color: rgba(0 0 0 / .8);
     }
 }
+
+*/
 
 @media (min-width: 1040px) and (max-width: 1540px){ .container {
     max-width: none;
