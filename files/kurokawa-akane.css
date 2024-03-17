@@ -1282,6 +1282,7 @@ This makes links turn blue on hover.*/
     width: var(--akane-width);
     background-image: var(--gif1) !important;
     background-position-y: 50%;
+    transition-delay: var(--gif-delay);
 }
 
 /* ONLY TESTING */
