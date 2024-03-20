@@ -1273,12 +1273,12 @@ This makes links turn blue on hover.*/
     background: none;
 }
 
+/*
 .favourites.desktop > .characters > .character:nth-child(1) {
     transition: var(--gif-delay2) ease;
     z-index: 1;
 }
 
-/*
 .favourites.desktop > .characters > .character:nth-child(1):hover {
     grid-column: var(--akane-column);
     width: var(--akane-width);
@@ -1425,12 +1425,12 @@ This makes links turn blue on hover.*/
     left: 40%;
     filter: var(--drop-shadow);
 }
-*/
 
 .favourites.desktop > .characters > .character:nth-child(1):hover::before {
     font-size: 30px;
     color: rgb(var(--ksyoz-color-main));
 }
+*/
 
 .activity-extras-dropdown.el-popper[x-placement^=bottom][data-v-04d66030] {
     background: rgb(var(--ksyoz-color-background-d));
