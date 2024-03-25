@@ -616,13 +616,13 @@ This improves the favourites section a lot.*/
 }*/
 
 .favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c], .favourites.preview .favourites-wrap>div[data-v-ddf96a3c] {
-    border: var(--border-fav) solid rgb(var(--ksyoz-color-main));
+    border: var(--border-fav) solid rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
     transition: 1s;
 }
 
 .favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c]:hover, .favourites.preview .favourites-wrap>div[data-v-ddf96a3c]:hover {
-    border: var(--border-fav) solid rgb(var(--ksyoz-color-main-d));
+    border: var(--border-fav) solid rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brighter));
     transition: 1s;
 }
