@@ -447,7 +447,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
 }
 
 .overview[data-v-5c30286e] .content-wrap {
-    border: 3px solid rgb(152, 201, 239);
+    border: 3px solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     background: rgb(var(--ksyoz-color-background));
 }
@@ -874,18 +874,18 @@ This makes links turn blue on hover.*/
 }
 
 .list-stats[data-v-815ccddc]:nth-child(1) {
-    border-bottom: 3px solid rgb(152, 201, 239) !important;
-    border-top: 3px solid rgb(152, 201, 239) !important;
-    border-left: 3px solid rgb(152, 201, 239) !important;
+    border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
+    border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
+    border-left: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-right: transparent !important;
     border-radius: var(--curvyness-activity) 0px 0px var(--curvyness-activity);
 }
 
 .list-stats[data-v-815ccddc]:nth-child(2) {
-    border-bottom: 3px solid rgb(152, 201, 239) !important;
-    border-top: 3px solid rgb(152, 201, 239) !important;
+    border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
+    border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-left: transparent !important;
-    border-right: 3px solid rgb(152, 201, 239) !important;
+    border-right: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-radius: 0px var(--curvyness-activity) var(--curvyness-activity) 0px;
 }
 
@@ -1893,7 +1893,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     display: block;
     height: 0;
     width: 2px;
-    background: rgb(152, 201, 239);
+    background: rgb(var(--ksyoz-color-main));
     top: 5px;
     left: 0;
     position: absolute;
@@ -1921,7 +1921,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     display: block;
     height: 0;
     width: 2px;
-    background: rgb(152, 201, 239);
+    background: rgb(var(--ksyoz-color-main));
     top: 5px;
     left: 0;
     position: absolute;
