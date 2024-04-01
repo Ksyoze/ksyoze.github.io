@@ -40,8 +40,10 @@
     --ksyoz-color-brightest: 255, 255, 255;
     --ksyoz-color-brighter: 212, 212, 212;
     --ksyoz-color-bright: 200, 200, 200;
-    --ksyoz-color-main: 152, 201, 239;
-    --ksyoz-color-main-d: 116, 160, 194;
+    --ksyoz-color-main: 235,54,76;
+    --ksyoz-color-main-d: 143,34,43;
+    /*--ksyoz-color-main: 152, 201, 239;
+    --ksyoz-color-main-d: 116, 160, 194;*/
     --ksyoz-color-post: 159,173,189;
     --ksyoz-color-overlay: 28, 21, 46;
     --ksyoz-color-header: 229, 231, 234;
