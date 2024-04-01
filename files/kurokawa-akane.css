@@ -30,8 +30,7 @@
     --activity-time: 0.3s;
     --activity-border: 3px;
     --cursor-url: url("https://i.imgur.com/qtxRLwX.png"); /*Image for custom cursor.*/
-    --background-img: url("https://i.imgur.com/CJk308v.png"); /*Image for custom background.*/
-    /*--background-img: url("https://i.imgur.com/vPgO8FI.png"); /*Image for custom background.*/
+    --background-img: url("https://i.imgur.com/vPgO8FI.png"); /*Image for custom background.*/
     --footer-img: url("https://i.imgur.com/kj1U8w8.png"); /*Image for custom footer.*/
     --content-width: 100%; /*The width of the content box.*/
     --ksyoz-color-background: 23, 26, 33, 1; /*Main profile color.*/
@@ -41,10 +40,8 @@
     --ksyoz-color-brightest: 255, 255, 255;
     --ksyoz-color-brighter: 212, 212, 212;
     --ksyoz-color-bright: 200, 200, 200;
-    --ksyoz-color-main: 235,54,76;
-    --ksyoz-color-main-d: 143,34,43;
-    /*--ksyoz-color-main: 152, 201, 239;
-    --ksyoz-color-main-d: 116, 160, 194;*/
+    --ksyoz-color-main: 152, 201, 239;
+    --ksyoz-color-main-d: 116, 160, 194;
     --ksyoz-color-post: 159,173,189;
     --ksyoz-color-overlay: 28, 21, 46;
     --ksyoz-color-header: 229, 231, 234;
@@ -1507,7 +1504,7 @@ This makes links turn blue on hover.*/
     font-size: 24px;
 }
 
-/*.name-wrapper::after {
+.name-wrapper::after {
     content: "黒川" "あかね";
     color: transparent;
     background-clip: text;
@@ -1518,7 +1515,7 @@ This makes links turn blue on hover.*/
     filter: drop-shadow(0px 0px 2px black);
     margin: 0 0 0 12px;
     font-size: 15px;
-}*/
+}
 
 .entry-dropdown[data-v-04d66030]:hover {
     background: none;
