@@ -1952,6 +1952,11 @@ h2[data-v-0f519cab] {
     scrollbar-width: none;
 }
 
+.medialist .release-status.RELEASING {
+    background: rgb(var(--ksyoz-color-main));
+    box-shadow: 0 0 5px rgba(var(--ksyoz-color-main),.8);
+}
+
 @keyframes stars {
     0% {
       background-position: 0 0;
