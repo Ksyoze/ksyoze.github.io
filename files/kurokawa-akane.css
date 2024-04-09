@@ -1957,6 +1957,11 @@ h2[data-v-0f519cab] {
     box-shadow: 0 0 5px rgba(var(--ksyoz-color-main),.8);
 }
 
+.medialist .release-status.NOT_YET_RELEASED {
+    background: rgb(var(--ksyoz-color-brightest));
+    box-shadow: 0 0 5px rgba(var(--ksyoz-color-brightest),0.8);
+}
+
 @keyframes stars {
     0% {
       background-position: 0 0;
