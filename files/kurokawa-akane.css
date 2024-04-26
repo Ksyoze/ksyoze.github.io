@@ -1963,7 +1963,7 @@ h2[data-v-0f519cab] {
 }
 
 /* TEST */
-
+/*
 .banner[data-v-1cc2919e] {
     height: 500px;
 }
@@ -1981,7 +1981,7 @@ h2[data-v-0f519cab] {
 .name-wrapper::after {
     position: fixed;
 }
-
+*/
 @keyframes stars {
     0% {
       background-position: 0 0;
