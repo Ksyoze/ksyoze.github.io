@@ -1962,6 +1962,26 @@ h2[data-v-0f519cab] {
     box-shadow: 0 0 5px rgba(var(--ksyoz-color-brightest),0.8);
 }
 
+/* TEST */
+
+.banner[data-v-1cc2919e] {
+    height: 500px;
+}
+
+.banner .container[data-v-1cc2919e] {
+    max-width: 26%;
+}
+
+.avatar[data-v-1cc2919e] {
+    max-height: unset;
+    max-width: 100%;
+    width: unset;
+}
+
+.name-wrapper::after {
+    position: fixed;
+}
+
 @keyframes stars {
     0% {
       background-position: 0 0;
