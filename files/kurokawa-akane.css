@@ -29,6 +29,7 @@
     --list-time: 0.4s; /*The time taken for the favourite animation to finish.*/
     --activity-time: 0.3s;
     --activity-border: 3px;
+    --avatar-image: url("https://i.imgur.com/RxdKVEh.png");
     --cursor-url: url("https://i.imgur.com/qtxRLwX.png"); /*Image for custom cursor.*/
     --background-img: url("https://i.imgur.com/vPgO8FI.png"); /*Image for custom background.*/
     --footer-img: url("https://i.imgur.com/kj1U8w8.png"); /*Image for custom footer.*/
@@ -1960,6 +1961,10 @@ h2[data-v-0f519cab] {
 .medialist .release-status.NOT_YET_RELEASED {
     background: rgb(var(--ksyoz-color-brightest));
     box-shadow: 0 0 5px rgba(var(--ksyoz-color-brightest),0.8);
+}
+
+.avatar[data-v-1cc2919e] {
+    background-image: var(--avatar-image);
 }
 
 /* TEST */
