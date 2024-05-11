@@ -1965,7 +1965,7 @@ h2[data-v-0f519cab] {
 }
 
 .avatar[data-v-1cc2919e] {
-    background-image: var(--avatar-image);
+    content: var(--avatar-image);
 }
 
 /* TEST */
