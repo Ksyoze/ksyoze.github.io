@@ -400,6 +400,7 @@ This removes the banner image.*/
 
 .banner{
     visibility: hidden !important;
+    height: calc(100vh - 46px);
 }
 
 .banner-content{
