@@ -1969,7 +1969,8 @@ h2[data-v-0f519cab] {
     content: var(--avatar-image);
     max-height: none;
     max-width: 500px;
-    margin-left: auto;
+    left: 50%;
+    margin-left: -250px;
 }
 
 .banner-content h1.name {
