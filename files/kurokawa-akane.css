@@ -1515,7 +1515,8 @@ This makes links turn blue on hover.*/
     /*background-image: repeating-linear-gradient( to right, #98c9ef, #98c9ef, white, white, white);*/
     position: absolute;
     filter: drop-shadow(0px 0px 2px black);
-    margin: 0 0 0 12px;
+    margin: 0 0 0 20px;
+    /*margin: 0 0 0 12px;*/
     /*font-size: 15px;*/
 }
 
