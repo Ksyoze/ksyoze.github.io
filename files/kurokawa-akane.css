@@ -1973,6 +1973,7 @@ h2[data-v-0f519cab] {
 
 .banner-content h1.name {
     font-size: 40px;
+    display: block;
 }
 
 @keyframes stars {
