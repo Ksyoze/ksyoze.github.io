@@ -1970,10 +1970,10 @@ h2[data-v-0f519cab] {
 .avatar[data-v-1cc2919e] {
     content: var(--avatar-image);
     max-height: none;
-    max-width: 500px;
+    max-width: 700px;
     position: absolute;
     left: 50%;
-    margin-left: -250px;
+    margin-left: -350px;
 }
 
 .banner-content h1.name {
