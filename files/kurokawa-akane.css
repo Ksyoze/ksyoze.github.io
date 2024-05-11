@@ -1504,6 +1504,7 @@ This makes links turn blue on hover.*/
 
 .name-wrapper[data-v-1cc2919e] {
     font-size: 24px;
+    margin-bottom: 200px;
 }
 
 .name-wrapper::after {
@@ -1966,28 +1967,12 @@ h2[data-v-0f519cab] {
 
 .avatar[data-v-1cc2919e] {
     content: var(--avatar-image);
+    max-height: none;
+    max-width: 500px;
 }
 
-/* TEST */
-/*
-.banner[data-v-1cc2919e] {
-    height: 500px;
-}
 
-.banner .container[data-v-1cc2919e] {
-    max-width: 26%;
-}
 
-.avatar[data-v-1cc2919e] {
-    max-height: unset;
-    max-width: 100%;
-    width: unset;
-}
-
-.name-wrapper::after {
-    position: fixed;
-}
-*/
 @keyframes stars {
     0% {
       background-position: 0 0;
@@ -2039,10 +2024,5 @@ h2[data-v-0f519cab] {
 
 @media (max-width: 1540px) {.search[data-v-62eacfff] {
     margin-left: 50px;
-    }
-}
-
-@media (max-width: 1540px) {.banner-content[data-v-1cc2919e] {
-    margin-left: 60px;
     }
 }
