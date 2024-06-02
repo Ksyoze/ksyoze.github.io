@@ -750,7 +750,7 @@ This makes links turn blue on hover.*/
 .list-editor-wrap .header .save-btn, .el-input-number__decrease, .el-input-number__increase, .list-editor-wrap .list-editor .body .delete-btn, .nav-btn[data-v-1cc2919e],
 .dropdown[data-v-1cc2919e], .el-button, .el-message-box__headerbtn, .el-input__suffix-inner, .el-tag .el-icon-close, .list-editor-wrap .el-textarea__inner, .el-picker-panel__icon-btn,
 .el-date-picker__header-label, .el-date-table td, .el-input-number__decrease.is-disabled, .el-input-number__increase.is-disabled, .hohRangeSetter, .button[data-v-686e8358], 
-.el-select-dropdown__item, .tagIndex p:hover {
+.el-select-dropdown__item, .tagIndex p:hover, .el-icon-circle-close[data-v-170179fc] {
     /*This fixes the issue of spoiler tags reverting the cursor to the original.*/
     cursor: var(--cursor-url), auto;
 }
