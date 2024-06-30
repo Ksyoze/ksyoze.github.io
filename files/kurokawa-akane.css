@@ -6,6 +6,7 @@
     --logo-height: 100px; /*Width of the logo. I recommend you change this to fit the aspect ratio of the image you're using.*/
     --logo-time: 0.5s; /*How long it takes the logo to scale and rotate when hovered over.*/
     --logo-scale: 1.1;
+    --logo-image: url("https://i.imgur.com/NruXRy5.png");
     --head-width: 100%; /*The width of the header and footer.*/
     --nav-width: 80%; /*The width of the navigation bar.*/
     --feed-height: 4940px;
@@ -371,7 +372,7 @@ This section makes the about section and activities display in full instead of h
 }
 
 .logo img[data-v-62eacfff] {
-    content: url(https://i.imgur.com/NruXRy5.png);
+    content: var(--logo-image);
     height: var(--logo-height);
     width: auto;
 }
