@@ -1298,7 +1298,7 @@ This makes links turn blue on hover.*/
 */
 
 /* ONLY TESTING */
-
+/*
 .favourites.desktop > .characters > .character:nth-child(1):hover {
     background-image: var(--gif1) !important;
     transition-delay: var(--gif-delay);
@@ -1423,7 +1423,7 @@ This makes links turn blue on hover.*/
     background-image: var(--gif25) !important;
     transition-delay: var(--gif-delay);
 }
-
+*/
 /*
 .favourites.desktop > .characters > .character:nth-child(1)::before {
     content: var(--akane-tag);
