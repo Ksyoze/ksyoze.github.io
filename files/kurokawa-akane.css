@@ -60,7 +60,7 @@
     --social-scale: 1.05;
     --scroll: 960px;
     /*--gif1: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjY2aTJ0aDllMnl3aGQzd3gyc2FkajY5dmFnY3BhbGc4NzR4eDNmeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cxReraxQ5TEqAnI6h3/giphy.gif");*/
-    --gif1: url("https://i.imgur.com/zn9Qj4Z.gif");
+    /*--gif1: url("https://i.imgur.com/zn9Qj4Z.gif");
     --gif2: url("https://i.imgur.com/nnQwPz8.gif");
     --gif3: url("https://i.imgur.com/EqAu18N.gif");
     --gif4: url("https://i.imgur.com/58qs1Fy.gif");
@@ -89,10 +89,10 @@
     --gif-delay2: 1s;
     --akane-tag: "QUEEN";
     --akane-width: 470px;
-    --akane-column: span 5;
+    --akane-column: span 5;*/
 }
 
-.site-theme-dark {
+/*.site-theme-dark {
     --scroll: none;
     --gif1: url("https://s4.anilist.co/file/anilistcdn/character/large/b203384-YuSppFDMw2wn.png");
     --gif2: url("https://s4.anilist.co/file/anilistcdn/character/large/b138789-AhE8m0LWjE7E.png");
@@ -124,7 +124,7 @@
     --akane-tag: "";
     --akane-width: 85px;
     --akane-column: span 1;
-}
+}*/
 
 .title[data-v-13cdaed6] {
     color: rgb(var(--ksyoz-color-main));
