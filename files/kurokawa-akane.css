@@ -1754,6 +1754,7 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
 
 .new-badge[data-v-736992dc] {
     background: rgb(var(--ksyoz-color-main));
+    display: none;
 }
 
 .el-select__tags .el-tag, .el-select__tags .el-tag--info {
@@ -2005,6 +2006,10 @@ h2[data-v-0f519cab] {
 
 .tagIndex p:hover {
     color: rgb(var(--ksyoz-color-main));
+}
+
+.footer [href="https://discord.gg/TF428cr"]::before, .footer [href="https://twitter.com/AniListco"]::before, .footer [href="https://www.facebook.com/AniListco"]::before, .footer [href="https://github.com/AniList"]::before {
+    display: none;
 }
 
 @keyframes stars {
