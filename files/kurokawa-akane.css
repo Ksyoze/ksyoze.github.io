@@ -2015,6 +2015,7 @@ h2[data-v-0f519cab] {
 .user .notification-dot[data-v-62eacfff] {
     background: rgb(var(--ksyoz-color-main));
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+    color: rgb(0, 0, 0)
 }
 
 @keyframes stars {
