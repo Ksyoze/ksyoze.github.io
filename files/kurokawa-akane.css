@@ -2012,6 +2012,10 @@ h2[data-v-0f519cab] {
     content: "";
 }
 
+.user .notification-dot[data-v-62eacfff] {
+    background: rgb(var(--ksyoz-color-main));
+}
+
 @keyframes stars {
     0% {
       background-position: 0 0;
