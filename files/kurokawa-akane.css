@@ -729,7 +729,7 @@ This makes links turn blue on hover.*/
 
 #app .link:hover {
     /*This handles the links that aren't covered by the above block.*/
-    color: rgb(var(--color-blue)) !important;
+    color: rgb(var(--ksyoz-color-main)) !important;
 }
 
 /*customCursor*/
