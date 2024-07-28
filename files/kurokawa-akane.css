@@ -446,11 +446,11 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     border-bottom-right-radius: var(--curvyness);
 }
 
-.overview .content-wrap {
+/*.overview .content-wrap {
     border: 3px solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     background: rgb(var(--ksyoz-color-background));
-}
+}*/
 
 .submissions[data-v-3ed82f3f]{
     /*This is a fix for an annoying part of the submissions section. If you want to know more, try removing this part and see what happens.*/
