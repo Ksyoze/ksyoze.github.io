@@ -321,13 +321,13 @@ This section makes the about section and activities display in full instead of h
     overflow: hidden;
 }
 
-#app .wrap {
+/*#app .wrap {
     border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-post));
-}
+}*/
 
 .wrap[data-v-04d66030]:hover, .reply[data-v-732ef224]:hover {
     border: var(--activity-border) solid rgba(var(--ksyoz-color-main),.5);
@@ -371,7 +371,7 @@ This section makes the about section and activities display in full instead of h
     right: 0;
 }
 
-.logo img[data-v-62eacfff] {
+#app .logo img {
     content: var(--logo-image);
     height: var(--logo-height);
     width: auto;
