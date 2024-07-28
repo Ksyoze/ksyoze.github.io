@@ -351,7 +351,7 @@ This section makes the about section and activities display in full instead of h
     left: calc((100% - var(--head-width))/2);
 }
 
-.search[data-v-62eacfff] {
+#app .search {
     position: absolute;
     left: 0;
     margin-left: 100px;
@@ -1126,7 +1126,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.transparent .search[data-v-62eacfff] svg {
+#app .transparent .search svg {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
@@ -1158,7 +1158,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.search[data-v-62eacfff]:hover svg {
+#app .search:hover svg {
     color: rgb(var(--ksyoz-color-main));
 }
 
