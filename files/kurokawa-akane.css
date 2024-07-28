@@ -446,7 +446,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     border-bottom-right-radius: var(--curvyness);
 }
 
-.overview[data-v-673e019c] .content-wrap {
+.overview[data-v-673e019c] .content-wrap[data-v-5c30286e] {
     border: 3px solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     background: rgb(var(--ksyoz-color-background));
