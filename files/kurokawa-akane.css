@@ -316,7 +316,7 @@ body {
 /*noScroll
 This section makes the about section and activities display in full instead of having to scroll them.*/
 
-.about .content-wrap[data-v-5c30286e], .text[data-v-04d66030] .markdown {
+#app .about .content-wrap, #app .text .markdown {
     max-height: var(--scroll);
     overflow: hidden;
 }
