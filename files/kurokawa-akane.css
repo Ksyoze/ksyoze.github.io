@@ -435,7 +435,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     padding: 0%;
 }
 
-.overview[data-v-5c30286e], .medialist[data-v-0567dd85], .favourites:not(.favourites[data-v-3f86aedd], .favourites[data-v-ddf96a3c]), 
+#app .overview, .medialist[data-v-0567dd85], .favourites:not(.favourites[data-v-3f86aedd], .favourites[data-v-ddf96a3c]), 
 .stats[data-v-1e00b9da], .user-social[data-v-e4963b98], .review-wrap[data-v-5e6a17b4]{
     /*This section handles the semi-opaque background for each profile section.*/
     max-width: 1520px;
