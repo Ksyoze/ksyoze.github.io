@@ -874,7 +874,7 @@ This makes links turn blue on hover.*/
     display: none;
 }
 
-.list-stats[data-v-815ccddc]:nth-child(1) {
+#app .list-stats:nth-child(1) {
     border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-left: 3px solid rgb(var(--ksyoz-color-main)) !important;
@@ -882,7 +882,7 @@ This makes links turn blue on hover.*/
     border-radius: var(--curvyness-activity) 0px 0px var(--curvyness-activity);
 }
 
-.list-stats[data-v-815ccddc]:nth-child(2) {
+#app .list-stats:nth-child(2) {
     border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-left: transparent !important;
