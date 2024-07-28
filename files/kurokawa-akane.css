@@ -342,7 +342,7 @@ This section makes the about section and activities display in full instead of h
 
 /*header*/
 
-.nav[data-v-62eacfff] {
+#nav .nav {
     width: var(--head-width);
     height: 80px;
     border-style: hidden;
