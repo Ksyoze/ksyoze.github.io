@@ -675,7 +675,7 @@ This gives the footer a similar design to the header.*/
     margin: auto !important;
 }
 
-#app .footer {
+#app .wrap > .footer {
     /*This curves the footer's corners and lightens the background to the same color as the header.*/
     border-radius: var(--curvyness) var(--curvyness) 0px 0px;
     background: rgb(var(--ksyoz-color-background));
@@ -683,7 +683,7 @@ This gives the footer a similar design to the header.*/
     position: relative;
 }
 
-#app .footer::before {
+#app .wrap > .footer::before {
     content: "";
     display: block;
     position: absolute;
