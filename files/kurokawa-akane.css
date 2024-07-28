@@ -336,7 +336,7 @@ This section makes the about section and activities display in full instead of h
 
 /*logoChanger*/
 
-#app .logo, #app .user {
+#app .logo {
     height: var(--logo-height);
 }
 
