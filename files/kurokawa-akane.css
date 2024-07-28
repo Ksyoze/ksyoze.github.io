@@ -363,7 +363,7 @@ This section makes the about section and activities display in full instead of h
     margin-right: 100px;
 }
 
-#app .logo {
+#nav .logo {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -371,13 +371,13 @@ This section makes the about section and activities display in full instead of h
     right: 0;
 }
 
-#app .logo img {
+#nav .logo img {
     content: var(--logo-image);
     height: var(--logo-height);
     width: auto;
 }
 
-#app .link {
+#nav .link {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
@@ -391,7 +391,7 @@ This section makes the about section and activities display in full instead of h
 
 /*Navbar doesn't disappear*/
 
-#app .hide {
+#nav .hide {
     top: 0px;
 }
 
