@@ -412,7 +412,7 @@ This removes the banner image.*/
 
 This surrounds the overview, favourites previews, status posts, etc. with a transparent box and turns the navbar into a nice-looking top.*/
 
-.nav-wrap[data-v-1cc2919e]{
+#app .nav-wrap{
     max-width: 1520px;
     width: var(--nav-width);
     margin: auto;
