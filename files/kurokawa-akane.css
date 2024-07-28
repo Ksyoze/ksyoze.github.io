@@ -721,13 +721,13 @@ This makes links turn blue on hover.*/
     color: rgb(173,192,210);
 }
 
-.primary-link, .secondary-link, .footer[data-v-38edf8f8] {
+.primary-link, .secondary-link, .footer {
     /*This sets the color that the text usually goes when hovered over to the profile them color.*/
     --color-gray-800: rgb(var(--color-blue)) !important;
     --color-gray-900: rgb(var(--color-blue))!important;
 }
 
-.link[data-v-4fbac4e1]:hover {
+.link:hover {
     /*This handles the links that aren't covered by the above block.*/
     color: rgb(var(--color-blue)) !important;
 }
@@ -758,18 +758,18 @@ This makes links turn blue on hover.*/
 
 /*changes the icons from followers/likers*/
 
-.user-follow .follow-card{
+.user-follow .follow-card {
     border-radius: var(--curvyness-social);
     background-color: rgba(0,0,0,0.3);
     transition: var(--social-time);
 }
 
-.avatar[data-v-39573fe2]{
+.avatar {
     border-radius: var(--curvyness-social);
     border: var(--border-socials) solid rgb(var(--ksyoz-color-main)); 
 }
 
-.user[data-v-5fb0ec91] {
+.user {
     border-radius: var(--curvyness-social);
     border: var(--border-socials) solid rgb(var(--ksyoz-color-main));
 }
@@ -784,7 +784,7 @@ This makes links turn blue on hover.*/
     transition: var(--social-time);
 }
 
-.name[data-v-39573fe2] {
+.name {
     background: rgba(0,0,0,0.4);
 }
 
@@ -830,12 +830,12 @@ This makes links turn blue on hover.*/
     z-index: -2;
 }
 
-.lists[data-v-0567dd85] {
+.lists {
    z-index: 1;
 }
 
 /*Load More button*/
-.load-more[data-v-6f203cf2] {
+.load-more {
     border-radius: var(--curvyness-loadmore);
     background: rgb(var(--ksyoz-color-background-d));
     padding: 16px !important;
@@ -849,13 +849,13 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.load-more[data-v-6f203cf2]:hover {
+.load-more:hover {
     border-width: 12px;
     width: 100%;
     color: rgb(var(--ksyoz-color-main));
 }
 
-.el-dropdown[data-v-eb51fd0e] {
+.el-dropdown {
     margin-top: -10px;
 }
 
@@ -863,18 +863,18 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.overview[data-v-5c30286e] .section-header {
+.overview .section-header {
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 6px;
     height: 20px;
 }
 
-.desktop[data-v-63cd3b41]{
+.desktop{
     display: none;
 }
 
-.list-stats[data-v-815ccddc]:nth-child(1) {
+.list-stats:nth-child(1) {
     border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-left: 3px solid rgb(var(--ksyoz-color-main)) !important;
@@ -882,7 +882,7 @@ This makes links turn blue on hover.*/
     border-radius: var(--curvyness-activity) 0px 0px var(--curvyness-activity);
 }
 
-.list-stats[data-v-815ccddc]:nth-child(2) {
+.list-stats:nth-child(2) {
     border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-left: transparent !important;
