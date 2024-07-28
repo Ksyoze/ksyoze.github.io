@@ -1455,7 +1455,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .links {
+#nav .links {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -1947,7 +1947,7 @@ h2[data-v-0f519cab] {
     display: none;
 }
 
-.links[data-v-0f519cab] {
+#nav .links {
     margin: auto;
     margin-left: inherit;
 }
