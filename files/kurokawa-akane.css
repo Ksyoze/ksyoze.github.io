@@ -422,7 +422,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     background: rgb(var(--ksyoz-color-background-t));
 }
 
-.nav[data-v-1cc2919e] {
+#app .nav .container {
     font-size: 16px;
     padding-left: 0px;
     padding-right: 0px;
