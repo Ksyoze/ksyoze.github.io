@@ -1984,7 +1984,7 @@ h2[data-v-0f519cab] {
     display: block;
 }
 
-.banner .container[data-v-1cc2919e] {
+#app .banner .container {
     flex-direction: column-reverse;
 }
 
