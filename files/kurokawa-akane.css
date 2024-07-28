@@ -618,13 +618,13 @@ This improves the favourites section a lot.*/
     height: auto;
 }*/
 
-.favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c], .favourites.preview .favourites-wrap > div {
+#app .favourites.preview .favourites-wrap .favourite, #app .favourites.preview .favourites-wrap > div {
     border: var(--border-fav) solid rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
     transition: 1s;
 }
 
-.favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c]:hover, .favourites.preview .favourites-wrap > div:hover {
+#app .favourites.preview .favourites-wrap .favourite:hover, #app .favourites.preview .favourites-wrap > div:hover {
     border: var(--border-fav) solid rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brighter));
     transition: 1s;
