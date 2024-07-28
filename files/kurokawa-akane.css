@@ -722,7 +722,7 @@ This makes links turn blue on hover.*/
 }
 
 .primary-link, .secondary-link, .footer[data-v-38edf8f8] {
-    /*This sets the color that the text usually goes when hovered over to the profile them color.*/
+    /*This sets the color that the text usually goes when hovered over to the profile theme color.*/
     --color-gray-800: rgb(var(--color-blue)) !important;
     --color-gray-900: rgb(var(--color-blue))!important;
 }
