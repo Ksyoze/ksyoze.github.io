@@ -571,12 +571,12 @@ h2 {
     color: rgb(var(--ksyoz-color-post));
 }
 
-.time[data-v-04d66030] {
+#app .time {
     color: rgb(var(--ksyoz-color-brighter));
     filter: var(--drop-shadow);
 }
 
-.time[data-v-04d66030]:hover{
+#app .time:hover{
     background-color: none;
 }
 
