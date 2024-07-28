@@ -894,7 +894,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.footer[data-v-04b245e6] {
+#app .footer {
     background: rgb(var(--ksyoz-color-background));
 }
 
