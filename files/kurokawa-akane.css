@@ -357,7 +357,7 @@ This section makes the about section and activities display in full instead of h
     margin-left: 100px;
 }
 
-.user[data-v-62eacfff] {
+#nav .wrap > .user {
     position: absolute;
     right: 0; 
     margin-right: 100px;
