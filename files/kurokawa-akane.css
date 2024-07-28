@@ -377,11 +377,11 @@ This section makes the about section and activities display in full instead of h
     width: auto;
 }
 
-.link[data-v-62eacfff] {
+#app .link {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.link[data-v-62eacfff]:nth-child(3) {
+#app .link:nth-child(3) {
     margin-right: 400px;
 }
 
@@ -727,7 +727,7 @@ This makes links turn blue on hover.*/
     --color-gray-900: rgb(var(--color-blue))!important;
 }
 
-.link[data-v-4fbac4e1]:hover {
+#app .link:hover {
     /*This handles the links that aren't covered by the above block.*/
     color: rgb(var(--color-blue)) !important;
 }
@@ -962,11 +962,11 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.nav .link[data-v-1cc2919e] {
+#app .nav .link {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.nav .link[data-v-1cc2919e]:hover {
+#app .nav .link:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1154,7 +1154,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.link[data-v-62eacfff]:hover {
+#app .link:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
