@@ -536,6 +536,22 @@ body {
 
 /* FAVOURITES OVERVIEW */
 
+#app .favourites.preview .favourites-wrap {
+    overflow: visible;
+}
+
+#app .favourites.preview .favourites-wrap .favourite, #app .favourites.preview .favourites-wrap>div {
+    border: var(--border-fav) solid rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brighter));
+    transition: 1s;
+}
+
+#app .favourites.preview .favourites-wrap .favourite:hover, #app .favourites.preview .favourites-wrap>div:hover {
+    border: var(--border-fav) solid rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brighter));
+    transition: 1s;
+}
+
 /* ENTRIES */
 
 /* LOAD MORE */
