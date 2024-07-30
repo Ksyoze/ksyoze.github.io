@@ -230,6 +230,14 @@
     color: rgb(var(--ksyoz-color-brighter));
 }
 
+#nav .primary-links > .primary-link:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
+#nav .primary-link:hover .icon {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #nav .dropdown > .footer {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-bright));
