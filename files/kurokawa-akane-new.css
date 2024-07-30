@@ -338,7 +338,7 @@ body {
     height: calc(100vh - 46px) !important;
 }
 
-.banner-content {
+#app .banner-content {
     visibility: visible !important;
 }
 
