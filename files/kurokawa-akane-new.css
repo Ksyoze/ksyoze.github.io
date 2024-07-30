@@ -449,7 +449,6 @@ body {
     border-left: transparent !important;
     border-right: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-radius: 0px var(--curvyness-activity) var(--curvyness-activity) 0px;
-
 }
 
 #app .stat .value, #app .stat .label {
@@ -468,6 +467,11 @@ body {
     border-radius: var(--curvyness-activity);
     background: rgb(var(--ksyoz-color-background));
     scrollbar-width: none;
+}
+
+#app .about .content-wrap {
+    max-height: var(--scroll);
+    overflow: hidden;
 }
 
 /* PINNED POST */
