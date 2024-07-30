@@ -525,6 +525,13 @@ body {
     color: rgb(var(--ksyoz-color-post));
 }
 
+.hohPinned .markdown {
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
 .hohPinned .markdown img {
     margin-top: 30px;
     border-radius: 5px;
