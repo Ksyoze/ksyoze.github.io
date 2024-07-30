@@ -132,7 +132,7 @@
 
 .site-theme-dark .nav-unscoped.transparent, .site-theme-dark .nav-unscoped, .site-theme-dark .nav-unscoped.transparent:hover {
     background: rgb(var(--ksyoz-color-background));
-    color: rgb(var(--ksyoz-color-header));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 #nav {
@@ -196,10 +196,6 @@
     position: absolute;
     right: 0;
     margin-right: 100px;
-}
-
-#nav .user .chevron {
-    color: rgb(var(--ksyoz-color-brightest));
 }
 
 /* DROPDOWN BROWSE */
