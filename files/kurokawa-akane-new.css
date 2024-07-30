@@ -381,6 +381,22 @@ body {
     transition: all var(--underline-time) ease;
 }
 
+#app .header-wrap > .nav-wrap {
+    max-width: 1520px;
+    width: var(--nav-width);
+    margin: auto;
+    border-top-left-radius: var(--curvyness);
+    border-top-right-radius: var(--curvyness);
+    overflow: hidden;
+    background: rgb(var(--ksyoz-color-background-t));
+}
+
+#app .nav-wrap > .nav {
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /* MILESTONES */
 
 #app .list-stats.content-wrap > .footer {
