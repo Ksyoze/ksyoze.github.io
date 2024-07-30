@@ -421,6 +421,12 @@ body {
     border-bottom-right-radius: var(--curvyness);
 }
 
+#app .content {
+    width: var(--nav-width);
+    height: auto;
+    padding: 0%;
+}
+
 /* MILESTONES */
 
 #app .stats-wrap {
