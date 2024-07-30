@@ -552,6 +552,12 @@ body {
     transition: 1s;
 }
 
+#app .favourite:hover {
+    transform: scale(var(--favourite-scale));
+    overflow: visible;
+    z-index: 100;
+}
+
 /* ENTRIES */
 
 /* LOAD MORE */
