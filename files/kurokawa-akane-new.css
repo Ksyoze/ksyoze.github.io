@@ -407,10 +407,23 @@ body {
     grid-column-gap: 0px;
 }
 
-#app .overview .content-wrap {
-    border: 3px solid rgb(var(--ksyoz-color-main));
-    border-radius: var(--curvyness-activity);
-    background: rgb(var(--ksyoz-color-background));
+#app .list-stats:nth-child(1) {
+    background: rgb(var(--ksyoz-color-main)) !important;
+    border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
+    border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
+    border-left: 3px solid rgb(var(--ksyoz-color-main)) !important;
+    border-right: transparent !important;
+    border-radius: var(--curvyness-activity) 0px 0px var(--curvyness-activity);
+}
+
+#app .list-stats:nth-child(2) {
+    background: rgb(var(--ksyoz-color-main)) !important;
+    border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
+    border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
+    border-left: transparent !important;
+    border-right: 3px solid rgb(var(--ksyoz-color-main)) !important;
+    border-radius: 0px var(--curvyness-activity) var(--curvyness-activity) 0px;
+
 }
 
 #app .list-stats.content-wrap > .footer {
