@@ -488,8 +488,8 @@ body {
 
 /* GENRE OVERVIEW */
 
-#app .genre-overview {
-    display: none;
+#app .desktop:nth-child(3) {
+    display: none
 }
 
 /* FAVOURITES OVERVIEW */
