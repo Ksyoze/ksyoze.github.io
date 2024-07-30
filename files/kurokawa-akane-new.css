@@ -367,6 +367,11 @@ body {
     animation: stars 20s infinite linear;
 }
 
+#app .container > .links {
+    margin: auto;
+    margin-left: inherit;
+}
+
 #app .theme-selector > h2 {
     display: none;
 }
