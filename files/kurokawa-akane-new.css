@@ -642,6 +642,14 @@ body {
     font-weight: 700;
 }
 
+#app .activity-feed-wrap > h2 > .el-dropdown {
+    margin-top: -10px;
+}
+
+#app .el-dropdown-menu {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 /* LOAD MORE */
 
 #app .load-more {
