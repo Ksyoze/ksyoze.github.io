@@ -891,10 +891,6 @@ This makes links turn blue on hover.*/
     border-radius: 0px var(--curvyness-activity) var(--curvyness-activity) 0px;
 }
 
-.dropdown {
-    background: rgb(var(--ksyoz-color-background-d));
-}
-
 .user .chevron {
     color: rgb(var(--ksyoz-color-brightest));
 }
@@ -1632,11 +1628,6 @@ This makes links turn blue on hover.*/
 
 .has-label:before {
     content: none;
-}
-
-.dropdown {
-    background: rgb(var(--ksyoz-color-background-d));
-    text-transform: capitalize;
 }
 
 .dropdown:before {
