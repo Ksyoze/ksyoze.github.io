@@ -44,7 +44,7 @@
     --ksyoz-color-bright: 200, 200, 200;
     --ksyoz-color-main: 152, 201, 239;
     --ksyoz-color-main-d: 116, 160, 194;
-    --ksyoz-color-post: 159,173,189;
+    --ksyoz-color-post: 159, 173, 189;
     --ksyoz-color-overlay: 28, 21, 46;
     --ksyoz-color-header: 229, 231, 234;
     --opacity-header: 1;
@@ -161,6 +161,7 @@ body {
     0% {
         background-position: 0 0;
     }
+
     100% {
         background-position: 0px -1080px;
     }
@@ -171,6 +172,7 @@ body {
         height: 0;
         left: 10px;
     }
+
     100% {
         height: 80%;
         left: 25px;
@@ -179,7 +181,9 @@ body {
 
 /* HEADER */
 
-.site-theme-dark .nav-unscoped.transparent, .site-theme-dark .nav-unscoped, .site-theme-dark .nav-unscoped.transparent:hover {
+.site-theme-dark .nav-unscoped.transparent,
+.site-theme-dark .nav-unscoped,
+.site-theme-dark .nav-unscoped.transparent:hover {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-brightest));
 }
@@ -197,7 +201,7 @@ body {
     max-width: 1750px;
 }
 
-#nav .wrap > .logo {
+#nav .wrap>.logo {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -206,24 +210,24 @@ body {
     height: var(--logo-height);
 }
 
-#nav .wrap > .logo img {
+#nav .wrap>.logo img {
     content: var(--logo-image);
     height: var(--logo-height);
     width: auto;
 }
 
-#nav .wrap > .links {
+#nav .wrap>.links {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
 }
 
-#nav .links > .link {
+#nav .links>.link {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#nav .links > .link:hover {
+#nav .links>.link:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -231,17 +235,19 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#nav .links > .link:nth-child(3) {
+#nav .links>.link:nth-child(3) {
     margin-right: 400px;
 }
 
-#nav .wrap > .search {
+#nav .wrap>.search {
     position: absolute;
     left: 0;
     margin-left: 100px;
 }
 
-#app .transparent .search svg, #app .transparent .search svg, #app .search svg {
+#app .transparent .search svg,
+#app .transparent .search svg,
+#app .search svg {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
@@ -249,19 +255,19 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#nav .wrap > .user {
+#nav .wrap>.user {
     position: absolute;
     right: 0;
     margin-right: 100px;
 }
 
-#nav .dropdown > .footer {
+#nav .dropdown>.footer {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-bright));
     text-transform: capitalize;
 }
 
-#nav .dropdown > .footer a:hover {
+#nav .dropdown>.footer a:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -271,11 +277,11 @@ body {
 
 /* DROPDOWN BROWSE */
 
-#app .browse-wrap > .dropdown {
+#app .browse-wrap>.dropdown {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#nav .dropdown > .footer a:hover .icon {
+#nav .dropdown>.footer a:hover .icon {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -307,15 +313,15 @@ body {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#nav .user-wrap > .dropdown {
+#nav .user-wrap>.dropdown {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#nav .user-wrap > .dropdown::before {
+#nav .user-wrap>.dropdown::before {
     color: rgb(var(--ksyoz-color-background-d));
 }
 
-#nav .primary-links> .primary-link {
+#nav .primary-links>.primary-link {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -323,7 +329,7 @@ body {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#nav .primary-links > .primary-link:hover {
+#nav .primary-links>.primary-link:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -344,27 +350,27 @@ body {
 
 /* NAVIGATION */
 
-#app .nav-wrap > .nav {
+#app .nav-wrap>.nav {
     font-size: 16px;
     padding-left: 0px;
     padding-right: 0px;
 }
 
-#app .nav-wrap > .nav .link {
+#app .nav-wrap>.nav .link {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .nav-wrap > .nav .router-link-active {
+#app .nav-wrap>.nav .router-link-active {
     color: rgb(var(--ksyoz-color-main)) !important;
 }
 
-#app .nav > .router-link-active::after {
+#app .nav>.router-link-active::after {
     left: 0;
     width: 100%;
     background: rgb(var(--ksyoz-color-main));
 }
 
-#app .nav > .link::after {
+#app .nav>.link::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -392,14 +398,14 @@ body {
     margin: auto !important;
 }
 
-#app .wrap > .footer {
+#app .wrap>.footer {
     border-radius: var(--curvyness) var(--curvyness) 0px 0px;
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
     position: relative;
 }
 
-#app .wrap > .footer::before {
+#app .wrap>.footer::before {
     content: "";
     display: block;
     position: absolute;
@@ -411,18 +417,18 @@ body {
     animation: stars 20s infinite linear;
 }
 
-#app .container > .links {
+#app .container>.links {
     margin: auto;
     margin-left: inherit;
 }
 
-#app .theme-selector > h2 {
+#app .theme-selector>h2 {
     display: none;
 }
 
 .page-content .wrap:has(.footer) .theme-selector {
-    position: fixed; 
-    left: 10px; 
+    position: fixed;
+    left: 10px;
     bottom: 10px;
 }
 
@@ -466,7 +472,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     position: absolute;
     rotate: -35deg;
     animation: strikethrough 0.2s linear forwards;
-    }
+}
 
 .text div.markdown {
     scrollbar-width: none;
@@ -485,15 +491,17 @@ body:not(.site-theme-dark) .theme-preview.default {
     animation: strikethrough 0.2s linear reverse forwards;
 }
 
-#app .container > .links a {
+#app .container>.links a {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .container > .links a:hover {
+#app .container>.links a:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.footer [href="https://discord.gg/TF428cr"]::before, .footer [href="https://twitter.com/AniListco"]::before,
-.footer [href="https://www.facebook.com/AniListco"]::before, .footer [href="https://github.com/AniList"]::before {
+.footer [href="https://discord.gg/TF428cr"]::before,
+.footer [href="https://twitter.com/AniListco"]::before,
+.footer [href="https://www.facebook.com/AniListco"]::before,
+.footer [href="https://github.com/AniList"]::before {
     content: "";
 }
