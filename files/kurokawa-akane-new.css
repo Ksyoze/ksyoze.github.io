@@ -187,10 +187,12 @@
 
 #app .primary-link-text {
     color: rgb(var(--ksyoz-color-main));
+    text-transform: capitalize;
 }
 
 #app .secondary-links {
     color: rgb(var(--ksyoz-color-brightest));
+    text-transform: capitalize;
 }
 
 /* PROFILE DROPDOWN */
