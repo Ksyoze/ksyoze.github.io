@@ -385,9 +385,9 @@ This section makes the about section and activities display in full instead of h
     margin-right: 400px;
 }
 
-#app .wrap {
+/*#app .wrap {
     max-width: 1750px;
-}
+}*/
 
 /*Navbar doesn't disappear*/
 
