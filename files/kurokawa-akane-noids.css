@@ -1655,10 +1655,6 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.secondary-links {
-    color: rgb(var(--ksyoz-color-bright));
-}
-
 .footer {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-brighter));
