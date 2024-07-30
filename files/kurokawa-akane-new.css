@@ -463,6 +463,13 @@ body {
 
 /* BIO */
 
+#app .about > div.content-wrap {
+    border: 3px solid rgb(var(--ksyoz-color-main));
+    border-radius: var(--curvyness-activity);
+    background: rgb(var(--ksyoz-color-background));
+    scrollbar-width: none;
+}
+
 /* PINNED POST */
 
 .hohPinned .wrap {
