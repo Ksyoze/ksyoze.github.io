@@ -130,7 +130,7 @@
 
 /* NAVBAR */
 
-.site-theme-dark .nav-unscoped.transparent, .site-theme-dark .nav-unscoped {
+.site-theme-dark .nav-unscoped.transparent, .site-theme-dark .nav-unscoped, .site-theme-dark .nav-unscoped.transparent:hover {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
 }
@@ -266,3 +266,6 @@
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-bright));
 }
+
+/* FOOTER */
+
