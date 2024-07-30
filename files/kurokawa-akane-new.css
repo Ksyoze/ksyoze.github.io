@@ -656,6 +656,11 @@ body {
     background: rgb(var(--ksyoz-color-background));
 }
 
+.activity-feed {
+    max-height: var(--feed-height);
+    overflow: auto;
+}
+
 /* LOAD MORE */
 
 #app .load-more {
