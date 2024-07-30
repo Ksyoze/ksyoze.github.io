@@ -383,6 +383,11 @@ body {
 
 /* MILESTONES */
 
+#app .list-stats.content-wrap > .footer {
+    display: none;
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
 /* ACTIVITY HISTORY */
 
 /* GENRE OVERVIEW */
