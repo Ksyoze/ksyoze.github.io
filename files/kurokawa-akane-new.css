@@ -130,13 +130,22 @@
 
 /* NAVBAR */
 
-#nav .wrap[data-v-62eacfff] {
-    max-width: 1750px;
-}
-
 .site-theme-dark .nav-unscoped.transparent {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
+}
+
+#nav {
+    width: var(--head-width);
+    height: 80px;
+    border-style: hidden;
+    border-bottom-left-radius: var(--curvyness-head);
+    border-bottom-right-radius: var(--curvyness-head);
+    left: calc((100% - var(--head-width)) / 2);
+}
+
+#nav .wrap[data-v-62eacfff] {
+    max-width: 1750px;
 }
 
 #nav .wrap > .logo {
