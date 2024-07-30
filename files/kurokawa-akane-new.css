@@ -407,7 +407,7 @@ body {
     grid-column-gap: 0px;
 }
 
-#app .list-stats:nth-child(1) {
+#app .stats-wrap > .list-stats:nth-child(1) {
     background: rgb(var(--ksyoz-color-main)) !important;
     border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
@@ -416,7 +416,7 @@ body {
     border-radius: var(--curvyness-activity) 0px 0px var(--curvyness-activity);
 }
 
-#app .list-stats:nth-child(2) {
+#app .stats-wrap > .list-stats:nth-child(2) {
     background: rgb(var(--ksyoz-color-main)) !important;
     border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
