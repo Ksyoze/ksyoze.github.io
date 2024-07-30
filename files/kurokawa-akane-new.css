@@ -202,12 +202,6 @@
     margin-right: 100px;
 }
 
-/* DROPDOWN BROWSE */
-
-#app .browse-wrap > .dropdown {
-    background: rgb(var(--ksyoz-color-background-d));
-}
-
 #nav .dropdown > .footer {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-bright));
@@ -216,6 +210,12 @@
 
 #nav .dropdown > .footer a:hover {
     color: rgb(var(--ksyoz-color-main));
+}
+
+/* DROPDOWN BROWSE */
+
+#app .browse-wrap > .dropdown {
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 #nav .dropdown > .footer a:hover .icon {
@@ -268,11 +268,6 @@
 
 #nav .primary-link:hover .icon {
     color: rgb(var(--ksyoz-color-main));
-}
-
-#nav .dropdown > .footer {
-    background: rgb(var(--ksyoz-color-background));
-    color: rgb(var(--ksyoz-color-bright));
 }
 
 /* FOOTER */
