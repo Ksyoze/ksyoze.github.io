@@ -318,6 +318,14 @@
     animation: stars 20s infinite linear;
 }
 
+#app .container > .links a {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .container > .links a:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* KEYFRAMES */
 
 @keyframes loadingstars {
