@@ -204,6 +204,10 @@
     text-transform: capitalize;
 }
 
+#nav .secondary-links a:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* PROFILE DROPDOWN */
 
 #nav .user .chevron {
