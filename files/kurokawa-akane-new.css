@@ -191,3 +191,9 @@
 #app .secondary-links {
     color: rgb(var(--ksyoz-color-brightest));
 }
+
+/* PROFILE DROPDOWN */
+
+#nav .user .chevron {
+    color: rgb(var(--ksyoz-color-brightest));
+}
