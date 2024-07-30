@@ -186,6 +186,14 @@
     text-transform: capitalize;
 }
 
+#nav .dropdown > .footer a:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
+#nav .dropdown > .footer a:hover .icon {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #app .primary-link-text {
     color: rgb(var(--ksyoz-color-main));
     text-transform: capitalize;
