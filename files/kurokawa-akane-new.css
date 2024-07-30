@@ -496,6 +496,10 @@ body {
     background: rgb(var(--ksyoz-color-main)) !important;
 }
 
+#app .history-day {
+    border-radius: var(--curvyness-history);
+}
+
 /* GENRE OVERVIEW */
 
 #app .desktop:nth-child(3) {
