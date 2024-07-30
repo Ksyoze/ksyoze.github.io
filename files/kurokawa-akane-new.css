@@ -126,6 +126,18 @@
     --akane-column: span 1;
 }
 
+/* APPLIES TO EVERYTHING */
+
+* {
+    cursor: var(--cursor-url), auto;
+    scrollbar-width: none;
+}
+
+body {
+    font-family: Overpass, sans-serif;
+    background: var(--background-img) center top / 100% fixed;
+}
+
 /* KEYFRAMES */
 
 @keyframes loadingstars {
