@@ -407,6 +407,12 @@ body {
     grid-column-gap: 0px;
 }
 
+#app .overview .content-wrap {
+    border: 3px solid rgb(var(--ksyoz-color-main));
+    border-radius: var(--curvyness-activity);
+    background: rgb(var(--ksyoz-color-background));
+}
+
 #app .list-stats.content-wrap > .footer {
     display: none;
     background: rgb(var(--ksyoz-color-background-d));
