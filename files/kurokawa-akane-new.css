@@ -358,13 +358,13 @@ body {
     color: rgb(var(--ksyoz-color-main)) !important;
 }
 
-.nav > .router-link-active::after {
+#app .nav > .router-link-active::after {
     left: 0;
     width: 100%;
     background: rgb(var(--ksyoz-color-main));
 }
 
-.nav > .link::after {
+#app .nav > .link::after {
     content: "";
     position: absolute;
     bottom: 0;
