@@ -31,11 +31,11 @@
     --activity-time: 0.3s;
     --activity-border: 3px;
     --avatar-image: url("https://i.imgur.com/RxdKVEh.png");
-    --cursor-url: url("https://i.imgur.com/qtxRLwX.png"); /*Image for custom cursor.*/
-    --background-img: url("https://i.imgur.com/vPgO8FI.png"); /*Image for custom background.*/
-    --footer-img: url("https://i.imgur.com/kj1U8w8.png"); /*Image for custom footer.*/
-    --content-width: 100%; /*The width of the content box.*/
-    --ksyoz-color-background: 23, 26, 33, 1; /*Main profile color.*/
+    --cursor-url: url("https://i.imgur.com/qtxRLwX.png");
+    --background-img: url("https://i.imgur.com/vPgO8FI.png");
+    --footer-img: url("https://i.imgur.com/kj1U8w8.png");
+    --content-width: 100%;
+    --ksyoz-color-background: 23, 26, 33, 1;
     --ksyoz-color-background-t: 23, 26, 33, 0.99;
     --ksyoz-color-background-d: 18, 20, 26, 1;
     --ksyoz-color-sub: 136, 183, 219;
@@ -47,9 +47,9 @@
     --ksyoz-color-post: 159,173,189;
     --ksyoz-color-overlay: 28, 21, 46;
     --ksyoz-color-header: 229, 231, 234;
-    --opacity-header: 1; /*How opaque the header is: higher number = less seethrough.*/
-    --transition-img: 0.5s; /*Transition time from the image in the activity.*/
-    --transition-txt: 0.6s; /*Transition time from the text in the activity.*/
+    --opacity-header: 1;
+    --transition-img: 0.5s;
+    --transition-txt: 0.6s;
     --drop-shadow: drop-shadow(0px 0px 6px black);
     --drop-shadow-b: drop-shadow(0px 0px 6px white);
     --blur-activity: 1.5px;
@@ -1632,10 +1632,6 @@ This makes links turn blue on hover.*/
 
 .dropdown:before {
     color: rgb(var(--ksyoz-color-background-d));
-}
-
-.primary-link {
-    color: rgb(var(--ksyoz-color-main));
 }
 
 .primary-link-text {
