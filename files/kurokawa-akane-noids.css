@@ -126,15 +126,15 @@
     --akane-column: span 1;
 }
 
-.title[data-v-13cdaed6] {
+.title {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.info[data-v-13cdaed6] {
+.info {
     color: rgb(var(--ksyoz-color-post));
 }
 
-.embed[data-v-13cdaed6] {
+.embed {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
@@ -202,17 +202,17 @@ a:visited:hover {
     filter: blur(var(--blur-activity));
 }
 
-.list.small .cover[data-v-04d66030] {
+.list.small .cover {
     transition: var(--transition-img);
     width: 50px;
 }
 
-/*.activity-entry .wrap:hover .details[data-v-04d66030]{
+/*.activity-entry .wrap:hover .details{
     margin-right: 50px;
     transition: var(--transition-text);
 }*/
 
-.activity-entry .wrap:hover .cover[data-v-04d66030] {
+.activity-entry .wrap:hover .cover {
     transition: var(--transition-img);
     width: 410px;
     filter: blur(8px) opacity(25%);
@@ -223,7 +223,7 @@ a:visited:hover {
     transition: var(--transition-txt);
 }
 
-.activity-entry.full-width .wrap:hover .cover[data-v-04d66030]  {
+.activity-entry.full-width .wrap:hover .cover {
     transition: var(--transition-img);
     width: 854px;
 
@@ -248,7 +248,7 @@ a:visited:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app #nav .site-theme-dark .nav-unscoped.transparent, .nav[data-v-62eacfff], .solid[data-v-62eacfff], #app .transparent:hover, #app .transparent {
+#app #nav .site-theme-dark .nav-unscoped.transparent, .nav, .solid, #app .transparent:hover, #app .transparent {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
     border-bottom-left-radius: var(--curvyness);
@@ -272,41 +272,41 @@ body {
 
 /*history*/
 
-.history-day[data-v-b79eb0f0] {
+.history-day {
     border-radius: var(--curvyness-history);
 }
 
-.history-day.lv-1[data-v-b79eb0f0], .tooltip .circle.lv-1[data-v-b79eb0f0] {
+.history-day.lv-1, .tooltip .circle.lv-1 {
     background: rgba(var(--ksyoz-color-brightest),0.7);
 }
 
-.history-day.lv-2[data-v-b79eb0f0], .tooltip .circle.lv-2[data-v-b79eb0f0] {
+.history-day.lv-2, .tooltip .circle.lv-2 {
     background: rgb(var(--ksyoz-color-brightest),0.75);
 }
 
-.history-day.lv-3[data-v-b79eb0f0], .tooltip .circle.lv-3[data-v-b79eb0f0] {
+.history-day.lv-3, .tooltip .circle.lv-3 {
     background: rgba(var(--ksyoz-color-brightest),0.8);
 }
 
-.history-day.lv-4[data-v-b79eb0f0], .tooltip .circle.lv-4[data-v-b79eb0f0] {
+.history-day.lv-4, .tooltip .circle.lv-4 {
     background: rgba(var(--ksyoz-color-brightest),0.85);
 }
 
-.history-day.lv-5[data-v-b79eb0f0], .tooltip .circle.lv-5[data-v-b79eb0f0] {
+.history-day.lv-5, .tooltip .circle.lv-5 {
     background: rgba(var(--ksyoz-color-brightest),0.9);
 }
 
-.history-day.lv-6[data-v-b79eb0f0], .history-day.lv-7[data-v-b79eb0f0], .history-day.lv-8[data-v-b79eb0f0], .history-day.lv-9[data-v-b79eb0f0], .tooltip .circle.lv-6[data-v-b79eb0f0], .tooltip .circle.lv-7[data-v-b79eb0f0], .tooltip .circle.lv-8[data-v-b79eb0f0], .tooltip .circle.lv-9[data-v-b79eb0f0] {
+.history-day.lv-6, .history-day.lv-7, .history-day.lv-8, .history-day.lv-9, .tooltip .circle.lv-6, .tooltip .circle.lv-7, .tooltip .circle.lv-8, .tooltip .circle.lv-9 {
     background: rgb(var(--ksyoz-color-brightest),0.95);
 }
 
-.history-day.lv-8[data-v-b79eb0f0], .history-day.lv-9[data-v-b79eb0f0], .tooltip .circle.lv-8[data-v-b79eb0f0], .tooltip .circle.lv-9[data-v-b79eb0f0] {
+.history-day.lv-8, .history-day.lv-9, .tooltip .circle.lv-8, .tooltip .circle.lv-9 {
     background: rgb(var(--ksyoz-color-brightest));
 }
 
 /*milestones*/
 
-.footer[data-v-815ccddc] {
+.footer {
     background: none;
     display: none;
 }
@@ -454,7 +454,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     background: rgb(var(--ksyoz-color-background));
 }
 
-.submissions[data-v-3ed82f3f]{
+.submissions{
     /*This is a fix for an annoying part of the submissions section. If you want to know more, try removing this part and see what happens.*/
     min-width: 100%;
     margin: 0% 0% 2% 0% !important;
@@ -464,20 +464,20 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     border-bottom-right-radius: var(--curvyness); 
 }
 
-.content[data-v-0369a0cf]{
+.content{
     /*A fix for the review section making the text centred properly.*/
     max-width: 100% !important
 }
 
 /*The following blocks make all the corners curved.*/
 
-.favourites[data-v-3f86aedd],.review-card[data-v-0369a0cf], .follow-card,
-.bar-chart-wrap[data-v-46edc0ca], .pie-chart.vertical-layout[data-v-26dc9635], 
-.draggable[data-v-202815eb],.favourites-wrap[data-v-3f86aedd], .list-section, .filters,
-.el-input__inner, .random-btn[data-v-063397cc], .hohButton, .filter-group:first-child > span, .el-input,
-.content-wrap, .wrap[data-v-1bf2cf4e], .input[data-v-c574a71c]  a.router-link-active, .hohActive, .thread-card[data-v-70ae1ba4],
-.hohSocialContent, .hohThemeSwitch, .filter-group a[data-v-1e00b9da], .button[data-v-c574a71c], .primary-links[data-v-04b245e6], 
-.reply[data-v-732ef224], .markdown-editor, .theme-switch, .image, img, .youtube, blockquote, .embed[data-v-13cdaed6], .wrap{
+.favourites,.review-card, .follow-card,
+.bar-chart-wrap, .pie-chart.vertical-layout, 
+.draggable,.favourites-wrap, .list-section, .filters,
+.el-input__inner, .random-btn, .hohButton, .filter-group:first-child > span, .el-input,
+.content-wrap, .wrap, .input a.router-link-active, .hohActive, .thread-card,
+.hohSocialContent, .hohThemeSwitch, .filter-group a, .button, .primary-links, 
+.reply, .markdown-editor, .theme-switch, .image, img, .youtube, blockquote, .embed, .wrap{
     border-radius: var(--curvyness);
 }
 
@@ -486,12 +486,12 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.reply[data-v-732ef224] {
+.reply {
     background: rgb(var(--ksyoz-color-background));
     border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
 }
 
-.input[data-v-c574a71c] .el-textarea__inner {
+.input .el-textarea__inner {
     border-bottom: 2px solid rgb(var(--ksyoz-color-brightest));
     border-radius: var(--curvyness);
     background: rgb(var(--ksyoz-color-background));
@@ -502,7 +502,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     background: none;
 }
 
-.content-wrap[data-v-5c30286e], .content-wrap[data-v-5c30286e]:hover{
+.content-wrap, .content-wrap:hover{
     /*This is a fix for an annoying problem where a vertical line appears on the side of the About section.*/
     overflow-y: hidden;
 }
@@ -512,7 +512,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     right: var(--curvyness);
 }
 
-.theme-switch[data-v-0567dd85]{
+.theme-switch {
     /*This moves the theme switcher at the top right of media lists downwards.*/
     margin-top: 20%;
     background: transparent;
@@ -586,14 +586,14 @@ h2 {
 
 This improves the favourites section a lot.*/
 
-.favourite[data-v-ddf96a3c]{
+.favourite {
     /*This makes the picture curved and handles an important part of the transition.*/
     overflow: hidden;
     border-radius: var(--curvyness-fav);
     transition: var(--favourite-time);
 }
 
-.favourite[data-v-ddf96a3c]:hover{
+.favourite:hover {
     /*This makes the image expand when hovered over.*/
     transform: scale(var(--favourite-scale));
     overflow: visible;
