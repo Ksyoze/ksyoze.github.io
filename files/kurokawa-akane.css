@@ -391,7 +391,7 @@ This section makes the about section and activities display in full instead of h
 
 /*Navbar doesn't disappear*/
 
-#nav .hide {
+#app #nav .hide {
     top: 0px;
 }
 
