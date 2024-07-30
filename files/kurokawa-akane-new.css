@@ -138,11 +138,17 @@ body {
     background: var(--background-img) center top / 100% fixed;
 }
 
+/* APPLIES TO MULTIPLE */
+
 #app .header-wrap {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 16px;
+}
+
+#app .overview .section-header {
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 /* KEYFRAMES */
@@ -485,6 +491,10 @@ body {
 }
 
 /* ACTIVITY HISTORY */
+
+#app .activity-history {
+    background: rgb(var(--ksyoz-color-main)) !important;
+}
 
 /* GENRE OVERVIEW */
 
