@@ -195,7 +195,7 @@
 }
 
 #app .primary-link-text {
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-brighter));
     text-transform: capitalize;
 }
 
@@ -206,6 +206,10 @@
 #app .secondary-links {
     color: rgb(var(--ksyoz-color-brightest));
     text-transform: capitalize;
+}
+
+#app .secondary-links a {
+    color: rgb(var(--ksyoz-color-bright))
 }
 
 #nav .secondary-links a:hover {
