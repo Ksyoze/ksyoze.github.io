@@ -428,6 +428,10 @@ body {
 
 }
 
+#app .stat .value, #app .stat .label {
+    color: rgb(var(--ksyoz-color-background)) !important;
+}
+
 #app .list-stats.content-wrap > .footer {
     display: none;
     background: rgb(var(--ksyoz-color-background-d));
