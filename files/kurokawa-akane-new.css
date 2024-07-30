@@ -322,6 +322,71 @@
     display: none;
 }
 
+.page-content .wrap:has(.footer) .theme-selector {
+    position: fixed; 
+    left: 10px; 
+    bottom: 10px;
+}
+
+.theme-preview:not(.default, .dark) {
+    display: none;
+}
+
+body.site-theme-dark .theme-preview.dark {
+    display: none;
+}
+
+body:not(.site-theme-dark) .theme-preview.default {
+    display: none;
+}
+
+.theme-preview:is(.default, .dark) {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    border: none;
+    font-size: 0;
+    background-image: url(https://files.catbox.moe/e9nqyi.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-color: rgb(92, 124, 148);
+    overflow: hidden
+}
+
+.theme-preview.dark::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 2px;
+    background: rgb(var(--ksyoz-color-main));
+    top: 5px;
+    left: 0;
+    position: absolute;
+    rotate: -35deg;
+    animation: strikethrough 0.2s linear forwards;
+    }
+
+.text div.markdown {
+    scrollbar-width: none;
+}
+
+.theme-preview.default::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 2px;
+    background: rgb(var(--ksyoz-color-main));
+    top: 5px;
+    left: 0;
+    position: absolute;
+    rotate: -35deg;
+    animation: strikethrough 0.2s linear reverse forwards;
+}
+
 #app .container > .links a {
     color: rgb(var(--ksyoz-color-brightest));
 }
