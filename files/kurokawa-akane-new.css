@@ -318,6 +318,10 @@
     animation: stars 20s infinite linear;
 }
 
+#app .theme-selector > h2 {
+    display: none;
+}
+
 #app .container > .links a {
     color: rgb(var(--ksyoz-color-brightest));
 }
