@@ -138,7 +138,7 @@
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .stats-wrap {
+.stats-wrap[data-v-5c30286e] {
     grid-column-gap: 0px;
 }
 
@@ -154,7 +154,7 @@ a:visited:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .text .name {
+.text .name[data-v-04d66030] {
     filter: var(--drop-shadow);
     color: rgb(var(--ksyoz-color-main));
     padding-top: 10px;
@@ -244,15 +244,13 @@ a:visited:hover {
 
 /*Changes the bell*/
 
-#app .time .action.active {
+.time .action.active[data-v-04d66030] {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app #nav .site-theme-dark .nav-unscoped.transparent, .nav[data-v-62eacfff], .solid[data-v-62eacfff], #app .transparent:hover, #app .transparent {
+.site-theme-dark .nav-unscoped.transparent, .nav[data-v-62eacfff], .solid[data-v-62eacfff], .transparent[data-v-62eacfff]:hover, .transparent[data-v-62eacfff] {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
-    border-bottom-left-radius: var(--curvyness);
-    border-bottom-right-radius: var(--curvyness);
 }
 
 .site-theme-dark .nav-unscoped.transparent:hover {
@@ -318,12 +316,12 @@ body {
 /*noScroll
 This section makes the about section and activities display in full instead of having to scroll them.*/
 
-#app .about .content-wrap, #app .text .markdown {
+.about .content-wrap[data-v-5c30286e], .text[data-v-04d66030] .markdown {
     max-height: var(--scroll);
     overflow: hidden;
 }
 
-#app .wrap {
+.wrap[data-v-04d66030] {
     border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
@@ -331,20 +329,20 @@ This section makes the about section and activities display in full instead of h
     color: rgb(var(--ksyoz-color-post));
 }
 
-/*#app .wrap:hover, */#app .reply:hover {
+.wrap[data-v-04d66030]:hover, .reply[data-v-732ef224]:hover {
     border: var(--activity-border) solid rgba(var(--ksyoz-color-main),.5);
     transition: var(--activity-time);
 }
 
 /*logoChanger*/
 
-#app .logo {
+.logo[data-v-62eacfff], .user[data-v-62eacfff] {
     height: var(--logo-height);
 }
 
 /*header*/
 
-#nav .nav {
+.nav[data-v-62eacfff] {
     width: var(--head-width);
     height: 80px;
     border-style: hidden;
@@ -353,19 +351,19 @@ This section makes the about section and activities display in full instead of h
     left: calc((100% - var(--head-width))/2);
 }
 
-#app .search {
+.search[data-v-62eacfff] {
     position: absolute;
     left: 0;
     margin-left: 100px;
 }
 
-#nav .wrap > .user {
+.user[data-v-62eacfff] {
     position: absolute;
     right: 0; 
     margin-right: 100px;
 }
 
-#nav .logo {
+.logo[data-v-62eacfff] {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -373,27 +371,27 @@ This section makes the about section and activities display in full instead of h
     right: 0;
 }
 
-#nav .logo img {
+.logo img[data-v-62eacfff] {
     content: var(--logo-image);
     height: var(--logo-height);
     width: auto;
 }
 
-#nav .link {
+.link[data-v-62eacfff] {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#nav .wrap .link:nth-child(3) {
+.link[data-v-62eacfff]:nth-child(3) {
     margin-right: 400px;
 }
 
-/*#app .wrap {
+.wrap[data-v-62eacfff] {
     max-width: 1750px;
-}*/
+}
 
 /*Navbar doesn't disappear*/
 
-#app .hide {
+.hide[data-v-62eacfff] {
     top: 0px;
 }
 
@@ -414,7 +412,7 @@ This removes the banner image.*/
 
 This surrounds the overview, favourites previews, status posts, etc. with a transparent box and turns the navbar into a nice-looking top.*/
 
-#app .nav-wrap{
+.nav-wrap[data-v-1cc2919e]{
     max-width: 1520px;
     width: var(--nav-width);
     margin: auto;
@@ -424,7 +422,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     background: rgb(var(--ksyoz-color-background-t));
 }
 
-#app .nav .container {
+.nav[data-v-1cc2919e] {
     font-size: 16px;
     padding-left: 0px;
     padding-right: 0px;
@@ -437,8 +435,8 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     padding: 0%;
 }
 
-#app .overview, #app .medialist, .favourites:not( #app .favourites, #app .favourites), 
-#app .stats, #app .user-social, #app .review-wrap {
+.overview[data-v-5c30286e], .medialist[data-v-0567dd85], .favourites:not(.favourites[data-v-3f86aedd], .favourites[data-v-ddf96a3c]), 
+.stats[data-v-1e00b9da], .user-social[data-v-e4963b98], .review-wrap[data-v-5e6a17b4]{
     /*This section handles the semi-opaque background for each profile section.*/
     max-width: 1520px;
     margin: 0% 0% 2% 0%;
@@ -448,7 +446,7 @@ This surrounds the overview, favourites previews, status posts, etc. with a tran
     border-bottom-right-radius: var(--curvyness);
 }
 
-#app .overview .content-wrap {
+.overview[data-v-5c30286e] .content-wrap {
     border: 3px solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     background: rgb(var(--ksyoz-color-background));
@@ -573,12 +571,12 @@ h2 {
     color: rgb(var(--ksyoz-color-post));
 }
 
-#app .time {
+.time[data-v-04d66030] {
     color: rgb(var(--ksyoz-color-brighter));
     filter: var(--drop-shadow);
 }
 
-#app .time:hover{
+.time[data-v-04d66030]:hover{
     background-color: none;
 }
 
@@ -609,7 +607,7 @@ This improves the favourites section a lot.*/
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .favourites.preview .favourites-wrap {
+.favourites.preview .favourites-wrap[data-v-ddf96a3c] {
     overflow: visible;
 }
 
@@ -620,13 +618,13 @@ This improves the favourites section a lot.*/
     height: auto;
 }*/
 
-#app .favourites.preview .favourites-wrap .favourite, #app .favourites.preview .favourites-wrap > div {
+.favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c], .favourites.preview .favourites-wrap>div[data-v-ddf96a3c] {
     border: var(--border-fav) solid rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
     transition: 1s;
 }
 
-#app .favourites.preview .favourites-wrap .favourite:hover, #app .favourites.preview .favourites-wrap > div:hover {
+.favourites.preview .favourites-wrap .favourite[data-v-ddf96a3c]:hover, .favourites.preview .favourites-wrap>div[data-v-ddf96a3c]:hover {
     border: var(--border-fav) solid rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brighter));
     transition: 1s;
@@ -671,13 +669,13 @@ a.favourite.studio:hover {
 
 This gives the footer a similar design to the header.*/
 
-#nav .wrap {
+.wrap[data-v-0f519cab] {
     /*This makes the footer the same width as the header and centres it.*/
     max-width: var(--head-width);
     margin: auto !important;
 }
 
-#app .wrap > .footer {
+.footer[data-v-0f519cab] {
     /*This curves the footer's corners and lightens the background to the same color as the header.*/
     border-radius: var(--curvyness) var(--curvyness) 0px 0px;
     background: rgb(var(--ksyoz-color-background));
@@ -685,7 +683,7 @@ This gives the footer a similar design to the header.*/
     position: relative;
 }
 
-#app .wrap > .footer::before {
+.footer[data-v-0f519cab]::before {
     content: "";
     display: block;
     position: absolute;
@@ -724,14 +722,14 @@ This makes links turn blue on hover.*/
 }
 
 .primary-link, .secondary-link, .footer[data-v-38edf8f8] {
-    /*This sets the color that the text usually goes when hovered over to the profile theme color.*/
+    /*This sets the color that the text usually goes when hovered over to the profile them color.*/
     --color-gray-800: rgb(var(--color-blue)) !important;
     --color-gray-900: rgb(var(--color-blue))!important;
 }
 
-#app .link:hover {
+.link[data-v-4fbac4e1]:hover {
     /*This handles the links that aren't covered by the above block.*/
-    color: rgb(var(--ksyoz-color-main)) !important;
+    color: rgb(var(--color-blue)) !important;
 }
 
 /*customCursor*/
@@ -754,6 +752,7 @@ This makes links turn blue on hover.*/
 .dropdown[data-v-1cc2919e], .el-button, .el-message-box__headerbtn, .el-input__suffix-inner, .el-tag .el-icon-close, .list-editor-wrap .el-textarea__inner, .el-picker-panel__icon-btn,
 .el-date-picker__header-label, .el-date-table td, .el-input-number__decrease.is-disabled, .el-input-number__increase.is-disabled, .hohRangeSetter, .button[data-v-686e8358], 
 .el-select-dropdown__item, .tagIndex p:hover, .el-icon-circle-close[data-v-170179fc] {
+    /*This fixes the issue of spoiler tags reverting the cursor to the original.*/
     cursor: var(--cursor-url), auto;
 }
 
@@ -875,7 +874,7 @@ This makes links turn blue on hover.*/
     display: none;
 }
 
-#app .list-stats:nth-child(1) {
+.list-stats[data-v-815ccddc]:nth-child(1) {
     border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-left: 3px solid rgb(var(--ksyoz-color-main)) !important;
@@ -883,7 +882,7 @@ This makes links turn blue on hover.*/
     border-radius: var(--curvyness-activity) 0px 0px var(--curvyness-activity);
 }
 
-#app .list-stats:nth-child(2) {
+.list-stats[data-v-815ccddc]:nth-child(2) {
     border-bottom: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-top: 3px solid rgb(var(--ksyoz-color-main)) !important;
     border-left: transparent !important;
@@ -895,7 +894,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .footer {
+.footer[data-v-04b245e6] {
     background: rgb(var(--ksyoz-color-background));
 }
 
@@ -963,11 +962,11 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .nav .link {
+.nav .link[data-v-1cc2919e] {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .nav .link:hover {
+.nav .link[data-v-1cc2919e]:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1094,7 +1093,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.markdown-editor > div:hover {
+.markdown-editor>div:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1127,7 +1126,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.transparent .search svg {
+.transparent .search[data-v-62eacfff] svg {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
@@ -1155,11 +1154,11 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .link:hover {
+.link[data-v-62eacfff]:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .search:hover svg {
+.search[data-v-62eacfff]:hover svg {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1456,7 +1455,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#nav .links {
+.links[data-v-62eacfff] {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -1948,7 +1947,7 @@ h2[data-v-0f519cab] {
     display: none;
 }
 
-#nav .links {
+.links[data-v-0f519cab] {
     margin: auto;
     margin-left: inherit;
 }
@@ -1985,7 +1984,7 @@ h2[data-v-0f519cab] {
     display: block;
 }
 
-#app .banner .container {
+.banner .container[data-v-1cc2919e] {
     flex-direction: column-reverse;
 }
 
@@ -2018,6 +2017,7 @@ h2[data-v-0f519cab] {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     color: rgb(0, 0, 0);
     font-weight: 400;
+    font-size: 14px;
 }
 
 @keyframes stars {
