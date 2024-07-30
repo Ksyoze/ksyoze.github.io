@@ -661,7 +661,7 @@ body {
     overflow: auto;
 }
 
-#app .activity-anime_list > .wrap, #app .activity-manga_list > .wrap, #app .activity-text {
+#app .activity-entry > .wrap {
     border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
