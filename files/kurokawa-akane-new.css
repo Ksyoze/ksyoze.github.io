@@ -344,6 +344,20 @@ body {
 
 /* NAVIGATION */
 
+#app .nav-wrap > .nav {
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#app .nav-wrap > .nav .link {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .nav-wrap > .nav .router-link-active {
+    color: rgb(var(--ksyoz-color-main)) !important;
+}
+
 /* MILESTONES */
 
 /* ACTIVITY HISTORY */
