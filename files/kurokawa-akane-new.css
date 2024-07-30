@@ -212,7 +212,7 @@
     color: rgb(var(--ksyoz-color-main));
 }
 
-#nav .hide {
+#app .hide {
     top: 0px;
 }
 
