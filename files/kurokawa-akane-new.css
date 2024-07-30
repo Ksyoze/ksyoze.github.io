@@ -192,6 +192,10 @@
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .transparent .search svg:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #nav .wrap > .user {
     position: absolute;
     right: 0;
