@@ -1147,7 +1147,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.actions .action {
+#app .actions .action {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -2013,6 +2013,24 @@ h2 {
     color: rgb(0, 0, 0);
     font-weight: 400;
     font-size: 14px;
+}
+
+/* DROPDOWN BROWSE */
+
+#app .browse-wrap > .dropdown {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .dropdown > .footer {
+    background: rgb(var(--ksyoz-color-background));
+}
+
+#app .primary-link-text {
+    color: rgb(var(--ksyoz-color-main));
+}
+
+#app .secondary-links {
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 @keyframes stars {
