@@ -195,8 +195,12 @@
 }
 
 #app .primary-link-text {
-    color: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brightest));
     text-transform: capitalize;
+}
+
+#app .primary-link-text:hover {
+    color: rgb(var(--ksyoz-color-main));
 }
 
 #app .secondary-links {
