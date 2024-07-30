@@ -360,6 +360,10 @@ body {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .nav-wrap>.nav .link:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #app .nav-wrap>.nav .router-link-active {
     color: rgb(var(--ksyoz-color-main)) !important;
 }
@@ -398,6 +402,10 @@ body {
 }
 
 /* MILESTONES */
+
+#app .stats-wrap {
+    grid-column-gap: 0px;
+}
 
 #app .list-stats.content-wrap > .footer {
     display: none;
