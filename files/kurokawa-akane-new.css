@@ -525,6 +525,15 @@ body {
     color: rgb(var(--ksyoz-color-post));
 }
 
+.hohPinned .markdown img {
+    margin-top: 30px;
+    border-radius: 5px;
+    max-height: 800px;
+    max-width: 100%;
+    width: 600px;
+    border: 3px solid rgb(var(--ksyoz-color-main));
+}
+
 /* ACTIVITY HISTORY */
 
 #app .activity-history {
