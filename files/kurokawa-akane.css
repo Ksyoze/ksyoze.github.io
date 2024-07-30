@@ -1127,7 +1127,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#nav .wrap > .search > .transparent .search svg {
+.transparent .search svg {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
