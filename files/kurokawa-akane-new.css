@@ -403,6 +403,17 @@ body {
     padding-right: 0px;
 }
 
+/* OVERVIEW */
+
+#app .overview {
+    max-width: 1520px;
+    margin: 0% 0% 2% 0%;
+    padding: 2% 5% 5% 5%;
+    background-color: rgb(var(--ksyoz-color-background-t));
+    border-bottom-left-radius: var(--curvyness);
+    border-bottom-right-radius: var(--curvyness);
+}
+
 /* MILESTONES */
 
 #app .stats-wrap {
@@ -438,6 +449,16 @@ body {
 }
 
 /* BIO */
+
+/* PINNED POST */
+
+.hohPinned .wrap {
+    border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
+    border-radius: var(--curvyness-activity);
+    transition: var(--activity-time);
+    background: rgb(var(--ksyoz-color-background));
+    color: rgb(var(--ksyoz-color-post));
+}
 
 /* ACTIVITY HISTORY */
 
