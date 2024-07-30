@@ -250,6 +250,10 @@
 
 /* PROFILE DROPDOWN */
 
+#nav .user .chevron {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 #nav .user-wrap > .dropdown {
     background: rgb(var(--ksyoz-color-background-d));
 }
@@ -273,6 +277,16 @@
 #nav .primary-link:hover .icon {
     color: rgb(var(--ksyoz-color-main));
 }
+
+/* MILESTONES */
+
+/* ACTIVITY HISTORY */
+
+/* GENRE OVERVIEW */
+
+/* FAVOURITES OVERVIEW */
+
+/* ENTRIES */
 
 /* FOOTER */
 
