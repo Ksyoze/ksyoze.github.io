@@ -248,9 +248,11 @@ a:visited:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app #nav .site-theme-dark .nav-unscoped.transparent, .nav[data-v-62eacfff], .solid[data-v-62eacfff], .transparent[data-v-62eacfff]:hover, .transparent[data-v-62eacfff] {
+#app #nav .site-theme-dark .nav-unscoped.transparent, .nav[data-v-62eacfff], .solid[data-v-62eacfff], .transparent[data-v-62eacfff]:hover, #app .transparent {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
+    border-bottom-left-radius: var(--curvyness);
+    border-bottom-right-radius: var(--curvyness);
 }
 
 .site-theme-dark .nav-unscoped.transparent:hover {
@@ -752,7 +754,6 @@ This makes links turn blue on hover.*/
 .dropdown[data-v-1cc2919e], .el-button, .el-message-box__headerbtn, .el-input__suffix-inner, .el-tag .el-icon-close, .list-editor-wrap .el-textarea__inner, .el-picker-panel__icon-btn,
 .el-date-picker__header-label, .el-date-table td, .el-input-number__decrease.is-disabled, .el-input-number__increase.is-disabled, .hohRangeSetter, .button[data-v-686e8358], 
 .el-select-dropdown__item, .tagIndex p:hover, .el-icon-circle-close[data-v-170179fc] {
-    /*This fixes the issue of spoiler tags reverting the cursor to the original.*/
     cursor: var(--cursor-url), auto;
 }
 
