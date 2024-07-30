@@ -126,10 +126,17 @@
     --akane-column: span 1;
 }
 
+
+
 /* NAVBAR */
 
 #nav .wrap[data-v-62eacfff] {
     max-width: 1750px;
+}
+
+.site-theme-dark .nav-unscoped.transparent {
+    background: rgb(var(--ksyoz-color-background));
+    color: rgb(var(--ksyoz-color-header));
 }
 
 #nav .wrap > .logo {
