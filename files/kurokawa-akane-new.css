@@ -333,12 +333,12 @@ body {
 
 /* BANNER */
 
-.banner{
+#app .banner {
     visibility: hidden !important;
     height: calc(100vh - 46px) !important;
 }
 
-.banner-content{
+.banner-content {
     visibility: visible !important;
 }
 
