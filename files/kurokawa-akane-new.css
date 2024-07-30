@@ -180,8 +180,9 @@
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .dropdown > .footer {
+#nav .dropdown > .footer {
     background: rgb(var(--ksyoz-color-background));
+    color: rgb(var(--ksyoz-color-bright));
 }
 
 #app .primary-link-text {
@@ -196,4 +197,25 @@
 
 #nav .user .chevron {
     color: rgb(var(--ksyoz-color-brightest));
+}
+
+#nav .user-wrap > .dropdown {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#nav .user-wrap > .dropdown::before {
+    color: rgb(var(--ksyoz-color-background-d));
+}
+
+#nav .primary-links> .primary-link {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#nav .primary-link .icon {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#nav .dropdown > .footer {
+    background: rgb(var(--ksyoz-color-background));
+    color: rgb(var(--ksyoz-color-bright));
 }
