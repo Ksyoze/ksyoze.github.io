@@ -650,6 +650,12 @@ body {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .input .el-textarea__inner {
+    border-bottom: 2px solid rgb(var(--ksyoz-color-brightest));
+    border-radius: var(--curvyness);
+    background: rgb(var(--ksyoz-color-background));
+}
+
 /* LOAD MORE */
 
 #app .load-more {
