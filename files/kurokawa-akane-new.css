@@ -184,10 +184,18 @@
     margin-left: 100px;
 }
 
+#app .transparent .search svg {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 #nav .wrap > .user {
     position: absolute;
     right: 0;
     margin-right: 100px;
+}
+
+#nav .user .chevron {
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 /* DROPDOWN BROWSE */
@@ -233,10 +241,6 @@
 }
 
 /* PROFILE DROPDOWN */
-
-#nav .user .chevron {
-    color: rgb(var(--ksyoz-color-brightest));
-}
 
 #nav .user-wrap > .dropdown {
     background: rgb(var(--ksyoz-color-background-d));
