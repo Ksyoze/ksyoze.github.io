@@ -600,7 +600,7 @@ This improves the favourites section a lot.*/
     z-index: 100;
 }
 
-.favourites-wrap[data-v-ddf96a3c]{
+.favourites-wrap {
     /*This makes the Favourites section more visually pleasing; it packs the images closer together, and curves the boxes.*/
     overflow: auto;
     padding: 20px !important;
@@ -613,7 +613,7 @@ This improves the favourites section a lot.*/
     overflow: visible;
 }
 
-/*.favourites[data-v-ddf96a3c] {
+/*.favourites {
     background: rgba(102, 156, 237, 0.5);
     margin: auto;
     border-radius: var(--curvyness);
@@ -655,14 +655,14 @@ a.favourite.studio:hover {
 
 /*Stats page*/
 
-.highlights[data-v-72dc5b51] {
+.highlights {
     background: rgb(var(--ksyoz-color-background-d));
     border-radius: var(--curvyness);
     padding: 15px !important;
     box-shadow: 0 14px 30px rgba(var(--color-shadow-blue),.15),0 4px 4px rgba(var(--color-shadow-blue),.05);
 }
 
-.highlight .circle[data-v-72dc5b51] {
+.highlight .circle {
     background: transparent;
     box-shadow: none;
 }
@@ -718,12 +718,12 @@ This is required if you're using backgroundFix. If you're not, don't bother addi
 
 This makes links turn blue on hover.*/
 
-.primary-link-text[data-v-38edf8f8] {
+.primary-link-text {
     /*This makes the link the right colour when it is not interacted with.*/
     color: rgb(173,192,210);
 }
 
-.primary-link, .secondary-link, .footer[data-v-38edf8f8] {
+.primary-link, .secondary-link, .footer {
     /*This sets the color that the text usually goes when hovered over to the profile theme color.*/
     --color-gray-800: rgb(var(--color-blue)) !important;
     --color-gray-900: rgb(var(--color-blue))!important;
@@ -742,18 +742,18 @@ This makes links turn blue on hover.*/
     scrollbar-width: none;
 }
 
-.markdown-spoiler::before, .el-dropdown-menu__item, .search[data-v-62eacfff] svg, .user[data-v-62eacfff], .actions .action[data-v-04d66030], .time .action[data-v-04d66030],
-.el-dropdown[data-v-eb51fd0e], .favourite[data-v-0317d914], .overview .favourite.studio, .button[data-v-5fb0ec91], .theme-preview[data-v-0f519cab], .theme-preview.dark-contrast,
-.load-more[data-v-6f203cf2], .actions .action[data-v-732ef224], .actions .time .action[data-v-732ef224], .theme-switch .icon[data-v-0567dd85],
-.filter-group .draggable>span[data-v-170179fc], .filter-group>span[data-v-170179fc], .medialist.cards .entry-card .edit, .hohChangeScore, .el-select .el-input__inner,
+.markdown-spoiler::before, .el-dropdown-menu__item, .search svg, .user, .actions .action, .time .action,
+.el-dropdown, .favourite, .overview .favourite.studio, .button, .theme-preview, .theme-preview.dark-contrast,
+.load-more, .actions .action, .actions .time .action, .theme-switch .icon,
+.filter-group .draggable > span, .filter-group > span, .medialist.cards .entry-card .edit, .hohChangeScore, .el-select .el-input__inner,
 .el-select .el-input .el-select__caret, .hohStepper, .el-slider__button.hover, .el-slider__button:hover, .el-slider__button-wrapper.hover, .el-slider__button-wrapper:hover,
-.random-btn[data-v-170179fc], .hohButton, .el-slider__runway, .medialist .entry-card .plus-progress, .actions>div[data-v-ddf96a3c], .delete[data-v-0317d914],
-.filter-group a[data-v-1e00b9da], .option[data-v-05bb5e72], .hohStatsTrigger, .unfollow[data-v-39573fe2], .user-social .filter-group span, .filter-group span[data-v-3ed82f3f],
-.button[data-v-c574a71c], .filter-group .action[data-v-170179fc], .markdown .markdown-spoiler::before, .el-checkbox, .list-editor-wrap .header .favourite,
-.list-editor-wrap .header .save-btn, .el-input-number__decrease, .el-input-number__increase, .list-editor-wrap .list-editor .body .delete-btn, .nav-btn[data-v-1cc2919e],
-.dropdown[data-v-1cc2919e], .el-button, .el-message-box__headerbtn, .el-input__suffix-inner, .el-tag .el-icon-close, .list-editor-wrap .el-textarea__inner, .el-picker-panel__icon-btn,
-.el-date-picker__header-label, .el-date-table td, .el-input-number__decrease.is-disabled, .el-input-number__increase.is-disabled, .hohRangeSetter, .button[data-v-686e8358], 
-.el-select-dropdown__item, .tagIndex p:hover, .el-icon-circle-close[data-v-170179fc] {
+.random-btn, .hohButton, .el-slider__runway, .medialist .entry-card .plus-progress, .actions > div, .delete,
+.filter-group a, .option, .hohStatsTrigger, .unfollow, .user-social .filter-group span, .filter-group span,
+.button, .filter-group .action, .markdown .markdown-spoiler::before, .el-checkbox, .list-editor-wrap .header .favourite,
+.list-editor-wrap .header .save-btn, .el-input-number__decrease, .el-input-number__increase, .list-editor-wrap .list-editor .body .delete-btn, .nav-btn,
+.dropdown, .el-button, .el-message-box__headerbtn, .el-input__suffix-inner, .el-tag .el-icon-close, .list-editor-wrap .el-textarea__inner, .el-picker-panel__icon-btn,
+.el-date-picker__header-label, .el-date-table td, .el-input-number__decrease.is-disabled, .el-input-number__increase.is-disabled, .hohRangeSetter, .button, 
+.el-select-dropdown__item, .tagIndex p:hover, .el-icon-circle-close {
     cursor: var(--cursor-url), auto;
 }
 
@@ -765,12 +765,12 @@ This makes links turn blue on hover.*/
     transition: var(--social-time);
 }
 
-.avatar[data-v-39573fe2]{
+.avatar {
     border-radius: var(--curvyness-social);
     border: var(--border-socials) solid rgb(var(--ksyoz-color-main)); 
 }
 
-.user[data-v-5fb0ec91] {
+.user {
     border-radius: var(--curvyness-social);
     border: var(--border-socials) solid rgb(var(--ksyoz-color-main));
 }
@@ -785,7 +785,7 @@ This makes links turn blue on hover.*/
     transition: var(--social-time);
 }
 
-.name[data-v-39573fe2] {
+.name {
     background: rgba(0,0,0,0.4);
 }
 
@@ -831,12 +831,12 @@ This makes links turn blue on hover.*/
     z-index: -2;
 }
 
-.lists[data-v-0567dd85] {
+.lists {
    z-index: 1;
 }
 
 /*Load More button*/
-.load-more[data-v-6f203cf2] {
+.load-more {
     border-radius: var(--curvyness-loadmore);
     background: rgb(var(--ksyoz-color-background-d));
     padding: 16px !important;
@@ -850,13 +850,13 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.load-more[data-v-6f203cf2]:hover {
+.load-more:hover {
     border-width: 12px;
     width: 100%;
     color: rgb(var(--ksyoz-color-main));
 }
 
-.el-dropdown[data-v-eb51fd0e] {
+.el-dropdown {
     margin-top: -10px;
 }
 
@@ -864,14 +864,14 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.overview[data-v-5c30286e] .section-header {
+.overview .section-header {
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 6px;
     height: 20px;
 }
 
-.desktop[data-v-63cd3b41]{
+.desktop {
     display: none;
 }
 
@@ -891,11 +891,11 @@ This makes links turn blue on hover.*/
     border-radius: 0px var(--curvyness-activity) var(--curvyness-activity) 0px;
 }
 
-.dropdown[data-v-04b245e6] {
+.dropdown {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.user .chevron[data-v-62eacfff] {
+.user .chevron {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
@@ -903,19 +903,19 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background));
 }
 
-.users[data-v-5fb0ec91]{
+.users {
     background: transparent;
 }
 
-.nav .router-link-active[data-v-1cc2919e] {
+.nav .router-link-active {
     color: rgb(var(--ksyoz-color-main)) !important;
 }
 
-.nav .router-link-active[data-v-1cc2919e]:hover {
+.nav .router-link-active:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.stat .value[data-v-815ccddc] {
+.stat .value {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -923,30 +923,30 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.theme-switch .active[data-v-0567dd85] {
+.theme-switch .active {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.actions>div[data-v-ddf96a3c] {
+.actions > div {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.actions .cancel[data-v-ddf96a3c] {
+.actions .cancel {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.highlight .value[data-v-72dc5b51] {
+.highlight .value {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.option.active[data-v-05bb5e72] {
+.option.active {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest)) !important;
 }
 
-.actions[data-v-04d66030], .action.likes .button {
+.actions, .action.likes .button {
     color: rgb(var(--ksyoz-color-main-d));
     filter: var(--drop-shadow);
 }
@@ -971,7 +971,7 @@ This makes links turn blue on hover.*/
     stroke: rgb(var(--ksyoz-color-main-d));
 }
 
-.actions .action[data-v-04d66030]:hover {
+.actions .action:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -979,17 +979,17 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.time .action[data-v-04d66030]:hover {
+.time .action:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.name[data-v-732ef224] {
+.name {
     filter: var(--drop-shadow);
     color: rgb(var(--ksyoz-color-main));
     line-height: 15px;
 }
 
-.actions .action .action[data-v-732ef224]:hover {
+.actions .action .action:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1009,7 +1009,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.extras-dropdown .el-dropdown-link[data-v-04d66030] {
+.extras-dropdown .el-dropdown-link {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
@@ -1021,7 +1021,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.filter-group .active[data-v-170179fc] {
+.filter-group .active {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
@@ -1029,7 +1029,7 @@ This makes links turn blue on hover.*/
     border-color: rgb(var(--ksyoz-color-main));
 }
 
-.random-btn[data-v-170179fc] {
+.random-btn {
     background: rgb(var(--ksyoz-color-main));
 }
 
@@ -1041,7 +1041,7 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-main));
 }
 
-.filter-group span.active[data-v-3ed82f3f], .submission[data-v-736992dc] {
+.filter-group span.active, .submission {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
@@ -1053,27 +1053,27 @@ This makes links turn blue on hover.*/
     background: transparent;
 }
 
-.filter-group a.router-link-active[data-v-1e00b9da] {
+.filter-group a.router-link-active {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.option[data-v-05bb5e72]:hover {
+.option:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.switch[data-v-05bb5e72] {
+.switch {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.bar-chart-wrap[data-v-46edc0ca] {
+.bar-chart-wrap {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.x-axis[data-v-3251fadf] {
+.x-axis {
     background: rgb(var(--ksyoz-color-background));
 }
 
-.bar[data-v-46edc0ca] {
+.bar {
     background: rgb(var(--ksyoz-color-main));
 }
 
@@ -1081,7 +1081,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.button[data-v-c574a71c] {
+.button {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
@@ -1098,7 +1098,7 @@ This makes links turn blue on hover.*/
     right: 10px;
 }
 
-.stat .label[data-v-815ccddc] {
+.stat .label {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -1106,19 +1106,19 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.dropdown[data-v-04b245e6]::before {
+.dropdown::before {
     color: rgb(var(--ksyoz-color-background-d));
 }
 
-.actions[data-v-732ef224] {
+.actions {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.reply[data-v-732ef224] .markdown {
+.reply .markdown {
     color: rgb(var(--ksyoz-color-post));
 }
 
-.button.cancel[data-v-c574a71c] {
+.button.cancel {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
 }
@@ -1127,27 +1127,27 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.heading[data-v-72dc5b51] .switch .option {
+.heading .switch .option {
     color: rgb(var(--ksyoz-color-bright));
 }
 
-.highlight .label[data-v-72dc5b51] {
+.highlight .label {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.highlight .icon[data-v-72dc5b51] {
+.highlight .icon {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-[data-v-72dc5b51] .horizontal-scroller {
+.horizontal-scroller {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.line-chart-wrap[data-v-84e71bc6] {
+.line-chart-wrap {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.actions .action[data-v-732ef224] {
+.actions .action {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -1159,11 +1159,11 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-main));
 }
 
-.primary-link[data-v-04b245e6] {
+.primary-link {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.primary-link[data-v-04b245e6]:hover {
+.primary-link:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1172,11 +1172,11 @@ This makes links turn blue on hover.*/
     text-transform: lowercase;
 }
 
-.filter-group .action[data-v-170179fc]:hover {
+.filter-group .action:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.filter-group .draggable>span[data-v-170179fc] {
+.filter-group .draggable > span {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     text-transform: lowercase;
 }
@@ -1186,19 +1186,19 @@ This makes links turn blue on hover.*/
     text-transform: lowercase;
 }
 
-.pie-chart[data-v-26dc9635] {
+.pie-chart {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.line[data-v-84e71bc6] {
+.line {
     stroke: rgb(var(--ksyoz-color-main));
 }
 
-.area[data-v-84e71bc6] {
+.area {
     fill: rgb(var(--ksyoz-color-brightest));
 }
 
-.point[data-v-84e71bc6] {
+.point {
     fill: rgb(var(--ksyoz-color-main));
 }
 
@@ -1236,12 +1236,12 @@ This makes links turn blue on hover.*/
     border: 3px solid rgb(var(--ksyoz-color-main));
 }
 
-.input[data-v-17620a08] {
+.input {
     background: rgb(var(--ksyoz-color-background));
     filter: var(--drop-shadow-b);
 }
 
-.input .icon[data-v-17620a08], .input input[data-v-17620a08], .input .icon[data-v-17620a08] {
+.input .icon, .input input, .input .icon {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
@@ -1276,7 +1276,7 @@ This makes links turn blue on hover.*/
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.entry-dropdown[data-v-04d66030] {
+.entry-dropdown {
     background: none;
 }
 
@@ -1439,7 +1439,7 @@ This makes links turn blue on hover.*/
 }
 */
 
-.activity-extras-dropdown.el-popper[x-placement^=bottom][data-v-04d66030] {
+.activity-extras-dropdown.el-popper[x-placement^=bottom] {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
@@ -1494,14 +1494,14 @@ This makes links turn blue on hover.*/
     }
 }
 
-.header-wrap[data-v-1cc2919e] {
+.header-wrap {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 16px;
 }
 
-.name-wrapper[data-v-1cc2919e] {
+.name-wrapper {
     margin-bottom: 250px;
     position: absolute;
     left: 70%;
@@ -1521,7 +1521,7 @@ This makes links turn blue on hover.*/
     /*font-size: 15px;*/
 }
 
-.entry-dropdown[data-v-04d66030]:hover {
+.entry-dropdown:hover {
     background: none;
 }
 
@@ -1529,35 +1529,35 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background));
 }
 
-.follower-badge[data-v-1cc2919e] {
+.follower-badge {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.nav-btn[data-v-1cc2919e] {
+.nav-btn {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.nav-btn[data-v-1cc2919e]:hover, .follower-badge[data-v-1cc2919e]:hover {
+.nav-btn:hover, .follower-badge:hover {
     background: rgb(var(--ksyoz-color-main));
     filter: contrast(1.2);
 }
 
-.dropdown[data-v-1cc2919e] {
+.dropdown {
     background: rgb(var(--ksyoz-color-background));
 }
 
-.dropdown[data-v-1cc2919e]:hover {
+.dropdown:hover {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-main));
 }
 
-.mod-badge-wrap[data-v-1cc2919e] {
+.mod-badge-wrap {
     margin-left: 80px;
 }
 
-.theme-preview[data-v-0f519cab] {
+.theme-preview {
     position: fixed;
     z-index: 999;
     padding-left: 0px;
@@ -1573,11 +1573,11 @@ This makes links turn blue on hover.*/
     z-index: 999;
 }
 
-.hamburger[data-v-8aeb5e9a], .menu[data-v-8aeb5e9a] {
+.hamburger, .menu {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.hamburger svg[data-v-8aeb5e9a] {
+.hamburger svg {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1609,7 +1609,7 @@ This makes links turn blue on hover.*/
     content: "✉ Mailman ✉" !important;
 }
 
-.favourites.preview .favourites-wrap.studios[data-v-ddf96a3c] {
+.favourites.preview .favourites-wrap.studios {
     grid-template-rows: repeat(auto-fill,45px);
 }
 
@@ -1621,68 +1621,66 @@ This makes links turn blue on hover.*/
     width: 600px;
 }
 
-span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap > 
-
-.donator-badge[data-v-04d66030] {
+.donator-badge {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.donator-badge .icon[data-v-04d66030] {
+.donator-badge .icon {
     display: none;
 }
 
-.has-label[data-v-04d66030]:before {
+.has-label:before {
     content: none;
 }
 
-.dropdown[data-v-38edf8f8] {
+.dropdown {
     background: rgb(var(--ksyoz-color-background-d));
     text-transform: capitalize;
 }
 
-.dropdown[data-v-38edf8f8]:before {
+.dropdown:before {
     color: rgb(var(--ksyoz-color-background-d));
 }
 
-.primary-link[data-v-38edf8f8] {
+.primary-link {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.primary-link-text[data-v-38edf8f8] {
+.primary-link-text {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.primary-link .icon[data-v-38edf8f8] {
+.primary-link .icon {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.secondary-links[data-v-38edf8f8] {
+.secondary-links {
     color: rgb(var(--ksyoz-color-bright));
 }
 
-.footer[data-v-38edf8f8] {
+.footer {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.footer[data-v-04b245e6] {
+.footer {
     color: rgb(var(--ksyoz-color-bright));
 }
 
-.primary-link .icon[data-v-04b245e6] {
+.primary-link .icon {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.title[data-v-366e5d34] {
+.title {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.tooltip[data-v-366e5d34],  .tooltip.bottom[data-v-366e5d34]:after {
+.tooltip,  .tooltip.bottom:after {
     border-top-color: rgb(var(--ksyoz-color-background));
 }
 
-.tooltip[data-v-366e5d34] {
+.tooltip {
     background: rgba(23, 26, 33, 0.95);
 }
 
@@ -1745,11 +1743,11 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     color: rgb(var(--ksyoz-color-main));
 }
 
-.status.pending[data-v-736992dc] {
+.status.pending {
     background: rgb(var(--ksyoz-color-main));
 }
 
-.new-badge[data-v-736992dc] {
+.new-badge {
     background: rgb(var(--ksyoz-color-main));
     display: none;
 }
@@ -1796,32 +1794,32 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     color: rgb(var(--ksyoz-color-main));
 }
 
-.secondary-links a[data-v-38edf8f8]:hover {
+.secondary-links a:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-.donator-badge[data-v-04d66030] {
+.donator-badge {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.stat-card[data-v-686e8358] {
+.stat-card {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.relations-wrap[data-v-686e8358] {
+.relations-wrap {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-.count[data-v-686e8358]{
+.count {
     background: rgb(var(--ksyoz-color-main));
 }
 
-.details .label[data-v-686e8358]{
+.details .label {
     color: rgb(var(--ksyoz-color-bright));
 }
 
-.details .value[data-v-686e8358] {
+.details .value {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -1834,23 +1832,23 @@ span > .filter-group > .filters.mobile-nav-hidden > .filters-wrap >
     border-left: rgb(var(--ksyoz-color-brightest));
 }
 
-.list-stats[data-v-815ccddc]:nth-child(1) {
+.list-stats:nth-child(1) {
     background: rgb(var(--ksyoz-color-main)) !important;
 }
 
-.list-stats[data-v-815ccddc]:nth-child(2) {
+.list-stats:nth-child(2) {
     background: rgb(var(--ksyoz-color-main)) !important;
 }
 
-.stat .value[data-v-815ccddc], .stat .label[data-v-815ccddc] {
+.stat .value, .stat .label {
     color: rgb(var(--ksyoz-color-background)) !important;
 }
 
-.activity-history[data-v-b79eb0f0] {
+.activity-history {
     background: rgb(var(--ksyoz-color-main)) !important;
 }
 
-.result-col[data-v-17620a08] {
+.result-col {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-brightest));
 }
@@ -1940,7 +1938,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     font-size: 12px;
 }
 
-h2[data-v-0f519cab] {
+h2 {
     display: none;
 }
 
@@ -1967,7 +1965,7 @@ h2[data-v-0f519cab] {
     box-shadow: 0 0 5px rgba(var(--ksyoz-color-brightest),0.8);
 }
 
-.avatar[data-v-1cc2919e] {
+.avatar {
     content: var(--avatar-image);
     max-height: none;
     max-width: 700px;
@@ -1989,7 +1987,7 @@ h2[data-v-0f519cab] {
     background-color: rgb(var(--ksyoz-color-main));
 }
 
-.compare-btn[data-v-170179fc] {
+.compare-btn {
     background-color: rgb(var(--ksyoz-color-main));
 }
 
@@ -2009,7 +2007,7 @@ h2[data-v-0f519cab] {
     content: "";
 }
 
-.user .notification-dot[data-v-62eacfff] {
+.user .notification-dot {
     background: rgb(var(--ksyoz-color-main));
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura,"Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     color: rgb(0, 0, 0);
@@ -2050,23 +2048,23 @@ h2[data-v-0f519cab] {
     }
 }
 
-@media (max-width: 1540px){ .banner-content[data-v-1cc2919e] {
+@media (max-width: 1540px){ .banner-content {
     margin-left: 170px;
     }
 }
 
-@media (max-width: 1540px) {.stats-wrap[data-v-5c30286e] {
+@media (max-width: 1540px) {.stats-wrap {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 1540px) {.links[data-v-62eacfff] {
+@media (max-width: 1540px) {.links {
     font-size: 16px;
     margin-right: 50px;
     }
 }
 
-@media (max-width: 1540px) {.search[data-v-62eacfff] {
+@media (max-width: 1540px) {.search {
     margin-left: 50px;
     }
 }
