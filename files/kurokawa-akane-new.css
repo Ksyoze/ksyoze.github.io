@@ -130,7 +130,7 @@
 
 /* NAVBAR */
 
-.site-theme-dark .nav-unscoped.transparent {
+.site-theme-dark .nav-unscoped.transparent, .site-theme-dark .nav-unscoped {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-header));
 }
