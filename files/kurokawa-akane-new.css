@@ -141,11 +141,25 @@
     height: var(--logo-height);
 }
 
+#nav .wrap > .logo img {
+    content: var(--logo-image);
+    height: var(--logo-height);
+    width: auto;
+}
+
 #nav .wrap > .links {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
+}
+
+#nav .links > .link {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#nav .links > .link:nth-child(3) {
+    margin-right: 400px;
 }
 
 #nav .wrap > .search {
