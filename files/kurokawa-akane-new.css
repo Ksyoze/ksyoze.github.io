@@ -391,6 +391,28 @@ body {
 
 /* ENTRIES */
 
+/* LOAD MORE */
+
+#app .load-more {
+    border-radius: var(--curvyness-loadmore);
+    background: rgb(var(--ksyoz-color-background-d));
+    padding: 16px !important;
+    font-size: 17px;
+    border-width: 4px;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-style: none solid none solid;
+    transition: var(--loadmore-time);
+    width: 95%;
+    margin: 20px auto 20px auto !important;
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .load-more:hover {
+    border-width: 12px;
+    width: 100%;
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* FOOTER */
 
 #app .wrap {
