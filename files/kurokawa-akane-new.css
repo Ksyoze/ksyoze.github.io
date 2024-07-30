@@ -178,6 +178,10 @@
     color: rgb(var(--ksyoz-color-main));
 }
 
+#nav .link:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #nav .links > .link:nth-child(3) {
     margin-right: 400px;
 }
