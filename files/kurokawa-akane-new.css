@@ -488,6 +488,10 @@ body {
 
 /* GENRE OVERVIEW */
 
+#app .genre-overview {
+    display: none;
+}
+
 /* FAVOURITES OVERVIEW */
 
 /* ENTRIES */
