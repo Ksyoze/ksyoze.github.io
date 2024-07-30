@@ -566,6 +566,12 @@ body {
     background-color: rgb(var(--ksyoz-color-background-d)) !important;
 }
 
+.overview .favourite.studio {
+    font-size: 12px;
+    min-height: 45px;
+    max-height: 45px;
+}
+
 /* ENTRIES */
 
 /* LOAD MORE */
