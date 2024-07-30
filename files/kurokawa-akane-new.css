@@ -558,6 +558,14 @@ body {
     z-index: 100;
 }
 
+#app .favourites.preview .favourites-wrap.studios {
+    grid-template-rows: repeat(auto-fill, 45px);
+}
+
+#app .overview .favourite.studio {
+    background-color: rgb(var(--ksyoz-color-background-d)) !important;
+}
+
 /* ENTRIES */
 
 /* LOAD MORE */
