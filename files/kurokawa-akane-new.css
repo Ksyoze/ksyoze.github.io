@@ -361,7 +361,17 @@ body {
     visibility: visible !important;
 }
 
-/* PFP */
+/* PFP AND NAME */
+
+#app .banner .container {
+    flex-direction: column-reverse;
+}
+
+#app .banner-content > .name-wrapper {
+    margin-bottom: 250px;
+    position: absolute;
+    left: 70%;
+}
 
 /* NAVIGATION */
 
@@ -571,6 +581,8 @@ body {
     min-height: 45px;
     max-height: 45px;
 }
+
+
 
 /* ENTRIES */
 
