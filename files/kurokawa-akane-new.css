@@ -183,6 +183,7 @@
 #nav .dropdown > .footer {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-bright));
+    text-transform: capitalize;
 }
 
 #app .primary-link-text {
