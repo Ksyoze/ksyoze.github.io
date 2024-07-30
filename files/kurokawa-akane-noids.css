@@ -895,10 +895,6 @@ This makes links turn blue on hover.*/
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .footer {
-    background: rgb(var(--ksyoz-color-background));
-}
-
 .user .chevron[data-v-62eacfff] {
     color: rgb(var(--ksyoz-color-brightest));
 }
