@@ -323,7 +323,7 @@ This section makes the about section and activities display in full instead of h
     overflow: hidden;
 }
 
-#app .activity-entry.activity-text > .wrap {
+#app .activity-entry.activity-text > .wrap, #app .activity-entry.activity-anime_list > .wrap, #app .activity-entry.activity-manga_list > .wrap {
     border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
