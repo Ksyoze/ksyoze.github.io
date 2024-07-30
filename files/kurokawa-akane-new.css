@@ -212,6 +212,10 @@
     color: rgb(var(--ksyoz-color-main));
 }
 
+#nav .hide {
+    top: 0px;
+}
+
 /* DROPDOWN BROWSE */
 
 #app .browse-wrap > .dropdown {
