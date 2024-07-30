@@ -633,6 +633,15 @@ body {
 
 /* ENTRIES */
 
+#app .overview .section-header {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 6px;
+    height: 20px;
+    color: white;
+    font-weight: 700;
+}
+
 /* LOAD MORE */
 
 #app .load-more {
