@@ -326,6 +326,11 @@
     color: rgb(var(--ksyoz-color-main));
 }
 
+.footer [href="https://discord.gg/TF428cr"]::before, .footer [href="https://twitter.com/AniListco"]::before,
+.footer [href="https://www.facebook.com/AniListco"]::before, .footer [href="https://github.com/AniList"]::before {
+    content: "";
+}
+
 /* KEYFRAMES */
 
 @keyframes loadingstars {
