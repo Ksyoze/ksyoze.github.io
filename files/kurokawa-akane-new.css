@@ -125,3 +125,55 @@
     --akane-width: 85px;
     --akane-column: span 1;
 }
+
+/* NAVBAR */
+
+#nav .wrap[data-v-62eacfff] {
+    max-width: 1750px;
+}
+
+#nav .wrap > .logo {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: var(--logo-height);
+}
+
+#nav .wrap > .links {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#nav .wrap > .search {
+    position: absolute;
+    left: 0;
+    margin-left: 100px;
+}
+
+#nav .wrap > .user {
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+}
+
+/* DROPDOWN BROWSE */
+
+#app .browse-wrap > .dropdown {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .dropdown > .footer {
+    background: rgb(var(--ksyoz-color-background));
+}
+
+#app .primary-link-text {
+    color: rgb(var(--ksyoz-color-main));
+}
+
+#app .secondary-links {
+    color: rgb(var(--ksyoz-color-brightest));
+}
