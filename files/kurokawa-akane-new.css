@@ -331,6 +331,17 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
+/* BANNER */
+
+.banner{
+    visibility: hidden !important;
+    height: calc(100vh - 46px) !important;
+}
+
+.banner-content{
+    visibility: visible !important;
+}
+
 /* MILESTONES */
 
 /* ACTIVITY HISTORY */
