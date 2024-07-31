@@ -1104,6 +1104,11 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .section-header > .actions > div {
     background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .favourites > .favourites-wrap {
+    background: rgb(var(--ksyoz-color-background-d));
 }
 
 /* /////////STATS///////// */
