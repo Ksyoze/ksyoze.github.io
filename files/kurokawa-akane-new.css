@@ -663,6 +663,10 @@ a:visited:hover {
     border-top-color: rgb(var(--ksyoz-color-background));
 }
 
+#app .animate-position > .content {
+    margin: auto;
+}
+
 /* /////////ENTRIES///////// */
 
 #app .overview .section-header {
