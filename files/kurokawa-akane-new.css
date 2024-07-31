@@ -1136,9 +1136,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .lists > .list-wrap > .medialist.cards .section-name {
+#app .medialist.cards .section-name {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     text-transform: lowercase;
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 #app .medialist.cards .entry-card .progress, #app .medialist.cards .entry-card .score {
