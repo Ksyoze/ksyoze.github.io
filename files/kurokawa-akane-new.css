@@ -665,6 +665,7 @@ a:visited:hover {
 
 #app .animate-position > .content {
     margin: auto;
+    padding: 8px 12px;
 }
 
 /* /////////ENTRIES///////// */
