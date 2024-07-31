@@ -829,7 +829,7 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .reply-wrap > .activity-replies > .reply > .header > .actions {
+#app .reply-wrap > .activity-replies > .reply > .header > .actions, #app .reply-wrap > .activity-replies > .reply > .header > .actions .action {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
