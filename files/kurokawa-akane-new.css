@@ -1228,4 +1228,9 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .status.accepted {
     background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .status.rejected {
+    color: rgb(var(--ksyoz-color-brightest));
 }
