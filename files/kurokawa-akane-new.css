@@ -1099,6 +1099,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .el-input--prefix .el-input__inner {
     background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 #app .filter-group .group-header {
@@ -1190,6 +1191,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .list-editor-wrap .el-input__inner {
     background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 #app .list-editor-wrap .header .save-btn {
