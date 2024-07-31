@@ -670,6 +670,10 @@ body {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
+#app .user .activity-feed-wrap .section-header .el-dropdown-menu__item:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #app .input .el-textarea__inner {
     border-bottom: 2px solid rgb(var(--ksyoz-color-brightest));
     border-radius: var(--curvyness);
