@@ -1115,8 +1115,6 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-
-
 /* /////////STATS///////// */
 
 #app .stats>.filters>.filter-wrap>.filter-group>.group-header, #app .hohStatsTrigger {
