@@ -1130,7 +1130,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-
+#app .highlight .circle {
+    background: transparent;
+    box-shadow: none;
+}
 
 /* /////////SOCIAL///////// */
 
