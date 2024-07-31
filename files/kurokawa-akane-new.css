@@ -1171,6 +1171,8 @@ body:not(.site-theme-dark) .theme-preview.default {
     transition: var(--list-time);
 }
 
+
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
