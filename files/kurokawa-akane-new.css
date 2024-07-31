@@ -1087,7 +1087,13 @@ body:not(.site-theme-dark) .theme-preview.default {
 /* /////////FAVORITES///////// */
 /* /////////STATS///////// */
 
+#app .stats > .filters > .filter-wrap > .filter-group > .group-header {
+    color: rgb(var(--ksyoz-color-brightest));
+}
 
+#app .stats > .filters > .filter-wrap > .filter-group a {
+    color: rgb(var(--ksyoz-color-brighter));
+}
 
 #app .stats > .stats-wrap > .overview > .highlights {
     background: rgb(var(--ksyoz-color-background-d));
