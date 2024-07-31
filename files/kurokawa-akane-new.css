@@ -1027,12 +1027,6 @@ body:not(.site-theme-dark) .theme-preview.default {
 #app .header>a[href="/user/Robiracer/"].name::after,
 #app .header>a[href="/user/Ziombal/"].name::after,
 #app .header>a[href="/user/MrMediocretaste/"].name::after,
-#app .header>a[href="/user/ThunderBlaze/"].name::after,
-#app .header>a[href="/user/Epic/"].name::after,
-#app .header>a[href="/user/Heavenly/"].name::after,
-#app .header>a[href="/user/Ameer/"].name::after,
-#app .header>a[href="/user/Robiracer/"].name::after,
-#app .header>a[href="/user/Ziombal/"].name::after,
 #app .header>a[href="/user/RizzGodThotSlayer/"].name::after,
 #app .header>a[href="/user/Rirnok/"].name::after {
     content: "✩ Supporting Actor ✩" !important;
@@ -1040,7 +1034,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .header>a[href="/user/Noya/"].name::after,
 #app .header>a[href="/user/dazra/"].name::after,
-#app .header>a[href="/user/keinigami/"].name::after,
+#app .header>a[href="/user/kunigami/"].name::after,
 #app .header>a[href="/user/Ginchan/"].name::after {
     content: "✩ Supporting Actress ✩" !important;
 }
