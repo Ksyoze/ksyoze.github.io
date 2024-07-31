@@ -818,6 +818,11 @@ body {
     filter: blur(8px) opacity(25%);
 }
 
+#app .activity-entry.full-width > .wrap:hover > .list.small > .cover {
+    transition: var(--transition-img);
+    width: 854px;
+}
+
 #app .activity-entry>.wrap:hover>.list.small>.details>.status {
     margin-left: -42px;
     transition: var(--transition-txt);
@@ -853,7 +858,13 @@ body {
     line-height: 15px;
 }
 
-
+#app .text .name {
+    filter: var(--drop-shadow);
+    color: rgb(var(--ksyoz-color-main));
+    padding-top: 10px;
+    line-height: 15px;
+    font-size: 14px;
+}
 
 #app .activity-feed-wrap>.activity-feed {
     max-height: var(--feed-height);
