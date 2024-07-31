@@ -1098,6 +1098,25 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .user-follow > .wrap > .follow-card {
+    border-radius: var(--curvyness-social);
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: var(--social-time);
+}
+#app .user-follow > .wrap > .follow-card:hover {
+    transform: scale(var(--social-scale));
+    transition: var(--social-time);
+}
+
+#app .wrap > .follow-card > .avatar {
+    border-radius: var(--curvyness-social);
+    border: var(--border-socials) solid rgb(var(--ksyoz-color-main));
+}
+
+#app .wrap > .follow-card > .avatar > .name {
+    background: rgba(0, 0, 0, 0.4);
+}
+
 /* /////////REVIEWS///////// */
 
 #app .user-reviews .no-reviews {
