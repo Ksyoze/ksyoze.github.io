@@ -1201,11 +1201,16 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .custom-lists > .checkbox > .el-checkbox {
+#app .custom-lists > .checkbox > .el-checkbox, #app .el-checkbox__label {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
 #app .list-editor-wrap .el-textarea__inner {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .list-editor-wrap .list-editor .body .delete-btn {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
 }
