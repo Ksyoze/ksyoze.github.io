@@ -1152,6 +1152,18 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .bar-chart-wrap {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .bar-chart-wrap > .bar-chart > .bar-wrap > .bar {
+    background: rgb(var(--ksyoz-color-main));
+}
+
+#app .bar-chart-wrap > .x-axis {
+    background: rgb(var(--ksyoz-color-background));
+}
+
 /* /////////SOCIAL///////// */
 
 #app .user-social>.filters>.filter-group span {
