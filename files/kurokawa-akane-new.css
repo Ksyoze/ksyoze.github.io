@@ -1150,3 +1150,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 #app .submission > .content > .notes {
     color: rgb(var(--ksyoz-color-brighter));
 }
+
+#app .submission > .content > .time {
+    color: rgb(var(--ksyoz-color-brighter));
+}
