@@ -684,6 +684,15 @@ body {
     color: rgb(var(--ksyoz-color-bright));
 }
 
+#app .wrap > .list.small > div > div.status > a {
+    width: 230px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
