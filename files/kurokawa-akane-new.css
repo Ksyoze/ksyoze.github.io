@@ -1134,6 +1134,10 @@ body:not(.site-theme-dark) .theme-preview.default {
 }
 
 #app .filters > .filter-group span.active {
-    background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .submissions-wrap > .submission {
+    background: rgb(var(--ksyoz-color-background-d));
 }
