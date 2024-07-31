@@ -793,7 +793,7 @@ body {
 
 #app .action.likes .button .fa-heart:hover,
 #app .like-wrap.thread_comment .button .fa-heart:hover {
-    stroke: rgb(var(--ksyoz-color-main-d));
+    stroke: rgb(var(--ksyoz-color-main));
 }
 
 #app .users>.user {
