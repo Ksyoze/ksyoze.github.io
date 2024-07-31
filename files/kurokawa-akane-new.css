@@ -697,6 +697,15 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .activity-entry > .wrap > .time {
+    color: rgb(var(--ksyoz-color-brighter));
+    filter: var(--drop-shadow);
+}
+
+#app .activity-entry > .wrap > .time:hover {
+    background: none;
+}
+
 #app .activity-entry>.wrap:hover,
 #app .reply:hover {
     border: var(--activity-border) solid rgba(var(--ksyoz-color-main), .5);
