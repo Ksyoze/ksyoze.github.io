@@ -1176,6 +1176,12 @@ body:not(.site-theme-dark) .theme-preview.default {
     z-index: 1;
 }
 
+#app .header > .content {
+    height: 100%;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
