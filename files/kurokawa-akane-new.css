@@ -1095,6 +1095,23 @@ body:not(.site-theme-dark) .theme-preview.default {
 }
 
 /* /////////LISTS///////// */
+
+#app .el-input--prefix .el-input__inner {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .filter-group .group-header {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .filters > .filter-group .active {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .filters > .filter-group {
+    color: rgb(var(--ksyoz-color-bright));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
