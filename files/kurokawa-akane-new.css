@@ -1110,8 +1110,16 @@ body:not(.site-theme-dark) .theme-preview.default {
 /* /////////SOCIAL///////// */
 
 #app .user-social > .filters > .filter-group span {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .user-social > .filters > .filter-group span:active {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .user-social > .filters > .filter-group > .group-header.active {
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 #app .user-follow > .wrap > .follow-card {
