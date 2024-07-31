@@ -647,6 +647,18 @@ body {
     display: none;
 }
 
+#app .tooltip {
+    background: rgb(var(--ksyoz-color-background));
+}
+
+#app .tooltip.animate-position.bottom > .title {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .tooltip, #app .tooltip.bottom:after {
+    border-top-color: rgb(var(--ksyoz-color-background));
+}
+
 /* /////////ENTRIES///////// */
 
 #app .overview .section-header {
