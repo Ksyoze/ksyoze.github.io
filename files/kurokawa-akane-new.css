@@ -1145,7 +1145,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .user-follow>.wrap>.follow-card {
+#app .user-follow>.wrap>.follow-card, #app .hohSocialContent .follow-card {
     border-radius: var(--curvyness-social);
     background-color: rgba(0, 0, 0, 0.3);
     transition: var(--social-time);
