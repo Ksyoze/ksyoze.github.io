@@ -1121,6 +1121,18 @@ body:not(.site-theme-dark) .theme-preview.default {
     text-transform: lowercase;
 }
 
+#app .theme-switch {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .theme-switch .icon {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .theme-switch .active {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
