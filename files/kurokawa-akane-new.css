@@ -1096,6 +1096,11 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 /* /////////LISTS///////// */
 /* /////////FAVORITES///////// */
+
+#app .section-header {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 /* /////////STATS///////// */
 
 #app .stats>.filters>.filter-wrap>.filter-group>.group-header, #app .hohStatsTrigger {
