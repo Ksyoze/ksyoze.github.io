@@ -1107,6 +1107,14 @@ body:not(.site-theme-dark) .theme-preview.default {
     box-shadow: 0 14px 30px rgba(var(--color-shadow-blue), .15), 0 4px 4px rgba(var(--color-shadow-blue), .05);
 }
 
+#app .stats > .stats-wrap > .overview > .highlights > .highlight .value {
+    color: rgb(var(--ksyoz-color-main));
+}
+
+#app .stats > .stats-wrap > .overview > .highlights > .highlight .label {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
 /* /////////SOCIAL///////// */
 
 #app .user-social > .filters > .filter-group span {
