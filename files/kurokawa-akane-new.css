@@ -1246,6 +1246,12 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
+
+#app .list-editor-wrap .list-editor .body .delete-btn:hover {
+    color: rgb(var(--color-white));
+    background: rgb(var(--color-red));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
