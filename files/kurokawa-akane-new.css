@@ -731,6 +731,14 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .action.likes .button .fa-heart, #app .like-wrap.thread_comment .button .fa-heart {
+    stroke: rgb(var(--ksyoz-color-main-d));
+}
+
+#app .action.likes .button .fa-heart:hover, #app .like-wrap.thread_comment .button .fa-heart:hover {
+    stroke: rgb(var(--ksyoz-color-main-d));
+}
+
 #app .activity-entry>.wrap:hover,
 #app .reply:hover {
     border: var(--activity-border) solid rgba(var(--ksyoz-color-main), .5);
