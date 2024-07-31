@@ -676,6 +676,29 @@ body {
     background: rgb(var(--ksyoz-color-background));
 }
 
+#app .actions > .button.cancel {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .actions > .button {
+    background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .activity-edit > .markdown-editor {
+    background: rgb(var(--ksyoz-color-background));
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .activity-edit > .markdown-editor>div:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
+#app .activity-edit > .markdown-editor > [title="Link"], [title="Image"], [title="Youtube Video"], [title="WebM Video"] {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 .activity-feed {
     max-height: var(--feed-height);
     overflow: auto;
