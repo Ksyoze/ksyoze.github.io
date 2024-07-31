@@ -708,7 +708,7 @@ body {
     overflow: auto;
 }
 
-#app .activity-entry>.wrap {
+#app .activity-entry>.wrap, #app .reply-wrap > .activity-replies > .reply {
     border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
