@@ -1137,6 +1137,11 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .medialist.cards .entry-card:hover {
+    transform: scale(var(--list-scale));
+    transition: var(--list-time);
+}
+
 #app .medialist.cards .section-name {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     text-transform: lowercase;
