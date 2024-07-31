@@ -1164,6 +1164,18 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background));
 }
 
+#app .draggable > .horizontal-scroller {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .line-chart-wrap {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .line-chart-wrap > .line-chart > .area {
+    fill: rgb(var(--ksyoz-color-brightest));
+}
+
 /* /////////SOCIAL///////// */
 
 #app .user-social>.filters>.filter-group span {
