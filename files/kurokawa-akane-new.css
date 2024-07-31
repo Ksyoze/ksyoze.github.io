@@ -1109,7 +1109,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 /* /////////SOCIAL///////// */
 
-#app .filters > .filter-group span {
+#app .user-social > .filters > .filter-group span {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
 }
