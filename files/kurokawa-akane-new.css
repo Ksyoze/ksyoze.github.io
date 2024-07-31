@@ -1130,9 +1130,13 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .highlight .circle {
+#app .stats > .stats-wrap > .overview > .highlights > .highlight .circle {
     background: transparent;
     box-shadow: none;
+}
+
+#app .stats > .stats-wrap > .overview > .highlights > .highlight .icon {
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 /* /////////SOCIAL///////// */
