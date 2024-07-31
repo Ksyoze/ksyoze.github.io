@@ -1127,10 +1127,6 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .theme-switch .icon {
-    color: rgb(var(--ksyoz-color-brightest));
-}
-
 #app .theme-switch .active {
     color: rgb(var(--ksyoz-color-main));
 }
