@@ -1234,3 +1234,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 #app .status.rejected {
     color: rgb(var(--ksyoz-color-brightest));
 }
+
+#app .new-badge {
+    display: none;
+}
