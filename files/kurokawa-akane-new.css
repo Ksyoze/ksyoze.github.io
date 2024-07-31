@@ -706,6 +706,10 @@ body {
     background: none;
 }
 
+#app .activity-entry > .wrap > .time .action.active {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #app .activity-entry>.wrap:hover,
 #app .reply:hover {
     border: var(--activity-border) solid rgba(var(--ksyoz-color-main), .5);
@@ -881,3 +885,10 @@ body:not(.site-theme-dark) .theme-preview.default {
 .footer [href="https://github.com/AniList"]::before {
     content: "";
 }
+
+/* /////////LISTS///////// */
+/* /////////FAVORITES///////// */
+/* /////////STATS///////// */
+/* /////////SOCIAL///////// */
+/* /////////REVIEWS///////// */
+/* /////////SUBMISSIONS///////// */
