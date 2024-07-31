@@ -155,7 +155,13 @@ a:visited:hover {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .overview, #app .medialist, #app .favourites, #app .stats, #app .user-social, #app .review-wrap, #app .submissions {
+#app .overview,
+#app .medialist,
+#app .favourites,
+#app .stats,
+#app .user-social,
+#app .review-wrap,
+#app .submissions {
     max-width: 1520px;
     margin: 0% 0% 2% 0%;
     padding: 2% 5% 5% 5%;
@@ -655,15 +661,16 @@ a:visited:hover {
     background: rgb(var(--ksyoz-color-background));
 }
 
-#app .tooltip.animate-position.bottom > .title {
+#app .tooltip.animate-position.bottom>.title {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .tooltip, #app .tooltip.bottom:after {
+#app .tooltip,
+#app .tooltip.bottom:after {
     border-top-color: rgb(var(--ksyoz-color-background));
 }
 
-#app .animate-position > .content {
+#app .animate-position>.content {
     padding: 8px 12px;
 }
 
@@ -838,7 +845,7 @@ a:visited:hover {
     filter: blur(8px) opacity(25%);
 }
 
-#app .activity-entry.full-width > .wrap:hover > .list.small > .cover {
+#app .activity-entry.full-width>.wrap:hover>.list.small>.cover {
     transition: var(--transition-img);
     width: 854px;
 }
@@ -1016,7 +1023,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 .el-tooltip__popper.is-dark {
     font-size: 0;
 }
-    
+
 .el-tooltip__popper.is-dark::after {
     content: 'Scroll Behaviour';
     font-size: 12px;
@@ -1087,11 +1094,11 @@ body:not(.site-theme-dark) .theme-preview.default {
 /* /////////FAVORITES///////// */
 /* /////////STATS///////// */
 
-#app .stats > .filters > .filter-wrap > .filter-group > .group-header {
+#app .stats>.filters>.filter-wrap>.filter-group>.group-header {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .stats > .filters > .filter-wrap > .filter-group a {
+#app .stats>.filters>.filter-wrap>.filter-group a {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -1100,56 +1107,57 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .stats > .stats-wrap > .overview > .highlights {
+#app .stats>.stats-wrap>.overview>.highlights {
     background: rgb(var(--ksyoz-color-background-d));
     border-radius: var(--curvyness);
     padding: 15px !important;
     box-shadow: 0 14px 30px rgba(var(--color-shadow-blue), .15), 0 4px 4px rgba(var(--color-shadow-blue), .05);
 }
 
-#app .stats > .stats-wrap > .overview > .highlights > .highlight .value {
+#app .stats>.stats-wrap>.overview>.highlights>.highlight .value {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .stats > .stats-wrap > .overview > .highlights > .highlight .label {
+#app .stats>.stats-wrap>.overview>.highlights>.highlight .label {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
 /* /////////SOCIAL///////// */
 
-#app .user-social > .filters > .filter-group span {
+#app .user-social>.filters>.filter-group span {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .user-social > .filters > .filter-group span:active {
+#app .user-social>.filters>.filter-group span:active {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .user-social > .filters > .filter-group > .group-header.active {
+#app .user-social>.filters>.filter-group>.group-header.active {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .user-social > .filters > .filter-group .group-header {
+#app .user-social>.filters>.filter-group .group-header {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .user-follow > .wrap > .follow-card {
+#app .user-follow>.wrap>.follow-card {
     border-radius: var(--curvyness-social);
     background-color: rgba(0, 0, 0, 0.3);
     transition: var(--social-time);
 }
-#app .user-follow > .wrap > .follow-card:hover {
+
+#app .user-follow>.wrap>.follow-card:hover {
     transform: scale(var(--social-scale));
     transition: var(--social-time);
 }
 
-#app .wrap > .follow-card > .avatar {
+#app .wrap>.follow-card>.avatar {
     border-radius: var(--curvyness-social);
     border: var(--border-socials) solid rgb(var(--ksyoz-color-main));
 }
 
-#app .wrap > .follow-card > .avatar > .name {
+#app .wrap>.follow-card>.avatar>.name {
     background: rgba(0, 0, 0, 0.4);
 }
 
@@ -1162,19 +1170,19 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .user-social > .user-comments > .wrap > .title {
+#app .user-social>.user-comments>.wrap>.title {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .user-social > .user-comments > .wrap > .comment-wrap {
+#app .user-social>.user-comments>.wrap>.comment-wrap {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .grow > .comment > .header-margin > .actions {
+#app .grow>.comment>.header-margin>.actions {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .grow > .comment > .header-margin > .actions:hover {
+#app .grow>.comment>.header-margin>.actions:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1186,32 +1194,32 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 /* /////////SUBMISSIONS///////// */
 
-#app .user > .content.container > .submissions > .filters > .filter-group .group-header {
+#app .user>.content.container>.submissions>.filters>.filter-group .group-header {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .filters > .filter-group span {
+#app .filters>.filter-group span {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .filters > .filter-group span.active {
+#app .filters>.filter-group span.active {
     color: rgb(var(--ksyoz-color-brightest));
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .submissions-wrap > .submission {
+#app .submissions-wrap>.submission {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .submission > .content {
+#app .submission>.content {
     padding: 14px 18px;
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .submission > .content > .notes {
+#app .submission>.content>.notes {
     color: rgb(var(--ksyoz-color-bright));
 }
 
-#app .submission > .content > .time {
+#app .submission>.content>.time {
     color: rgb(var(--ksyoz-color-brighter));
 }
