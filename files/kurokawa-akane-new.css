@@ -696,7 +696,7 @@ body {
 }
 
 #app .activity-edit > .markdown-editor > [title="Link"], [title="Image"], [title="Youtube Video"], [title="WebM Video"] {
-    color: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .activity-feed {
