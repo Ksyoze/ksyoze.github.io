@@ -126,7 +126,7 @@
     --akane-column: span 1;
 }
 
-/* APPLIES TO EVERYTHING */
+/* /////////APPLIES TO EVERYTHING///////// */
 
 * {
     cursor: var(--cursor-url), auto;
@@ -138,7 +138,7 @@ body {
     background: var(--background-img) center top / 100% fixed;
 }
 
-/* APPLIES TO MULTIPLE */
+/* /////////APPLIES TO MULTIPLE///////// */
 
 #app .header-wrap {
     font-family: "Century Gothic", CenturyGothic, AppleGothic, Futura, "Noto Sans JP", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
@@ -151,7 +151,7 @@ body {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-/* KEYFRAMES */
+/* /////////KEYFRAMES///////// */
 
 @keyframes loadingstars {
     0% {
@@ -192,7 +192,7 @@ body {
     }
 }
 
-/* HEADER */
+/* /////////HEADER///////// */
 
 .site-theme-dark .nav-unscoped.transparent,
 .site-theme-dark .nav-unscoped,
@@ -288,7 +288,7 @@ body {
     top: 0px;
 }
 
-/* DROPDOWN BROWSE */
+/* /////////DROPDOWN BROWSE///////// */
 
 #app .browse-wrap>.dropdown {
     background: rgb(var(--ksyoz-color-background-d));
@@ -320,7 +320,7 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
-/* PROFILE DROPDOWN */
+/* /////////PROFILE DROPDOWN///////// */
 
 #nav .user .chevron {
     color: rgb(var(--ksyoz-color-brightest));
@@ -350,7 +350,7 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
-/* BANNER */
+/* /////////BANNER///////// */
 
 #app .banner {
     visibility: hidden !important;
@@ -361,7 +361,7 @@ body {
     visibility: visible !important;
 }
 
-/* PFP AND NAME */
+/* /////////PFP AND NAME///////// */
 
 #app .banner .container {
     flex-direction: column-reverse;
@@ -398,7 +398,7 @@ body {
     margin: 0 0 0 20px;
 }
 
-/* NAVIGATION */
+/* /////////NAVIGATION///////// */
 
 #app .nav-wrap>.nav {
     font-size: 16px;
@@ -451,7 +451,7 @@ body {
     padding-right: 0px;
 }
 
-/* OVERVIEW */
+/* /////////OVERVIEW///////// */
 
 #app .overview {
     max-width: 1520px;
@@ -468,7 +468,7 @@ body {
     padding: 0%;
 }
 
-/* MILESTONES */
+/* /////////MILESTONES///////// */
 
 #app .stats-wrap {
     grid-column-gap: 0px;
@@ -501,7 +501,7 @@ body {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-/* BIO */
+/* /////////BIO///////// */
 
 #app .about > div.content-wrap {
     border: 3px solid rgb(var(--ksyoz-color-main));
@@ -515,7 +515,7 @@ body {
     overflow: hidden;
 }
 
-/* PINNED POST */
+/* /////////PINNED POST///////// */
 
 .hohPinned .wrap {
     border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
@@ -545,7 +545,7 @@ body {
     border: 3px solid rgb(var(--ksyoz-color-main));
 }
 
-/* ACTIVITY HISTORY */
+/* /////////ACTIVITY HISTORY///////// */
 
 #app .activity-history {
     background: rgb(var(--ksyoz-color-main)) !important;
@@ -583,13 +583,13 @@ body {
     background: rgb(var(--ksyoz-color-brightest));
 }
 
-/* GENRE OVERVIEW */
+/* /////////GENRE OVERVIEW///////// */
 
 #app .desktop:nth-child(3) {
     display: none
 }
 
-/* FAVORITES OVERVIEW */
+/* /////////FAVORITES OVERVIEW///////// */
 
 #app .favourites.preview .favourites-wrap {
     overflow: visible;
@@ -631,7 +631,7 @@ body {
     display: none;
 }
 
-/* ENTRIES */
+/* /////////ENTRIES///////// */
 
 #app .overview .section-header {
     padding-top: 2px;
@@ -673,7 +673,7 @@ body {
     color: rgb(var(--ksyoz-color-post));
 }
 
-/* LOAD MORE */
+/* /////////LOAD MORE///////// */
 
 #app .load-more {
     border-radius: var(--curvyness-loadmore);
@@ -695,7 +695,7 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
-/* FOOTER */
+/* /////////FOOTER///////// */
 
 #app .wrap {
     max-width: var(--head-width);
