@@ -1115,6 +1115,12 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
+#app .favourites > .favourites-wrap > .favourite {
+    overflow: hidden;
+    border-radius: var(--curvyness-fav);
+    transition: var(--favourite-time);
+}
+
 /* /////////STATS///////// */
 
 #app .stats>.filters>.filter-wrap>.filter-group>.group-header, #app .hohStatsTrigger {
