@@ -138,11 +138,7 @@ body {
     background: var(--background-img) center top / 100% fixed;
 }
 
-a:visited:hover {
-    color: rgb(var(--ksyoz-color-main));
-}
-
-.markdown a, .markdown a:visited {
+a:hover, a:visited:hover, .markdown a, .markdown a:visited {
     color: rgb(var(--ksyoz-color-main));
 }
 
