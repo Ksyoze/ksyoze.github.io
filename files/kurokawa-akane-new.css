@@ -1229,6 +1229,14 @@ body:not(.site-theme-dark) .theme-preview.default {
     background-color: rgb(var(--ksyoz-color-main));
 }
 
+#app .el-slider__button {
+    border-color: rgb(var(--ksyoz-color-main));
+}
+
+#app .el-slider__runway {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
