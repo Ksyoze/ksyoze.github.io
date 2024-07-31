@@ -699,7 +699,7 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .activity-edit > .markdown-editor > [title="Link"], [title="Image"], [title="Youtube Video"], [title="WebM Video"] {
+#app .activity-edit > .markdown-editor > #app [title="Link"], #app [title="Image"], #app [title="Youtube Video"], #app [title="WebM Video"] {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
