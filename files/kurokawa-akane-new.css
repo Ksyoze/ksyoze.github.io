@@ -1102,6 +1102,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .hohStatsTrigger:hover, #app .stats>.filters>.filter-wrap>.filter-group a:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #app .stats>.filters>.filter-wrap>.filter-group a {
     color: rgb(var(--ksyoz-color-brighter));
 }
