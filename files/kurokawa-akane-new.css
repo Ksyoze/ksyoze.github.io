@@ -1086,6 +1086,16 @@ body:not(.site-theme-dark) .theme-preview.default {
 /* /////////LISTS///////// */
 /* /////////FAVORITES///////// */
 /* /////////STATS///////// */
+
+
+
+#app .stats > .stats-wrap > .overview > .highlights {
+    background: rgb(var(--ksyoz-color-background-d));
+    border-radius: var(--curvyness);
+    padding: 15px !important;
+    box-shadow: 0 14px 30px rgba(var(--color-shadow-blue), .15), 0 4px 4px rgba(var(--color-shadow-blue), .05);
+}
+
 /* /////////SOCIAL///////// */
 
 #app .filters > .filter-group span {
