@@ -174,7 +174,9 @@ a:hover, a:visited:hover, .markdown a, .markdown a:visited {
     border-bottom-right-radius: var(--curvyness);
 }
 
-
+#app .activity-history, #app .medialist.cards .entry-card .cover .image {
+    border-radius: var(--curvyness);
+}
 
 /* /////////KEYFRAMES///////// */
 
