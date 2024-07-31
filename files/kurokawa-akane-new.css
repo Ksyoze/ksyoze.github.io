@@ -1169,6 +1169,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .list-entries .entry-card {
     transition: var(--list-time);
+    z-index: 2;
 }
 
 #app .lists {
