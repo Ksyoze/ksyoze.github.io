@@ -1182,6 +1182,14 @@ body:not(.site-theme-dark) .theme-preview.default {
     padding-bottom: 0px;
 }
 
+#app .list-editor-wrap .list-editor .body {
+    background: rgb(var(--ksyoz-color-background));
+}
+
+#app .list-editor-wrap .list-editor .body .input-title {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
