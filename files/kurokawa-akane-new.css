@@ -1143,6 +1143,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     text-transform: lowercase;
 }
 
+#app .medialist.cards .entry-card .progress, .medialist.cards .entry-card .score {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
