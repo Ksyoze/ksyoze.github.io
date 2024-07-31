@@ -1170,6 +1170,14 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
+#app .grow > .comment > .header-margin > .actions {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .grow > .comment > .header-margin > .actions:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////REVIEWS///////// */
 
 #app .user-reviews .no-reviews {
