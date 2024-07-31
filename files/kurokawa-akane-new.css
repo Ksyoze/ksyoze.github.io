@@ -693,6 +693,10 @@ body {
     background: none;
 }
 
+.site-theme-dark .el-dropdown-menu {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
 #app svg.svg-inline--fa.fa-angle-down.fa-w-10:hover {
     color: rgb(var(--ksyoz-color-main));
 }
@@ -737,6 +741,11 @@ body {
 
 #app .action.likes .button .fa-heart:hover, #app .like-wrap.thread_comment .button .fa-heart:hover {
     stroke: rgb(var(--ksyoz-color-main-d));
+}
+
+#app .users > .user {
+    border-radius: var(--curvyness-social);
+    border: var(--border-socials) solid rgb(var(--ksyoz-color-main));
 }
 
 #app .activity-entry>.wrap:hover,
