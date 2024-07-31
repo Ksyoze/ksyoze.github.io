@@ -1147,6 +1147,25 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .list-entries > .entry-card > .title {
+    background: rgba(var(--ksyoz-color-overlay), 0.8);
+    border-radius: 0px;
+    min-height: 62px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    backdrop-filter: blur(var(--blur-backdrop));
+    width: 100%;
+    border-radius: 0px 0px var(--curvyness-list) var(--curvyness-list);
+    z-index: -1;
+}
+
+#app .list-entries > .entry-card > .cover {
+    width: 100%;
+    z-index: -2;
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
