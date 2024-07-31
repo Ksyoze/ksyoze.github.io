@@ -1139,7 +1139,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .heading.score > .switch {
+#app .heading.score > .switch, #app .heading > .switch, #app .pie-charts > .pie-chart.vertical-layout {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
