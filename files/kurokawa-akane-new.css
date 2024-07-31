@@ -697,6 +697,10 @@ body {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
+.el-dropdown-menu__item {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
 #app svg.svg-inline--fa.fa-angle-down.fa-w-10:hover {
     color: rgb(var(--ksyoz-color-main));
 }
