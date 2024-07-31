@@ -138,6 +138,10 @@ body {
     background: var(--background-img) center top / 100% fixed;
 }
 
+a:visited:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////APPLIES TO MULTIPLE///////// */
 
 #app .header-wrap {
