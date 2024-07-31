@@ -680,26 +680,29 @@ body {
     background: rgb(var(--ksyoz-color-background));
 }
 
-#app .actions > .button.cancel {
+#app .actions>.button.cancel {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .actions > .button {
+#app .actions>.button {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .activity-edit > .markdown-editor {
+#app .activity-edit>.markdown-editor {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .activity-edit > .markdown-editor>div:hover {
+#app .activity-edit>.markdown-editor>div:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .activity-edit > .markdown-editor > #app [title="Link"], #app [title="Image"], #app [title="Youtube Video"], #app [title="WebM Video"] {
+#app .activity-edit>.markdown-editor>#app [title="Link"],
+#app [title="Image"],
+#app [title="Youtube Video"],
+#app [title="WebM Video"] {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
@@ -708,7 +711,8 @@ body {
     overflow: auto;
 }
 
-#app .activity-entry>.wrap, #app .reply-wrap > .activity-replies > .reply {
+#app .activity-entry>.wrap,
+#app .reply-wrap>.activity-replies>.reply {
     border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
@@ -732,28 +736,28 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .activity-entry > .wrap > .time {
+#app .activity-entry>.wrap>.time {
     color: rgb(var(--ksyoz-color-brighter));
     filter: var(--drop-shadow);
 }
 
-#app .activity-entry > .wrap > .time:hover {
+#app .activity-entry>.wrap>.time:hover {
     background: none;
 }
 
-#app .activity-entry > .wrap > .time .action.active {
+#app .activity-entry>.wrap>.time .action.active {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .wrap > .time > .has-label:hover.has-label::before {
+#app .wrap>.time>.has-label:hover.has-label::before {
     display: none;
 }
 
-#app .wrap > .time > .extras-dropdown .el-dropdown-link {
+#app .wrap>.time>.extras-dropdown .el-dropdown-link {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .wrap > .time > .extras-dropdown .el-dropdown-link:hover {
+#app .wrap>.time>.extras-dropdown .el-dropdown-link:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -761,33 +765,38 @@ body {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
+.el-dropdown-menu__item:focus,
+.el-dropdown-menu__item:not(.is-disabled):hover {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .wrap > .actions, #app .wrap > .action.likes .button {
+#app .wrap>.actions,
+#app .wrap>.action.likes .button {
     color: rgb(var(--ksyoz-color-main-d));
     filter: var(--drop-shadow);
 }
 
-#app .action.likes .button:hover, .like-wrap.thread_comment .button:hover {
+#app .action.likes .button:hover,
+.like-wrap.thread_comment .button:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .wrap > .actions .action:hover {
+#app .wrap>.actions .action:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .action.likes .button .fa-heart, #app .like-wrap.thread_comment .button .fa-heart {
+#app .action.likes .button .fa-heart,
+#app .like-wrap.thread_comment .button .fa-heart {
     stroke: rgb(var(--ksyoz-color-main-d));
 }
 
-#app .action.likes .button .fa-heart:hover, #app .like-wrap.thread_comment .button .fa-heart:hover {
+#app .action.likes .button .fa-heart:hover,
+#app .like-wrap.thread_comment .button .fa-heart:hover {
     stroke: rgb(var(--ksyoz-color-main-d));
 }
 
-#app .users > .user {
+#app .users>.user {
     border-radius: var(--curvyness-social);
     border: var(--border-socials) solid rgb(var(--ksyoz-color-main));
 }
@@ -829,15 +838,16 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .reply-wrap > .activity-replies > .reply > .header > .actions, #app .reply-wrap > .activity-replies > .reply > .header > .actions .action {
+#app .reply-wrap>.activity-replies>.reply>.header>.actions,
+#app .reply-wrap>.activity-replies>.reply>.header>.actions .action {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .reply-wrap > .activity-replies > .reply > .header > .actions .action .action:hover {
+#app .reply-wrap>.activity-replies>.reply>.header>.actions .action .action:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .reply > .header > .name {
+#app .reply>.header>.name {
     filter: var(--drop-shadow);
     color: rgb(var(--ksyoz-color-main));
     line-height: 15px;
@@ -845,7 +855,7 @@ body {
 
 
 
-#app .activity-feed-wrap > .activity-feed {
+#app .activity-feed-wrap>.activity-feed {
     max-height: var(--feed-height);
     overflow: auto;
 }
@@ -985,6 +995,58 @@ body:not(.site-theme-dark) .theme-preview.default {
 .footer [href="https://www.facebook.com/AniListco"]::before,
 .footer [href="https://github.com/AniList"]::before {
     content: "";
+}
+
+/* /////////BADGES///////// */
+
+#app .header>.name::after {
+    content: "⌈ Audience ⌋";
+    font-size: 10px;
+    color: white;
+    display: block;
+    padding-left: 2px;
+}
+
+#app .header>a[href="/user/Ksyoz/"].name::after {
+    content: "★ Lead Actress ★" !important;
+}
+
+#app .header>a[href="/user/BrainyElric/"].name::after {
+    content: "⇒ Annoying Brat ⇐" !important;
+}
+
+#app .header>a[href="/user/Smitch/"].name::after,
+#app .header>a[href="/user/TeeqZz/"].name::after,
+#app .header>a[href="/user/Markizz/"].name::after,
+#app .header>a[href="/user/TropicalMarc/"].name::after,
+#app .header>a[href="/user/Champi/"].name::after,
+#app .header>a[href="/user/ThunderBlaze/"].name::after,
+#app .header>a[href="/user/Epic/"].name::after,
+#app .header>a[href="/user/Heavenly/"].name::after,
+#app .header>a[href="/user/Ameer/"].name::after,
+#app .header>a[href="/user/Robiracer/"].name::after,
+#app .header>a[href="/user/Ziombal/"].name::after,
+#app .header>a[href="/user/MrMediocretaste/"].name::after,
+#app .header>a[href="/user/ThunderBlaze/"].name::after,
+#app .header>a[href="/user/Epic/"].name::after,
+#app .header>a[href="/user/Heavenly/"].name::after,
+#app .header>a[href="/user/Ameer/"].name::after,
+#app .header>a[href="/user/Robiracer/"].name::after,
+#app .header>a[href="/user/Ziombal/"].name::after,
+#app .header>a[href="/user/RizzGodThotSlayer/"].name::after,
+#app .header>a[href="/user/Rirnok/"].name::after {
+    content: "✩ Supporting Actor ✩" !important;
+}
+
+#app .header>a[href="/user/Noya/"].name::after,
+#app .header>a[href="/user/dazra/"].name::after,
+#app .header>a[href="/user/keinigami/"].name::after,
+#app .header>a[href="/user/Ginchan/"].name::after {
+    content: "✩ Supporting Actress ✩" !important;
+}
+
+#app .header>a[href="/user/Kusogaki/"].name::after {
+    content: "✉ Mailman ✉" !important;
 }
 
 /* /////////LISTS///////// */
