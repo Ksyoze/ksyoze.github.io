@@ -1130,6 +1130,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .user-social > .filters > .filter-group .group-header {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 #app .user-follow > .wrap > .follow-card {
     border-radius: var(--curvyness-social);
     background-color: rgba(0, 0, 0, 0.3);
