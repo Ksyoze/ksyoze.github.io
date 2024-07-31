@@ -714,6 +714,14 @@ body {
     display: none;
 }
 
+#app .wrap > .time > .extras-dropdown .el-dropdown-link {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .wrap > .time > .extras-dropdown .el-dropdown-link:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #app .activity-entry>.wrap:hover,
 #app .reply:hover {
     border: var(--activity-border) solid rgba(var(--ksyoz-color-main), .5);
