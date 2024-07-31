@@ -1237,6 +1237,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
+#app .hohStepper {
+    opacity: 1;
+    color: rgb(var(--ksyoz-color-brightest));
+}
 /* /////////FAVORITES///////// */
 
 #app .section-header {
