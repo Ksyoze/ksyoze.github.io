@@ -1189,6 +1189,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     stroke: rgb(var(--ksyoz-color-main));
 }
 
+#app .pie-charts > .pie-chart.vertical-layout > .title {
+    margin-bottom: 15px;
+}
+
 /* /////////SOCIAL///////// */
 
 #app .user-social>.filters>.filter-group span {
