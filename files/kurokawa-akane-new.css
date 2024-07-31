@@ -693,6 +693,11 @@ body {
     filter: blur(8px) opacity(25%);
 }
 
+#app .activity-entry > .wrap:hover > .list.small >.details > .status {
+    margin-left: -42px;
+    transition: var(--transition-txt);
+}
+
 #app .wrap > .list.small > .details .status {
     transition: var(--transition-txt);
     filter: var(--drop-shadow);
