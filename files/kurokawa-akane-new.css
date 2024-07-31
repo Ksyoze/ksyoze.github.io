@@ -1225,3 +1225,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 #app .submission>.content>.time {
     color: rgb(var(--ksyoz-color-brighter));
 }
+
+#app .status.accepted {
+    background: rgb(var(--ksyoz-color-main));
+}
