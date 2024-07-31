@@ -1144,4 +1144,9 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .submission > .content {
     padding: 14px 18px;
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .submission > .content > .notes {
+    color: rgb(var(--ksyoz-color-brighter));
 }
