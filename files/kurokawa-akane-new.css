@@ -1088,7 +1088,10 @@ body:not(.site-theme-dark) .theme-preview.default {
 /* /////////STATS///////// */
 /* /////////SOCIAL///////// */
 
-
+#app .filters > .filter-group span {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brighter));
+}
 
 /* /////////REVIEWS///////// */
 
