@@ -771,6 +771,10 @@ body {
     filter: var(--drop-shadow);
 }
 
+#app .action.likes .button:hover, .like-wrap.thread_comment .button:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #app .wrap > .actions .action:hover {
     color: rgb(var(--ksyoz-color-main));
 }
