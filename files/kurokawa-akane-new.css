@@ -1266,6 +1266,12 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-main));
     box-shadow: 0 0 5px rgb(var(--ksyoz-color-main));
 }
+
+#app .medialist .release-status.NOT_YET_RELEASED {
+    background: rgb(var(--ksyoz-color-brightest));
+    box-shadow: 0 0 5px rgb(var(--ksyoz-color-brightest));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
