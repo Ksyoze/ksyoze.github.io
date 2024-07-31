@@ -829,7 +829,9 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
-
+#app .reply-wrap > .activity-replies > .reply > .header > .actions {
+    color: rgb(var(--ksyoz-color-brighter));
+}
 
 /* /////////LOAD MORE///////// */
 
