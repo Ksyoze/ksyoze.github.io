@@ -1257,6 +1257,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--color-red));
 }
 
+#app .medialist .release-status.RELEASING {
+    background: rgb(var(--ksyoz-color-main));
+    box-shadow: 0 0 5px rgb(var(--ksyoz-color-main));
+}
 /* /////////FAVORITES///////// */
 
 #app .section-header {
