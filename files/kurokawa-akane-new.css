@@ -1124,6 +1124,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .theme-switch {
     background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 #app .theme-switch .icon {
