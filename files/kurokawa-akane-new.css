@@ -1108,8 +1108,14 @@ body:not(.site-theme-dark) .theme-preview.default {
 }
 
 #app .favourites > .favourites-wrap {
+    overflow: auto;
+    padding: 20px !important;
+    grid-gap: 10px;
+    border-radius: var(--curvyness-fav);
     background: rgb(var(--ksyoz-color-background-d));
 }
+
+
 
 /* /////////STATS///////// */
 
