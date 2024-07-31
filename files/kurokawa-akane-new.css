@@ -843,6 +843,13 @@ body {
     line-height: 15px;
 }
 
+
+
+#app .activity-feed-wrap > .activity-feed {
+    max-height: var(--feed-height);
+    overflow: auto;
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
