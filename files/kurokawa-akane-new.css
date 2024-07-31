@@ -1205,7 +1205,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-
+#app .list-editor-wrap .el-textarea__inner {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brighter));
+}
 
 /* /////////FAVORITES///////// */
 
