@@ -1093,11 +1093,6 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .hohThemeSwitch {
-    background: rgb(var(--ksyoz-color-background-d));
-    color: rgb(var(--ksyoz-color-brightest));
-}
-
 #app .user-follow > .wrap > .follow-card {
     border-radius: var(--curvyness-social);
     background-color: rgba(0, 0, 0, 0.3);
@@ -1115,6 +1110,15 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .wrap > .follow-card > .avatar > .name {
     background: rgba(0, 0, 0, 0.4);
+}
+
+#app .hohThemeSwitch .active {
+    color: rgb(var(--ksyoz-color-main));
+}
+
+#app .hohThemeSwitch {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 /* /////////REVIEWS///////// */
