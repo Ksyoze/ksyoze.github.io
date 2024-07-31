@@ -673,6 +673,17 @@ body {
     color: rgb(var(--ksyoz-color-post));
 }
 
+#app .wrap > .list.small .cover {
+    transition: var(--transition-img);
+    width: 50px;
+}
+
+#app .wrap > .list.small > .details .status {
+    transition: var(--transition-txt);
+    filter: var(--drop-shadow);
+    color: rgb(var(--ksyoz-color-bright));
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
