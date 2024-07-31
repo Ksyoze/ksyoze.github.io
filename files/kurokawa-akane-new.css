@@ -1141,3 +1141,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 #app .submissions-wrap > .submission {
     background: rgb(var(--ksyoz-color-background-d));
 }
+
+#app .submission > .content {
+    padding: 14px 18px;
+}
