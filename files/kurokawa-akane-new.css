@@ -1099,6 +1099,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .section-header {
     color: rgb(var(--ksyoz-color-brightest));
+    font-size: 16px;
 }
 
 /* /////////STATS///////// */
