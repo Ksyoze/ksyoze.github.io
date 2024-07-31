@@ -619,8 +619,9 @@ a:hover, a:visited:hover, .markdown a, .markdown a:visited {
 
 /* /////////FAVORITES OVERVIEW///////// */
 
-#app .favourites.preview .favourites-wrap {
+#app .favourites.preview > .favourites-wrap {
     overflow: visible;
+    padding: 0px !important;
 }
 
 #app .favourites.preview .favourites-wrap .favourite,
