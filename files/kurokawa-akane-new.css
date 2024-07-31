@@ -666,7 +666,7 @@ body {
 }
 
 #app .activity-entry > .wrap {
-    border: var(--activity-border) solid rgb(var(--ksyoz-color-main)) !important;
+    border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
     background: rgb(var(--ksyoz-color-background));
