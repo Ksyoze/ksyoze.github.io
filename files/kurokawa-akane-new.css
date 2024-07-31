@@ -1137,6 +1137,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .medialist.cards .entry-card .title:hover {
+    white-space: normal;
+}
+
 #app .medialist.cards .entry-card:hover {
     transform: scale(var(--list-scale));
     transition: var(--list-time);
