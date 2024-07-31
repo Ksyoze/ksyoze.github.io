@@ -142,6 +142,10 @@ a:visited:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
+.markdown a, .markdown a:visited {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////APPLIES TO MULTIPLE///////// */
 
 #app .header-wrap {
@@ -1192,6 +1196,10 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .grow > .comment > .header .time {
     color: rgb(var(--ksyoz-color-bright));
+}
+
+#app .grow > .comment > .markdown {
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 /* /////////REVIEWS///////// */
