@@ -730,6 +730,15 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
+.el-dropdown-menu__item {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
+    background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 #app .wrap > .actions, #app .wrap > .action.likes .button {
     color: rgb(var(--ksyoz-color-main-d));
     filter: var(--drop-shadow);
