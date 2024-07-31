@@ -1197,13 +1197,15 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-checked+.el-checkbox__label {
-    background-color: rgb(var(--ksyoz-color-main));
+#app .el-checkbox__input.is-checked .el-checkbox__inner, #app .el-checkbox__input.is-checked+.el-checkbox__label {
+    color: rgb(var(--ksyoz-color-main));
 }
 
 #app .custom-lists > .checkbox > .el-checkbox {
     color: rgb(var(--ksyoz-color-brightest));
 }
+
+
 
 /* /////////FAVORITES///////// */
 
