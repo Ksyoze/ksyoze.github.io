@@ -155,7 +155,7 @@ a:visited:hover {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .overview, #app .medialist, #app .favourites, #app .stats, #app .user-social, #app .review-wrap {
+#app .overview, #app .medialist, #app .favourites, #app .stats, #app .user-social, #app .review-wrap, #app .submissions {
     max-width: 1520px;
     margin: 0% 0% 2% 0%;
     padding: 2% 5% 5% 5%;
@@ -1087,6 +1087,9 @@ body:not(.site-theme-dark) .theme-preview.default {
 /* /////////FAVORITES///////// */
 /* /////////STATS///////// */
 /* /////////SOCIAL///////// */
+
+
+
 /* /////////REVIEWS///////// */
 
 #app .user-reviews .no-reviews {
@@ -1095,7 +1098,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 /* /////////SUBMISSIONS///////// */
 
-#app .filters >.filter-group .group-header {
+#app .user > .content.container > .submissions > .filters > .filter-group .group-header {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
