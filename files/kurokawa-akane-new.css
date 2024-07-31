@@ -155,6 +155,15 @@ a:visited:hover {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .overview, #app .medialist, #app .favourites, #app .content.container {
+    max-width: 1520px;
+    margin: 0% 0% 2% 0%;
+    padding: 2% 5% 5% 5%;
+    background-color: rgb(var(--ksyoz-color-background-t));
+    border-bottom-left-radius: var(--curvyness);
+    border-bottom-right-radius: var(--curvyness);
+}
+
 /* /////////KEYFRAMES///////// */
 
 @keyframes loadingstars {
@@ -456,15 +465,6 @@ a:visited:hover {
 }
 
 /* /////////OVERVIEW///////// */
-
-#app .overview {
-    max-width: 1520px;
-    margin: 0% 0% 2% 0%;
-    padding: 2% 5% 5% 5%;
-    background-color: rgb(var(--ksyoz-color-background-t));
-    border-bottom-left-radius: var(--curvyness);
-    border-bottom-right-radius: var(--curvyness);
-}
 
 #app .content {
     width: var(--nav-width);
