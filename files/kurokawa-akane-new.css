@@ -1089,3 +1089,12 @@ body:not(.site-theme-dark) .theme-preview.default {
 /* /////////SOCIAL///////// */
 /* /////////REVIEWS///////// */
 /* /////////SUBMISSIONS///////// */
+
+#app .filters >.filter-group .group-header {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .filters > .filter-group span.active {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brighter));
+}
