@@ -1217,6 +1217,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
+#app .el-input--small .el-input__inner {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
