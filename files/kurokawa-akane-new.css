@@ -687,6 +687,12 @@ body {
     width: 50px;
 }
 
+#app .activity-entry > .wrap:hover .list.small > .cover {
+    transition: var(--transition-img);
+    width: 410px;
+    filter: blur(8px) opacity(25%);
+}
+
 #app .wrap > .list.small > .details .status {
     transition: var(--transition-txt);
     filter: var(--drop-shadow);
