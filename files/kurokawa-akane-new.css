@@ -1171,7 +1171,9 @@ body:not(.site-theme-dark) .theme-preview.default {
     transition: var(--list-time);
 }
 
-
+#app .lists {
+    z-index: 1;
+}
 
 /* /////////FAVORITES///////// */
 
