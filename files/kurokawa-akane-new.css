@@ -710,6 +710,10 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .wrap > .time > .has-label:hover.has-label::before {
+    display: none;
+}
+
 #app .activity-entry>.wrap:hover,
 #app .reply:hover {
     border: var(--activity-border) solid rgba(var(--ksyoz-color-main), .5);
