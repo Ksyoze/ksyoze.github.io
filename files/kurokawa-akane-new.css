@@ -1162,6 +1162,14 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .user-social > .user-comments > .wrap > .title {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .user-social > .user-comments > .wrap > .comment-wrap {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
 /* /////////REVIEWS///////// */
 
 #app .user-reviews .no-reviews {
