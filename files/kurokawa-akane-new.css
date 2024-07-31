@@ -722,6 +722,15 @@ body {
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .wrap > .actions, #app .wrap > .action.likes .button {
+    color: rgb(var(--ksyoz-color-main-d));
+    filter: var(--drop-shadow);
+}
+
+#app .wrap > .actions .action:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #app .activity-entry>.wrap:hover,
 #app .reply:hover {
     border: var(--activity-border) solid rgba(var(--ksyoz-color-main), .5);
