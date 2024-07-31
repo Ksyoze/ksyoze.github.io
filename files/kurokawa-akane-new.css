@@ -673,6 +673,11 @@ body {
     color: rgb(var(--ksyoz-color-post));
 }
 
+#app .activity-entry > .wrap:hover, #app .reply:hover {
+    border: var(--activity-border) solid rgba(var(--ksyoz-color-main), .5);
+    transition: var(--activity-time);
+}
+
 #app .wrap > .list.small .cover {
     transition: var(--transition-img);
     width: 50px;
