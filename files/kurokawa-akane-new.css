@@ -1407,7 +1407,9 @@ body:not(.site-theme-dark) .theme-preview.default {
     box-shadow: 0 0 5px rgb(var(--ksyoz-color-brightest));
 }
 
-
+#app .el-select-dropdown__item {
+    color: rgb(var(--ksyoz-color-brightest));
+}
 
 /* /////////FAVORITES///////// */
 
