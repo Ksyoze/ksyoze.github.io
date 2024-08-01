@@ -293,6 +293,14 @@ a:visited:hover,
     border-radius: var(--curvyness);
 }
 
+.site-theme-dark .quick-search.el-select .el-input.el-input__inner,
+.site-theme-dark .quick-search .el-select .el-input.is-focus .el-input__inner,
+.site-theme-dark .el-select-dropdown,
+.site-theme-dark .el-dropdown-menu,
+.site-theme-dark .el-dropdown-menu__item--divided::before {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
 /*
 #app .activity-history, #app .medialist.cards .entry-card .cover .image {
     border-radius: var(--curvyness);
