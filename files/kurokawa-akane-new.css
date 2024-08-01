@@ -235,7 +235,9 @@
 #app .filter-group a.router-link-active,
 #app .switch>.options>.option.active,
 #app .heading .switch .option:hover,
-#app .unfollow {
+#app .unfollow,
+svg:not(:root).svg-inline--fa,
+#app .button {
     cursor: var(--cursor-url), auto;
 }
 
