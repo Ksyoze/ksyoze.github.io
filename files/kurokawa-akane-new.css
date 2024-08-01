@@ -570,7 +570,7 @@ a:visited:hover,
 }
 
 #app .nav-wrap>.nav .router-link-active {
-    color: rgb(var(--ksyoz-color-main)) !important;
+    color: rgb(var(--ksyoz-color-main));
 }
 
 #app .nav>.link::after {
