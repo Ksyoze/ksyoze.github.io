@@ -623,7 +623,7 @@ a:hover, a:visited:hover, .markdown a, .markdown a:visited {
 
 /* /////////FAVORITES OVERVIEW///////// */
 
-#app #app .overview > .section > .favourites {
+#app .overview > .section > .favourites {
     padding: 0px !important;
 }
 
