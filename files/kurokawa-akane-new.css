@@ -1369,7 +1369,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 }
 
 #app .el-select-dropdown__item.hover,
-.el-select-dropdown__item:hover {
+#app .el-select-dropdown__item:hover {
     background-color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1406,6 +1406,8 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-brightest));
     box-shadow: 0 0 5px rgb(var(--ksyoz-color-brightest));
 }
+
+
 
 /* /////////FAVORITES///////// */
 
