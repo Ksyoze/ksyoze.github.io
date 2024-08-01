@@ -692,6 +692,8 @@ a:visited:hover,
 
 #app .activity-history {
     background: rgb(var(--ksyoz-color-main)) !important;
+    border: 3px solid rgb(var(--ksyoz-color-main));
+    border-radius: var(--curvyness-activity);
 }
 
 #app .history-day {
