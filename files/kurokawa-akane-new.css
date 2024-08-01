@@ -132,6 +132,7 @@
     cursor: var(--cursor-url), auto;
     scrollbar-width: none;
 }
+
 /*
 .markdown-spoiler::before,
 .el-dropdown-menu__item,
@@ -201,7 +202,24 @@
 }
 */
 
-{
+#nav .wrap>.user,
+#app .transparent .search svg,
+#app .transparent .search svg,
+#app .search svg,
+.theme-preview:is(.default, .dark),
+#app .favourites.preview .favourites-wrap .favourite,
+#app .favourites.preview .favourites-wrap>div,
+#app .user .activity-feed-wrap .section-header .el-dropdown-menu__item,
+#app .activity-entry>.wrap>.time .action.active,
+#app .wrap>.time>.extras-dropdown .el-dropdown-link,
+.el-dropdown-menu__item,
+#app .activity-feed-wrap>h2>.el-dropdown,
+.actions .action,
+#app .reply-wrap>.activity-replies>.reply>.header>.actions,
+#app .reply-wrap>.activity-replies>.reply>.header>.actions .action,
+#app button,
+#app [title="Link"], #app [title="Image"], #app [title="Youtube Video"], #app [title="WebM Video"],
+.markdown-editor>div {
     cursor: var(--cursor-url), auto;
 }
 
