@@ -222,7 +222,17 @@
 .markdown-editor>div,
 #app .actions>.button.cancel,
 #app .actions>.button,
-#app .load-more {
+#app .load-more,
+.theme-switch .icon,
+#app .filters>.filter-group span,
+#app .medialist.cards .entry-card .edit,
+.medialist .entry-card:hover .plus-progress, .medialist .entry:hover .plus-progress,
+#app .random-btn, #app .hohButton,
+#app .section-header>.actions>div,
+#app .favourites>.favourites-wrap>.favourite,
+.delete,
+#app .stats>.filters>.filter-wrap>.filter-group a,
+#app .filter-group a.router-link-active {
     cursor: var(--cursor-url), auto;
 }
 
