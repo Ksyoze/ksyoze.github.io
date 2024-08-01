@@ -1415,6 +1415,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     box-shadow: 0 0 5px rgb(var(--ksyoz-color-brightest));
 }
 
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+    background-color: rgb(var(--ksyoz-color-main));
+}
+
 .el-select-dropdown__item {
     color: rgb(var(--ksyoz-color-brightest));
 }
@@ -1425,6 +1429,12 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 .el-select-dropdown__item.selected {
     color: rgb(var(--ksyoz-color-main));
+}
+
+.el-picker-panel {
+    border: 1px solid rgb(var(--ksyoz-color-background-d));
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-bright));
 }
 
 /* /////////FAVORITES///////// */
