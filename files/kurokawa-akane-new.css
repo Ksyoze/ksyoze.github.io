@@ -230,9 +230,12 @@
 #app .random-btn, #app .hohButton,
 #app .section-header>.actions>div,
 #app .favourites>.favourites-wrap>.favourite,
-.delete,
+#app .delete,
 #app .stats>.filters>.filter-wrap>.filter-group a,
-#app .filter-group a.router-link-active {
+#app .filter-group a.router-link-active,
+#app .switch>.options>.option.active,
+#app .heading .switch .option:hover,
+#app .unfollow {
     cursor: var(--cursor-url), auto;
 }
 
