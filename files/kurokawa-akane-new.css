@@ -245,8 +245,25 @@ svg:not(:root).svg-inline--fa,
 #app .button,
 #app .actions .action,
 .action.likes .button,
-.like-wrap.thread_comment .button {
-    cursor: var(--cursor-url), auto;
+.like-wrap.thread_comment .button,
+.list-editor-wrap .header .favourite,
+#app .list-editor-wrap .header .save-btn,
+#app .list-editor-wrap .el-input__inner,
+.el-select .el-input .el-select__caret,
+.el-input-number.is-controls-right .el-input-number__decrease, .el-input-number.is-controls-right .el-input-number__increase,
+.el-input__icon,
+.el-date-editor .el-icon-circle-close,
+#app .custom-lists>.checkbox>.el-checkbox, #app .el-checkbox__label,
+#app .list-editor-wrap .list-editor .body .delete-btn,
+.el-picker-panel__icon-btn, .el-date-picker__header-label,
+.el-date-table td,
+.el-select-dropdown__item,
+#app .el-input--small .el-input__inner,
+#app .el-slider__button,
+#app .el-slider__runway,
+.el-slider__button-wrapper.hover, .el-slider__button-wrapper:hover,
+.hohChangeScore {
+    cursor: var(--cursor-url), auto !important;
 }
 
 body {
