@@ -573,12 +573,6 @@ a:visited:hover,
     color: rgb(var(--ksyoz-color-main)) !important;
 }
 
-#app .nav>.router-link-active::after {
-    left: 0;
-    width: 100%;
-    background: rgb(var(--ksyoz-color-main));
-}
-
 #app .nav>.link::after {
     content: "";
     position: absolute;
@@ -588,6 +582,12 @@ a:visited:hover,
     width: 0;
     background: rgb(var(--ksyoz-color-main));
     transition: all var(--underline-time) ease;
+}
+
+#app .nav>.router-link-active::after {
+    left: 0;
+    width: 100%;
+    background: rgb(var(--ksyoz-color-main));
 }
 
 #app .header-wrap>.nav-wrap {
