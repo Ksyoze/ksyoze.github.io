@@ -218,7 +218,10 @@
 #app .reply-wrap>.activity-replies>.reply>.header>.actions,
 #app .reply-wrap>.activity-replies>.reply>.header>.actions .action,
 #app button,
-#app [title="Link"], #app [title="Image"], #app [title="Youtube Video"], #app [title="WebM Video"],
+#app [title="Link"],
+#app [title="Image"],
+#app [title="Youtube Video"],
+#app [title="WebM Video"],
 .markdown-editor>div,
 #app .actions>.button.cancel,
 #app .actions>.button,
@@ -226,8 +229,10 @@
 .theme-switch .icon,
 #app .filters>.filter-group span,
 #app .medialist.cards .entry-card .edit,
-.medialist .entry-card:hover .plus-progress, .medialist .entry:hover .plus-progress,
-#app .random-btn, #app .hohButton,
+.medialist .entry-card:hover .plus-progress,
+.medialist .entry:hover .plus-progress,
+#app .random-btn,
+#app .hohButton,
 #app .section-header>.actions>div,
 #app .favourites>.favourites-wrap>.favourite,
 #app .delete,
@@ -237,7 +242,10 @@
 #app .heading .switch .option:hover,
 #app .unfollow,
 svg:not(:root).svg-inline--fa,
-#app .button {
+#app .button,
+#app .actions .action,
+.action.likes .button,
+.like-wrap.thread_comment .button {
     cursor: var(--cursor-url), auto;
 }
 
@@ -1097,7 +1105,7 @@ a:visited:hover,
 }
 
 .activity-extras-dropdown .icon svg {
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-brightest)) !important;
 }
 
 /* /////////LOAD MORE///////// */
