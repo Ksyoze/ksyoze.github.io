@@ -573,6 +573,10 @@ a:visited:hover,
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .nav>.link {
+    position: relative;
+}
+
 #app .nav>.link::after {
     content: "";
     position: absolute;
@@ -585,6 +589,12 @@ a:visited:hover,
 }
 
 #app .nav>.router-link-active::after {
+    left: 0;
+    width: 100%;
+    background: rgb(var(--ksyoz-color-main));
+}
+
+#app .nav>.link:hover::after {
     left: 0;
     width: 100%;
     background: rgb(var(--ksyoz-color-main));
@@ -1419,7 +1429,8 @@ body:not(.site-theme-dark) .theme-preview.default {
     box-shadow: 0 0 5px rgb(var(--ksyoz-color-brightest));
 }
 
-.el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
     background-color: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
@@ -1442,11 +1453,13 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-bright));
 }
 
-.el-picker-panel__icon-btn, .el-date-picker__header-label {
+.el-picker-panel__icon-btn,
+.el-date-picker__header-label {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-.el-date-table td.next-month, .el-date-table td.prev-month {
+.el-date-table td.next-month,
+.el-date-table td.prev-month {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
@@ -1455,7 +1468,8 @@ body:not(.site-theme-dark) .theme-preview.default {
     border-bottom: 1px solid rgb(var(--ksyoz-color-background));
 }
 
-.el-dialog__headerbtn:focus .el-dialog__close, .el-dialog__headerbtn:hover .el-dialog__close {
+.el-dialog__headerbtn:focus .el-dialog__close,
+.el-dialog__headerbtn:hover .el-dialog__close {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1463,7 +1477,8 @@ body:not(.site-theme-dark) .theme-preview.default {
     background-color: rgb(var(--ksyoz-color-main));
 }
 
-.el-picker-panel__icon-btn:hover, .el-date-picker__header-label:hover {
+.el-picker-panel__icon-btn:hover,
+.el-date-picker__header-label:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
