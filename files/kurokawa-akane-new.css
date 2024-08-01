@@ -217,6 +217,20 @@ a:visited:hover,
     color: rgb(var(--ksyoz-color-main));
 }
 
+.about .markdown>center>div {
+    background: rgb(var(--ksyoz-color-background));
+    background-image: url("https://i.imgur.com/kj1U8w8.png");
+    background-repeat: repeat;
+    background-size: 1920px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    animation: loadingstars 3s ease forwards 1s;
+}
+
 /* /////////APPLIES TO MULTIPLE///////// */
 
 #app .header-wrap {
