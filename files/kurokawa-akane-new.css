@@ -1350,7 +1350,8 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .el-checkbox__input.is-checked .el-checkbox__inner,
 #app .el-checkbox__input.is-checked.el-checkbox__label {
-    color: rgb(var(--ksyoz-color-main));
+    background-color: rgb(var(--ksyoz-color-main));
+    border-color: rgb(var(--ksyoz-color-main));
 }
 
 #app .custom-lists>.checkbox>.el-checkbox,
@@ -1436,6 +1437,12 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-bright));
 }
+
+.el-picker-panel__icon-btn, .el-date-picker__header-label {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+
 
 /* /////////FAVORITES///////// */
 
