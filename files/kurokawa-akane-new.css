@@ -1051,6 +1051,10 @@ a:visited:hover,
     overflow: auto;
 }
 
+.activity-extras-dropdown .icon svg {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
