@@ -1126,6 +1126,10 @@ a:visited:hover,
     color: rgb(var(--ksyoz-color-brightest)) !important;
 }
 
+#app .time .action:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
