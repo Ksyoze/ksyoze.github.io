@@ -1130,6 +1130,10 @@ a:visited:hover,
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .el-dialog__body {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
