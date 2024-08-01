@@ -1467,6 +1467,11 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-main));
 }
 
+.el-checkbox__input.is-checked .el-checkbox__inner {
+    background-color: rgb(var(--ksyoz-color-main));
+    border-color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
