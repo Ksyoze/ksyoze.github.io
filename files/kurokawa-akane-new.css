@@ -1474,6 +1474,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 }
 
 .el-select-dropdown__item.hover,
+.el-select-dropdown__item.selected.hover,
 .el-select-dropdown__item:hover {
     background-color: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
