@@ -160,7 +160,6 @@
 .el-slider__button:hover,
 .el-slider__button-wrapper.hover,
 .el-slider__button-wrapper:hover,
-.random-btn,
 .hohButton,
 .el-slider__runway,
 .medialist .entry-card .plus-progress,
@@ -287,9 +286,8 @@ a:visited:hover,
 #app .markdown-editor,
 #app .theme-switch,
 #app .image,
-#app img,
 #app .youtube,
-#app blockquote,
+#app .blockquote,
 #app .embed,
 #app .wrap {
     border-radius: var(--curvyness);
