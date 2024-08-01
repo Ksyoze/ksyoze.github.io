@@ -1411,6 +1411,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .el-select-dropdown__list {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
