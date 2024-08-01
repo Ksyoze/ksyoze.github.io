@@ -132,7 +132,7 @@
     cursor: var(--cursor-url), auto;
     scrollbar-width: none;
 }
-
+/*
 .markdown-spoiler::before,
 .el-dropdown-menu__item,
 .search svg,
@@ -197,6 +197,11 @@
 .el-select-dropdown__item,
 .tagIndex p:hover,
 .el-icon-circle-close {
+    cursor: var(--cursor-url), auto;
+}
+*/
+
+{
     cursor: var(--cursor-url), auto;
 }
 
