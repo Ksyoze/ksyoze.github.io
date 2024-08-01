@@ -460,6 +460,10 @@ a:visited:hover,
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .search svg {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 #app .transparent .search svg:hover {
     color: rgb(var(--ksyoz-color-main));
 }
