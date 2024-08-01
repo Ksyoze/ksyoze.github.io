@@ -174,10 +174,20 @@ a:hover, a:visited:hover, .markdown a, .markdown a:visited {
     border-bottom-right-radius: var(--curvyness);
 }
 
+#app .favourites, #app .review-card, #app .follow-card,
+#app .bar-chart-wrap, #app .pie-chart.vertical-layout, 
+#app .draggable, #app .favourites-wrap, #app .list-section, #app .filters,
+#app .el-input__inner, #app .random-btn, #app .hohButton, #app .filter-group:first-child > span, #app .el-input,
+#app .content-wrap, #app .wrap, #app .input a.router-link-active, #app .hohActive, #app .thread-card,
+#app .hohSocialContent, #app .hohThemeSwitch, #app .filter-group a, #app .button, #app .primary-links, 
+#app .reply, #app .markdown-editor, #app .theme-switch, #app .image, #app img, #app .youtube, #app blockquote, #app .embed, #app .wrap {
+    border-radius: var(--curvyness);
+}
+/*
 #app .activity-history, #app .medialist.cards .entry-card .cover .image {
     border-radius: var(--curvyness);
 }
-
+*/
 /* /////////KEYFRAMES///////// */
 
 @keyframes loadingstars {
