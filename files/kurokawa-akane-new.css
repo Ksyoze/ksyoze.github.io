@@ -219,7 +219,10 @@
 #app .reply-wrap>.activity-replies>.reply>.header>.actions .action,
 #app button,
 #app [title="Link"], #app [title="Image"], #app [title="Youtube Video"], #app [title="WebM Video"],
-.markdown-editor>div {
+.markdown-editor>div,
+#app .actions>.button.cancel,
+#app .actions>.button,
+#app .load-more {
     cursor: var(--cursor-url), auto;
 }
 
