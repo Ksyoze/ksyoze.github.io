@@ -1463,6 +1463,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     background-color: rgb(var(--ksyoz-color-main));
 }
 
+.el-picker-panel__icon-btn:hover, .el-date-picker__header-label:hover {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
