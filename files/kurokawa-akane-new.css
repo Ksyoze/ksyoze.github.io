@@ -133,19 +133,71 @@
     scrollbar-width: none;
 }
 
-.markdown-spoiler::before, .el-dropdown-menu__item, .search svg, .user, .actions .action, .time .action,
-.el-dropdown, .favourite, .overview .favourite.studio, .button, .theme-preview, .theme-preview.dark-contrast,
-.load-more, .actions .action, .actions .time .action, .theme-switch .icon,
-.filter-group .draggable>span, .filter-group>span, .medialist.cards .entry-card .edit, .hohChangeScore, .el-select .el-input__inner,
-.el-select .el-input .el-select__caret, .hohStepper, .el-slider__button.hover, .el-slider__button:hover, .el-slider__button-wrapper.hover, .el-slider__button-wrapper:hover,
-.random-btn, .hohButton, .el-slider__runway, .medialist .entry-card .plus-progress, .actions>div, .delete,
-.filter-group a, .option, .hohStatsTrigger, .unfollow, .user-social .filter-group span, .filter-group span,
-.button, .filter-group .action, .markdown .markdown-spoiler::before, .el-checkbox, .list-editor-wrap .header .favourite,
-.list-editor-wrap .header .save-btn, .el-input-number__decrease, .el-input-number__increase, .list-editor-wrap .list-editor .body .delete-btn, .nav-btn,
-.dropdown, .el-button, .el-message-box__headerbtn, .el-input__suffix-inner, .el-tag .el-icon-close, .list-editor-wrap .el-textarea__inner, .el-picker-panel__icon-btn,
-.el-date-picker__header-label, .el-date-table td, .el-input-number__decrease.is-disabled, .el-input-number__increase.is-disabled, .hohRangeSetter, .button, 
-.el-select-dropdown__item, .tagIndex p:hover, .el-icon-circle-close {
-    /*This fixes the issue of spoiler tags reverting the cursor to the original.*/
+.markdown-spoiler::before,
+.el-dropdown-menu__item,
+.search svg,
+.user,
+.actions .action,
+.time .action,
+.el-dropdown,
+.favourite,
+.overview .favourite.studio,
+.button,
+.theme-preview,
+.theme-preview.dark-contrast,
+.load-more,
+.actions .action,
+.actions .time .action,
+.theme-switch .icon,
+.filter-group .draggable>span,
+.filter-group>span,
+.medialist.cards .entry-card .edit,
+.hohChangeScore,
+.el-select .el-input__inner,
+.el-select .el-input .el-select__caret,
+.hohStepper,
+.el-slider__button.hover,
+.el-slider__button:hover,
+.el-slider__button-wrapper.hover,
+.el-slider__button-wrapper:hover,
+.random-btn,
+.hohButton,
+.el-slider__runway,
+.medialist .entry-card .plus-progress,
+.actions>div,
+.delete,
+.filter-group a,
+.option,
+.hohStatsTrigger,
+.unfollow,
+.user-social .filter-group span,
+.filter-group span,
+.button,
+.filter-group .action,
+.markdown .markdown-spoiler::before,
+.el-checkbox,
+.list-editor-wrap .header .favourite,
+.list-editor-wrap .header .save-btn,
+.el-input-number__decrease,
+.el-input-number__increase,
+.list-editor-wrap .list-editor .body .delete-btn,
+.nav-btn,
+.dropdown,
+.el-button,
+.el-message-box__headerbtn,
+.el-input__suffix-inner,
+.el-tag .el-icon-close,
+.list-editor-wrap .el-textarea__inner,
+.el-picker-panel__icon-btn,
+.el-date-picker__header-label,
+.el-date-table td,
+.el-input-number__decrease.is-disabled,
+.el-input-number__increase.is-disabled,
+.hohRangeSetter,
+.button,
+.el-select-dropdown__item,
+.tagIndex p:hover,
+.el-icon-circle-close {
     cursor: var(--cursor-url), auto;
 }
 
@@ -158,7 +210,10 @@ h1 {
     color: rgb(var(--ksyoz-color-bright));
 }
 
-a:hover, a:visited:hover, .markdown a, .markdown a:visited {
+a:hover,
+a:visited:hover,
+.markdown a,
+.markdown a:visited {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -190,15 +245,42 @@ a:hover, a:visited:hover, .markdown a, .markdown a:visited {
     border-bottom-right-radius: var(--curvyness);
 }
 
-#app .favourites, #app .review-card, #app .follow-card,
-#app .bar-chart-wrap, #app .pie-chart.vertical-layout, 
-#app .draggable, #app .favourites-wrap, #app .list-section, #app .filters,
-#app .el-input__inner, #app .random-btn, #app .hohButton, #app .filter-group:first-child > span, #app .el-input,
-#app .content-wrap, #app .wrap, #app .input a.router-link-active, #app .hohActive, #app .thread-card,
-#app .hohSocialContent, #app .hohThemeSwitch, #app .filter-group a, #app .button, #app .primary-links, 
-#app .reply, #app .markdown-editor, #app .theme-switch, #app .image, #app img, #app .youtube, #app blockquote, #app .embed, #app .wrap {
+#app .favourites,
+#app .review-card,
+#app .follow-card,
+#app .bar-chart-wrap,
+#app .pie-chart.vertical-layout,
+#app .draggable,
+#app .favourites-wrap,
+#app .list-section,
+#app .filters,
+#app .el-input__inner,
+#app .random-btn,
+#app .hohButton,
+#app .filter-group:first-child>span,
+#app .el-input,
+#app .content-wrap,
+#app .wrap,
+#app .input a.router-link-active,
+#app .hohActive,
+#app .thread-card,
+#app .hohSocialContent,
+#app .hohThemeSwitch,
+#app .filter-group a,
+#app .button,
+#app .primary-links,
+#app .reply,
+#app .markdown-editor,
+#app .theme-switch,
+#app .image,
+#app img,
+#app .youtube,
+#app blockquote,
+#app .embed,
+#app .wrap {
     border-radius: var(--curvyness);
 }
+
 /*
 #app .activity-history, #app .medialist.cards .entry-card .cover .image {
     border-radius: var(--curvyness);
@@ -649,11 +731,11 @@ a:hover, a:visited:hover, .markdown a, .markdown a:visited {
 
 /* /////////FAVORITES OVERVIEW///////// */
 
-#app .overview > .section > .favourites {
+#app .overview>.section>.favourites {
     padding: 0px !important;
 }
 
-#app .favourites.preview > .favourites-wrap {
+#app .favourites.preview>.favourites-wrap {
     overflow: visible;
     padding: 0px !important;
 }
@@ -1140,19 +1222,19 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .filters > .filter-group .active {
+#app .filters>.filter-group .active {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .filters > .filter-group {
+#app .filters>.filter-group {
     color: rgb(var(--ksyoz-color-bright));
 }
 
-#app .filters > .filter-group .active {
+#app .filters>.filter-group .active {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .medialist .filters .filter-group:first-child > span {
+#app .medialist .filters .filter-group:first-child>span {
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     text-transform: lowercase;
 }
@@ -1187,11 +1269,12 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .medialist.cards .entry-card .progress, #app .medialist.cards .entry-card .score {
+#app .medialist.cards .entry-card .progress,
+#app .medialist.cards .entry-card .score {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .list-entries > .entry-card > .title {
+#app .list-entries>.entry-card>.title {
     background: rgba(var(--ksyoz-color-overlay), 0.8);
     border-radius: 0px;
     min-height: 62px;
@@ -1205,7 +1288,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     z-index: -1;
 }
 
-#app .list-entries > .entry-card > .cover {
+#app .list-entries>.entry-card>.cover {
     width: 100%;
     z-index: -2;
 }
@@ -1219,7 +1302,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     z-index: 1;
 }
 
-#app .header > .content {
+#app .header>.content {
     height: 100%;
     padding: 50px;
     padding-bottom: 0px;
@@ -1243,11 +1326,13 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .el-checkbox__input.is-checked .el-checkbox__inner, #app .el-checkbox__input.is-checked.el-checkbox__label {
+#app .el-checkbox__input.is-checked .el-checkbox__inner,
+#app .el-checkbox__input.is-checked.el-checkbox__label {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .custom-lists > .checkbox > .el-checkbox, #app .el-checkbox__label {
+#app .custom-lists>.checkbox>.el-checkbox,
+#app .el-checkbox__label {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
@@ -1269,7 +1354,8 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+#app .el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
     background-color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1286,7 +1372,8 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .random-btn, #app .hohButton {
+#app .random-btn,
+#app .hohButton {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
@@ -1313,12 +1400,12 @@ body:not(.site-theme-dark) .theme-preview.default {
     font-size: 16px;
 }
 
-#app .section-header > .actions > div {
+#app .section-header>.actions>div {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .favourites > .favourites-wrap {
+#app .favourites>.favourites-wrap {
     overflow: auto;
     padding: 20px !important;
     grid-gap: 10px;
@@ -1326,7 +1413,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .favourites > .favourites-wrap > .favourite {
+#app .favourites>.favourites-wrap>.favourite {
     overflow: hidden;
     border-radius: var(--curvyness-fav);
     transition: var(--favourite-time);
@@ -1334,11 +1421,13 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 /* /////////STATS///////// */
 
-#app .stats>.filters>.filter-wrap>.filter-group>.group-header, #app .hohStatsTrigger {
+#app .stats>.filters>.filter-wrap>.filter-group>.group-header,
+#app .hohStatsTrigger {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .hohStatsTrigger:hover, #app .stats>.filters>.filter-wrap>.filter-group a:hover {
+#app .hohStatsTrigger:hover,
+#app .stats>.filters>.filter-wrap>.filter-group a:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1366,16 +1455,18 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .stats > .stats-wrap > .overview > .highlights > .highlight .circle {
+#app .stats>.stats-wrap>.overview>.highlights>.highlight .circle {
     background: transparent;
     box-shadow: none;
 }
 
-#app .stats > .stats-wrap > .overview > .highlights > .highlight .icon {
+#app .stats>.stats-wrap>.overview>.highlights>.highlight .icon {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .heading.score > .switch, #app .heading > .switch, #app .pie-charts > .pie-chart.vertical-layout {
+#app .heading.score>.switch,
+#app .heading>.switch,
+#app .pie-charts>.pie-chart.vertical-layout {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
@@ -1387,7 +1478,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .switch > .options > .option.active {
+#app .switch>.options>.option.active {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
@@ -1401,15 +1492,15 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .bar-chart-wrap > .bar-chart > .bar-wrap > .bar {
+#app .bar-chart-wrap>.bar-chart>.bar-wrap>.bar {
     background: rgb(var(--ksyoz-color-main));
 }
 
-#app .bar-chart-wrap > .x-axis {
+#app .bar-chart-wrap>.x-axis {
     background: rgb(var(--ksyoz-color-background));
 }
 
-#app .draggable > .horizontal-scroller {
+#app .draggable>.horizontal-scroller {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
@@ -1417,15 +1508,15 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .line-chart-wrap > .line-chart > .area {
+#app .line-chart-wrap>.line-chart>.area {
     fill: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .line-chart-wrap > .line-chart > .line {
+#app .line-chart-wrap>.line-chart>.line {
     stroke: rgb(var(--ksyoz-color-main));
 }
 
-#app .pie-charts > .pie-chart.vertical-layout > .title {
+#app .pie-charts>.pie-chart.vertical-layout>.title {
     margin-bottom: 15px;
 }
 
@@ -1448,18 +1539,21 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .user-follow>.wrap>.follow-card, #app .hohSocialContent .follow-card {
+#app .user-follow>.wrap>.follow-card,
+#app .hohSocialContent .follow-card {
     border-radius: var(--curvyness-social);
     background-color: rgba(0, 0, 0, 0.3);
     transition: var(--social-time);
 }
 
-#app .user-follow>.wrap>.follow-card:hover, .hohSocialContent .follow-card:hover {
+#app .user-follow>.wrap>.follow-card:hover,
+.hohSocialContent .follow-card:hover {
     transform: scale(var(--social-scale));
     transition: var(--social-time);
 }
 
-#app .wrap>.follow-card>.avatar, #app .hohSocialContent .avatar {
+#app .wrap>.follow-card>.avatar,
+#app .hohSocialContent .avatar {
     border-radius: var(--curvyness-social);
     border: var(--border-socials) solid rgb(var(--ksyoz-color-main));
 }
@@ -1493,15 +1587,15 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .grow > .comment > .header-margin > .user {
+#app .grow>.comment>.header-margin>.user {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .grow > .comment > .header .time {
+#app .grow>.comment>.header .time {
     color: rgb(var(--ksyoz-color-bright));
 }
 
-#app .grow > .comment > .markdown {
+#app .grow>.comment>.markdown {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
