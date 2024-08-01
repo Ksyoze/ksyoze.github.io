@@ -689,7 +689,7 @@ a:visited:hover,
 
 /* /////////OVERVIEW///////// */
 
-#app .content {
+#app .content.container {
     width: var(--nav-width);
     height: auto;
     padding: 0%;
