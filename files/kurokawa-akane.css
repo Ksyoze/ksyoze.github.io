@@ -1130,6 +1130,10 @@ a:visited:hover,
     background: rgb(var(--ksyoz-color-background-d));
 }
 
+#app .action.likes > .like-wrap.activity_reply > .users {
+    background: transparent;
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
