@@ -1134,6 +1134,10 @@ a:visited:hover,
     background: transparent;
 }
 
+#app .like-wrap.activity > .users {
+    background: transparent;
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
