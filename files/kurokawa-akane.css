@@ -848,7 +848,7 @@ a:visited:hover,
 
 #app .favourites.preview .favourites-wrap .favourite:hover,
 #app .favourites.preview .favourites-wrap>div:hover {
-    border: var(--border-fav) solid rgb(var(--ksyoz-color-main));
+    border: var(--border-fav) solid rgb(var(--ksyoz-color-main)) !important;
     color: rgb(var(--ksyoz-color-brighter));
     transition: 1s;
 }
