@@ -894,6 +894,18 @@ a:visited:hover,
     padding: 8px 12px;
 }
 
+#app .favourites.preview .favourites-wrap.characters .favourite:nth-child(1) {
+    border-color: rgb(255, 215, 0);
+}
+
+#app .favourites.preview .favourites-wrap.characters .favourite:nth-child(2) {
+    border-color: rgb(192, 192, 192);
+}
+
+#app .favourites.preview .favourites-wrap.characters .favourite:nth-child(3) {
+    border-color: rgb(206, 137, 70);
+}
+
 /* /////////ENTRIES///////// */
 
 #app .overview .section-header {
