@@ -920,7 +920,7 @@ a:visited,
 }
 
 .el-dropdown-menu__item {
-    color: rgb(var(--ksyoz-color-brighter));
+    color: rgb(var(--ksyoz-color-brighter)) !important;
 }
 
 #app svg.svg-inline--fa.fa-angle-down.fa-w-10:hover {
@@ -950,10 +950,6 @@ a:visited,
 
 #app .wrap>.time>.extras-dropdown .el-dropdown-link:hover {
     color: rgb(var(--ksyoz-color-main));
-}
-
-.el-dropdown-menu__item {
-    color: rgb(var(--ksyoz-color-brighter));
 }
 
 .el-dropdown-menu__item:focus,
