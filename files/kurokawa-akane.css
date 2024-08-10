@@ -846,7 +846,7 @@ a:visited:hover,
     transition: 1s;
 }
 
-#app .favourites.preview .favourites-wrap .favourite:hover,
+#app .favourites.preview .favourites-wrap .favourite:hover, 
 #app .favourites.preview .favourites-wrap>div:hover {
     border: var(--border-fav) solid rgb(var(--ksyoz-color-main)) !important;
     color: rgb(var(--ksyoz-color-brighter));
@@ -1060,10 +1060,14 @@ a:visited:hover,
     border: var(--border-socials) solid rgb(var(--ksyoz-color-main));
 }
 
-#app .activity-entry>.wrap:hover,
-#app .reply:hover {
+#app .activity-entry>.wrap:hover {
     border: var(--activity-border) solid rgba(var(--ksyoz-color-main), .5);
     transition: var(--activity-time);
+}
+
+#app .reply-wrap > .activity-replies > .activity-edit > .reply {
+    background: rgb(var(--ksyoz-color-background-d));
+    border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
 }
 
 #app .wrap>.list.small .cover {
