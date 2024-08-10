@@ -1154,6 +1154,18 @@ a:visited:hover,
     background: transparent;
 }
 
+#app .embed {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .embed>.wrap {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .embed>.wrap>.title {
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
