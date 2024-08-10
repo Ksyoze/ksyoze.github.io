@@ -209,10 +209,13 @@ h1 {
 
 a:hover,
 a:visited:hover,
-a:visited,
 .markdown a,
 .markdown a:visited {
     color: rgb(var(--ksyoz-color-main));
+}
+
+a:visited {
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 .about .markdown>center>div {
@@ -920,7 +923,7 @@ a:visited,
 }
 
 .el-dropdown-menu__item {
-    color: rgb(var(--ksyoz-color-brighter)) !important;
+    color: rgb(var(--ksyoz-color-brighter));
 }
 
 #app svg.svg-inline--fa.fa-angle-down.fa-w-10:hover {
