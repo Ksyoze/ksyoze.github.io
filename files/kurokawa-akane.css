@@ -353,7 +353,8 @@ a:visited {
 
 .site-theme-dark .nav-unscoped.transparent,
 .site-theme-dark .nav-unscoped,
-.site-theme-dark .nav-unscoped.transparent:hover {
+.site-theme-dark .nav-unscoped.transparent:hover,
+#nav {
     background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-brightest));
 }
