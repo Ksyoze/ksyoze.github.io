@@ -1816,6 +1816,11 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background));
 } 
 
-#app .input .icon, #app .input .input  {
+#app .input .icon,
+#app .input .input {
     color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .input .hint {
+    color: rgb(var(--ksyoz-color-brighter));
 }
