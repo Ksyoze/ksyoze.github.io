@@ -1274,7 +1274,8 @@ body:not(.site-theme-dark) .theme-preview.default {
 #app .header>a[href="/user/Ziombal/"].name::after,
 #app .header>a[href="/user/MrMediocretaste/"].name::after,
 #app .header>a[href="/user/RizzGodThotSlayer/"].name::after,
-#app .header>a[href="/user/Rirnok/"].name::after {
+#app .header>a[href="/user/Rirnok/"].name::after,
+#app .header>a[href="/user/PratGreninja/"].name::after {
     content: "✩ Supporting Actor ✩" !important;
 }
 
