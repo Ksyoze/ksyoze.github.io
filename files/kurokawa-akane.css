@@ -194,7 +194,8 @@ svg:not(:root).svg-inline--fa,
 #app .el-slider__runway,
 .el-slider__button-wrapper.hover, .el-slider__button-wrapper:hover,
 .hohChangeScore,
-.theme-switch .icon {
+.theme-switch .icon,
+.result {
     cursor: var(--cursor-url), auto !important;
 }
 
