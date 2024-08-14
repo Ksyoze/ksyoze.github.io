@@ -1812,7 +1812,8 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 /* /////////SEARCH///////// */
 
-#app .quick-search.visible > .input {
+#app .quick-search.visible > .input,
+#app .quick-search.visible > .results > .result-col {
     background: rgb(var(--ksyoz-color-background));
 } 
 
