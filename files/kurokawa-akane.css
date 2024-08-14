@@ -1834,3 +1834,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 .site-theme-dark .quick-search .result-col .title {
     color: rgb(var(--ksyoz-color-brightest));
 }
+
+#app .result > .result-col > .result {
+    background-color: rgb(var(--ksyoz-color-main));
+}
