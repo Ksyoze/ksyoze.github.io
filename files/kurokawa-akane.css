@@ -1809,3 +1809,9 @@ body:not(.site-theme-dark) .theme-preview.default {
         max-width: var(--nav-width);
     }
 }
+
+/* /////////SEARCH///////// */
+
+#app .quick-search.visible > .input {
+    background: rgb(var(--ksyoz-color-background));
+}
