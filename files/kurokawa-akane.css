@@ -1847,3 +1847,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 #app .result .name {
     color: rgb(var(--ksyoz-color-brightest));
 }
+
+#app .view-all a {
+    color: rgb(var(--ksyoz-color-brighter));
+}
