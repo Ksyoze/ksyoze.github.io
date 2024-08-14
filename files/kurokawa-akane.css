@@ -1819,12 +1819,12 @@ body:not(.site-theme-dark) .theme-preview.default {
 } 
 
 #app .input .icon,
-#app .input {
+#app .input .input {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
 #app .input .icon:hover,
-#app .input:hover {
+#app .input .input:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1836,7 +1836,6 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .result > .result-col > .result {
+#app .result:hover {
     background-color: rgb(var(--ksyoz-color-main));
 }
-
