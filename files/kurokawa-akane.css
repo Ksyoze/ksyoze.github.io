@@ -1819,12 +1819,12 @@ body:not(.site-theme-dark) .theme-preview.default {
 } 
 
 #app .input .icon,
-#app .input .input {
+#app .input {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
 #app .input .icon:hover,
-#app .input .input:hover {
+#app .input:hover {
     color: rgb(var(--ksyoz-color-main));
 }
 
@@ -1839,3 +1839,4 @@ body:not(.site-theme-dark) .theme-preview.default {
 #app .result > .result-col > .result {
     background-color: rgb(var(--ksyoz-color-main));
 }
+
