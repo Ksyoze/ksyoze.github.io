@@ -1824,7 +1824,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .input .icon:hover,
 #app .input .input:hover {
-    color: rgb(var(--ksyoz-color-brightest));
+    color: rgb(var(--ksyoz-color-main));
 }
 
 #app .input .hint {
