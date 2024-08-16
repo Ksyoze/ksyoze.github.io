@@ -181,18 +181,22 @@ svg:not(:root).svg-inline--fa,
 #app .list-editor-wrap .header .save-btn,
 #app .list-editor-wrap .el-input__inner,
 .el-select .el-input .el-select__caret,
-.el-input-number.is-controls-right .el-input-number__decrease, .el-input-number.is-controls-right .el-input-number__increase,
+.el-input-number.is-controls-right .el-input-number__decrease,
+.el-input-number.is-controls-right .el-input-number__increase,
 .el-input__icon,
 .el-date-editor .el-icon-circle-close,
-#app .custom-lists>.checkbox>.el-checkbox, #app .el-checkbox__label,
+#app .custom-lists>.checkbox>.el-checkbox,
+#app .el-checkbox__label,
 #app .list-editor-wrap .list-editor .body .delete-btn,
-.el-picker-panel__icon-btn, .el-date-picker__header-label,
+.el-picker-panel__icon-btn,
+.el-date-picker__header-label,
 .el-date-table td,
 .el-select-dropdown__item,
 #app .el-input--small .el-input__inner,
 #app .el-slider__button,
 #app .el-slider__runway,
-.el-slider__button-wrapper.hover, .el-slider__button-wrapper:hover,
+.el-slider__button-wrapper.hover,
+.el-slider__button-wrapper:hover,
 .hohChangeScore,
 .theme-switch .icon,
 .result {
@@ -671,7 +675,8 @@ a:visited {
     scrollbar-width: none;
 }
 
-#app .about .content-wrap, #app .text .markdown {
+#app .about .content-wrap,
+#app .text .markdown {
     max-height: var(--scroll);
     overflow: hidden;
 }
@@ -783,7 +788,7 @@ a:visited {
     transition: 1s;
 }
 
-#app .favourites.preview .favourites-wrap .favourite:hover, 
+#app .favourites.preview .favourites-wrap .favourite:hover,
 #app .favourites.preview .favourites-wrap>div:hover {
     border: var(--border-fav) solid rgb(var(--ksyoz-color-main)) !important;
     color: rgb(var(--ksyoz-color-brighter));
@@ -1079,11 +1084,11 @@ a:visited {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .action.likes > .like-wrap.activity_reply > .users {
+#app .action.likes>.like-wrap.activity_reply>.users {
     background: transparent;
 }
 
-#app .like-wrap.activity > .users {
+#app .like-wrap.activity>.users {
     background: transparent;
 }
 
@@ -1813,10 +1818,10 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 /* /////////SEARCH///////// */
 
-#app .quick-search.visible > .input,
-#app .quick-search.visible > .results > .result-col {
+#app .quick-search.visible>.input,
+#app .quick-search.visible>.results>.result-col {
     background: rgb(var(--ksyoz-color-background));
-} 
+}
 
 #app .input .icon,
 #app .input .input {
