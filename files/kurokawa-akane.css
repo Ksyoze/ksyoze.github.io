@@ -723,6 +723,7 @@ a:visited {
 
 #app .history-day {
     border-radius: var(--curvyness-history);
+    background: rgb(var(--ksyoz-color-background));
 }
 
 #app .history-day.lv-1,
@@ -763,6 +764,8 @@ a:visited {
 #app .tooltip .circle.lv-9 {
     background: rgb(var(--ksyoz-color-brightest));
 }
+
+
 
 /* /////////GENRE OVERVIEW///////// */
 
@@ -873,6 +876,10 @@ a:visited {
 
 #app .user .activity-feed-wrap .section-header .el-dropdown-menu__item:hover {
     color: rgb(var(--ksyoz-color-main));
+}
+
+#app .el-textarea {
+    background: rgb(var(--ksyoz-color-background-t));
 }
 
 #app .input .el-textarea__inner {
