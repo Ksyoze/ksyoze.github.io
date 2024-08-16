@@ -671,7 +671,7 @@ a:visited {
     scrollbar-width: none;
 }
 
-#app .about .content-wrap {
+#app .about .content-wrap, #app .text .markdown {
     max-height: var(--scroll);
     overflow: hidden;
 }
