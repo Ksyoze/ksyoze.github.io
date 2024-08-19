@@ -1862,103 +1862,103 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 /* GIF FOR FAVORITES */
 
-a.favourite[href*="character/203384/"]:hover {
+#app a.favourite[href*="character/203384/"]:hover {
     background-image: var(--gif-akane) !important;
 }
 
-a.favourite[href*="character/141122/"]:hover {
+#app a.favourite[href*="character/141122/"]:hover {
     background-image: var(--gif-kei) !important;
 }
 
-a.favourite[href*="character/141061/"]:hover {
+#app a.favourite[href*="character/141061/"]:hover {
     background-image: var(--gif-lena) !important;
 }
 
-a.favourite[href*="character/162248/"]:hover {
+#app a.favourite[href*="character/162248/"]:hover {
     background-image: var(--gif-delta) !important;
 }
 
-a.favourite[href*="character/40881/"]:hover {
+#app a.favourite[href*="character/40881/"]:hover {
     background-image: var(--gif-mikasa) !important;
 }
 
-a.favourite[href*="character/126374/"]:hover {
+#app a.favourite[href*="character/126374/"]:hover {
     background-image: var(--gif-yotsuba) !important;
 }
 
-a.favourite[href*="character/36828/"]:hover {
+#app a.favourite[href*="character/36828/"]:hover {
     background-image: var(--gif-asuna) !important;
 }
 
-a.favourite[href*="character/127596/"]:hover {
+#app a.favourite[href*="character/127596/"]:hover {
     background-image: var(--gif-rui) !important;
 }
 
-a.favourite[href*="character/90169/"]:hover {
+#app a.favourite[href*="character/90169/"]:hover {
     background-image: var(--gif-violet) !important;
 }
 
-a.favourite[href*="character/5186/"]:hover {
+#app a.favourite[href*="character/5186/"]:hover {
     background-image: var(--gif-lucy) !important;
 }
 
-a.favourite[href*="character/35253/"]:hover {
+#app a.favourite[href*="character/35253/"]:hover {
     background-image: var(--gif-mayuri) !important;
 }
 
-a.favourite[href*="character/75284/"]:hover {
+#app a.favourite[href*="character/75284/"]:hover {
     background-image: var(--gif-erina) !important;
 }
 
-a.favourite[href*="character/136070/"]:hover {
+#app a.favourite[href*="character/136070/"]:hover {
     background-image: var(--gif-shinobu) !important;
 }
 
-a.favourite[href*="character/64511/"]:hover {
+#app a.favourite[href*="character/64511/"]:hover {
     background-image: var(--gif-bambi) !important;
 }
 
-a.favourite[href*="character/171759/"]:hover {
+#app a.favourite[href*="character/171759/"]:hover {
     background-image: var(--gif-vermeil) !important;
 }
 
-a.favourite[href*="character/138789/"]:hover {
+#app a.favourite[href*="character/138789/"]:hover {
     background-image: var(--gif-cha) !important;
 }
 
-a.favourite[href*="character/141060/"]:hover {
+#app a.favourite[href*="character/141060/"]:hover {
     background-image: var(--gif-shin) !important;
 }
 
-a.favourite[href*="character/40882/"]:hover {
+#app a.favourite[href*="character/40882/"]:hover {
     background-image: var(--gif-eren) !important;
 }
 
-a.favourite[href*="character/210/"]:hover {
+#app a.favourite[href*="character/210/"]:hover {
     background-image: var(--gif-urahara) !important;
 }
 
-a.favourite[href*="character/130050/"]:hover {
+#app a.favourite[href*="character/130050/"]:hover {
     background-image: var(--gif-giyu) !important;
 }
 
-a.favourite[href*="character/141694/"]:hover {
+#app a.favourite[href*="character/141694/"]:hover {
     background-image: var(--gif-akaza) !important;
 }
 
-a.favourite[href*="character/6356/"]:hover {
+#app a.favourite[href*="character/6356/"]:hover {
     background-image: var(--gif-joseph) !important;
 }
 
-a.favourite[href*="character/126635/"]:hover {
+#app a.favourite[href*="character/126635/"]:hover {
     background-image: var(--gif-megumi) !important;
 }
 
-a.favourite[href*="character/1533/"]:hover {
+#app a.favourite[href*="character/1533/"]:hover {
     background-image: var(--gif-katsura) !important;
 }
 
-a.favourite[href*="character/2282/"]:hover {
+#app a.favourite[href*="character/2282/"]:hover {
     background-image: var(--gif-okita) !important;
 }
 
