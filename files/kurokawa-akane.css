@@ -85,6 +85,7 @@
     --gif-megumi: url("https://i.imgur.com/PhWZNsi.gif");
     --gif-katsura: url("https://i.imgur.com/kVRp20e.gif");
     --gif-okita: url("https://i.imgur.com/fyaAivX.gif");
+    --gif-ayanokouji: url("https://i.imgur.com/5VegPOM.gif");
     --gif-delay: 1s;
     --gif-delay2: 1s;
     --akane-tag: "QUEEN";
@@ -119,6 +120,7 @@
     --gif-megumi: url("https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png");
     --gif-katsura: url("https://s4.anilist.co/file/anilistcdn/character/large/b1533-EN0IUUtm3w8D.png");
     --gif-okita: url("https://s4.anilist.co/file/anilistcdn/character/large/b2282-X0uYqwmwxiPo.png");
+    --gif-ayanokouji: url("https://s4.anilist.co/file/anilistcdn/character/large/b123212-ewZgUQr9vvEM.png");
     --gif-delay: 0s;
     --gif-delay2: 0s;
     --akane-tag: "";
@@ -1972,6 +1974,10 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app a.favourite[href*="character/2282/"]:hover {
     background-image: var(--gif-okita) !important;
+}
+
+#app a.favourite[href*="character/123212/"]:hover {
+    background-image: var(--gif-ayanokouji) !important;
 }
 
 /* /////////MEDIA QUERRIES///////// */
