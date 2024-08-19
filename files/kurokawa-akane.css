@@ -60,31 +60,31 @@
     --social-scale: 1.05;
     --scroll: 960px;
     /*--gif1: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjY2aTJ0aDllMnl3aGQzd3gyc2FkajY5dmFnY3BhbGc4NzR4eDNmeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cxReraxQ5TEqAnI6h3/giphy.gif");*/
-    --gif1: url("https://i.imgur.com/zn9Qj4Z.gif");
-    --gif2: url("https://i.imgur.com/nnQwPz8.gif");
-    --gif3: url("https://i.imgur.com/EqAu18N.gif");
-    --gif4: url("https://i.imgur.com/58qs1Fy.gif");
-    --gif5: url("https://i.imgur.com/Nxp3je5.gif");
-    --gif6: url("https://i.imgur.com/P4PTCf8.gif");
-    --gif7: url("https://i.imgur.com/lKLDSVe.gif");
-    --gif8: url("https://i.imgur.com/A2D5X7E.gif");
-    --gif9: url("https://i.imgur.com/4lasn1R.gif");
-    --gif10: url("https://i.imgur.com/OQqoEjj.gif");
-    --gif11: url("https://i.imgur.com/EHoainq.gif");
-    --gif12: url("https://i.imgur.com/2MwR31Y.gif");
-    --gif13: url("https://i.imgur.com/QyOLVr8.gif");
-    --gif14: url("https://i.imgur.com/p9y6213.gif");
-    --gif15: url("https://i.imgur.com/bsONPgn.gif");
-    --gif16: url("https://i.imgur.com/k9k7Xnv.gif");
-    --gif17: url("https://i.imgur.com/RP9SV6r.gif");
-    --gif18: url("https://i.imgur.com/Ffgs3FI.gif");
-    --gif19: url("https://i.imgur.com/nL1lNsA.gif");
-    --gif20: url("https://i.imgur.com/va5EwCr.gif");
-    --gif21: url("https://i.imgur.com/PhWZNsi.gif");
-    --gif22: url("https://i.imgur.com/kVRp20e.gif");
-    --gif23: url("https://i.imgur.com/erx1OUA.gif");
-    --gif24: url("https://i.imgur.com/fyaAivX.gif");
-    --gif25: url("https://i.imgur.com/AkvJGKH.gif");
+    --gif-akane: url("https://i.imgur.com/Hd8RK72.gif");
+    --gif-kei: url("https://i.imgur.com/uoLEhRq.gif");
+    --gif-lena: url("https://i.imgur.com/2EObd6C.gif");
+    --gif-delta: url("https://i.imgur.com/58qs1Fy.gif");
+    --gif-mikasa: url("https://i.imgur.com/EqAu18N.gif");
+    --gif-yotsuba: ;
+    --gif-asuna: url("https://i.imgur.com/lKLDSVe.gif");
+    --gif-rui: url("https://i.imgur.com/k9k7Xnv.gif");
+    --gif-violet: url("https://i.imgur.com/bsONPgn.gif");
+    --gif-lucy: url("https://i.imgur.com/A2D5X7E.gif");
+    --gif-mayuri: url("https://i.imgur.com/4lasn1R.gif");
+    --gif-erina: url("https://i.imgur.com/EHoainq.gif");
+    --gif-shinobu: url("https://i.imgur.com/p9y6213.gif");
+    --gif-bambi: ;
+    --gif-vermeil: url("https://i.imgur.com/2MwR31Y.gif");
+    --gif-cha: ;
+    --gif-shin: url("https://i.imgur.com/n4owKaK.gif");
+    --gif-eren: url("https://i.imgur.com/erx1OUA.gif");
+    --gif-urahara: url("https://i.imgur.com/RP9SV6r.gif");
+    --gif-giyu: url("https://i.imgur.com/Ffgs3FI.gif");
+    --gif-akaza: url("https://i.imgur.com/nL1lNsA.gif");
+    --gif-joseph: url("https://i.imgur.com/va5EwCr.gif");
+    --gif-megumi: url("https://i.imgur.com/PhWZNsi.gif");
+    --gif-katsura: url("https://i.imgur.com/kVRp20e.gif");
+    --gif-okita: url("https://i.imgur.com/fyaAivX.gif");
     --gif-delay: 1s;
     --gif-delay2: 1s;
     --akane-tag: "QUEEN";
@@ -94,31 +94,31 @@
 
 .site-theme-dark {
     --scroll: none;
-    --gif1: url("https://s4.anilist.co/file/anilistcdn/character/large/b203384-YuSppFDMw2wn.png");
-    --gif2: url("https://s4.anilist.co/file/anilistcdn/character/large/b138789-AhE8m0LWjE7E.png");
-    --gif3: url("https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png");
-    --gif4: url("https://s4.anilist.co/file/anilistcdn/character/large/b162248-57Xgk6EmwKRQ.png");
-    --gif5: url("https://s4.anilist.co/file/anilistcdn/character/large/b126374-MiOaRIGQj4fg.png");
-    --gif6: url("https://s4.anilist.co/file/anilistcdn/character/large/b64511-zr1ivnK8qPF2.jpg");
-    --gif7: url("https://s4.anilist.co/file/anilistcdn/character/large/b36828-j5ib0adAzGMx.png");
-    --gif8: url("https://s4.anilist.co/file/anilistcdn/character/large/b5186-izgXf2S86K9u.png");
-    --gif9: url("https://s4.anilist.co/file/anilistcdn/character/large/b35253-u6QVgLLyHq2W.png");
-    --gif10: url("https://s4.anilist.co/file/anilistcdn/character/large/b141122-6Zk52eU3VK3O.png");
-    --gif11: url("https://s4.anilist.co/file/anilistcdn/character/large/b75284-4Hiyq7DOwvy7.png");
-    --gif12: url("https://s4.anilist.co/file/anilistcdn/character/large/b171759-sgjVEczQZ8i4.jpg");
-    --gif13: url("https://s4.anilist.co/file/anilistcdn/character/large/b151352-ekpKR8GKirbh.png");
-    --gif14: url("https://s4.anilist.co/file/anilistcdn/character/large/b136070-MC9LLxJsHyHE.png");
-    --gif15: url("https://s4.anilist.co/file/anilistcdn/character/large/b90169-4wr1Zehnsac8.png");
-    --gif16: url("https://s4.anilist.co/file/anilistcdn/character/large/b127596-VJjQQk2uWrgM.png");
-    --gif17: url("https://s4.anilist.co/file/anilistcdn/character/large/b210-mw01NrQfRjzT.png");
-    --gif18: url("https://s4.anilist.co/file/anilistcdn/character/large/b130050-qsLThJs5VIbz.png");
-    --gif19: url("https://s4.anilist.co/file/anilistcdn/character/large/b141694-0COi0GVXPuEn.png");
-    --gif20: url("https://s4.anilist.co/file/anilistcdn/character/large/b6356-RImEfUfHpC58.png");
-    --gif21: url("https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png");
-    --gif22: url("https://s4.anilist.co/file/anilistcdn/character/large/b1533-EN0IUUtm3w8D.png");
-    --gif23: url("https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg");
-    --gif24: url("https://s4.anilist.co/file/anilistcdn/character/large/b2282-X0uYqwmwxiPo.png");
-    --gif25: url("https://s4.anilist.co/file/anilistcdn/character/large/b5-RxGEMJZLW4cy.png");
+    --gif-akane: url("https://s4.anilist.co/file/anilistcdn/character/large/b203384-YuSppFDMw2wn.png");
+    --gif-kei: url("https://s4.anilist.co/file/anilistcdn/character/large/b141122-6Zk52eU3VK3O.png");
+    --gif-lena: url("https://s4.anilist.co/file/anilistcdn/character/large/b141061-jqIhB9jmClQ3.png");
+    --gif-delta: url("https://s4.anilist.co/file/anilistcdn/character/large/b162248-57Xgk6EmwKRQ.png");
+    --gif-mikasa: url("https://s4.anilist.co/file/anilistcdn/character/large/b40881-F3gr1PkreDvj.png");
+    --gif-yotsuba: url("https://s4.anilist.co/file/anilistcdn/character/large/b126374-MiOaRIGQj4fg.png");
+    --gif-asuna: url("https://s4.anilist.co/file/anilistcdn/character/large/b36828-j5ib0adAzGMx.png");
+    --gif-rui: url("https://s4.anilist.co/file/anilistcdn/character/large/b127596-VJjQQk2uWrgM.png");
+    --gif-violet: url("https://s4.anilist.co/file/anilistcdn/character/large/b90169-4wr1Zehnsac8.png");
+    --gif-lucy: url("https://s4.anilist.co/file/anilistcdn/character/large/b5186-izgXf2S86K9u.png");
+    --gif-mayuri: url("https://s4.anilist.co/file/anilistcdn/character/large/b35253-u6QVgLLyHq2W.png");
+    --gif-erina: url("https://s4.anilist.co/file/anilistcdn/character/large/b75284-4Hiyq7DOwvy7.png");
+    --gif-shinobu: url("https://s4.anilist.co/file/anilistcdn/character/large/b136070-MC9LLxJsHyHE.png");
+    --gif-bambi: url("https://s4.anilist.co/file/anilistcdn/character/large/b64511-zr1ivnK8qPF2.jpg");
+    --gif-vermeil: url("https://s4.anilist.co/file/anilistcdn/character/large/b171759-sgjVEczQZ8i4.jpg");
+    --gif-cha: url("https://s4.anilist.co/file/anilistcdn/character/large/b138789-AhE8m0LWjE7E.png");
+    --gif-shin: url("https://s4.anilist.co/file/anilistcdn/character/large/b141060-ZJFvHqBBSvhN.png");
+    --gif-eren: url("https://s4.anilist.co/file/anilistcdn/character/large/b40882-dsj7IP943WFF.jpg");
+    --gif-urahara: url("https://s4.anilist.co/file/anilistcdn/character/large/b210-mw01NrQfRjzT.png");
+    --gif-giyu: url("https://s4.anilist.co/file/anilistcdn/character/large/b130050-qsLThJs5VIbz.png");
+    --gif-akaza: url("https://s4.anilist.co/file/anilistcdn/character/large/b141694-0COi0GVXPuEn.png");
+    --gif-joseph: url("https://s4.anilist.co/file/anilistcdn/character/large/b6356-RImEfUfHpC58.png");
+    --gif-megumi: url("https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png");
+    --gif-katsura: url("https://s4.anilist.co/file/anilistcdn/character/large/b1533-EN0IUUtm3w8D.png");
+    --gif-okita: url("https://s4.anilist.co/file/anilistcdn/character/large/b2282-X0uYqwmwxiPo.png");
     --gif-delay: 0s;
     --gif-delay2: 0s;
     --akane-tag: "";
@@ -1858,6 +1858,108 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .view-all a {
     color: rgb(var(--ksyoz-color-brighter));
+}
+
+/* GIF FOR FAVORITES */
+
+a.favourite[href*="character/203384/"] {
+    background-image: var(--gif-akane) !important;
+}
+
+a.favourite[href*="character/141122/"] {
+    background-image: var(--gif-kei) !important;
+}
+
+a.favourite[href*="character/141061/"] {
+    background-image: var(--gif-lena) !important;
+}
+
+a.favourite[href*="character/162248/"] {
+    background-image: var(--gif-delta) !important;
+}
+
+a.favourite[href*="character/40881/"] {
+    background-image: var(--gif-mikasa) !important;
+}
+
+a.favourite[href*="character/126374/"] {
+    background-image: var(--gif-yotsuba) !important;
+}
+
+a.favourite[href*="character/36828/"] {
+    background-image: var(--gif-asuna) !important;
+}
+
+a.favourite[href*="character/127596/"] {
+    background-image: var(--gif-rui) !important;
+}
+
+a.favourite[href*="character/90169/"] {
+    background-image: var(--gif-violet) !important;
+}
+
+a.favourite[href*="character/5186/"] {
+    background-image: var(--gif-lucy) !important;
+}
+
+a.favourite[href*="character/35253/"] {
+    background-image: var(--gif-mayuri) !important;
+}
+
+a.favourite[href*="character/75284/"] {
+    background-image: var(--gif-erina) !important;
+}
+
+a.favourite[href*="character/136070/"] {
+    background-image: var(--gif-shinobu) !important;
+}
+
+a.favourite[href*="character/64511/"] {
+    background-image: var(--gif-bambi) !important;
+}
+
+a.favourite[href*="character/171759/"] {
+    background-image: var(--gif-vermeil) !important;
+}
+
+a.favourite[href*="character/138789/"] {
+    background-image: var(--gif-cha) !important;
+}
+
+a.favourite[href*="character/141060/"] {
+    background-image: var(--gif-shin) !important;
+}
+
+a.favourite[href*="character/40882/"] {
+    background-image: var(--gif-eren) !important;
+}
+
+a.favourite[href*="character/210/"] {
+    background-image: var(--gif-urahara) !important;
+}
+
+a.favourite[href*="character/130050/"] {
+    background-image: var(--gif-giyu) !important;
+}
+
+a.favourite[href*="character/141694/"] {
+    background-image: var(--gif-akaza) !important;
+}
+
+a.favourite[href*="character/6356/"] {
+    background-image: var(--gif-joseph) !important;
+}
+
+a.favourite[href*="character/126635/"] {
+    background-image: var(--gif-megumi) !important;
+}
+
+a.favourite[href*="character/1533/"] {
+    background-image: var(--gif-katsura) !important;
+}
+
+a.favourite[href*="character/2282/"] {
+    background-image: var(--gif-okita) !important;
 }
 
 /* /////////MEDIA QUERRIES///////// */
