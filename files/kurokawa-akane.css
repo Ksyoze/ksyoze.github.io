@@ -1115,6 +1115,11 @@ a:visited {
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .donator-badge {
+    background: rgb(var(--ksyoz-color-background-d));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
