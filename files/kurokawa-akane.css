@@ -1819,14 +1819,6 @@ body:not(.site-theme-dark) .theme-preview.default {
     display: none;
 }
 
-/* /////////MEDIA QUERRIES///////// */
-
-@media (min-width: 1040px) and (max-width: 1540px) {
-    #app .content.container {
-        max-width: var(--nav-width);
-    }
-}
-
 /* /////////SEARCH///////// */
 
 #app .quick-search.visible>.input,
@@ -1867,3 +1859,12 @@ body:not(.site-theme-dark) .theme-preview.default {
 #app .view-all a {
     color: rgb(var(--ksyoz-color-brighter));
 }
+
+/* /////////MEDIA QUERRIES///////// */
+
+@media (min-width: 1040px) and (max-width: 1540px) {
+    #app .content.container {
+        max-width: var(--nav-width);
+    }
+}
+
