@@ -1862,6 +1862,10 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 /* GIF FOR FAVORITES */
 
+#app a.favourite {
+    background-color: rgb(var(--ksyoz-color-background-d));
+}
+
 #app a.favourite[href*="character/203384/"]:hover {
     background-image: var(--gif-akane) !important;
 }
