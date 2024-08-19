@@ -1120,6 +1120,10 @@ a:visited {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
+#app .has-label:before {
+    display: none !important;
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
