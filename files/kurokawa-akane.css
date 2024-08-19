@@ -1592,7 +1592,6 @@ body:not(.site-theme-dark) .theme-preview.default {
 }
 
 #app .favourites>.favourites-wrap>.favourite {
-    overflow: hidden;
     border-radius: var(--curvyness-fav);
     transition: var(--favourite-time);
 }
