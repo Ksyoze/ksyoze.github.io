@@ -1699,6 +1699,19 @@ body:not(.site-theme-dark) .theme-preview.default {
     margin-bottom: 15px;
 }
 
+#app .stat-card {
+    background: rgb(var(--ksyoz-color-background));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .stat-card > .title {
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
+#app .stat-card > .count {
+    background: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////SOCIAL///////// */
 
 #app .user-social>.filters>.filter-group span {
