@@ -1729,7 +1729,7 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .stats-wrap > .overview > .header > .switches > .switch {
+#app .switches > .switch {
     background: rgb(var(--ksyoz-color-main));
     color: rgb(var(--ksyoz-color-brightest));
 }
