@@ -1712,6 +1712,14 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-main));
 }
 
+#app .inner-wrap > .details > .detail > .value {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .inner-wrap > .details > .detail > .label {
+    color: rgb(var(--ksyoz-color-bright));
+}
+
 /* /////////SOCIAL///////// */
 
 #app .user-social>.filters>.filter-group span {
