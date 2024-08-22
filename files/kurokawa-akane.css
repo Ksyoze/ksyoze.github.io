@@ -1729,6 +1729,11 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .stats-wrap > .overview > .header > .switches > .switch {
+    background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brightest));
+}
+
 /* /////////SOCIAL///////// */
 
 #app .user-social>.filters>.filter-group span {
