@@ -1140,6 +1140,11 @@ a:visited {
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .el-message-box .el-button--primary {
+    background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
