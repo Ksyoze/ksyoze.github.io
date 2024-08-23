@@ -1730,8 +1730,16 @@ body:not(.site-theme-dark) .theme-preview.default {
 }
 
 #app .switches > .switch {
-    background: rgb(var(--ksyoz-color-main));
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
+#app .switch > .options > .option {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .switch > .options > .option:hover {
     color: rgb(var(--ksyoz-color-brightest));
+    background: rgb(var(--ksyoz-color-main));
 }
 
 /* /////////SOCIAL///////// */
