@@ -1131,9 +1131,9 @@ a:visited {
     display: none !important;
 }
 
-#app .el-message-box,
-#app .el-message-box .el-message-box__content,
-#app .el-message-box .el-message-box__title {
+.el-message-box,
+.el-message-box .el-message-box__content,
+.el-message-box .el-message-box__title {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brightest));
 }
