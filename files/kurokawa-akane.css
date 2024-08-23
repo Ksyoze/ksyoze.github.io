@@ -899,7 +899,7 @@ a:visited {
 }
 
 #app .actions>.button.cancel {
-    background: rgb(var(--ksyoz-color-background-d));
+    background: rgb(var(--ksyoz-color-background));
     color: rgb(var(--ksyoz-color-brighter));
 }
 
