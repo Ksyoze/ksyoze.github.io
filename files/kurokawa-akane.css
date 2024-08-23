@@ -204,7 +204,8 @@ svg:not(:root).svg-inline--fa,
 .result,
 .el-button,
 .el-message-box__headerbtn,
-#app .heading .switch .option {
+#app .heading .switch .option,
+#app .switch>.options>.option {
     cursor: var(--cursor-url), auto !important;
 }
 
