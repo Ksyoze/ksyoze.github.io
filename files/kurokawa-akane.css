@@ -926,7 +926,8 @@ a:visited {
 }
 
 #app .activity-entry>.wrap,
-#app .reply-wrap>.activity-replies>.reply {
+#app .reply-wrap>.activity-replies>.reply,
+#app .activity-edit > .reply {
     border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
@@ -1125,6 +1126,8 @@ a:visited {
 #app .has-label:before {
     display: none !important;
 }
+
+
 
 /* /////////LOAD MORE///////// */
 
