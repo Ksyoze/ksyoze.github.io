@@ -1136,7 +1136,6 @@ a:visited {
 #app .el-message-box .el-message-box__title {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-brightest));
-
 }
 
 #app .el-message-box__headerbtn:focus .el-message-box__close,
