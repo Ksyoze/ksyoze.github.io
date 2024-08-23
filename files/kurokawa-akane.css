@@ -1138,7 +1138,7 @@ a:visited {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .el-message-box__headerbtn:focus .el-message-box__close,
+.el-message-box__headerbtn:focus .el-message-box__close,
 .el-message-box__headerbtn:hover .el-message-box__close {
     color: rgb(var(--ksyoz-color-main));
 }
