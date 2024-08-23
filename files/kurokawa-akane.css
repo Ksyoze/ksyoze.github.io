@@ -927,7 +927,7 @@ a:visited {
 
 #app .activity-entry>.wrap,
 #app .reply-wrap>.activity-replies>.reply,
-#app .activity-edit > .reply {
+#app .activity-edit>.reply {
     border: var(--activity-border) solid rgb(var(--ksyoz-color-main));
     border-radius: var(--curvyness-activity);
     transition: var(--activity-time);
@@ -1707,19 +1707,19 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .stat-card > .title {
+#app .stat-card>.title {
     color: rgb(var(--ksyoz-color-brightest));
 }
 
-#app .stat-card > .count {
+#app .stat-card>.count {
     background: rgb(var(--ksyoz-color-main));
 }
 
-#app .inner-wrap > .details > .detail > .value {
+#app .inner-wrap>.details>.detail>.value {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .inner-wrap > .details > .detail > .label {
+#app .inner-wrap>.details>.detail>.label {
     color: rgb(var(--ksyoz-color-bright));
 }
 
@@ -1727,20 +1727,20 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgba(var(--ksyoz-color-background), 0.8);
 }
 
-#app .relations-wrap > .button {
+#app .relations-wrap>.button {
     background: rgb(var(--ksyoz-color-background-d));
     color: rgb(var(--ksyoz-color-main));
 }
 
-#app .switches > .switch {
+#app .switches>.switch {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .switch > .options > .option {
+#app .switch>.options>.option {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
-#app .switch > .options > .option:hover {
+#app .switch>.options>.option:hover {
     color: rgb(var(--ksyoz-color-brightest));
     background: rgb(var(--ksyoz-color-main));
 }
@@ -2033,4 +2033,3 @@ body:not(.site-theme-dark) .theme-preview.default {
         max-width: var(--nav-width);
     }
 }
-
