@@ -201,7 +201,10 @@ svg:not(:root).svg-inline--fa,
 .el-slider__button-wrapper:hover,
 .hohChangeScore,
 .theme-switch .icon,
-.result {
+.result,
+.el-button,
+.el-message-box__headerbtn,
+#app .heading .switch .option {
     cursor: var(--cursor-url), auto !important;
 }
 
