@@ -1764,6 +1764,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-main));
 }
 
+#app .line {
+    stroke: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////SOCIAL///////// */
 
 #app .user-social>.filters>.filter-group span {
