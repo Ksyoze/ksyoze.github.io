@@ -205,7 +205,8 @@ svg:not(:root).svg-inline--fa,
 .el-button,
 .el-message-box__headerbtn,
 #app .heading .switch .option,
-#app .switch>.options>.option {
+#app .switch>.options>.option,
+.markdown .markdown-spoiler.spoiler-visible i.hide-spoiler {
     cursor: var(--cursor-url), auto !important;
 }
 
@@ -1153,7 +1154,8 @@ a:visited {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .markdown .markdown-spoiler.spoiler-visible .hide-spoiler, .markdown .markdown-spoiler.spoiler-visible span {
+#app .markdown .markdown-spoiler.spoiler-visible .hide-spoiler,
+.markdown .markdown-spoiler.spoiler-visible span {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
