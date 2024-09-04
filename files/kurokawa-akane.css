@@ -1153,6 +1153,10 @@ a:visited {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
+#app .markdown .markdown-spoiler.spoiler-visible .hide-spoiler, .markdown .markdown-spoiler.spoiler-visible span {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
