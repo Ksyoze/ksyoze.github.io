@@ -1616,6 +1616,7 @@ body:not(.site-theme-dark) .theme-preview.default {
 
 #app .medialist.table .entry:hover {
     background: rgb(var(--ksyoz-color-main));
+    color: rgb(var(--ksyoz-color-brightest));
 }
 
 /* /////////FAVORITES///////// */
