@@ -875,6 +875,7 @@ a:visited {
 
 #app .overview .section-header:before {
     content: "Ksyoz's";
+    color: rgb(var(--ksyoz-color-main));
 }
 
 #app .activity-feed-wrap>h2>.el-dropdown {
