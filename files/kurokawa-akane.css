@@ -1606,6 +1606,10 @@ body:not(.site-theme-dark) .theme-preview.default {
     color: rgb(var(--ksyoz-color-main));
 }
 
+#app .medialist.table .list-section {
+    background: rgb(var(--ksyoz-color-background-d));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
