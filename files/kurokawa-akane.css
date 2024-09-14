@@ -873,6 +873,10 @@ a:visited {
     font-weight: 700;
 }
 
+#app .overview .section-header:before {
+    content: "Ksyoz's";
+}
+
 #app .activity-feed-wrap>h2>.el-dropdown {
     margin-top: -10px;
 }
