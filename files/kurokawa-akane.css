@@ -1610,6 +1610,14 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
+#app .medialist.table .list-head>div, #app .medialist.table .entry>div {
+    color: rgb(var(--ksyoz-color-brighter));
+}
+
+#app .medialist.table .entry:hover {
+    background: rgb(var(--ksyoz-color-main));
+}
+
 /* /////////FAVORITES///////// */
 
 #app .section-header {
