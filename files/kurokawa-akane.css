@@ -873,7 +873,7 @@ a:visited {
     font-weight: 700;
 }
 
-#app .overview .section-header:before {
+#app .overview>.section>.activity-feed-wrap>.section-header:before {
     content: "Ksyoz's";
     color: rgb(var(--ksyoz-color-main));
 }
@@ -1615,7 +1615,8 @@ body:not(.site-theme-dark) .theme-preview.default {
     background: rgb(var(--ksyoz-color-background-d));
 }
 
-#app .medialist.table .list-head>div, #app .medialist.table .entry>div {
+#app .medialist.table .list-head>div,
+#app .medialist.table .entry>div {
     color: rgb(var(--ksyoz-color-brighter));
 }
 
