@@ -12,7 +12,8 @@
 #nav {
     width: 37dvh;
     height: 100dvh;
-    background: transparent
+    background: transparent;
+    position: absolute;
 }
 
 #app .wrap {
