@@ -16,6 +16,7 @@
     background-image: var(--left-image);
     position: fixed;
     top: 0;
+    background-size: cover;
 }
 
 #app .wrap {
