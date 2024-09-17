@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP:wght@300&display=swap");
 
 :root {
-    --logo-width: 65px;
+    --logo: url("https://i.imgur.com/MsUa7r9.png");
     --left-image: url("https://i.imgur.com/McPaHai.jpeg");
 }
 
