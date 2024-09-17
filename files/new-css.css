@@ -29,4 +29,6 @@
 
 #app .page-content {
     width: 155dvh;
+    position: absolute;
+    right: 0;
 }
