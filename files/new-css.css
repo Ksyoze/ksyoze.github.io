@@ -24,3 +24,8 @@
     grid-template-columns: 1fr;
     display: grid;
 }
+
+#app .page-content {
+    height: 100dvh;
+    width: 155dvh;
+}
