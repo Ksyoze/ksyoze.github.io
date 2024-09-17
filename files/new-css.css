@@ -14,7 +14,8 @@
     width: 37dvh;
     height: 100dvh;
     background: url(--left-image);
-    position: absolute;
+    position: fixed;
+    top: 0;
 }
 
 #app .wrap {
@@ -27,6 +28,5 @@
 }
 
 #app .page-content {
-    height: 100dvh;
     width: 155dvh;
 }
