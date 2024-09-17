@@ -3,6 +3,7 @@
 
 :root {
     --logo-width: 65px;
+    --left-image: url("https://i.imgur.com/McPaHai.jpeg");
 }
 
 /* /////////LEFT SIDE///////// */
@@ -12,7 +13,7 @@
 #nav {
     width: 37dvh;
     height: 100dvh;
-    background: transparent;
+    background: url(--left-image);
     position: absolute;
 }
 
