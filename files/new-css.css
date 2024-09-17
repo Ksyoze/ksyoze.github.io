@@ -30,6 +30,10 @@
     display: grid;
 }
 
+#app span.browse-wrap {
+    display: none;
+}
+
 /* /////////AVATAR DROPDOWN///////// */
 
 #nav .wrap > .user > .user-wrap > .dropdown {
