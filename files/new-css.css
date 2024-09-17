@@ -11,8 +11,8 @@
 /* /////////HEADER NAV///////// */
 
 #nav {
-    width: 37dvh;
-    height: 100dvh;
+    width: 360px;
+    height: 100%;
     background-image: var(--left-image);
     position: fixed;
     top: 0;
