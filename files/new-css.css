@@ -21,7 +21,7 @@
     display: grid;
 }
 
-#app .links {
+#app .wrap > .links {
     grid-template-columns: 1fr;
     display: grid;
 }
