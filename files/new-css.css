@@ -13,7 +13,7 @@
 #nav {
     width: 37dvh;
     height: 100dvh;
-    background-image: url(--left-image);
+    background-image: var(--left-image);
     position: fixed;
     top: 0;
 }
