@@ -27,6 +27,8 @@
     display: grid;
 }
 
+/* /////////RIGHT SIDE///////// */
+
 #app .page-content {
     width: 155dvh;
     position: absolute;
