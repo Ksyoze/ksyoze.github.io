@@ -22,6 +22,7 @@
 
 #app .wrap {
     display: grid;
+    margin: 0;
 }
 
 #app .wrap>.links {
