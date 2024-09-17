@@ -24,7 +24,7 @@
     display: grid;
 }
 
-#app .wrap > .links {
+#app .wrap>.links {
     grid-template-columns: 1fr;
     display: grid;
 }
@@ -35,4 +35,11 @@
     width: 1560px;
     position: absolute;
     right: 0;
+}
+
+/* /////////NAVIGATION///////// */
+
+#app .nav .link {
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
 }
