@@ -37,6 +37,12 @@
     right: 0;
 }
 
+/* /////////BANNER///////// */
+
+#app .banner {
+    display: none;
+}
+
 /* /////////NAVIGATION///////// */
 
 #app .nav .link {
