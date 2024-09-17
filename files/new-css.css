@@ -29,6 +29,12 @@
     display: grid;
 }
 
+/* /////////AVATAR DROPDOWN///////// */
+
+#nav .dropdown {
+    opacity: 1;
+}
+
 /* /////////RIGHT SIDE///////// */
 
 #app .page-content {
