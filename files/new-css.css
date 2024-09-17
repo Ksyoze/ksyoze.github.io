@@ -1,2 +1,25 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP:wght@300&display=swap");
+
+:root {
+    --logo-width: 65px;
+}
+
+/* /////////LEFT SIDE///////// */
+
+/* /////////HEADER NAV///////// */
+
+#nav {
+    width: 37dvh;
+    height: 100dvh;
+    background: transparent
+}
+
+#app .wrap {
+    display: grid;
+}
+
+#app .links {
+    grid-template-columns: 1fr;
+    display: grid;
+}
