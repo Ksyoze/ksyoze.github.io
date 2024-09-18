@@ -25,10 +25,14 @@
     margin: 0 110px;
     transform: perspective(2000px) rotateY(20deg);
     padding: 0 18px;
+    grid-template-columns: 1fr 1fr;
 }
 
 #app #nav .wrap>.links>.link {
     padding: 18px 0px;
+    display: flex;
+    justify-content: center;
+    grid-column: span 2;
 }
 
 #app .wrap>.links {
