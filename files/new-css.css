@@ -20,7 +20,7 @@
     background-size: cover;
 }
 
-#app .wrap {
+#app #nav .wrap {
     display: grid;
     margin: 0;
     transform: perspective(2000px) rotateY(15deg);
@@ -29,6 +29,7 @@
 #app .wrap>.links {
     grid-template-columns: 1fr;
     display: grid;
+    font-size: 20px;
 }
 
 #app span.browse-wrap {
