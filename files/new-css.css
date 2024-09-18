@@ -26,6 +26,10 @@
     transform: perspective(2000px) rotateY(20deg);
 }
 
+#app #nav .wrap>.links>.link {
+    padding: 18px 0px;
+}
+
 #app .wrap>.links {
     grid-template-columns: 1fr;
     display: grid;
@@ -36,9 +40,14 @@
     display: none;
 }
 
+#app #nav .logo img {
+    height: unset;
+    width: 80px;
+}
+
 /* /////////AVATAR DROPDOWN///////// */
 
-#nav .wrap > .user > .user-wrap > .dropdown {
+#nav .wrap>.user>.user-wrap>.dropdown {
     opacity: 0;
 }
 
