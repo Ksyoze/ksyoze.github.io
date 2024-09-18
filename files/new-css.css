@@ -32,9 +32,9 @@
 }
 
 #app .wrap>.links {
-    grid-template-columns: 1fr;
     display: grid;
     font-size: 20px;
+    grid-column: span 2;
 }
 
 #app span.browse-wrap {
@@ -44,6 +44,10 @@
 #app #nav .logo img {
     height: unset;
     width: 80px;
+}
+
+#app #nav .wrap>.logo {
+    grid-column: span 2;
 }
 
 /* /////////AVATAR DROPDOWN///////// */
