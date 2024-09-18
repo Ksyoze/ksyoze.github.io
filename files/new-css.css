@@ -24,6 +24,7 @@
     display: grid;
     margin: 0 110px;
     transform: perspective(2000px) rotateY(20deg);
+    padding: 0 18px;
 }
 
 #app #nav .wrap>.links>.link {
