@@ -65,3 +65,11 @@
     text-transform: uppercase;
     font-weight: 400;
 }
+
+/* /////////FOOTER///////// */
+
+#app .footer {
+    width: 1560px;
+    position: absolute;
+    right: 0;
+}
