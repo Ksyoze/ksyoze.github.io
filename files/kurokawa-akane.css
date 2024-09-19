@@ -226,9 +226,9 @@ a:visited:hover,
     color: rgb(var(--ksyoz-color-main));
 }
 
-a:visited {
+/*a:visited {
     color: rgb(var(--ksyoz-color-brightest));
-}
+}*/
 
 .about .markdown>center>div {
     background: rgb(var(--ksyoz-color-background));
