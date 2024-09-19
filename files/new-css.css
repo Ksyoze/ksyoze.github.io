@@ -98,6 +98,7 @@
     text-transform: uppercase;
     font-weight: 400;
     color: black;
+    padding: 0 10px;
 }
 
 #app .nav-wrap>.nav .link:hover {
