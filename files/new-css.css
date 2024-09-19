@@ -85,6 +85,9 @@
 #app .header-wrap>.nav-wrap>.nav {
     background: rgba(255, 255, 255, 0.5);
     padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #app .header-wrap>.nav-wrap {
