@@ -104,6 +104,12 @@
 
 #nav .wrap>.user>.user-wrap>.dropdown {
     opacity: 1;
+    background: transparent;
+    box-shadow: none;
+}
+
+.primary-link:nth-child(1) {
+    display: none;
 }
 
 /* /////////RIGHT SIDE///////// */
