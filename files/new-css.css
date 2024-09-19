@@ -68,6 +68,7 @@
 #app #nav .logo img {
     height: unset;
     width: 80px;
+    /*content: var(--logo);*/
 }
 
 #app #nav .wrap>.logo {
