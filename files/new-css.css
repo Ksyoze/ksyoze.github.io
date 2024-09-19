@@ -125,20 +125,14 @@
 
 }
 
-#app #nav .primary-link:nth-child(2) {
-    font-size: 0;
-}
-
-#app #nav .primary-link:nth-child(2)>.icon {
-    font-size: 1.4rem;
-}
-
+#app #nav .primary-link:nth-child(2),
 #app #nav .primary-link:nth-child(3) {
     font-size: 0;
 }
 
+#app #nav .primary-link:nth-child(2)>.icon,
 #app #nav .primary-link:nth-child(3)>.icon {
-    font-size: 1.4rem;
+    font-size: 25px;
 }
 
 /* /////////RIGHT SIDE///////// */
