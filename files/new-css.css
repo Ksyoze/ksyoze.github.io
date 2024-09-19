@@ -39,7 +39,7 @@
 
 #app #nav .wrap>.links>.link {
     /*padding: 18px 30%;*/
-    margin: 20px 0;
+    margin: 5px 0;
     display: flex;
     justify-content: center;
     grid-column: span 2;
