@@ -71,6 +71,7 @@
     width: var(--right-side-width);
     position: absolute;
     right: 0;
+    background: white;
 }
 
 /* /////////BANNER///////// */
@@ -84,6 +85,10 @@
 #app .header-wrap>.nav-wrap>.nav {
     background: rgba(255, 255, 255, 0.5);
     padding: 0;
+}
+
+#app .header-wrap>.nav-wrap {
+    background: none;
 }
 
 #app .nav-wrap>.nav .link {
@@ -111,5 +116,5 @@
     width: var(--right-side-width);
     position: absolute;
     right: 0;
-    display: none;
+    display: noneaa;
 }
