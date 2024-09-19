@@ -80,7 +80,8 @@
 /* /////////NAVIGATION///////// */
 
 #app .header-wrap>.nav-wrap>.nav {
-    background: rgba(255, 255, 255, 0.5)
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0;
 }
 
 #app .nav-wrap>.nav .link {
