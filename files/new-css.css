@@ -83,11 +83,17 @@
 }
 
 #app #nav .wrap>.user {
-    margin: auto;
+    margin: 0 auto;
+    align-self: baseline;
+}
+
+#app #nav .user .chevron {
+    display: none;
 }
 
 #app #nav .wrap>.search {
-    margin: auto;
+    margin: 0 auto;
+    align-self: baseline;
 }
 
 #app #nav .user .notification-dot.large-count {
