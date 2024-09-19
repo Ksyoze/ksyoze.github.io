@@ -93,6 +93,16 @@
     color: black;
 }
 
+#app .nav-wrap>.nav .link:hover {
+    color: white;
+    background: black;
+}
+
+#app .nav-wrap>.nav .router-link-active {
+    background: black;
+    color: white !important;
+}
+
 /* /////////FOOTER///////// */
 
 #app .footer {
