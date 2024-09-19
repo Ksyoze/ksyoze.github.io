@@ -59,6 +59,9 @@
     flex-direction: column;
     font-size: 20px;
     grid-column: span 2;
+    text-transform: uppercase;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
 #app span.browse-wrap {
