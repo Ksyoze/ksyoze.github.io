@@ -39,6 +39,7 @@
     grid-column: span 2;
     align-items: center;
     background: rgba(81, 65, 75, 0.6);
+    border: 2px solid rgba(113,76,68,1);
     border-radius: 12px;
 }
 
