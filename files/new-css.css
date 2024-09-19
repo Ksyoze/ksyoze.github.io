@@ -82,6 +82,18 @@
     margin-top: 100px;
 }
 
+#app #nav .wrap>.user {
+    margin: auto;
+}
+
+#app #nav .wrap>.search {
+    margin: auto;
+}
+
+#app #nav .user .notification-dot.large-count {
+    display: none;
+}
+
 /* /////////AVATAR DROPDOWN///////// */
 
 #nav .wrap>.user>.user-wrap>.dropdown {
