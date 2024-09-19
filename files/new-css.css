@@ -103,7 +103,7 @@
 /* /////////AVATAR DROPDOWN///////// */
 
 #nav .wrap>.user>.user-wrap>.dropdown {
-    opacity: 0;
+    opacity: 1;
 }
 
 /* /////////RIGHT SIDE///////// */
