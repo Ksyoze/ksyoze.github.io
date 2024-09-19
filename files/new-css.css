@@ -79,6 +79,10 @@
 
 /* /////////NAVIGATION///////// */
 
+#app .header-wrap>.nav-wrap>.nav {
+    background: rgba(255, 255, 255, 0.5)
+}
+
 #app .nav-wrap>.nav .link {
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
         "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
