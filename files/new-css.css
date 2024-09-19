@@ -111,4 +111,5 @@
     width: var(--right-side-width);
     position: absolute;
     right: 0;
+    display: none;
 }
