@@ -38,6 +38,8 @@
     justify-content: center;
     grid-column: span 2;
     align-items: center;
+    background: rgba(81, 65, 75, 0.6);
+    border-radius: 12px;
 }
 
 #app .wrap>.links {
