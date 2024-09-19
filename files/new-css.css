@@ -4,6 +4,8 @@
 :root {
     --logo: url("https://i.imgur.com/MsUa7r9.png");
     --left-image: url("https://i.imgur.com/McPaHai.jpeg");
+    --left-side-width: 20%;
+    --right-side-width:80%;
 }
 
 /* /////////LEFT SIDE///////// */
@@ -11,7 +13,7 @@
 /* /////////HEADER NAV///////// */
 
 #nav {
-    width: 20%;
+    width: var(--left-side-width);
     height: 100%;
     background-image: var(--left-image);
     position: fixed;
@@ -66,7 +68,7 @@
 /* /////////RIGHT SIDE///////// */
 
 #app .page-content {
-    width: 80%;
+    width: var(--right-side-width);
     position: absolute;
     right: 0;
 }
@@ -106,7 +108,7 @@
 /* /////////FOOTER///////// */
 
 #app .footer {
-    width: 1560px;
+    width: var(--right-side-width);
     position: absolute;
     right: 0;
 }
