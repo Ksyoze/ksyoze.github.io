@@ -4,6 +4,7 @@
 :root {
     --logo: url("https://i.imgur.com/MsUa7r9.png");
     --left-image: url("https://i.imgur.com/McPaHai.jpeg");
+    --background-img: url("https://i.imgur.com/SWu2HeA.jpeg");
     --left-side-width: 20%;
     --right-side-width:80%;
 }
@@ -71,7 +72,7 @@
     width: var(--right-side-width);
     position: absolute;
     right: 0;
-    background: red;
+    /*background: url(--background-img) center top / 100% fixed;*/
 }
 
 /* /////////BANNER///////// */
