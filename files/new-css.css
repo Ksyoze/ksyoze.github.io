@@ -11,7 +11,7 @@
 /* /////////HEADER NAV///////// */
 
 #nav {
-    width: 360px;
+    width: 20%;
     height: 100%;
     background-image: var(--left-image);
     position: fixed;
@@ -66,7 +66,7 @@
 /* /////////RIGHT SIDE///////// */
 
 #app .page-content {
-    width: 1560px;
+    width: 80%;
     position: absolute;
     right: 0;
 }
