@@ -89,6 +89,8 @@
     top: 38px;
     right: 0;
     text-align: right;
+    width: unset;
+    padding-right: 35px;
 }
 
 #app .header-wrap>.nav-wrap {
