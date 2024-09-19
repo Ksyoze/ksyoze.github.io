@@ -145,6 +145,12 @@
     margin-top: 100px;
 }
 
+/* /////////GENRE///////// */
+
+#app .desktop:nth-child(3) {
+    display: none
+}
+
 /* /////////FOOTER///////// */
 
 #app .footer {
