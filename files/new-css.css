@@ -23,6 +23,10 @@
     background-size: cover;
 }
 
+.site-theme-dark .nav-unscoped.transparent:hover {
+    color: white;
+}
+
 #app #nav .wrap {
     display: grid;
     margin: 0 110px;
