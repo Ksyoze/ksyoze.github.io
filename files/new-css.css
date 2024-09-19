@@ -29,9 +29,11 @@
 
 #app #nav .wrap {
     display: grid;
+    margin: 0;
     /*margin: 0 110px;*/
     transform: perspective(2000px) rotateY(20deg);
-    padding: 0 18px;
+    padding: 0;
+    /*padding: 0 18px;*/
     grid-template-columns: 1fr 1fr;
 }
 
