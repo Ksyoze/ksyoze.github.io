@@ -71,7 +71,7 @@
     width: var(--right-side-width);
     position: absolute;
     right: 0;
-    background: white;
+    background: red;
 }
 
 /* /////////BANNER///////// */
