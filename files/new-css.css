@@ -222,6 +222,10 @@
     visibility: visible !important;
 }
 
+#app .banner-content>.avatar {
+    visibility: hidden;
+}
+
 /* /////////NAVIGATION///////// */
 
 #app .header-wrap>.nav-wrap>.nav {
