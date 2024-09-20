@@ -294,6 +294,12 @@
     display: none
 }
 
+/* /////////FAVORITES///////// */
+
+#app .overview>.section>.favourites {
+    display: none;
+}
+
 /* /////////FOOTER///////// */
 
 #app .footer {
