@@ -232,7 +232,7 @@
 
 #app .nav-wrap>.nav .link:hover {
     color: white;
-    background: black;
+    background-position: left;
 }
 
 #app .nav-wrap>.nav .router-link-active {
