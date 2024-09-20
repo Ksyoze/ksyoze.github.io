@@ -114,8 +114,14 @@
     display: none;
 }
 
-.primary-link:nth-child(1) {
-    display: none;
+#app #nav .primary-link:nth-child(1) {
+    font-size: 0;
+    position: absolute;
+}
+
+#app #nav .primary-link:nth-child(1)::after {
+    content: attr(href);
+    font-size: 15px;
 }
 
 #app #nav .dropdown>.primary-links {
@@ -135,6 +141,10 @@
 #app #nav .primary-link:nth-child(2)>.icon,
 #app #nav .primary-link:nth-child(3)>.icon {
     font-size: 25px;
+}
+
+#app #nav .primary-link:nth-child(1) svg {
+    display: none;
 }
 
 /* /////////RIGHT SIDE///////// */
