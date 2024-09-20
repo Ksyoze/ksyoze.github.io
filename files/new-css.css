@@ -102,6 +102,10 @@
     display: none;
 }
 
+#app #nav .user .avatar {
+    margin-right: 120px;
+}
+
 /* /////////AVATAR DROPDOWN///////// */
 
 #nav .wrap>.user>.user-wrap>.dropdown {
