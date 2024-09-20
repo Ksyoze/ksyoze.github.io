@@ -250,10 +250,10 @@
     transform: scaleX(0);
  }
 
-/*#app .nav-wrap>.nav .link:hover {
+#app .nav-wrap>.nav .link:hover {
     color: white;
-    background: black;
-}*/
+    /*background: black;*/
+}
 
 #app .nav-wrap>.nav .router-link-active {
     background: black;
