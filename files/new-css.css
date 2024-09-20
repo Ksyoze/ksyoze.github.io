@@ -83,6 +83,7 @@
 }
 
 #app #nav .wrap>.user {
+    grid-column: span 2;
     margin: 0 auto;
     align-self: baseline;
 }
@@ -92,6 +93,7 @@
 }
 
 #app #nav .wrap>.search {
+    display: none;
     margin: 0 auto;
     align-self: baseline;
 }
