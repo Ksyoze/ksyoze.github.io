@@ -229,12 +229,12 @@
     visibility: hidden;
 }
 
-#app .banner-content>.avatar {
+/*#app .banner-content>.avatar {
     content: var(--avatar-image);
     max-height: none;
     max-width: 700px;
     position: absolute;
-}
+}*/
 
 #app .name-wrapper {
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
