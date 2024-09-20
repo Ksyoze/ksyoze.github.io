@@ -137,9 +137,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: absolute;
-    bottom: -150px;
-    left: -150px;
-
 }
 
 #app #nav .primary-link:nth-child(2),
