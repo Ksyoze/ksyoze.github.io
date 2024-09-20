@@ -160,7 +160,6 @@
 #app #nav .primary-link:nth-child(2)>.icon,
 #app #nav .primary-link:nth-child(3)>.icon {
     font-size: 25px;
-    width: 50px;
     position: absolute;
 }
 
