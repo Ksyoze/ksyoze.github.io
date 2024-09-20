@@ -236,6 +236,11 @@
     margin: auto;
 }
 
+#app .banner-content h1.name {
+    font-size: 60px;
+    font-weight: 500;
+}
+
 /* /////////NAVIGATION///////// */
 
 #app .header-wrap>.nav-wrap>.nav {
