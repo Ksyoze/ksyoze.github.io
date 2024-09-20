@@ -218,6 +218,10 @@
     visibility: hidden;
 }
 
+#app .banner-content {
+    visibility: visible !important;
+}
+
 /* /////////NAVIGATION///////// */
 
 #app .header-wrap>.nav-wrap>.nav {
