@@ -123,6 +123,10 @@
     color: white;
 }
 
+#app #nav .primary-link:hover {
+    color: black;
+}
+
 #app #nav .primary-link:nth-child(1) {
     font-size: 0;
     top: -37px;
