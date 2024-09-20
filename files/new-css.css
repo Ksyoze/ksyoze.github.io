@@ -220,6 +220,8 @@
 
 #app .banner-content {
     visibility: visible !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #app .banner-content>.avatar {
