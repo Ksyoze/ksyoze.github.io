@@ -157,6 +157,14 @@
     position: absolute;
 }
 
+#app #nav .primary-link>.icon {
+    color: white;
+}
+
+#app #nav .primary-link>.icon:hover {
+    color: black;
+}
+
 #app #nav .primary-link:nth-child(1) svg {
     display: none;
 }
