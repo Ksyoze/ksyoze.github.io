@@ -223,10 +223,17 @@
     visibility: visible !important;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    bottom: 70px;
 }
 
 #app .banner-content>.avatar {
-    visibility: hidden;
+    content: var(--avatar-image);
+    max-height: none;
+    max-width: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
 }
 
 /*#app .banner-content>.avatar {
@@ -323,18 +330,18 @@
     color: white;
 }
 
-/* /////////BIO///////// */
-
-#app .markdown img {
-    max-height: unset;
-}
-
 /* /////////OVERIEW///////// */
 
 #app .content>.overview {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
+}
+
+/* /////////BIO///////// */
+
+#app .markdown img {
+    max-height: unset;
 }
 
 /* /////////GENRE///////// */
