@@ -121,7 +121,7 @@
 }
 
 #app #nav .wrap>.user>.user-wrap {
-    height: calc(45px + 20px);
+    height: calc(var(--logo-size) + 20px);
     transform: translateY(20px);
 }
 
