@@ -113,11 +113,16 @@
 
 /* /////////AVATAR DROPDOWN///////// */
 
-#nav .wrap>.user>.user-wrap>.dropdown {
+#app #nav .wrap>.user>.user-wrap>.dropdown {
     opacity: 1;
     animation: none;
     background: transparent;
     box-shadow: none;
+}
+
+#app #nav .wrap>.user>.user-wrap {
+    height: calc(45px + 20px);
+    transform: translateY(20px);
 }
 
 #app #nav .dropdown:before {
