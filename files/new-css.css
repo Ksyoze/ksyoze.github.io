@@ -4,6 +4,7 @@
 :root {
     --logo: url("https://i.imgur.com/MsUa7r9.png");
     --logo-size: 45px;
+    --avatar-image: url("https://i.imgur.com/fB6vXhw.png");
     --left-image: url("https://i.imgur.com/McPaHai.jpeg");
     --background-img: url("https://i.imgur.com/SWu2HeA.jpeg");
     --left-side-width: 17%;
@@ -226,6 +227,13 @@
 
 #app .banner-content>.avatar {
     visibility: hidden;
+}
+
+#app .banner-content>.avatar {
+    content: var(--avatar-image);
+    max-height: none;
+    max-width: 700px;
+    position: absolute;
 }
 
 #app .name-wrapper {
