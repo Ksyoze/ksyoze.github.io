@@ -303,6 +303,18 @@
     color: white !important;
 }
 
+/* /////////FOLLOWING ACTIONS///////// */
+
+#app .actions>.nav-btn {
+    background: white;
+    color: black;
+}
+
+#app .actions>.nav-btn:hover {
+    background: black;
+    color: white;
+}
+
 /* /////////OVERIEW///////// */
 
 #app .content>.overview {
