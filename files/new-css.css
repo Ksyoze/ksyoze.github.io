@@ -148,6 +148,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: absolute;
+    margin: 0;
+    padding: 0;
 }
 
 #app #nav .primary-link:nth-child(2),
