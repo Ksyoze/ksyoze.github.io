@@ -278,7 +278,7 @@
 }
 
 #app .nav-wrap>.nav .router-link-active {
-    background: black;
+    background: black !important;
     color: white !important;
 }
 
