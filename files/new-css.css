@@ -147,6 +147,10 @@
     display: none;
 }
 
+.user-wrap:hover:after {
+    display: none;
+}
+
 /* /////////RIGHT SIDE///////// */
 
 #app .page-content {
