@@ -323,6 +323,12 @@
     color: white;
 }
 
+/* /////////BIO///////// */
+
+#app .markdown img {
+    max-height: unset;
+}
+
 /* /////////OVERIEW///////// */
 
 #app .content>.overview {
