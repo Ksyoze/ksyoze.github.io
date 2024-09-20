@@ -232,6 +232,7 @@
 
 #app .nav-wrap>.nav .link:hover {
     color: white;
+    transition: .3s ease-in-out;
     background-position: left;
 }
 
