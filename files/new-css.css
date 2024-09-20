@@ -110,6 +110,7 @@
 
 #nav .wrap>.user>.user-wrap>.dropdown {
     opacity: 1;
+    animation: none;
     background: transparent;
     box-shadow: none;
 }
