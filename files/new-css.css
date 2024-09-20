@@ -221,13 +221,14 @@
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
         "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
     font-size: 24px;
+    position: relative;
     text-transform: uppercase;
     font-weight: 400;
     color: black;
     padding: 0 10px;
     margin: 0;
     z-index: 1;
-    background: rgba(255, 255, 255, 0);
+    background: black;
     transition: 0.5s;
 }
 
@@ -238,7 +239,7 @@
    left: 0;
    width: 100%;
    height: 100%;
-   background: black;
+   background: rgba(255,255,255,0);
    z-index: -1;
    transform-origin: left;
    transition: transform 0.5s ease;
