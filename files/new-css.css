@@ -125,6 +125,7 @@
 
 #app #nav .primary-link:nth-child(1) {
     font-size: 0;
+    top: -37px;
     position: absolute;
 }
 
