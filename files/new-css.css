@@ -93,7 +93,7 @@
 #app #nav .logo img {
     height: unset;
     width: 270px;
-    /*content: var(--logo);*/
+    content: var(--logo);
 }
 
 #app #nav .wrap>.logo {
@@ -210,7 +210,7 @@
     width: var(--right-side-width);
     position: absolute;
     right: 0;
-    /*background: var(--background-img) right top / 83% fixed;*/
+    background: var(--background-img) right top / 83% fixed;
 }
 
 /* /////////BANNER///////// */
@@ -228,7 +228,7 @@
 }
 
 #app .banner-content>.avatar {
-    /*content: var(--avatar-image);*/
+    content: var(--avatar-image);
     max-height: none;
     max-width: 700px;
     position: absolute;
@@ -236,13 +236,6 @@
     top: -150px;
     margin-left: -500px;
 }
-
-/*#app .banner-content>.avatar {
-    content: var(--avatar-image);
-    max-height: none;
-    max-width: 700px;
-    position: absolute;
-}*/
 
 #app .name-wrapper {
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
