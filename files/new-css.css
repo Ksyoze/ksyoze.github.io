@@ -214,9 +214,9 @@
 
 /* /////////BANNER///////// */
 
-/*#app .banner {
-    display: none;
-}*/
+#app .banner {
+    visibility: hidden;
+}
 
 /* /////////NAVIGATION///////// */
 
