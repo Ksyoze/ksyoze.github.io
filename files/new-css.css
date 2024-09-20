@@ -228,7 +228,7 @@
 }
 
 #app .banner-content>.avatar {
-    content: var(--avatar-image);
+    /*content: var(--avatar-image);*/
     max-height: none;
     max-width: 700px;
     position: absolute;
