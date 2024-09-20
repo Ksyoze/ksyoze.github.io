@@ -119,6 +119,10 @@
     display: none;
 }
 
+#app #nav .primary-link {
+    color: white;
+}
+
 #app #nav .primary-link:nth-child(1) {
     font-size: 0;
     position: absolute;
