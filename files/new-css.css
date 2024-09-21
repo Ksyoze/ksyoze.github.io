@@ -15,6 +15,12 @@
     top: -350px;
 }
 
+/* /////////REMOVING SCROLLBARS///////// */
+
+.user .about > div.content-wrap {
+    scrollbar-width: none;
+}
+
 /* /////////LEFT SIDE///////// */
 
 /* /////////HEADER NAV///////// */
