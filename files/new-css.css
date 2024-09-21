@@ -9,6 +9,8 @@
     --background-img: url("https://i.imgur.com/SWu2HeA.jpeg");
     --left-side-width: 17%;
     --right-side-width: 83%;
+    --ksyoz-color-white: white;
+    --ksyoz-color-black: black;
 }
 
 .nav:not(.transparent) {
@@ -36,7 +38,7 @@
 }
 
 .site-theme-dark .nav-unscoped.transparent:hover {
-    color: black;
+    color: var(--ksyoz-color-black);
 }
 
 #app #nav .wrap {
@@ -55,9 +57,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
+    background: var(--ksyoz-color-black);
     z-index: 1;
-    color: black;
+    color: var(--ksyoz-color-black);
     width: 100%;
 }
 
@@ -68,7 +70,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: white;
+    background: var(--ksyoz-color-white);
     z-index: -1;
     transform-origin: left;
     transition: transform 0.5s ease;
@@ -82,7 +84,7 @@
 }
 
 #app #nav .wrap>.links>.link:hover {
-    color: white;
+    color: var(--ksyoz-color-white);
 }
 
 #app .wrap>.links {
@@ -136,7 +138,7 @@
 #app #nav .user .avatar {
     margin-right: 120px;
     border-radius: 20px;
-    border: 2px solid white;
+    border: 2px solid var(--ksyoz-color-white);
     width: var(--logo-size);
     height: var(--logo-size);
 }
@@ -160,11 +162,11 @@
 }
 
 #app #nav .primary-link {
-    color: white;
+    color: var(--ksyoz-color-white);
 }
 
 #app #nav .primary-link:hover {
-    color: black;
+    color: var(--ksyoz-color-black);
 }
 
 #app #nav .primary-link:nth-child(1) {
@@ -200,11 +202,11 @@
 }
 
 #app #nav .primary-link>.icon {
-    color: white;
+    color: var(--ksyoz-color-white);
 }
 
 #app #nav .primary-link>.icon:hover {
-    color: black;
+    color: var(--ksyoz-color-black);
 }
 
 #app #nav .primary-link:nth-child(1) svg {
@@ -225,8 +227,8 @@
 }
 
 #app .overview .content-wrap {
-    background: white;
-    color: black;
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
 }
 
 /* /////////BANNER///////// */
@@ -292,7 +294,7 @@
     position: relative;
     text-transform: uppercase;
     font-weight: 400;
-    color: black;
+    color: var(--ksyoz-color-black);
     padding: 0 10px;
     margin: 0;
     z-index: 1;
@@ -301,7 +303,7 @@
 }
 
 #app .nav-wrap>.nav .link:hover {
-    color: white;
+    color: var(--ksyoz-color-white);
     background: transparent;
 }
 
@@ -312,7 +314,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: black;
+    background: var(--ksyoz-color-black);
     z-index: -1;
     transform-origin: right;
     transition: transform 0.5s ease;
@@ -326,20 +328,20 @@
 }
 
 #app .nav-wrap>.nav .router-link-active {
-    background: black !important;
-    color: white !important;
+    background: var(--ksyoz-color-black) !important;
+    color: var(--ksyoz-color-white) !important;
 }
 
 /* /////////FOLLOWING ACTIONS///////// */
 
 #app .actions>.nav-btn {
-    background: white;
-    color: black;
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
 }
 
 #app .actions>.nav-btn:hover {
-    background: black;
-    color: white;
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
 }
 
 /* /////////OVERIEW///////// */
