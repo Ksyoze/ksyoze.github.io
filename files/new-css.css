@@ -11,6 +11,10 @@
     --right-side-width: 83%;
 }
 
+.nav:not(.transparent) {
+    top: -350px;
+}
+
 /* /////////LEFT SIDE///////// */
 
 /* /////////HEADER NAV///////// */
@@ -245,6 +249,7 @@
     position: absolute;
     margin: auto;
     left: 70%;
+    top: 180px;
 }
 
 #app .banner-content h1.name {
