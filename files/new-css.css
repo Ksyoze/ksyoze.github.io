@@ -465,6 +465,11 @@
     position: relative;
 }
 
+#app .favourites>.favourites>.favourites-wrap {
+    background: var(--ksyoz-color-white);
+    border-radius: 0px;
+}
+
 /* /////////STATS///////// */
 
 #app .container:has(>.stats) {
