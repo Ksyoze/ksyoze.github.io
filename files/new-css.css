@@ -19,7 +19,7 @@
 
 /* /////////REMOVING SCROLLBARS///////// */
 
-.user .about > div.content-wrap {
+.user .about>div.content-wrap {
     scrollbar-width: none;
 }
 
