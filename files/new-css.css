@@ -495,6 +495,11 @@
     color: black;
 }
 
+#app .user-social .filter-group span:hover {
+    background: white;
+    color: black;
+}
+
 #app .user-social .filter-group span.active::before {
     content: "";
     background: var(--left-bracket);
