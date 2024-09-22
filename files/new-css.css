@@ -143,6 +143,10 @@
     height: var(--logo-size);
 }
 
+#app #nav .hohDismiss {
+    display: none;
+}
+
 /* /////////AVATAR DROPDOWN///////// */
 
 #app #nav .wrap>.user>.user-wrap>.dropdown {
