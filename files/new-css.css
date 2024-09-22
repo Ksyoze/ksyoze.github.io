@@ -7,6 +7,8 @@
     --avatar-image: url("https://i.imgur.com/fB6vXhw.png");
     --left-image: url("https://i.imgur.com/McPaHai.jpeg");
     --background-img: url("https://i.imgur.com/SWu2HeA.jpeg");
+    --left-bracket: url("https://i.imgur.com/w2LPdfp.png");
+    --right-bracket: url("https://i.imgur.com/w2LPdfp.png");
     --left-side-width: 17%;
     --right-side-width: 83%;
     --ksyoz-color-white: white;
@@ -495,7 +497,7 @@
 
 #app .user-social .filter-group span.active::before {
     content: "";
-    background: url(https://i.imgur.com/w2LPdfp.png);
+    background: var(--left-bracket);
     position: absolute;
     left: -10px;
     top: -4px;
@@ -506,7 +508,7 @@
 
 #app .user-social .filter-group span.active::after {
     content: "";
-    background: url(https://i.imgur.com/w2LPdfp.png);
+    background: var(--right-bracket);
     position: absolute;
     left: -10px;
     top: -4px;
