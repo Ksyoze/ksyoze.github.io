@@ -503,6 +503,17 @@
     background: var(--ksyoz-color-white);
 }
 
+#app .stats>.filters>.filter-wrap>.filter-group a::before {
+    content: "";
+    background: var(--left-bracket);
+    position: absolute;
+    top: -4px;
+    width: 5px;
+    height: 20%;
+    background-size: contain;
+    margin: 0 -15px;
+}
+
 #app .hohStatsTrigger {
     visibility: hidden;
 }
