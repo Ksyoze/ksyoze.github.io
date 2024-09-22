@@ -483,7 +483,11 @@
     flex-direction: column;
 }
 
-
+#app .stats>.filters>.filter-wrap>.filter-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #app .hohStatsTrigger {
     visibility: hidden;
