@@ -520,6 +520,19 @@
     width: 100%;
 }
 
+#app .highlight .value {
+    display: flex;
+    justify-content: center;
+}
+
+#app .highlight .wrap {
+    padding-left: 0;
+}
+
+#app .highlight .circle {
+    visibility: hidden;
+}
+
 #app .hohStatsTrigger {
     visibility: hidden;
 }
