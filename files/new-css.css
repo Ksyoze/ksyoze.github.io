@@ -339,6 +339,10 @@
     color: var(--ksyoz-color-white) !important;
 }
 
+#app .user>.user-wrap>.dropdown>.footer {
+    display: none;
+}
+
 /* /////////FOLLOWING ACTIONS///////// */
 
 #app .actions>.nav-btn {
@@ -363,6 +367,12 @@
 
 #app .markdown img {
     max-height: unset;
+}
+
+/* /////////MILESTONS///////// */
+
+#app .section>.stats-wrap>.list-stats>.footer {
+    display: none;
 }
 
 /* /////////GENRE///////// */
