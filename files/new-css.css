@@ -296,6 +296,11 @@
     color: var(--ksyoz-color-white);
 }
 
+#app .pie-chart {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
 #app .banner>.container>.banner-content>.actions>.dropdown {
     display: none;
 }
