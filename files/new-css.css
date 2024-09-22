@@ -489,6 +489,10 @@
     align-items: center;
 }
 
+#app .stats>.filters>.filter-wrap>.filter-group a{
+    color: var(--ksyoz-color-white);
+}
+
 #app .hohStatsTrigger {
     visibility: hidden;
 }
