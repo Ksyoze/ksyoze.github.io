@@ -545,20 +545,20 @@
     visibility: hidden;
 }
 
-#app .stats>.stats-wrap>.overview>.section>.heading {
+#app .heading {
     color: var(--ksyoz-color-white);
 }
 
-#app .stats>.stats-wrap>.overview>.section>.heading .switch {
+#app .heading .switch {
     color: var(--ksyoz-color-white);
 }
 
-#app .stats>.stats-wrap>.overview>.section>.heading>.switch>.options>.option:hover {
+#app .heading .switch .option:hover {
     color: var(--ksyoz-color-white);
     background: var(--ksyoz-color-black);
 }
 
-#app .stats>.stats-wrap>.overview>.section>.heading>.switch>.options>.option.active {
+#app .heading .switch .option.active {
     color: var(--ksyoz-color-white);
     background: var(--ksyoz-color-black);
 }
