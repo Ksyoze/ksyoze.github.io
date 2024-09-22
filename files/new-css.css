@@ -480,6 +480,16 @@
     align-items: center;
 }
 
+#app .user-social .filter-group span {
+    grid-template-columns: unset;
+    color: white;
+}
+
+#app .user-social .filter-group span.active {
+    background: white;
+    color: black;
+}
+
 /* /////////REVIEWS///////// */
 
 #app .container:has(>.user-reviews) {
