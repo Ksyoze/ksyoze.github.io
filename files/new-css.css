@@ -291,8 +291,6 @@
 }
 
 #app .mod-badge-wrap.follower-badge:hover {
-    position: absolute;
-    top: 60px;
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
 }
