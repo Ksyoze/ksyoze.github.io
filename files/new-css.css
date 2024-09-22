@@ -513,6 +513,11 @@
     color: var(--ksyoz-color-white);
 }
 
+#app .el-input-group__append, #app .el-input-group__prepend, #app .el-input__inner, .el-textarea__inner {
+    background: var(--ksyoz-color-white);
+    color: black;
+}
+
 /* /////////STATS///////// */
 
 #app .container:has(>.stats) {
