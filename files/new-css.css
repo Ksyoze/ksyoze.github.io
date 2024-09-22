@@ -465,6 +465,10 @@
     position: relative;
 }
 
+#app .favourites>.favourites {
+    margin: 30px 0;
+}
+
 #app .favourites>.favourites>.favourites-wrap {
     background: var(--ksyoz-color-white);
     border-radius: 0px;
