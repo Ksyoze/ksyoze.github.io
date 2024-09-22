@@ -518,6 +518,12 @@
     color: black;
 }
 
+#app .entry-filter.el-input.el-input--prefix {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
 /* /////////STATS///////// */
 
 #app .container:has(>.stats) {
