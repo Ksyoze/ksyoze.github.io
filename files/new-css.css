@@ -550,7 +550,11 @@
 }
 
 #app .heading .switch {
-    color: var(--ksyoz-color-white);
+    background: var(--ksyoz-color-white);
+}
+
+#app .heading .switch .option {
+    color: var(--ksyoz-color-black);
 }
 
 #app .heading .switch .option:hover {
