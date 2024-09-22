@@ -527,7 +527,7 @@
 }
 
 #app .highlight .label {
-    color: black;
+    color: var(--ksyoz-color-black);
 }
 
 #app .highlight .wrap {
