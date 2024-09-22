@@ -476,7 +476,7 @@
     grid-template-columns: 1fr;
 }
 
-#app .filters>.filter-group {
+#app .user-social>.filters>.filter-group {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -488,6 +488,10 @@
     margin: 0 20px;
     padding: 0 10px;
     border-radius: 0px;
+}
+
+#app .user-social .filter-group .group-header {
+    display: none;
 }
 
 #app .user-social .filter-group span.active {
