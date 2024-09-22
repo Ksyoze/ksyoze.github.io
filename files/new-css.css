@@ -445,6 +445,10 @@
     flex-direction: column;
 }
 
+#app .hohExtraFilters {
+    display: none;
+}
+
 /* /////////FAVORITE TAB///////// */
 
 #app .container:has(>.favourites) {
