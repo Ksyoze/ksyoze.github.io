@@ -496,6 +496,7 @@
 #app .stats>.filters>.filter-wrap>.filter-group a:hover {
     color: var(--ksyoz-color-black);
     background-color: var(--ksyoz-color-white);
+    transition: .2s ease-in;
 }
 
 #app .stats>.filters>.filter-wrap>.filter-group a.router-link-active {
