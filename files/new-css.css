@@ -474,6 +474,14 @@
     border-radius: 0px;
 }
 
+#app .favourites>.section-header {
+    font-size: 18px;
+    color: white;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    text-transform: uppercase;
+}
+
 /* /////////STATS///////// */
 
 #app .container:has(>.stats) {
