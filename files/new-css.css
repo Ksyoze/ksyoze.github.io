@@ -540,11 +540,13 @@
 #app .user-follow .follow-card {
     background: var(--ksyoz-color-white);
     border-radius: 0px;
+    transition: .2s ease-in;
 }
 
 #app .user-follow .follow-card:hover {
     outline: 2px solid var(--ksyoz-color-white);
     background: var(--ksyoz-color-black);
+    transition: .2 ease-in;
 }
 
 #app .follow-card:hover .name {
@@ -559,6 +561,7 @@
     height: unset;
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
         "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    transition: opacity .2s ease-in;
 }
 
 /* TEMP */
