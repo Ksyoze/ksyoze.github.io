@@ -547,12 +547,6 @@
     background: var(--ksyoz-color-black);
 }
 
-.user-follow .follow-card:hover {
-    background: black;
-    /* border: 1px solid white; */
-    border-radius: 0px;
-}
-
 /* TEMP */
 
 #app .hohCount {
