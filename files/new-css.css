@@ -504,6 +504,17 @@
     background-size: contain;
 }
 
+#app .user-social .filter-group span.active::after {
+    content: "";
+    background: url(https://i.imgur.com/w2LPdfp.png);
+    position: absolute;
+    left: -10px;
+    top: -4px;
+    width: 5px;
+    height: 150%;
+    background-size: contain;
+}
+
 #app .user-follow .follow-card {
     background: var(--ksyoz-color-white);
     border-radius: 0px;
