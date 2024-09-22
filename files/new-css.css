@@ -581,6 +581,10 @@
     color: black;
 }
 
+#app .line-chart-wrap>.line-chart>.line {
+    stroke: var(--ksyoz-color-black);
+}
+
 #app .area {
     fill: var(--ksyoz-color-black);
 }
