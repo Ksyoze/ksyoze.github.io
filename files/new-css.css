@@ -403,6 +403,10 @@
     opacity: 0.25;
 }
 
+#app .user-social {
+    margin: 180px auto;
+}
+
 /* /////////REVIEWS///////// */
 
 #app .container:has(>.user-reviews) {
@@ -460,16 +464,16 @@
     position: relative;
 }
 
-#app .filter-group .group-header {
+#app .submissions>.filters>.filter-group .group-header {
     color: var(--ksyoz-color-white);
 }
 
-#app .filter-group span.active {
+#app .submissions>.filters>.filter-group span.active {
     color: var(--ksyoz-color-black);
     background: var(--ksyoz-color-white);
 }
 
-#app .filter-group span {
+#app .submissions>.filters>.filter-group span {
     color: var(--ksyoz-color-white);
 }
 
