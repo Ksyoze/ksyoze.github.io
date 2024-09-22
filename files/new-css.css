@@ -295,6 +295,10 @@
     color: var(--ksyoz-color-white);
 }
 
+#app .banner>.container>.banner-content>.actions>.dropdown:hover {
+    display: none;
+}
+
 /* /////////NAVIGATION///////// */
 
 #app .header-wrap>.nav-wrap>.nav {
