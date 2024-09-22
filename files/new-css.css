@@ -438,6 +438,11 @@
     opacity: 0.25;
 }
 
+#app .medialist {
+    margin: 180px auto;
+    position: relative;
+}
+
 /* /////////FAVORITE TAB///////// */
 
 #app .container:has(>.favourites) {
@@ -480,6 +485,16 @@
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
         "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
     text-transform: uppercase;
+}
+
+#app .actions>div {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .actions>div:hover {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
 }
 
 /* /////////STATS///////// */
