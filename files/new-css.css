@@ -547,6 +547,16 @@
     background: var(--ksyoz-color-black);
 }
 
+#app .follow-card:hover .name {
+    color: black;
+}
+
+#app .follow-card>.avatar>.name {
+    position: absolute;
+    font-weight: 600;
+    bottom: 0;
+}
+
 /* TEMP */
 
 #app .hohCount {
