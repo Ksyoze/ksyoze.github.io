@@ -460,6 +460,11 @@
     opacity: 0.25;
 }
 
+#app .favourites {
+    margin: 180px auto;
+    position: relative;
+}
+
 /* /////////STATS///////// */
 
 #app .container:has(>.stats) {
