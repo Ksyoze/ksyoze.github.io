@@ -489,8 +489,18 @@
     align-items: center;
 }
 
-#app .stats>.filters>.filter-wrap>.filter-group a{
+#app .stats>.filters>.filter-wrap>.filter-group a {
     color: var(--ksyoz-color-white);
+}
+
+#app .stats>.filters>.filter-wrap>.filter-group a:hover {
+    color: var(--ksyoz-color-black);
+    background-color: var(--ksyoz-color-white);
+}
+
+#app .stats>.filters>.filter-wrap>.filter-group a.router-link-active {
+    color: var(--ksyoz-color-black);
+    background: var(--ksyoz-color-white);
 }
 
 #app .hohStatsTrigger {
