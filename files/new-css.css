@@ -524,7 +524,7 @@
 #app .highlight .value {
     display: flex;
     justify-content: center;
-    color: black;
+    color: var(--ksyoz-color-black);
 }
 
 #app .highlight .label {
@@ -540,16 +540,21 @@
 }
 
 #app .stats>.stats-wrap>.overview>.section>.heading {
-    color: white;
+    color: var(--ksyoz-color-white);
 }
 
 #app .stats>.stats-wrap>.overview>.section>.heading .switch {
-    color: white;
+    color: var(--ksyoz-color-white);
+}
+
+#app .stats>.stats-wrap>.overview>.section>.heading>.switch>.options>.option:hover {
+    color: var(--ksyoz-color-white);
+    background: var(--ksyoz-color-black);
 }
 
 #app .stats>.stats-wrap>.overview>.section>.heading>.switch>.options>.option.active {
-    color: white;
-    background: black;
+    color: var(--ksyoz-color-white);
+    background: var(--ksyoz-color-black);
 }
 
 #app .hohStatsTrigger {
