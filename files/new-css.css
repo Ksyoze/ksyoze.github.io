@@ -891,6 +891,12 @@
     margin: 0 10px;
 }
 
+#app .filters.mobile-nav-hidden>.filter-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /* /////////FOOTER///////// */
 
 #app .footer {
