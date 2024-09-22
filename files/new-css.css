@@ -488,6 +488,7 @@
     margin: 0 15px;
     padding: 0 10px;
     border-radius: 0px;
+    transition: .2s ease-in;
 }
 
 #app .user-social .filter-group .group-header {
