@@ -295,7 +295,7 @@
     color: var(--ksyoz-color-white);
 }
 
-#app .banner>.container>.banner-content>.actions>.dropdown:hover {
+#app .banner>.container>.banner-content>.actions>.dropdown {
     display: none;
 }
 
