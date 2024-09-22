@@ -899,6 +899,7 @@
 
 #app .filter-group .count {
     align-self: center;
+    margin-right: 5px;
 }
 
 #app .el-slider__runway {
