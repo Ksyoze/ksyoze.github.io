@@ -441,6 +441,11 @@
     opacity: 0.25;
 }
 
+#app .stats {
+    margin: 180px auto;
+    position: relative;
+}
+
 /* /////////SOCIAL///////// */
 
 #app .container:has(>.user-social) {
