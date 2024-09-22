@@ -507,6 +507,7 @@
 
 #app .stats>.filters>.filter-wrap>.filter-group .group-header {
     color: white;
+    margin: 0;
 }
 
 #app .hohStatsTrigger {
