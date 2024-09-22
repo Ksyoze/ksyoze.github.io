@@ -504,6 +504,10 @@
     background: var(--ksyoz-color-white);
 }
 
+#app .stats>.filters>.filter-wrap>.filter-group .group-header {
+    color: white;
+}
+
 #app .hohStatsTrigger {
     visibility: hidden;
 }
