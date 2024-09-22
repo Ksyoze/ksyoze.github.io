@@ -717,6 +717,8 @@
 
 #app .footer {
     width: var(--right-side-width);
+    background: black;
+    color: #555;
     position: absolute;
     right: 0;
     display: none;
