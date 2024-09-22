@@ -539,6 +539,19 @@
     visibility: hidden;
 }
 
+#app .stats>.stats-wrap>.overview>.section>.heading {
+    color: white;
+}
+
+#app .stats>.stats-wrap>.overview>.section>.heading .switch {
+    color: white;
+}
+
+#app .stats>.stats-wrap>.overview>.section>.heading>.switch>.options>.option.active {
+    color: white;
+    background: black;
+}
+
 #app .hohStatsTrigger {
     visibility: hidden;
 }
