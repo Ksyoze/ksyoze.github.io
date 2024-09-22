@@ -380,7 +380,7 @@
 #app .container:has(>.medialist) {
     position: absolute;
     background: black right top / 100% fixed;
-    height: 101dvh;
+    min-height: 110dvh;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -402,7 +402,7 @@
 #app .container:has(>.favourites) {
     position: absolute;
     background: black right top / 100% fixed;
-    height: 101dvh;
+    min-height: 110dvh;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -424,7 +424,7 @@
 #app .container:has(>.stats) {
     position: absolute;
     background: black right top / 100% fixed;
-    height: 101dvh;
+    min-height: 110dvh;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -446,7 +446,7 @@
 #app .container:has(>.user-social) {
     position: absolute;
     background: black right top / 100% fixed;
-    height: 101dvh;
+    min-height: 1010dvh;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -473,7 +473,7 @@
 #app .container:has(>.user-reviews) {
     position: absolute;
     background: black right top / 100% fixed;
-    height: 101dvh;
+    min-height: 110dvh;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -503,7 +503,7 @@
 #app .container:has(> .submissions) {
     position: absolute;
     background: black right top / 100% fixed;
-    height: 101dvh;
+    min-height: 110dvh;
     max-width: 100%;
     top: 0;
     right: 0;
