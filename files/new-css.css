@@ -491,6 +491,7 @@
 
 #app .stats>.filters>.filter-wrap>.filter-group a {
     color: var(--ksyoz-color-white);
+    margin: 4px 10px;
 }
 
 #app .stats>.filters>.filter-wrap>.filter-group a:hover {
