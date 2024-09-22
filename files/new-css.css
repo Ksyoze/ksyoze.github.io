@@ -253,6 +253,7 @@
 }
 
 #app .banner-content>.avatar {
+    visibility: hidden;
     content: var(--avatar-image);
     max-height: none;
     max-width: 700px;
@@ -268,8 +269,8 @@
     text-transform: uppercase;
     position: absolute;
     margin: auto;
-    left: 70%;
-    top: 180px;
+    left: 74%;
+    /*top: 180px;*/
 }
 
 #app .banner-content h1.name {
