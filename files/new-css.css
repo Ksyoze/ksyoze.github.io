@@ -286,6 +286,15 @@
 #app .mod-badge-wrap.follower-badge {
     position: absolute;
     top: 60px;
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .mod-badge-wrap.follower-badge:hover {
+    position: absolute;
+    top: 60px;
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
 }
 
 /* /////////NAVIGATION///////// */
