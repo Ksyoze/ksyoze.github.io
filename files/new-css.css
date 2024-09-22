@@ -449,6 +449,10 @@
     display: none;
 }
 
+#app .random-btn {
+    display: none;
+}
+
 /* /////////FAVORITE TAB///////// */
 
 #app .container:has(>.favourites) {
