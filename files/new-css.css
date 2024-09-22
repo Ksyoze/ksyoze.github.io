@@ -557,6 +557,14 @@
     background: var(--ksyoz-color-black);
 }
 
+#app .bar-chart-wrap {
+    background: white;
+}
+
+#app .bar-wrap>.bar {
+    background: var(--ksyoz-color-black);
+}
+
 #app .hohStatsTrigger {
     visibility: hidden;
 }
