@@ -451,7 +451,7 @@
 #app .container:has(>.user-social) {
     position: absolute;
     background: black right top / 100% fixed;
-    min-height: 1010dvh;
+    min-height: 110dvh;
     max-width: 100%;
     top: 0;
     right: 0;
