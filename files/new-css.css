@@ -516,6 +516,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    margin-left: 0;
+    width: 100%;
 }
 
 #app .hohStatsTrigger {
