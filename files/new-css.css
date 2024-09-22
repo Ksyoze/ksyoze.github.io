@@ -508,6 +508,7 @@
 #app .stats>.filters>.filter-wrap>.filter-group .group-header {
     color: white;
     margin: 0;
+    font-size: 16px;
 }
 
 #app .stats>.stats-wrap>.overview>.highlights {
