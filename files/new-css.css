@@ -425,6 +425,14 @@
     opacity: 0.25;
 }
 
+#app .no-reviews {
+    position: relative;
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+    margin: 180px auto;
+    padding: 20px;
+}
+
 /* /////////SUBMISSIONS///////// */
 
 #app .container:has(> .submissions) {
