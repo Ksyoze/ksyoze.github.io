@@ -471,6 +471,13 @@
 #app .user-social {
     margin: 180px auto;
     position: relative;
+    grid-template-columns: 1fr;
+}
+
+#app .filters>.filter-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
 }
 
 /* /////////REVIEWS///////// */
