@@ -542,6 +542,11 @@
     border-radius: 0px;
 }
 
+#app .user-follow .follow-card:hover {
+    outline: 2px solid var(--ksyoz-color-white);
+    background: var(--ksyoz-color-black);
+}
+
 .user-follow .follow-card:hover {
     background: black;
     /* border: 1px solid white; */
