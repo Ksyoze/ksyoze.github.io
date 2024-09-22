@@ -475,14 +475,15 @@
 }
 
 #app .filters>.filter-group {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #app .user-social .filter-group span {
     grid-template-columns: unset;
     color: white;
+    margin: 0 10px;
 }
 
 #app .user-social .filter-group span.active {
