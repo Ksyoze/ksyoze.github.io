@@ -558,7 +558,8 @@
 }
 
 #app .bar-chart-wrap {
-    background: white;
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
 }
 
 #app .bar-wrap>.bar {
