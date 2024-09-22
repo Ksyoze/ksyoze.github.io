@@ -537,6 +537,12 @@
     border-radius: 0px;
 }
 
+/* TEMP */
+
+#app .hohCount {
+    display: none;
+}
+
 #app .hohThemeSwitch {
     display: none;
 }
