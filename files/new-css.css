@@ -491,6 +491,21 @@
     color: black;
 }
 
+#app .user-follow .follow-card {
+    background: var(--ksyoz-color-white);
+    border-radius: 0px;
+}
+
+.user-follow .follow-card:hover {
+    background: black;
+    /* border: 1px solid white; */
+    border-radius: 0px;
+}
+
+#app .hohThemeSwitch {
+    display: none;
+}
+
 /* /////////REVIEWS///////// */
 
 #app .container:has(>.user-reviews) {
