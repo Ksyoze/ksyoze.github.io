@@ -657,15 +657,12 @@
 
 #app .submissions>.filters>.filter-group .group-header {
     color: var(--ksyoz-color-white);
+    display: none;
 }
 
 #app .submissions>.filters>.filter-group span.active {
     color: var(--ksyoz-color-black);
     background: var(--ksyoz-color-white);
-}
-
-#app .submissions>.filters>.filter-group span {
-    color: var(--ksyoz-color-white);
 }
 
 #app .no-submissions {
@@ -678,6 +675,42 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#app .submissions>.filters>.filter-group span {
+    color: white;
+    margin: 0 15px;
+    padding: 0 10px;
+    border-radius: 0px;
+    transition: .2s ease-in;
+    font-weight: 500;
+}
+
+#app .submissions>.filters>.filter-group span:hover {
+    background: white;
+    color: black;
+}
+
+#app .submissions>.filters>.filter-group span::before {
+    content: "";
+    background: var(--left-bracket);
+    position: absolute;
+    left: -10px;
+    top: -4px;
+    width: 5px;
+    height: 150%;
+    background-size: contain;
+}
+
+#app .submissions>.filters>.filter-group span::after {
+    content: "";
+    background: var(--right-bracket);
+    position: absolute;
+    right: -10px;
+    top: -4px;
+    width: 5px;
+    height: 150%;
+    background-size: contain;
 }
 
 /* /////////FOOTER///////// */
