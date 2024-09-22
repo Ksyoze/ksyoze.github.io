@@ -449,6 +449,10 @@
     display: none;
 }
 
+#app .compare-btn {
+    display: none;
+}
+
 #app .random-btn {
     display: none;
 }
@@ -487,6 +491,8 @@
 #app .favourites>.favourites>.favourites-wrap {
     background: var(--ksyoz-color-white);
     border-radius: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 #app .favourites>.section-header {
