@@ -8,7 +8,7 @@
     --left-image: url("https://i.imgur.com/McPaHai.jpeg");
     --background-img: url("https://i.imgur.com/SWu2HeA.jpeg");
     --left-bracket: url("https://i.imgur.com/w2LPdfp.png");
-    --right-bracket: url("https://i.imgur.com/w2LPdfp.png");
+    --right-bracket: url("https://i.imgur.com/Ms1qXXt.png");
     --left-side-width: 17%;
     --right-side-width: 83%;
     --ksyoz-color-white: white;
@@ -485,7 +485,7 @@
 #app .user-social .filter-group span {
     grid-template-columns: unset;
     color: white;
-    margin: 0 10px;
+    margin: 0 20px;
     padding: 0 10px;
     border-radius: 0px;
 }
