@@ -479,6 +479,14 @@
 #app .stats {
     margin: 180px auto;
     position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#app .hohStatsTrigger {
+    visibility: hidden;
 }
 
 /* /////////SOCIAL///////// */
