@@ -510,6 +510,14 @@
     margin: 0;
 }
 
+#app .stats>.stats-wrap>.overview>.highlights {
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 #app .hohStatsTrigger {
     visibility: hidden;
 }
