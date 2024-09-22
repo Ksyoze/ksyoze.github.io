@@ -285,6 +285,7 @@
     text-align: right;
     width: unset;
     padding-right: 35px;
+    z-index: 1;
 }
 
 #app .header-wrap>.nav-wrap {
@@ -384,6 +385,26 @@
 
 /* /////////REVIEWS///////// */
 
+#app .container:has(>.user.reviews) {
+    position: absolute;
+    background: black right top / 100% fixed;
+    height: 101dvh;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+}
+
+#app .container:has(>.user-reviews)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://i.imgur.com/4bBGdPC.png) top left repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+
 /* /////////SUBMISSIONS///////// */
 
 #app .container:has(> .submissions) {
@@ -405,6 +426,24 @@
     height: 100%;
     opacity: 0.25;
 }
+
+#app .submissions {
+    margin: 180px auto;
+}
+
+#app .filter-group .group-header {
+    color: var(--ksyoz-color-white);
+}
+
+#app .filter-group span.active {
+    color: var(--ksyoz-color-black);
+    background: var(--ksyoz-color-white);
+}
+
+#app .filter-group span {
+    color: var(--ksyoz-color-white);
+}
+
 
 /* /////////FOOTER///////// */
 
