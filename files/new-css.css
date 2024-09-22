@@ -897,6 +897,10 @@
     justify-content: center;
 }
 
+#app .filter-group .count {
+    align-self: center;
+}
+
 #app .el-slider__runway {
     width: 800px;
 }
