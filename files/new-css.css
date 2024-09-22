@@ -901,11 +901,6 @@
     width: 800px;
 }
 
-#app .filter-group .group-header {
-    display: flex;
-    align-items: center;
-}
-
 /* /////////FOOTER///////// */
 
 #app .footer {
