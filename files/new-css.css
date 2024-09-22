@@ -449,6 +449,7 @@
 
 #app .submissions {
     margin: 180px auto;
+    position: relative;
 }
 
 #app .filter-group .group-header {
