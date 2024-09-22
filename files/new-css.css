@@ -405,6 +405,7 @@
 
 #app .user-social {
     margin: 180px auto;
+    position: relative;
 }
 
 /* /////////REVIEWS///////// */
