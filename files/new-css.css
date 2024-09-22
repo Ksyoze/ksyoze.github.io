@@ -695,22 +695,22 @@
     content: "";
     background: var(--left-bracket);
     position: absolute;
-    left: -10px;
     top: -4px;
     width: 5px;
-    height: 150%;
+    height: 20%;
     background-size: contain;
+    margin: 0 -15px;
 }
 
 #app .submissions>.filters>.filter-group span::after {
     content: "";
     background: var(--right-bracket);
     position: absolute;
-    right: -10px;
     top: -4px;
     width: 5px;
-    height: 150%;
+    height: 20%;
     background-size: contain;
+    margin: 0 10px;
 }
 
 /* /////////FOOTER///////// */
