@@ -485,7 +485,7 @@
 #app .user-social .filter-group span {
     grid-template-columns: unset;
     color: white;
-    margin: 0 20px;
+    margin: 0 15px;
     padding: 0 10px;
     border-radius: 0px;
 }
