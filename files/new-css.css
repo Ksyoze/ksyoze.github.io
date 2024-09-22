@@ -576,6 +576,15 @@
     background: var(--ksyoz-color-black);
 }
 
+#app .line-chart-wrap {
+    background: var(--ksyoz-color-white);
+    color: black;
+}
+
+#app .area {
+    fill: var(--ksyoz-color-black);
+}
+
 #app .hohStatsTrigger {
     visibility: hidden;
 }
