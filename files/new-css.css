@@ -444,12 +444,12 @@
     /*display: flex;
     flex-direction: column;*/
 }
-
+/*
 #app .entry-filter.el-input.el-input--prefix {
     display: flex;
     width: 80%;
     margin: auto;
-}
+}*/
 
 #app .hohExtraFilters {
     display: none;
