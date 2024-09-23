@@ -487,6 +487,25 @@
     color: white;
 }
 
+#app .list-entries>.entry-card>.cover {
+    width: 100%;
+    z-index: -2;
+}
+
+#app .list-entries>.entry-card>.title {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0px;
+    min-height: 62px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    z-index: -1;
+}
+
 #app .hohExtraFilters {
     display: none;
 }
