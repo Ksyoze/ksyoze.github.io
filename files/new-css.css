@@ -552,7 +552,7 @@
     display: flex;
     flex-direction: column;
 }
-/*
+
 #app .stats>.filters>.filter-wrap>.filter-group {
     display: flex;
     justify-content: center;
@@ -605,6 +605,10 @@
     padding-left: 0;
 }
 
+#app .highlight .circle {
+    visibility: hidden;
+}
+
 #app .heading {
     color: var(--ksyoz-color-white);
 }
@@ -647,11 +651,6 @@
 
 #app .area {
     fill: var(--ksyoz-color-black);
-}
-*/
-
-#app .highlight .circle {
-    visibility: hidden;
 }
 
 #app .hohStatsTrigger {
