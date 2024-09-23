@@ -455,6 +455,13 @@
     display: flex;
     width: 80%;
     margin: auto;
+
+#app .filters.mobile-nav-hidden>.filter-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 }*/
 
 #app .hohExtraFilters {
@@ -895,12 +902,6 @@
     height: 20%;
     background-size: contain;
     margin: 0 10px;
-}
-
-#app .filters.mobile-nav-hidden>.filter-group {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 #app .filter-group .count {
