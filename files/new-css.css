@@ -693,12 +693,12 @@
     text-transform: uppercase;
 }
 
-#app .actions>div {
+#app .favourites .actions>div {
     background: var(--ksyoz-color-white);
     color: var(--ksyoz-color-black);
 }
 
-#app .actions>div:hover {
+#app .favourites .actions>div:hover {
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
 }
