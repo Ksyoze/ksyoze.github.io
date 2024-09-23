@@ -518,7 +518,8 @@
     color: var(--ksyoz-color-black);
 }
 
-#app .medialist.cards .section-name {
+#app .medialist.cards .section-name,
+#app .medialist.table.compact .section-name {
     font-weight: 700;
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
         "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
