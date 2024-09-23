@@ -26,6 +26,10 @@
     scrollbar-width: none;
 }
 
+.text div.markdown {
+    scrollbar-width: none;
+}
+
 * {
     scrollbar-width: none;
     scrollbar-color: var(--ksyoz-color-white);
@@ -399,7 +403,8 @@
 }
 
 #app .overview .section-header {
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 20px;
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
         "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
     color: var(--ksyoz-color-white);
