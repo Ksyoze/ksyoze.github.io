@@ -416,6 +416,38 @@
     display: none;
 }
 
+/* /////////ACTIVITIES///////// */
+
+#app .activity-entry>.wrap,
+#app .reply-wrap>.activity-replies>.reply,
+#app .activity-edit>.reply {
+    border-radius: 0px;
+    transition: 0.3s;
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .wrap>.list.small .cover {
+    transition: 0.5s;
+    width: 50px;
+}
+
+#app .wrap>.list.small>.details .status {
+    transition: 0.6s;
+    filter: drop-shadow(0px 0px 6px black);
+    color: var(--ksyoz-color-black);
+}
+
+#app .wrap>.list.small>div>div.status>a {
+    width: 230px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--ksyoz-color-white);
+    background: var(--ksyoz-color-black);
+}
+
 /* /////////LISTS///////// */
 
 #app .container:has(>.medialist) {
