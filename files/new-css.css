@@ -690,6 +690,9 @@
 
 #app .stats>.stats-wrap>.overview .heading {
     color: var(--ksyoz-color-white);
+    font-weight: 700;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
 #app .stats>.stats-wrap>.overview .heading .switch {
