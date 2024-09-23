@@ -206,7 +206,8 @@ svg:not(:root).svg-inline--fa,
 .el-message-box__headerbtn,
 #app .heading .switch .option,
 #app .switch>.options>.option,
-.markdown .markdown-spoiler.spoiler-visible i.hide-spoiler {
+.markdown .markdown-spoiler.spoiler-visible i.hide-spoiler,
+.el-icon-circle-close {
     cursor: var(--cursor-url), auto !important;
 }
 
