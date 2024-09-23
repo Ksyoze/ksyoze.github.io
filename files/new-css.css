@@ -485,6 +485,11 @@
     color: var(--ksyoz-color-black);
 }
 
+.user .activity-feed-wrap .section-header .el-dropdown-menu__item {
+    color: var(--ksyoz-color-white);
+    font-weight: 700;
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
