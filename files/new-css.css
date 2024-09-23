@@ -236,6 +236,7 @@
 #app .overview .content-wrap {
     background: var(--ksyoz-color-white);
     color: var(--ksyoz-color-black);
+    border-radius: 0px;
 }
 
 /* /////////BANNER///////// */
@@ -392,6 +393,13 @@
     flex-direction: column;
 }
 
+#app .overview .section-header {
+    font-weight: 500;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////BIO///////// */
 
 #app .markdown img {
@@ -415,6 +423,16 @@
 
 #app .overview>.section>.favourites {
     display: none;
+}
+
+/* /////////STATS WRAP///////// */
+
+#app .stat .value {
+    color: var(--ksyoz-color-black);
+}
+
+#app .stat .label {
+    color: var(--ksyoz-color-black);
 }
 
 /* /////////ACTIVITIES///////// */
