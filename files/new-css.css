@@ -396,6 +396,7 @@
 
 #app .markdown img {
     max-height: unset;
+    border-radius: 0px;
 }
 
 /* /////////MILESTONS///////// */
