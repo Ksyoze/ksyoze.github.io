@@ -483,6 +483,10 @@
     color: var(--ksyoz-color-black);
 }
 
+.el-select-dropdown__item.selected {
+    color: white;
+}
+
 #app .hohExtraFilters {
     display: none;
 }
