@@ -471,6 +471,15 @@
     background: var(--ksyoz-color-black);
 }
 
+#app .text .name {
+    color: var(--ksyoz-color-black);
+}
+
+#app .markdown-editor {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
