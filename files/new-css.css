@@ -484,7 +484,11 @@
 }
 
 .el-select-dropdown__item.selected {
-    color: white;
+    color: var(--ksyoz-color-white);
+}
+
+.el-select-dropdown__item.selected:hover {
+    color: var(--ksyoz-color-black);
 }
 
 #app .list-entries>.entry-card>.cover {
@@ -509,7 +513,8 @@
     z-index: 2;
 }
 
-#app .medialist.cards .entry-card .progress, #app .medialist.cards .entry-card .score {
+#app .medialist.cards .entry-card .progress,
+#app .medialist.cards .entry-card .score {
     color: var(--ksyoz-color-black);
 }
 
@@ -581,7 +586,10 @@
     color: var(--ksyoz-color-white);
 }
 
-#app .el-input-group__append, #app .el-input-group__prepend, #app .el-input__inner, .el-textarea__inner {
+#app .el-input-group__append,
+#app .el-input-group__prepend,
+#app .el-input__inner,
+.el-textarea__inner {
     background: var(--ksyoz-color-white);
     color: black;
 }
