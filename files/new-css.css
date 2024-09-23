@@ -531,6 +531,10 @@
     color: var(--ksyoz-color-white);
 }
 
+#app .el-slider__runway {
+    background: var(--ksyoz-color-white);
+}
+
 #app .hohExtraFilters {
     display: none;
 }
