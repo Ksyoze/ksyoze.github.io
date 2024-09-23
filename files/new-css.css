@@ -457,7 +457,7 @@
 }
 
 #app .wrap>.list.small>div>div.status>a {
-    width: 230px;
+    width: 100%;
     display: block;
     overflow: hidden;
     white-space: nowrap;
@@ -478,6 +478,7 @@
     z-index: 1;
     color: var(--ksyoz-color-black);
     width: 100%;
+    margin-bottom: 50px;
 }
 
 #app .load-more::before {
