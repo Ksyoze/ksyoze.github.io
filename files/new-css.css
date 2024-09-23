@@ -527,6 +527,10 @@
     text-transform: uppercase;
 }
 
+#app .filters.mobile-nav-hidden>.filter-group .group-header {
+    color: var(--ksyoz-color-white);
+}
+
 #app .hohExtraFilters {
     display: none;
 }
