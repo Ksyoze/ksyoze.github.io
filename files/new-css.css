@@ -519,7 +519,7 @@
 }
 
 #app .medialist.cards .section-name {
-    font-weight: 500;
+    font-weight: 700;
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
         "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
     color: var(--ksyoz-color-white);
@@ -688,24 +688,24 @@
     visibility: hidden;
 }
 
-#app .heading {
+#app .stats>.stats-wrap>.overview .heading {
     color: var(--ksyoz-color-white);
 }
 
-#app .heading .switch {
+#app .stats>.stats-wrap>.overview .heading .switch {
     background: var(--ksyoz-color-white);
 }
 
-#app .heading .switch .option {
+#app .stats>.stats-wrap>.overview .heading .switch .option {
     color: var(--ksyoz-color-black);
 }
 
-#app .heading .switch .option:hover {
+#app .stats>.stats-wrap>.overview .heading .switch .option:hover {
     color: var(--ksyoz-color-white);
     background: var(--ksyoz-color-black);
 }
 
-#app .heading .switch .option.active {
+#app .stats>.stats-wrap>.overview .heading .switch .option.active {
     color: var(--ksyoz-color-white);
     background: var(--ksyoz-color-black);
 }
