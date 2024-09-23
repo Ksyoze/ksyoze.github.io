@@ -466,6 +466,44 @@
     background: var(--ksyoz-color-black);
 }
 
+/* /////////LOAD MORE///////// */
+
+#app .load-more {
+    position: relative;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--ksyoz-color-black);
+    z-index: 1;
+    color: var(--ksyoz-color-black);
+    width: 100%;
+}
+
+#app .load-more::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--ksyoz-color-white);
+    z-index: -1;
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(1);
+}
+
+#app .load-more:hover::before {
+    transform-origin: right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+
+#app .load-more:hover {
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////LISTS///////// */
 
 #app .container:has(>.medialist) {
