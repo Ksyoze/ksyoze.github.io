@@ -26,6 +26,11 @@
     scrollbar-width: none;
 }
 
+* {
+    scrollbar-width: none;
+    scrollbar-color: var(--ksyoz-color-white);
+}
+
 /* /////////LEFT SIDE///////// */
 
 /* /////////HEADER NAV///////// */
