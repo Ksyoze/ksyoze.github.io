@@ -448,11 +448,6 @@
     background: var(--ksyoz-color-black);
 }
 
-#app .activity-entry .wrap:hover .list.small div div.status a {
-    width: 270px;
-    transition: 0.6s;
-}
-
 /* /////////LISTS///////// */
 
 #app .container:has(>.medialist) {
