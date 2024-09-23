@@ -445,7 +445,11 @@
     flex-direction: column;*/
 }
 
-
+#app .entry-filter.el-input.el-input--prefix {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
 
 #app .hohExtraFilters {
     display: none;
@@ -518,12 +522,6 @@
 #app .el-input-group__append, #app .el-input-group__prepend, #app .el-input__inner, .el-textarea__inner {
     background: var(--ksyoz-color-white);
     color: black;
-}
-
-#app .entry-filter.el-input.el-input--prefix {
-    display: flex;
-    width: 80%;
-    margin: auto;
 }
 
 /* /////////STATS///////// */
