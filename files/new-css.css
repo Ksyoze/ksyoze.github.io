@@ -535,6 +535,11 @@
     background: var(--ksyoz-color-white);
 }
 
+#app .medialist.table .list-section {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
 #app .hohExtraFilters {
     display: none;
 }
