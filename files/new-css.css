@@ -1154,3 +1154,18 @@
 html:has(.overview) #app .wrap>.footer {
     display: flex !important;
 }
+
+#app .theme-selector {
+    display: none;
+}
+
+#app .footer>.container>.links {
+    margin: auto;
+}
+
+#app .footer [href="https://twitter.com/AniListco"]::before,
+#app .footer [href="https://discord.gg/TF428cr"]::before,
+#app .footer [href="https://www.facebook.com/AniListco"]::before,
+#app .footer [href="https://github.com/AniList"]::before {
+    display: none;
+}
