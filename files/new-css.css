@@ -1140,7 +1140,6 @@
 /* /////////FOOTER///////// */
 
 #app .footer {
-    width: var(--right-side-width);
     background: black;
     color: #555;
     font-family: YakuHanJP, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system,
