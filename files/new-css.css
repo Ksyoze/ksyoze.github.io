@@ -1114,9 +1114,9 @@
     content: "";
     background: var(--left-bracket);
     position: absolute;
-    top: -4px;
+    top: -3px;
     width: 5px;
-    height: 20%;
+    height: 5%;
     background-size: contain;
     margin: 0 -15px;
 }
@@ -1125,9 +1125,9 @@
     content: "";
     background: var(--right-bracket);
     position: absolute;
-    top: -4px;
+    top: -3px;
     width: 5px;
-    height: 20%;
+    height: 5%;
     background-size: contain;
     margin: 0 10px;
 }
