@@ -492,6 +492,11 @@
     font-weight: 700;
 }
 
+.user .activity-feed-wrap .section-header .el-dropdown-menu__item:hover {
+    color: var(--ksyoz-color-black);
+    font-weight: 700;
+}
+
 #app .activity-edit>.actions>.button {
     background: var(--ksyoz-color-white);
     color: var(--ksyoz-color-black);
