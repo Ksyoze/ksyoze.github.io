@@ -241,12 +241,12 @@
     right: 0;
     background: var(--background-img) right top / 83% fixed;
 }
-
+/*
 #app .page-content:has(.overview) {
     width: 100%;
     position: relative;
     padding-left: 320px;
-}
+}*/
 
 #app .overview .content-wrap {
     background: var(--ksyoz-color-white);
@@ -1144,13 +1144,14 @@
     color: #555;
     font-family: YakuHanJP, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system,
         BlinkMacSystemFont, "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
-    position: relative;
+    position: absolute;
+    /*position: relative;*/
     right: 0;
-    padding-left: 320px;
     display: none;
-    margin-top: -60px;
+    /*padding-left: 320px;
+    margin-top: -60px;*/
 }
-
+/*
 html:has(.overview) #app .wrap>.footer {
     display: flex !important;
-}
+}*/
