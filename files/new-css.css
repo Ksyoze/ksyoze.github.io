@@ -502,6 +502,10 @@
     color: var(--ksyoz-color-white);
 }
 
+#app .wrap>.time {
+    color: var(--ksyoz-color-black);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
