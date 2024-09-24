@@ -492,6 +492,16 @@
     font-weight: 700;
 }
 
+#app .activity-edit>.actions>.button {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .activity-edit>.actions>.button:hover {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
