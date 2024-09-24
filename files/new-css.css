@@ -239,13 +239,24 @@
     width: var(--right-side-width);
     position: absolute;
     right: 0;
-    background: var(--background-img) right top / 83% fixed;
+    background: var(--ksyoz-color-black);
 }
 
 #app .page-content:has(.overview) {
     width: 100%;
     position: relative;
     padding-left: 320px;
+}
+
+#app .page-content:has(.overview)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://i.imgur.com/4bBGdPC.png) top left repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
 }
 
 #app .overview .content-wrap {
@@ -257,7 +268,8 @@
 /* /////////BANNER///////// */
 
 #app .banner {
-    visibility: hidden;
+    background: var(--background-img) top left / cover no-repeat !important;
+    height: 100dvh;
 }
 
 #app .banner-content {
