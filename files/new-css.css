@@ -494,6 +494,7 @@
 
 .user .activity-feed-wrap .section-header .el-dropdown-menu__item:hover {
     color: var(--ksyoz-color-black);
+    background: var(--ksyoz-color-black) !important;
     font-weight: 700;
 }
 
