@@ -1146,13 +1146,13 @@
         BlinkMacSystemFont, "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
     position: relative;
     right: 0;
-    display: none;
+    visibility: hidden;
     padding-left: 320px;
     margin-top: -60px;
 }
 
 html:has(.overview) #app .wrap>.footer {
-    display: flex !important;
+    visibility: visible;
 }
 
 #app .theme-selector {
@@ -1173,4 +1173,5 @@ html:has(.overview) #app .wrap>.footer {
 #app .footer .links a:hover {
     text-decoration: underline;
     color: unset;
+    text-transform: uppercase;
 }
