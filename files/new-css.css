@@ -298,7 +298,7 @@
     position: absolute;
     margin: auto;
     left: 74%;
-    /*top: 180px;*/
+    top: -800px;
 }
 
 #app .banner-content h1.name {
