@@ -416,6 +416,7 @@
 #app .markdown img {
     max-height: unset;
     border-radius: 0px;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 /* /////////MILESTONS///////// */
