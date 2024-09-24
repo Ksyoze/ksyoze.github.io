@@ -1114,22 +1114,22 @@
     content: "";
     background: var(--left-bracket);
     position: absolute;
-    top: -3px;
+    top: -4px;
     width: 5px;
     height: 5%;
     background-size: contain;
-    margin: 0 -15px;
+    margin: 0 -20px;
 }
 
 #app .submissions>.filters>.filter-group span::after {
     content: "";
     background: var(--right-bracket);
     position: absolute;
-    top: -3px;
+    top: -4px;
     width: 5px;
     height: 5%;
     background-size: contain;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 #app .filter-group .count {
