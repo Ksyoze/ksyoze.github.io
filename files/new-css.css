@@ -16,8 +16,21 @@
     --ksyoz-color-black: black;
 }
 
-.nav:not(.transparent) {
-    top: -350px;
+/* /////////KEYFRAMES///////// */
+
+@keyframes up100dvh {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: -100dvh;
+    }
+}
+
+#nav:not(.transparent) ~ .page-content:has(.activity-feed-wrap) {
+    position: relative;
+    animation: up100dvh 0.5s ease-in-out forwards;
 }
 
 /* /////////REMOVING SCROLLBARS///////// */
