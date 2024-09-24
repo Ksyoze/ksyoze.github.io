@@ -419,7 +419,6 @@
 /* /////////OVERIEW///////// */
 
 #app .content>.overview {
-    margin-top: 700px;
     display: flex;
     flex-direction: column;
     position: relative;
