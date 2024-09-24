@@ -245,7 +245,7 @@
 #app .page-content:has(.overview) {
     width: 100%;
     position: relative;
-    padding-left: 300px;
+    padding-left: 320px;
 }
 
 #app .overview .content-wrap {
@@ -1146,7 +1146,7 @@
         BlinkMacSystemFont, "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
     position: relative;
     right: 0;
-    padding-left: 300px;
+    padding-left: 320px;
     display: none;
     margin-top: -60px;
 }
