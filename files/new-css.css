@@ -333,6 +333,10 @@
     display: none;
 }
 
+#app .hohDownload {
+    display: none;
+}
+
 /* /////////NAVIGATION///////// */
 
 #app .header-wrap>.nav-wrap>.nav {
