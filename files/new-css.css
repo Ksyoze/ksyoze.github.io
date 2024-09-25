@@ -932,7 +932,8 @@
 }
 
 #app .line-chart-wrap {
-    color: black;
+    color: var(--ksyoz-color-black);
+    background: var(--ksyoz-color-white);
 }
 
 #app .line-chart-wrap>.line-chart>.line {
