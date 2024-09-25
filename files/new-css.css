@@ -912,12 +912,15 @@
 }
 
 #app .line-chart-wrap {
-    background: var(--ksyoz-color-white);
     color: black;
 }
 
 #app .line-chart-wrap>.line-chart>.line {
     stroke: var(--ksyoz-color-black);
+}
+
+#app .horizontal-scroller {
+    background: var(--ksyoz-color-white);
 }
 
 #app .area {
