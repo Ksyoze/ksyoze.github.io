@@ -260,6 +260,7 @@
     width: 100%;
     position: relative;
     padding-left: 320px;
+    margin-bottom: -100dvh;
 }
 
 #app .page-content:has(.about)::before {
@@ -1226,4 +1227,8 @@ html:has(.about) #app .wrap>.footer {
     text-decoration: underline;
     color: unset;
     text-transform: uppercase;
+}
+
+html:has(.about) #app .wrap {
+    margin-top: 0px;
 }
