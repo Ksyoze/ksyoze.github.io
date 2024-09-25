@@ -774,7 +774,7 @@
 #app .favourites .favourite {
     width: 85px;
     flex: 0 0 auto;
-    background: var(--ksyoz-color-black);
+    background-color: var(--ksyoz-color-black);
 }
 
 #app .favourite.studio {
