@@ -255,13 +255,13 @@
     background: var(--ksyoz-color-black);
 }
 
-#app .page-content:has(.overview) {
+#app .page-content:has(.about) {
     width: 100%;
     position: relative;
     padding-left: 320px;
 }
 
-#app .page-content:has(.overview)::before {
+#app .page-content:has(.about)::before {
     content: "";
     position: absolute;
     top: 0;
@@ -1181,7 +1181,7 @@
     margin-top: -60px;
 }
 
-html:has(.overview) #app .wrap>.footer {
+html:has(.about) #app .wrap>.footer {
     visibility: visible;
 }
 
