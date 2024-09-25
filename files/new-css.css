@@ -598,7 +598,7 @@
 #app .container:has(>.medialist) {
     position: absolute;
     background: black right top / 100% fixed;
-    min-height: 100%;
+    min-height: 200dvh;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -735,7 +735,7 @@
 #app .container:has(>.favourites) {
     position: absolute;
     background: black right top / 100% fixed;
-    min-height: 100%;
+    min-height: 200dvh;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -818,7 +818,7 @@
 #app .container:has(>.stats) {
     position: absolute;
     background: black right top / 100% fixed;
-    min-height: 100%;
+    min-height: 200dvh;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -958,7 +958,7 @@
 #app .container:has(>.user-social) {
     position: absolute;
     background: black right top / 100% fixed;
-    min-height: 100%;
+    min-height: 200dvh;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -1074,7 +1074,7 @@
 #app .container:has(>.user-reviews) {
     position: absolute;
     background: black right top / 100% fixed;
-    min-height: 100%;
+    min-height: 200dvh;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -1104,7 +1104,7 @@
 #app .container:has(> .submissions) {
     position: absolute;
     background: black right top / 100% fixed;
-    min-height: 100%;
+    min-height: 200dvh;
     max-width: 100%;
     top: 0;
     right: 0;
