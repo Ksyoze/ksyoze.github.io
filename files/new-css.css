@@ -933,7 +933,7 @@
 #app .container:has(>.user-social) {
     position: absolute;
     background: black right top / 100% fixed;
-    min-height: 110dvh;
+    min-height: 100%;
     max-width: 100%;
     top: 0;
     right: 0;
@@ -1008,7 +1008,7 @@
 }
 
 #app .user-follow .follow-card {
-    background: var(--ksyoz-color-white);
+    background: transparent;
     border-radius: 0px;
     transition: .2s ease-in;
 }
