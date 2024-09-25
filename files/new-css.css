@@ -1024,7 +1024,6 @@
 
 #app .follow-card:hover .name {
     color: black;
-    opacity: 0.5;
 }
 
 #app .follow-card>.avatar>.name {
@@ -1035,7 +1034,6 @@
     height: unset;
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
         "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
-    transition: opacity .2s ease-in;
     background-color: var(--ksyoz-color-white);
 }
 
