@@ -1019,7 +1019,7 @@
 #app .user-follow .follow-card:hover {
     outline: 2px solid var(--ksyoz-color-white);
     background: var(--ksyoz-color-black);
-    transition: .2 ease-in;
+    transition: .2s ease-in;
 }
 
 #app .follow-card:hover .name {
