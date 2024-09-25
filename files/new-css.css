@@ -776,6 +776,15 @@
     flex: 0 0 auto;
 }
 
+#app .favourite.studio {
+    width: 85px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 #app .favourites>.section-header {
     font-size: 18px;
     color: white;
