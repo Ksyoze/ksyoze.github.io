@@ -1223,10 +1223,13 @@ html:has(.about) #app .wrap>.footer {
     display: none;
 }
 
+#app .footer .links a {
+    text-transform: uppercase;
+}
+
 #app .footer .links a:hover {
     text-decoration: underline;
     color: unset;
-    text-transform: uppercase;
 }
 
 html:has(.about) #app .wrap {
