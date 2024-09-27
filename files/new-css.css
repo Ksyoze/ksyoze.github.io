@@ -496,6 +496,12 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .activity-entry>.wrap,
+#app .reply-wrap>.activity-replies>.reply,
+#app .activity-edit>.reply {
+    background: var(--ksyoz-color-black);
+}
+
 #app .wrap>.list.small .cover {
     transition: 0.5s;
     width: 50px;
