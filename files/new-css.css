@@ -496,9 +496,9 @@
     color: var(--ksyoz-color-black);
 }
 
-#app .activity-entry>.wrap,
-#app .reply-wrap>.activity-replies>.reply,
-#app .activity-edit>.reply {
+#app .activity-entry>.wrap:hover,
+#app .reply-wrap>.activity-replies>.reply:hover,
+#app .activity-edit>.reply:hover {
     background: var(--ksyoz-color-black);
 }
 
