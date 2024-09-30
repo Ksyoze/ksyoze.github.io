@@ -1224,6 +1224,15 @@
     margin-right: 5px;
 }
 
+#app .submission {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .content>.notes {
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////FOOTER///////// */
 
 #app .footer {
