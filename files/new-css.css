@@ -729,6 +729,10 @@
     color: white;
 }
 
+#app .el-select-dropdown__item {
+    color: var(--ksyoz-color-white);
+}
+
 #app .theme-switch {
     background: transparent;
     color: var(--ksyoz-color-white);
