@@ -738,7 +738,7 @@
     color: var(--ksyoz-color-white);
 }
 
-#app .theme-switch {
+#app .theme-switch:hover {
     background: var(--ksyoz-color-white);
     color: var(--ksyoz-color-black);
 }
