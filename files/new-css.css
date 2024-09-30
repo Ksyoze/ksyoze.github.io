@@ -1233,6 +1233,10 @@
     color: var(--ksyoz-color-white);
 }
 
+#app .submission>.content>.time {
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////FOOTER///////// */
 
 #app .footer {
