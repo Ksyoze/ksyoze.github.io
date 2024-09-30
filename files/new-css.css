@@ -724,6 +724,11 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .medialist.table .entry:hover {
+    background: black;
+    color: white;
+}
+
 #app .theme-switch {
     background: transparent;
     color: var(--ksyoz-color-white);
