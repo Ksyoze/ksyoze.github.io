@@ -259,7 +259,7 @@
 #app .page-content:has(.about) {
     width: 100%;
     position: relative;
-    padding-left: 320px;
+    padding-left: 17%;
     margin-bottom: -100dvh;
 }
 
