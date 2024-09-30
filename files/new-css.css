@@ -724,6 +724,16 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .theme-switch {
+    background: transparent;
+    color: var(--ksyoz-color-white);
+}
+
+#app .theme-switch {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
 #app .hohExtraFilters {
     display: none;
 }
