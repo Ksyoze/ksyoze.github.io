@@ -755,6 +755,10 @@
     display: none;
 }
 
+#app .medialist.cards .entry-card .release-status {
+    z-index: 1;
+}
+
 /* /////////FAVORITE TAB///////// */
 
 #app .container:has(>.favourites) {
