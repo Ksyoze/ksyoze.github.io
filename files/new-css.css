@@ -1291,6 +1291,6 @@ html:has(.about) #app .wrap {
 
 @media (max-width: 1540px) {#app .name-wrapper {
         top: -625px;
-        left: 67%;
+        left: 69%;
     }
 }
