@@ -1286,3 +1286,11 @@ html:has(.about) #app .wrap>.footer {
 html:has(.about) #app .wrap {
     margin-top: 0px;
 }
+
+/* /////////MEDIA QUERY///////// */
+
+@media (max-width: 1540px) {#app .name-wrapper {
+        top: -625px;
+        left: 67%;
+    }
+}
