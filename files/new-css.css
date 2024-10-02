@@ -323,12 +323,12 @@
 
 #app .banner>.container>.banner-content>.actions {
     position: absolute;
-    top: 0;
+    top: -100px;
 }
 
 #app .mod-badge-wrap.follower-badge {
     position: absolute;
-    top: 60px;
+    top: -40px;
     background: var(--ksyoz-color-white);
     color: var(--ksyoz-color-black);
     margin-right: 0;
