@@ -628,7 +628,7 @@
 }
 
 #app .wrap:hover>.actions> .action.likes .button {
-    color: var(--ksyoz-color-black)
+    color: var(--ksyoz-color-white)
 }
 
 #app .wrap>.actions>.action.likes .button .fa-heart {
@@ -641,6 +641,10 @@
 
 #app .wrap>.actions>.action.likes .button.liked {
     color: var(--ksyoz-color-black)
+}
+
+#app .wrap:hover>.actions>.action.likes .button.liked:hover {
+    color: var(--ksyoz-color-white);
 }
 
 #app .wrap:hover>.actions>.action.likes .button.liked {
