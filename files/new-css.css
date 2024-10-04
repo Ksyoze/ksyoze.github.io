@@ -485,6 +485,12 @@
     color: var(--ksyoz-color-black);
 }
 
+/* /////////ACTIVITY HISTORY///////// */
+
+#app .history-day {
+    width: 30px;
+}
+
 /* /////////ACTIVITIES///////// */
 
 #app .activity-entry>.wrap,
