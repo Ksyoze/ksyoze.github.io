@@ -14,6 +14,7 @@
     --right-side-width: 83%;
     --ksyoz-color-white: white;
     --ksyoz-color-black: black;
+    --ksyoz-color-blue: 145, 199, 237;
 }
 
 /* /////////KEYFRAMES///////// */
@@ -494,41 +495,41 @@
 
 #app .history-day.lv-1,
 #app .tooltip .circle.lv-1 {
-    background: rgba(var(--ksyoz-color-brightest), 0.7);
+    background: rgba(var(--ksyoz-color-blue), 0.7);
 }
 
 #app .history-day.lv-2,
 #app .tooltip .circle.lv-2 {
-    background: rgb(var(--ksyoz-color-brightest), 0.75);
+    background: rgb(var(--ksyoz-color-blue), 0.75);
 }
 
 #app .history-day.lv-3,
 #app .tooltip .circle.lv-3 {
-    background: rgba(var(--ksyoz-color-brightest), 0.8);
+    background: rgba(var(--ksyoz-color-blue), 0.8);
 }
 
 #app .history-day.lv-4,
 #app .tooltip .circle.lv-4 {
-    background: rgba(var(--ksyoz-color-brightest), 0.85);
+    background: rgba(var(--ksyoz-color-blue), 0.85);
 }
 
 #app .history-day.lv-5,
 #app .tooltip .circle.lv-5 {
-    background: rgba(var(--ksyoz-color-brightest), 0.9);
+    background: rgba(var(--ksyoz-color-blue), 0.9);
 }
 
 #app .history-day.lv-6,
 #app .history-day.lv-7,
 #app .tooltip .circle.lv-6,
 #app .tooltip .circle.lv-7 {
-    background: rgb(var(--ksyoz-color-brightest), 0.95);
+    background: rgb(var(--ksyoz-color-blue), 0.95);
 }
 
 #app .history-day.lv-8,
 #app .history-day.lv-9,
 #app .tooltip .circle.lv-8,
 #app .tooltip .circle.lv-9 {
-    background: rgb(var(--ksyoz-color-brightest));
+    background: rgb(var(--ksyoz-color-blue));
 }
 
 /* /////////ACTIVITIES///////// */
