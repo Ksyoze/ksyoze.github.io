@@ -559,7 +559,7 @@
     color: var(--ksyoz-color-black);
 }
 
-#app .wrap>.list.small>.details:hover .status {
+#app .wrap:hover>.list.small>.details .status {
     color: var(--ksyoz-color-white);
 }
 
