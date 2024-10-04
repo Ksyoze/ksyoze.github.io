@@ -314,7 +314,7 @@
     position: absolute;
     margin: auto;
     left: 74%;
-    top: -1700px;
+    top: -800px;
 }
 
 #app .banner-content h1.name {
@@ -651,6 +651,10 @@
 
 #app .wrap:hover>.actions>.action.likes .button.liked {
     color: var(--ksyoz-color-white)
+}
+
+#app .users>.user {
+    background-color: var(--ksyoz-color-black);
 }
 
 /* /////////LOAD MORE///////// */
@@ -1384,7 +1388,7 @@ html:has(.about) #app .wrap {
 
 @media (max-width: 1540px) {
     #app .name-wrapper {
-        top: -1300px;
+        top: -600px;
         left: 72%;
     }
 }
