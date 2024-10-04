@@ -615,7 +615,7 @@
     background: transparent;
 }
 
-#app .activity-entry>.wrap>.actions {
+#app .activity-entry>.wrap>.actions .action{
     color: var(--ksyoz-color-black);
 }
 
