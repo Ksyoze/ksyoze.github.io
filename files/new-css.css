@@ -573,8 +573,12 @@
     background: var(--ksyoz-color-black);
 }
 
-#app .text .name {
+#app .wrap>.text .name {
     color: var(--ksyoz-color-black);
+}
+
+#app .wrap:hover>.text .name {
+    color: var(--ksyoz-color-white);
 }
 
 #app .markdown-editor {
