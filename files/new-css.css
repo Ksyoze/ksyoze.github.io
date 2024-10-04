@@ -559,6 +559,10 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .wrap>.list.small>.details:hover .status {
+    color: var(--ksyoz-color-white);
+}
+
 #app .wrap>.list.small>div>div.status>a {
     width: 100%;
     display: block;
