@@ -607,6 +607,10 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .wrap:hover>.time {
+    color: var(--ksyoz-color-white);
+}
+
 #app .activity-entry>.wrap>.time:hover {
     background: transparent;
 }
