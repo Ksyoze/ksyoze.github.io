@@ -261,7 +261,7 @@
     width: 100%;
     position: relative;
     padding-left: 17%;
-    margin-bottom: -100dvh;
+    margin-bottom: -200dvh;
 }
 
 #app .page-content:has(.about)::before {
