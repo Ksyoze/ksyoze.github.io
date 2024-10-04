@@ -28,7 +28,7 @@
     }
 }
 
-#nav:not(.transparent) ~ .page-content:has(.activity-feed-wrap) {
+#nav:not(.transparent)~.page-content:has(.activity-feed-wrap) {
     position: relative;
     animation: up100dvh 0.5s ease-in-out forwards;
 }
@@ -489,6 +489,46 @@
 
 #app .history-day {
     width: 30px;
+    background: var(--ksyoz-color-white);
+}
+
+#app .history-day.lv-1,
+#app .tooltip .circle.lv-1 {
+    background: rgba(var(--ksyoz-color-brightest), 0.7);
+}
+
+#app .history-day.lv-2,
+#app .tooltip .circle.lv-2 {
+    background: rgb(var(--ksyoz-color-brightest), 0.75);
+}
+
+#app .history-day.lv-3,
+#app .tooltip .circle.lv-3 {
+    background: rgba(var(--ksyoz-color-brightest), 0.8);
+}
+
+#app .history-day.lv-4,
+#app .tooltip .circle.lv-4 {
+    background: rgba(var(--ksyoz-color-brightest), 0.85);
+}
+
+#app .history-day.lv-5,
+#app .tooltip .circle.lv-5 {
+    background: rgba(var(--ksyoz-color-brightest), 0.9);
+}
+
+#app .history-day.lv-6,
+#app .history-day.lv-7,
+#app .tooltip .circle.lv-6,
+#app .tooltip .circle.lv-7 {
+    background: rgb(var(--ksyoz-color-brightest), 0.95);
+}
+
+#app .history-day.lv-8,
+#app .history-day.lv-9,
+#app .tooltip .circle.lv-8,
+#app .tooltip .circle.lv-9 {
+    background: rgb(var(--ksyoz-color-brightest));
 }
 
 /* /////////ACTIVITIES///////// */
@@ -1295,7 +1335,8 @@ html:has(.about) #app .wrap {
 
 /* /////////MEDIA QUERY///////// */
 
-@media (max-width: 1540px) {#app .name-wrapper {
+@media (max-width: 1540px) {
+    #app .name-wrapper {
         top: -625px;
         left: 69%;
     }
