@@ -260,7 +260,7 @@
     width: 100%;
     position: relative;
     padding-left: 17%;
-    margin-bottom: -200dvh;
+    margin-bottom: -100dvh;
 }
 
 #app .page-content:has(.about)::before {
