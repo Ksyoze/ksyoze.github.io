@@ -615,11 +615,24 @@
     color: var(--ksyoz-color-black);
 }
 
-#app .action.likes .button .fa-heart,
-#app .like-wrap.thread_comment .button .fa-heart,
-#app .action.likes .button,
-#app .like-wrap.thread_comment .button {
-    color: var(--ksyoz-color-black);
+#app .activity-entry>.wrap:hover>.actions .action {
+    color: var(--ksyoz-color-white);
+}
+
+#app .wrap>.actions>.action.likes .button {
+    color: var(--ksyoz-color-black)
+}
+
+#app .wrap:hover>.actions> .action.likes .button {
+    color: var(--ksyoz-color-black)
+}
+
+#app .wrap>.actions>.action.likes .button .fa-heart {
+    stroke: var(--ksyoz-color-black);
+}
+
+#app .wrap:hover>.actions>.action.likes .button .fa-heart {
+    stroke: var(--ksyoz-color-white);
 }
 
 /* /////////LOAD MORE///////// */
