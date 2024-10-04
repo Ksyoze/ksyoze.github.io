@@ -25,7 +25,7 @@
     }
 
     100% {
-        top: -100dvh;
+        top: -200dvh;
     }
 }
 
@@ -285,7 +285,7 @@
 
 #app .banner {
     background: var(--background-img) top left / cover no-repeat !important;
-    height: 100dvh;
+    height: 200dvh;
 }
 
 #app .banner-content {
@@ -491,6 +491,7 @@
 #app .history-day {
     width: 30px;
     background: var(--ksyoz-color-white);
+    border-radius: 0px;
 }
 
 #app .history-day.lv-1,
