@@ -615,6 +615,13 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .action.likes .button .fa-heart,
+#app .like-wrap.thread_comment .button .fa-heart,
+#app .action.likes .button,
+#app .like-wrap.thread_comment .button {
+    color: var(--ksyoz-color-black);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
