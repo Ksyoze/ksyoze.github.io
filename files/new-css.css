@@ -611,6 +611,10 @@
     background: transparent;
 }
 
+#app .activity-entry>.wrap>.actions {
+    color: var(--ksyoz-color-black);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
