@@ -1234,7 +1234,7 @@
 }
 
 #app .content>.notes {
-    color: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
 }
 
 #app .submission>.content>.time {
