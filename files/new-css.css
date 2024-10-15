@@ -645,6 +645,10 @@
     color: var(--ksyoz-color-black)
 }
 
+#app .action.likes .button.liked:hover {
+    color: var(--ksyoz-color-white);
+}
+
 #app .wrap>.actions>.action.likes .button.liked .fa-heart:hover {
     color: var(--ksyoz-color-white);
 }
