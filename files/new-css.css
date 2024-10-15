@@ -657,6 +657,18 @@
     background-color: var(--ksyoz-color-black);
 }
 
+#app .extras-dropdown .el-dropdown-link {
+    color: var(--ksyoz-color-white);
+}
+
+#app .wrap>.text>.activity-markdown>.markdown h1 {
+    color: var(--ksyoz-color-black);
+}
+
+#app .wrap:hover>.text>.activity-markdown>.markdown h1 {
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
