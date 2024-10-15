@@ -669,6 +669,14 @@
     color: var(--ksyoz-color-white);
 }
 
+#app .reply>.header>.name, #app .reply>.header>.actions .time {
+    color: var(--ksyoz-color-black);
+}
+
+#app .reply:hover>.header>.name, #app .reply>.header>.actions .time {
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
