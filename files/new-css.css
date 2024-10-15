@@ -695,6 +695,14 @@
     background: var(--ksyoz-color-white);
 }
 
+#app .reply .markdown {
+    color: var(--ksyoz-color-black);
+}
+
+#app .reply:hover .markdown {
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
