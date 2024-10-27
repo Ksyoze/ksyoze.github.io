@@ -12,6 +12,7 @@
     --right-bracket: url("https://i.imgur.com/Ms1qXXt.png");
     --left-side-width: 17%;
     --right-side-width: 83%;
+    --feed-height: 4940px;
     --ksyoz-color-white: white;
     --ksyoz-color-black: black;
     --ksyoz-color-blue: 145, 199, 237;
@@ -533,6 +534,11 @@
 }
 
 /* /////////ACTIVITIES///////// */
+
+#app .activity-feed-wrap>.activity-feed {
+    max-height: var(--feed-height);
+    overflow: auto;
+}
 
 #app .activity-entry>.wrap,
 #app .reply-wrap>.activity-replies>.reply,
