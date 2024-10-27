@@ -623,7 +623,7 @@
     background: transparent;
 }
 
-#app .activity-entry>.wrap>.actions .action{
+#app .activity-entry>.wrap>.actions .action {
     color: var(--ksyoz-color-black);
 }
 
@@ -635,7 +635,7 @@
     color: var(--ksyoz-color-black)
 }
 
-#app .wrap:hover>.actions> .action.likes .button {
+#app .wrap:hover>.actions>.action.likes .button {
     color: var(--ksyoz-color-white)
 }
 
@@ -679,11 +679,13 @@
     color: var(--ksyoz-color-white);
 }
 
-#app .reply>.header>.name, #app .reply>.header>.actions .time {
+#app .reply>.header>.name,
+#app .reply>.header>.actions .time {
     color: var(--ksyoz-color-black);
 }
 
-#app .reply:hover>.header>.name, #app .reply>.header>.actions .time {
+#app .reply:hover>.header>.name,
+#app .reply>.header>.actions .time {
     color: var(--ksyoz-color-white);
 }
 
@@ -691,12 +693,14 @@
     color: var(--ksyoz-color-white);
 }
 
-#app .reply>.reply-markdown>.markdown a, .markdown a:visited {
+#app .reply>.reply-markdown>.markdown a,
+.markdown a:visited {
     color: var(--ksyoz-color-white);
     background: var(--ksyoz-color-black);
 }
 
-#app .reply:hover>.reply-markdown>.markdown a, .markdown a:visited {
+#app .reply:hover>.reply-markdown>.markdown a,
+.markdown a:visited {
     color: var(--ksyoz-color-black);
     background: var(--ksyoz-color-white);
 }
