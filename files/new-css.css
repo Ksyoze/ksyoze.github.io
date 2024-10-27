@@ -703,6 +703,14 @@
     color: var(--ksyoz-color-white);
 }
 
+#app .text .markdown {
+    color: var(--ksyoz-color-black);
+}
+
+#app .text .markdown:hover {
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
