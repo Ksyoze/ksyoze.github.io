@@ -1129,6 +1129,10 @@
     visibility: hidden;
 }
 
+#app .stats-wrap {
+    grid-column-gap: 0px;
+}
+
 /* /////////SOCIAL///////// */
 
 #app .container:has(>.user-social) {
