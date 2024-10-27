@@ -709,11 +709,11 @@
     color: var(--ksyoz-color-white);
 }
 
-#app .text .markdown {
+#app .wrap>.text .markdown {
     color: var(--ksyoz-color-black);
 }
 
-#app .text .markdown:hover {
+#app .wrap:hover>.text .markdown {
     color: var(--ksyoz-color-white);
 }
 
