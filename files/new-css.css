@@ -685,7 +685,7 @@
 }
 
 #app .reply:hover>.header>.name,
-#app .reply>.header>.actions .time {
+#app .reply:hover>.header>.actions .time {
     color: var(--ksyoz-color-white);
 }
 
