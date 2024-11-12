@@ -721,6 +721,16 @@
     color: var(--ksyoz-color-white);
 }
 
+#app .entry-dropdown {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+}
+
+#app .entry-dropdown {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
