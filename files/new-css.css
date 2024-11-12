@@ -741,6 +741,11 @@
     border-bottom-color: var(--ksyoz-color-black)
 }
 
+.el-dropdown-menu__item:not(.is-disabled):hover {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
