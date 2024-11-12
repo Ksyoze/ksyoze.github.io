@@ -731,6 +731,11 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .site-theme-dark .el-dropdown-menu {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
