@@ -736,7 +736,8 @@
     color: var(--ksyoz-color-white);
 }
 
-.site-theme-dark .el-popper[x-placement^="bottom"] .popper__arrow, .site-theme-dark .el-popper[x-placement^="bottom"] .popper__arrow::after {
+.site-theme-dark .el-popper[x-placement^="bottom"] .popper__arrow,
+.site-theme-dark .el-popper[x-placement^="bottom"] .popper__arrow::after {
     border-bottom-color: var(--ksyoz-color-black)
 }
 
