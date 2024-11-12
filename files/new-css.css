@@ -731,7 +731,7 @@
     color: var(--ksyoz-color-black);
 }
 
-#app .site-theme-dark .el-dropdown-menu {
+.site-theme-dark .el-dropdown-menu {
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
 }
