@@ -1,0 +1,1491 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barlow Condensed");
+
+:root {
+    --logo: url("https://i.imgur.com/MsUa7r9.png");
+    --logo-size: 45px;
+    --avatar-image: url("https://i.imgur.com/fB6vXhw.png");
+    --left-image: url("https://i.imgur.com/McPaHai.jpeg");
+    --background-img: url("https://i.imgur.com/SWu2HeA.jpeg");
+    --left-bracket: url("https://i.imgur.com/w2LPdfp.png");
+    --right-bracket: url("https://i.imgur.com/Ms1qXXt.png");
+    --left-side-width: 17%;
+    --right-side-width: 83%;
+    --feed-height: 4940px;
+    --ksyoz-color-white: white;
+    --ksyoz-color-black: black;
+    --ksyoz-color-blue: 145, 199, 237;
+}
+
+/* /////////KEYFRAMES///////// */
+
+@keyframes up100dvh {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: -100dvh;
+    }
+}
+
+#nav:not(.transparent)~.page-content:has(.activity-feed-wrap) {
+    position: relative;
+    animation: up100dvh 0.5s ease-in-out forwards;
+}
+
+/* /////////REMOVING SCROLLBARS///////// */
+
+.user .about>div.content-wrap {
+    scrollbar-width: none;
+}
+
+.text div.markdown {
+    scrollbar-width: none;
+}
+
+* {
+    scrollbar-width: none;
+    scrollbar-color: var(--ksyoz-color-white);
+}
+
+/* /////////LEFT SIDE///////// */
+
+/* /////////HEADER NAV///////// */
+
+#nav {
+    width: var(--left-side-width);
+    height: 100%;
+    background-image: var(--left-image);
+    position: fixed;
+    top: 0 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-theme-dark .nav-unscoped.transparent:hover {
+    color: var(--ksyoz-color-black);
+}
+
+#app #nav .wrap {
+    display: grid;
+    margin: 0;
+    /*margin: 0 110px;*/
+    /*transform: perspective(2000px) rotateY(20deg);*/
+    padding: 0;
+    /*padding: 0 18px;*/
+    grid-template-columns: 1fr 1fr;
+}
+
+#app #nav .wrap>.links>.link {
+    position: relative;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--ksyoz-color-black);
+    z-index: 1;
+    color: var(--ksyoz-color-black);
+    width: 100%;
+}
+
+#app #nav .wrap>.links>.link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--ksyoz-color-white);
+    z-index: -1;
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(1);
+}
+
+#app #nav .wrap>.links>.link:hover::before {
+    transform-origin: right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+
+#app #nav .wrap>.links>.link:hover {
+    color: var(--ksyoz-color-white);
+}
+
+#app .wrap>.links {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    grid-column: span 2;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    align-self: baseline;
+}
+
+#app span.browse-wrap {
+    display: none;
+}
+
+#app #nav .logo img {
+    height: unset;
+    width: 270px;
+    content: var(--logo);
+}
+
+#app #nav .wrap>.logo {
+    grid-column: span 2;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#app #nav .wrap>.user {
+    grid-column: span 2;
+    margin: 0 auto;
+    align-self: baseline;
+}
+
+#app #nav .user .chevron {
+    display: none;
+}
+
+#app #nav .wrap>.search {
+    display: none;
+    margin: 0 auto;
+    align-self: baseline;
+}
+
+#app #nav .user .notification-dot.large-count {
+    display: none;
+}
+
+#app #nav .user .avatar {
+    margin-right: 120px;
+    border-radius: 20px;
+    border: 2px solid var(--ksyoz-color-white);
+    width: var(--logo-size);
+    height: var(--logo-size);
+}
+
+#app #nav .hohDismiss {
+    display: none;
+}
+
+/* /////////AVATAR DROPDOWN///////// */
+
+#app #nav .wrap>.user>.user-wrap>.dropdown {
+    opacity: 1;
+    animation: none;
+    background: transparent;
+    box-shadow: none;
+}
+
+#app #nav .wrap>.user>.user-wrap {
+    height: calc(var(--logo-size) + 20px);
+    transform: translateY(20px);
+}
+
+#app #nav .dropdown:before {
+    display: none;
+}
+
+#app #nav .primary-link {
+    color: var(--ksyoz-color-white);
+}
+
+#app #nav .primary-link:hover {
+    color: var(--ksyoz-color-black);
+}
+
+#app #nav .primary-link:nth-child(1) {
+    font-size: 0;
+    top: -37px;
+    left: -20px;
+    position: absolute;
+}
+
+#app #nav .primary-link:nth-child(1)::after {
+    content: attr(href);
+    font-size: 15px;
+}
+
+#app #nav .dropdown>.primary-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+#app #nav .primary-link:nth-child(2),
+#app #nav .primary-link:nth-child(3) {
+    font-size: 0;
+}
+
+#app #nav .primary-link:nth-child(2)>.icon,
+#app #nav .primary-link:nth-child(3)>.icon {
+    font-size: 25px;
+    margin-left: 6px;
+    position: absolute;
+}
+
+#app #nav .primary-link>.icon {
+    color: var(--ksyoz-color-white);
+}
+
+#app #nav .primary-link>.icon:hover {
+    color: var(--ksyoz-color-black);
+}
+
+#app #nav .primary-link:nth-child(1) svg {
+    display: none;
+}
+
+.user-wrap:hover:after {
+    display: none;
+}
+
+/* /////////RIGHT SIDE///////// */
+
+#app .page-content {
+    width: var(--right-side-width);
+    position: absolute;
+    right: 0;
+    min-height: 200dvh;
+    background: var(--ksyoz-color-black);
+}
+
+#app .page-content:has(.about) {
+    width: 100%;
+    position: relative;
+    padding-left: 17%;
+    margin-bottom: -100dvh;
+}
+
+#app .page-content:has(.about)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://i.imgur.com/4bBGdPC.png) top left repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+
+#app .overview .content-wrap {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+    border-radius: 0px;
+}
+
+/* /////////BANNER///////// */
+
+#app .banner {
+    background: var(--background-img) top left / cover no-repeat !important;
+    height: 100dvh;
+}
+
+#app .banner-content {
+    visibility: visible !important;
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    bottom: 70px;
+}
+
+#app .banner-content>.avatar {
+    visibility: hidden;
+    content: var(--avatar-image);
+    max-height: none;
+    max-width: 700px;
+    position: absolute;
+    left: 45%;
+    top: -130px;
+    margin-left: -500px;
+}
+
+#app .name-wrapper {
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    margin: auto;
+    left: 74%;
+    top: -800px;
+}
+
+#app .banner-content h1.name {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+#app .banner>.container>.banner-content>.actions {
+    position: absolute;
+    top: -100px;
+}
+
+#app .mod-badge-wrap.follower-badge {
+    position: absolute;
+    top: -40px;
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+    margin-right: 0;
+}
+
+#app .mod-badge-wrap.follower-badge:hover {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+}
+
+#app .pie-chart {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .banner>.container>.banner-content>.actions>.dropdown {
+    display: none;
+}
+
+#app .hohDownload {
+    display: none;
+}
+
+/* /////////NAVIGATION///////// */
+
+#app .header-wrap>.nav-wrap>.nav {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    text-align: right;
+    width: unset;
+    padding-right: 35px;
+    z-index: 1;
+}
+
+#app .header-wrap>.nav-wrap {
+    background: none;
+}
+
+#app .nav-wrap>.nav .link {
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    font-size: 24px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--ksyoz-color-black);
+    padding: 0 10px;
+    margin: 0;
+    z-index: 1;
+    background: transparent;
+    transition: 0.5s;
+}
+
+#app .nav-wrap>.nav .link:hover {
+    color: var(--ksyoz-color-white);
+    background: transparent;
+}
+
+#app .nav-wrap>.nav .link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--ksyoz-color-black);
+    z-index: -1;
+    transform-origin: right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+
+#app .nav-wrap>.nav .link:hover::before {
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(1);
+}
+
+#app .nav-wrap>.nav .router-link-active {
+    background: var(--ksyoz-color-black) !important;
+    color: var(--ksyoz-color-white) !important;
+}
+
+#app .user>.user-wrap>.dropdown>.footer {
+    display: none;
+}
+
+/* /////////FOLLOWING ACTIONS///////// */
+
+#app .actions>.nav-btn {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .actions>.nav-btn:hover {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+}
+
+/* /////////OVERIEW///////// */
+
+#app .content>.overview {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 15dvh;
+}
+
+#app .overview .section-header {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    color: var(--ksyoz-color-white);
+    filter: drop-shadow(0px 0px 4px black);
+}
+
+/* /////////BIO///////// */
+
+#app .markdown img {
+    max-height: unset;
+    border-radius: 0px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+/* /////////MILESTONS///////// */
+
+#app .section>.stats-wrap>.list-stats>.footer {
+    display: none;
+}
+
+/* /////////GENRE///////// */
+
+#app .desktop:nth-child(3) {
+    display: none
+}
+
+/* /////////FAVORITES///////// */
+
+#app .overview>.section>.favourites {
+    display: none;
+}
+
+/* /////////STATS WRAP///////// */
+
+#app .stat .value {
+    color: var(--ksyoz-color-black);
+}
+
+#app .stat .label {
+    color: var(--ksyoz-color-black);
+}
+
+/* /////////ACTIVITY HISTORY///////// */
+
+#app .history-day {
+    width: 30px;
+    background: var(--ksyoz-color-white);
+}
+
+#app .history-day.lv-1,
+#app .tooltip .circle.lv-1 {
+    background: rgba(var(--ksyoz-color-blue), 0.7);
+}
+
+#app .history-day.lv-2,
+#app .tooltip .circle.lv-2 {
+    background: rgb(var(--ksyoz-color-blue), 0.75);
+}
+
+#app .history-day.lv-3,
+#app .tooltip .circle.lv-3 {
+    background: rgba(var(--ksyoz-color-blue), 0.8);
+}
+
+#app .history-day.lv-4,
+#app .tooltip .circle.lv-4 {
+    background: rgba(var(--ksyoz-color-blue), 0.85);
+}
+
+#app .history-day.lv-5,
+#app .tooltip .circle.lv-5 {
+    background: rgba(var(--ksyoz-color-blue), 0.9);
+}
+
+#app .history-day.lv-6,
+#app .history-day.lv-7,
+#app .tooltip .circle.lv-6,
+#app .tooltip .circle.lv-7 {
+    background: rgb(var(--ksyoz-color-blue), 0.95);
+}
+
+#app .history-day.lv-8,
+#app .history-day.lv-9,
+#app .tooltip .circle.lv-8,
+#app .tooltip .circle.lv-9 {
+    background: rgb(var(--ksyoz-color-blue));
+}
+
+/* /////////ACTIVITIES///////// */
+
+#app .activity-feed-wrap>.activity-feed {
+    max-height: var(--feed-height);
+    overflow: auto;
+}
+
+#app .activity-entry>.wrap,
+#app .reply-wrap>.activity-replies>.reply,
+#app .activity-edit>.reply {
+    border-radius: 0px;
+    transition: 0.3s;
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .activity-entry>.wrap:hover,
+#app .reply-wrap>.activity-replies>.reply:hover,
+#app .activity-edit>.reply:hover {
+    background: var(--ksyoz-color-black);
+}
+
+#app .wrap>.list.small .cover {
+    width: 50px;
+}
+
+#app .wrap>.list.small>.details .status {
+    color: var(--ksyoz-color-black);
+}
+
+#app .wrap:hover>.list.small>.details .status {
+    color: var(--ksyoz-color-white);
+}
+
+#app .wrap>.list.small>div>div.status>a {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--ksyoz-color-white);
+    background: var(--ksyoz-color-black);
+}
+
+#app .wrap>.text .name {
+    color: var(--ksyoz-color-black);
+}
+
+#app .wrap:hover>.text .name {
+    color: var(--ksyoz-color-white);
+}
+
+#app .markdown-editor {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .user .activity-feed-wrap .section-header .el-dropdown-menu__item {
+    color: var(--ksyoz-color-white);
+    font-weight: 700;
+}
+
+#app .user .activity-feed-wrap .section-header .el-dropdown-menu__item:hover {
+    color: var(--ksyoz-color-black);
+    background: var(--ksyoz-color-white) !important;
+    font-weight: 700;
+}
+
+#app .activity-edit>.actions>.button {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .activity-edit>.actions>.button:hover {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+}
+
+#app .wrap>.time {
+    color: var(--ksyoz-color-black);
+}
+
+#app .wrap:hover>.time {
+    color: var(--ksyoz-color-white);
+}
+
+#app .activity-entry>.wrap>.time:hover {
+    background: transparent;
+}
+
+#app .activity-entry>.wrap>.actions .action {
+    color: var(--ksyoz-color-black);
+}
+
+#app .activity-entry>.wrap:hover>.actions .action {
+    color: var(--ksyoz-color-white);
+}
+
+#app .wrap>.actions>.action.likes .button {
+    color: var(--ksyoz-color-black)
+}
+
+#app .wrap:hover>.actions>.action.likes .button {
+    color: var(--ksyoz-color-white)
+}
+
+#app .wrap>.actions>.action.likes .button .fa-heart {
+    stroke: var(--ksyoz-color-black);
+}
+
+#app .wrap:hover>.actions>.action.likes .button .fa-heart {
+    stroke: var(--ksyoz-color-white);
+}
+
+#app .wrap>.actions>.action.likes .button.liked {
+    color: var(--ksyoz-color-black)
+}
+
+#app .action.likes .button.liked:hover {
+    color: var(--ksyoz-color-white);
+}
+
+#app .wrap>.actions>.action.likes .button.liked .fa-heart:hover {
+    color: var(--ksyoz-color-white);
+}
+
+#app .wrap:hover>.actions>.action.likes .button.liked {
+    color: var(--ksyoz-color-white)
+}
+
+#app .users>.user {
+    background-color: var(--ksyoz-color-black);
+}
+
+#app .extras-dropdown .el-dropdown-link {
+    color: var(--ksyoz-color-white);
+}
+
+#app .wrap>.text>.activity-markdown>.markdown h1 {
+    color: var(--ksyoz-color-black);
+}
+
+#app .wrap:hover>.text>.activity-markdown>.markdown h1 {
+    color: var(--ksyoz-color-white);
+}
+
+#app .reply>.header>.name,
+#app .reply>.header>.actions .time {
+    color: var(--ksyoz-color-black);
+}
+
+#app .reply:hover>.header>.name,
+#app .reply:hover>.header>.actions .time {
+    color: var(--ksyoz-color-white);
+}
+
+#app .reply:hover>.header>.name {
+    color: var(--ksyoz-color-white);
+}
+
+#app .reply>.reply-markdown>.markdown a,
+.markdown a:visited {
+    color: var(--ksyoz-color-white);
+    background: var(--ksyoz-color-black);
+}
+
+#app .reply:hover>.reply-markdown>.markdown a,
+.markdown a:visited {
+    color: var(--ksyoz-color-black);
+    background: var(--ksyoz-color-white);
+}
+
+#app .reply .markdown {
+    color: var(--ksyoz-color-black);
+}
+
+#app .reply:hover .markdown {
+    color: var(--ksyoz-color-white);
+}
+
+#app .wrap>.text .markdown {
+    color: var(--ksyoz-color-black);
+}
+
+#app .wrap:hover>.text .markdown {
+    color: var(--ksyoz-color-white);
+}
+
+#app .entry-dropdown {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+}
+
+#app .entry-dropdown {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+.site-theme-dark .el-dropdown-menu {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+}
+
+.site-theme-dark .el-popper[x-placement^="bottom"] .popper__arrow,
+.site-theme-dark .el-popper[x-placement^="bottom"] .popper__arrow::after {
+    border-bottom-color: var(--ksyoz-color-black)
+}
+
+.el-dropdown-menu__item:not(.is-disabled):hover {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+/* /////////LOAD MORE///////// */
+
+#app .load-more {
+    position: relative;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--ksyoz-color-black);
+    z-index: 1;
+    color: var(--ksyoz-color-black);
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#app .load-more::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--ksyoz-color-white);
+    z-index: -1;
+    transform-origin: left;
+    transition: transform 0.5s ease;
+    transform: scaleX(1);
+}
+
+#app .load-more:hover::before {
+    transform-origin: right;
+    transition: transform 0.5s ease;
+    transform: scaleX(0);
+}
+
+#app .load-more:hover {
+    color: var(--ksyoz-color-white);
+}
+
+/* /////////LISTS///////// */
+
+#app .container:has(>.medialist) {
+    position: absolute;
+    background: black right top / 100% fixed;
+    min-height: 200dvh;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+}
+
+#app .container:has(>.medialist)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://i.imgur.com/4bBGdPC.png) top left repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+
+#app .medialist {
+    margin: 180px auto;
+    position: relative;
+    /*display: flex;
+    flex-direction: column;*/
+}
+
+/*
+#app .medialist {
+    /*display: flex;
+    flex-direction: column;
+}
+
+#app .entry-filter.el-input.el-input--prefix {
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+#app .filters.mobile-nav-hidden>.filter-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+}*/
+
+#app .filters.mobile-nav-hidden>.filter-group .active {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .filters.mobile-nav-hidden>.filter-group>span {
+    color: var(--ksyoz-color-white);
+}
+
+.el-select-dropdown__list {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-black);
+}
+
+.el-select-dropdown__item.hover {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+.el-select-dropdown__item.selected {
+    color: var(--ksyoz-color-white);
+}
+
+.el-select-dropdown__item.selected:hover {
+    color: var(--ksyoz-color-black);
+}
+
+#app .list-entries>.entry-card>.cover {
+    width: 100%;
+    z-index: 1;
+}
+
+#app .list-entries>.entry-card>.title {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0px;
+    min-height: 62px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    color: black;
+    font-weight: 500;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    z-index: 2;
+}
+
+#app .medialist.cards .entry-card .title:hover {
+    white-space: normal;
+}
+
+#app .medialist.cards .entry-card .progress,
+#app .medialist.cards .entry-card .score {
+    color: var(--ksyoz-color-black);
+}
+
+#app .medialist.cards .section-name,
+#app .medialist.table.compact .section-name {
+    font-weight: 700;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    color: var(--ksyoz-color-white);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#app .filters.mobile-nav-hidden>.filter-group .group-header {
+    color: var(--ksyoz-color-white);
+}
+
+#app .el-slider__runway {
+    background: var(--ksyoz-color-white);
+}
+
+#app .medialist.table .list-section {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .medialist.table .entry:hover {
+    background: black;
+    color: white;
+}
+
+#app .el-select-dropdown__item {
+    color: var(--ksyoz-color-white);
+}
+
+#app .theme-switch {
+    background: transparent;
+    color: var(--ksyoz-color-white);
+}
+
+#app .theme-switch:hover {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .hohExtraFilters {
+    display: none;
+}
+
+#app .compare-btn {
+    display: none;
+}
+
+#app .random-btn {
+    display: none;
+}
+
+#app .medialist.cards .entry-card .release-status {
+    z-index: 1;
+}
+
+/* /////////FAVORITE TAB///////// */
+
+#app .container:has(>.favourites) {
+    position: absolute;
+    background: black right top / 100% fixed;
+    min-height: 200dvh;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+}
+
+#app .container:has(>.favourites)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://i.imgur.com/4bBGdPC.png) top left repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+
+#app .favourites {
+    margin: 180px auto;
+    position: relative;
+}
+
+#app .favourites>.favourites {
+    margin: 30px 0;
+}
+
+#app .favourites>.favourites>.favourites-wrap {
+    background: var(--ksyoz-color-white);
+    border-radius: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: unset;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#app .favourites .favourite {
+    width: 85px;
+    flex: 0 0 auto;
+    background-color: var(--ksyoz-color-black);
+}
+
+#app .favourite.studio {
+    width: 85px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#app .favourites>.section-header {
+    font-size: 18px;
+    color: white;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    text-transform: uppercase;
+}
+
+#app .favourites .actions>div {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .favourites .actions>div:hover {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+}
+
+#app .el-input-group__append,
+#app .el-input-group__prepend,
+#app .el-input__inner,
+.el-textarea__inner {
+    background: var(--ksyoz-color-white);
+    color: black;
+}
+
+/* /////////STATS///////// */
+
+#app .container:has(>.stats) {
+    position: absolute;
+    background: black right top / 100% fixed;
+    min-height: 200dvh;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+}
+
+#app .container:has(>.stats)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://i.imgur.com/4bBGdPC.png) top left repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+
+#app .stats {
+    margin: 180px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#app .stats>.filters>.filter-wrap>.filter-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app .stats>.filters>.filter-wrap>.filter-group a {
+    color: var(--ksyoz-color-white);
+    margin: 4px 10px;
+}
+
+#app .stats>.filters>.filter-wrap>.filter-group a:hover {
+    color: var(--ksyoz-color-black);
+    background-color: var(--ksyoz-color-white);
+    transition: .2s ease-in;
+}
+
+#app .stats>.filters>.filter-wrap>.filter-group a.router-link-active {
+    color: var(--ksyoz-color-black);
+    background: var(--ksyoz-color-white);
+}
+
+#app .stats>.filters>.filter-wrap>.filter-group .group-header {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+}
+
+#app .stats>.stats-wrap>.overview>.highlights {
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 0;
+    width: 100%;
+}
+
+#app .highlight .value {
+    display: flex;
+    justify-content: center;
+    color: var(--ksyoz-color-black);
+}
+
+#app .highlight .label {
+    color: var(--ksyoz-color-black);
+}
+
+#app .highlight .wrap {
+    padding-left: 0;
+}
+
+#app .highlight .circle {
+    visibility: hidden;
+}
+
+#app .stats>.stats-wrap>.overview .heading {
+    color: var(--ksyoz-color-white);
+    font-weight: 700;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+#app .stats>.stats-wrap>.overview .heading .switch {
+    background: var(--ksyoz-color-white);
+}
+
+#app .stats>.stats-wrap>.overview .heading .switch .option {
+    color: var(--ksyoz-color-black);
+}
+
+#app .stats>.stats-wrap>.overview .heading .switch .option:hover {
+    color: var(--ksyoz-color-white);
+    background: var(--ksyoz-color-black);
+}
+
+#app .stats>.stats-wrap>.overview .heading .switch .option.active {
+    color: var(--ksyoz-color-white);
+    background: var(--ksyoz-color-black);
+}
+
+#app .bar-chart-wrap {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .bar-wrap>.bar {
+    background: var(--ksyoz-color-black);
+}
+
+#app .line-chart-wrap {
+    color: var(--ksyoz-color-black);
+    background: var(--ksyoz-color-white);
+}
+
+#app .line-chart-wrap>.line-chart>.line {
+    stroke: var(--ksyoz-color-black);
+}
+
+#app .horizontal-scroller {
+    background: var(--ksyoz-color-white);
+}
+
+#app .area {
+    fill: var(--ksyoz-color-black);
+}
+
+#app .hohStatsTrigger {
+    visibility: hidden;
+}
+
+#app .stats-wrap {
+    grid-column-gap: 0px;
+}
+
+/* /////////SOCIAL///////// */
+
+#app .container:has(>.user-social) {
+    position: absolute;
+    background: black right top / 100% fixed;
+    min-height: 200dvh;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+}
+
+#app .container:has(>.user-social)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://i.imgur.com/4bBGdPC.png) top left repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+
+#app .user-social {
+    margin: 180px auto;
+    position: relative;
+    grid-template-columns: 1fr;
+}
+
+#app .user-social>.filters>.filter-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app .user-social .filter-group span {
+    color: white;
+    margin: 0 15px;
+    padding: 0 10px;
+    border-radius: 0px;
+    transition: .2s ease-in;
+    font-weight: 500;
+}
+
+#app .user-social .filter-group .group-header {
+    display: none;
+}
+
+#app .user-social .filter-group span.active {
+    background: white;
+    color: black;
+}
+
+#app .user-social .filter-group span:hover {
+    background: white;
+    color: black;
+}
+
+#app .user-social .filter-group span::before {
+    content: "";
+    background: var(--left-bracket);
+    position: absolute;
+    left: -10px;
+    top: -4px;
+    width: 5px;
+    height: 150%;
+    background-size: contain;
+}
+
+#app .user-social .filter-group span::after {
+    content: "";
+    background: var(--right-bracket);
+    position: absolute;
+    right: -10px;
+    top: -4px;
+    width: 5px;
+    height: 150%;
+    background-size: contain;
+}
+
+#app .user-follow .follow-card {
+    background: transparent;
+    border-radius: 0px;
+    transition: .2s ease-in;
+}
+
+#app .user-follow .follow-card:hover {
+    outline: 2px solid var(--ksyoz-color-white);
+    background: var(--ksyoz-color-black);
+    transition: .2s ease-in;
+}
+
+#app .follow-card:hover .name {
+    color: black;
+}
+
+#app .follow-card>.avatar>.name {
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    bottom: 0;
+    height: unset;
+    font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont,
+        "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    background-color: var(--ksyoz-color-white);
+}
+
+/* TEMP */
+
+#app .hohCount {
+    left: 8px;
+    top: -29px;
+}
+
+#app .hohCount:before {
+    display: none;
+}
+
+#app .hohCount:after {
+    display: none;
+}
+
+#app .hohThemeSwitch {
+    display: none;
+}
+
+/* /////////REVIEWS///////// */
+
+#app .container:has(>.user-reviews) {
+    position: absolute;
+    background: black right top / 100% fixed;
+    min-height: 200dvh;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+}
+
+#app .container:has(>.user-reviews)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://i.imgur.com/4bBGdPC.png) top left repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+
+#app .no-reviews {
+    position: relative;
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+    margin: 180px auto;
+    padding: 20px;
+}
+
+/* /////////SUBMISSIONS///////// */
+
+#app .container:has(> .submissions) {
+    position: absolute;
+    background: black right top / 100% fixed;
+    min-height: 200dvh;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+}
+
+#app .container:has(> .submissions)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://i.imgur.com/4bBGdPC.png) top left repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+
+#app .submissions {
+    margin: 180px auto;
+    position: relative;
+    grid-template-columns: 1fr;
+}
+
+#app .submissions>.filters>.filter-group .group-header {
+    color: var(--ksyoz-color-white);
+    display: none;
+}
+
+#app .submissions>.filters>.filter-group span.active {
+    color: var(--ksyoz-color-black);
+    background: var(--ksyoz-color-white);
+}
+
+#app .no-submissions {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+    padding: 20px;
+}
+
+#app .submissions>.filters>.filter-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app .submissions>.filters>.filter-group span {
+    color: white;
+    margin: 0 15px;
+    padding: 0 10px;
+    border-radius: 0px;
+    transition: .2s ease-in;
+    font-weight: 500;
+}
+
+#app .submissions>.filters>.filter-group span:hover {
+    background: white;
+    color: black;
+}
+
+#app .submissions>.filters>.filter-group span::before {
+    content: "";
+    background: var(--left-bracket);
+    position: absolute;
+    top: -4px;
+    width: 5px;
+    height: 5%;
+    background-size: contain;
+    margin: 0 -20px;
+}
+
+#app .submissions>.filters>.filter-group span::after {
+    content: "";
+    background: var(--right-bracket);
+    position: absolute;
+    top: -4px;
+    width: 5px;
+    height: 5%;
+    background-size: contain;
+    margin: 0 15px;
+}
+
+#app .filter-group .count {
+    align-self: center;
+    margin-right: 5px;
+}
+
+#app .submission {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+#app .content>.notes {
+    color: var(--ksyoz-color-black);
+}
+
+#app .submission>.content>.time {
+    color: var(--ksyoz-color-white);
+}
+
+/* /////////FOOTER///////// */
+
+#app .footer {
+    background: black;
+    color: #555;
+    font-family: YakuHanJP, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system,
+        BlinkMacSystemFont, "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
+    position: relative;
+    right: 0;
+    visibility: hidden;
+    padding-left: 320px;
+    margin-top: -60px;
+}
+
+html:has(.about) #app .wrap>.footer {
+    visibility: visible;
+}
+
+#app .theme-selector {
+    display: none;
+}
+
+#app .footer>.container>.links {
+    margin: auto;
+}
+
+#app .footer [href="https://twitter.com/AniListco"]::before,
+#app .footer [href="https://discord.gg/TF428cr"]::before,
+#app .footer [href="https://www.facebook.com/AniListco"]::before,
+#app .footer [href="https://github.com/AniList"]::before {
+    display: none;
+}
+
+#app .footer .links a {
+    text-transform: uppercase;
+}
+
+#app .footer .links a:hover {
+    text-decoration: underline;
+    color: unset;
+}
+
+html:has(.about) #app .wrap {
+    margin-top: 0px;
+}
+
+/* /////////MEDIA QUERY///////// */
+
+@media (max-width: 1540px) {
+    #app .name-wrapper {
+        top: -600px;
+        left: 72%;
+    }
+}
