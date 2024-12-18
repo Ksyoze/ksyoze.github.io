@@ -949,6 +949,10 @@
     z-index: 1;
 }
 
+#app .el-dialog__body {
+    background: var(--ksyoz-color-black);
+}
+
 /* /////////FAVORITE TAB///////// */
 
 #app .container:has(>.favourites) {
