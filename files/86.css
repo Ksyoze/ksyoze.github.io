@@ -953,6 +953,11 @@
     background: var(--ksyoz-color-black);
 }
 
+#app .donatar-badsge {
+    background: rgb(var(--ksyoz-color-blue));
+    color: var(--ksyoz-color-white);
+}
+
 /* /////////FAVORITE TAB///////// */
 
 #app .container:has(>.favourites) {
