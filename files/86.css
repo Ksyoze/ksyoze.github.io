@@ -569,6 +569,7 @@
 
 #app .wrap>.list.small>div>div.status>a {
     width: 100%;
+    max-width: 480px;
     display: block;
     overflow: hidden;
     white-space: nowrap;
