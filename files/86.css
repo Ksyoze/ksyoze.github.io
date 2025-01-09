@@ -26,13 +26,13 @@
     }
 
     100% {
-        top: -100dvh;
+        top: -120dvh;
     }
 }
 
 #nav:not(.transparent)~.page-content:has(.activity-feed-wrap) {
     position: relative;
-    animation: up100dvh 0.5s ease-in-out forwards;
+    animation: up120dvh 0.5s ease-in-out forwards;
 }
 
 /* /////////REMOVING SCROLLBARS///////// */
@@ -286,7 +286,7 @@
 
 #app .banner {
     background: var(--background-img) top left / cover no-repeat !important;
-    height: 100dvh;
+    height: 120dvh;
 }
 
 #app .banner-content {
