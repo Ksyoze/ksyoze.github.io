@@ -20,19 +20,19 @@
 
 /* /////////KEYFRAMES///////// */
 
-@keyframes up120dvh {
+@keyframes up150dvh {
     0% {
         top: 0;
     }
 
     100% {
-        top: -120dvh;
+        top: -150dvh;
     }
 }
 
 #nav:not(.transparent)~.page-content:has(.activity-feed-wrap) {
     position: relative;
-    animation: up120dvh 0.5s ease-in-out forwards;
+    animation: up150dvh 0.5s ease-in-out forwards;
 }
 
 /* /////////REMOVING SCROLLBARS///////// */
@@ -286,7 +286,7 @@
 
 #app .banner {
     background: var(--background-img) top left / cover no-repeat !important;
-    height: 120dvh;
+    height: 150dvh;
 }
 
 #app .banner-content {
