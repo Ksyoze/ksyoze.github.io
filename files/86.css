@@ -747,6 +747,10 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .hohPinned span {
+    content: none;
+}
+
 /* /////////LOAD MORE///////// */
 
 #app .load-more {
