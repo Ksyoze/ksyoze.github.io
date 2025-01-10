@@ -748,7 +748,7 @@
 }
 
 #app .hohPinned span {
-    content: none;
+    display: none;
 }
 
 /* /////////LOAD MORE///////// */
