@@ -968,7 +968,7 @@
 #app .container:has(>.favourites) {
     position: absolute;
     background: black right top / 100% fixed;
-    min-height: 200dvh;
+    min-height: 250dvh;
     max-width: 100%;
     top: 0;
     right: 0;
