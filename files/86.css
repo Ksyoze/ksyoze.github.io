@@ -589,6 +589,7 @@
 #app .markdown-editor {
     background: var(--ksyoz-color-white);
     color: var(--ksyoz-color-black);
+    border-radius: 0px;
 }
 
 #app .user .activity-feed-wrap .section-header .el-dropdown-menu__item {
@@ -605,6 +606,7 @@
 #app .activity-edit>.actions>.button {
     background: var(--ksyoz-color-white);
     color: var(--ksyoz-color-black);
+    border-radius: 0px;
 }
 
 #app .activity-edit>.actions>.button:hover {
@@ -706,8 +708,12 @@
     background: var(--ksyoz-color-white);
 }
 
-#app .reply .markdown {
+#app .reply .markdown>p {
     color: var(--ksyoz-color-black);
+}
+
+#app .reply .markdown>p:hover {
+    color: var(--ksyoz-color-white);
 }
 
 #app .reply:hover .markdown {
@@ -1044,6 +1050,7 @@
 .el-textarea__inner {
     background: var(--ksyoz-color-white);
     color: black;
+    border-radius: 0px;
 }
 
 /* /////////STATS///////// */
