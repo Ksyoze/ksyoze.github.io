@@ -708,12 +708,8 @@
     background: var(--ksyoz-color-white);
 }
 
-#app .reply .markdown>p {
+#app .reply .markdown {
     color: var(--ksyoz-color-black);
-}
-
-#app .reply .markdown>p:hover {
-    color: var(--ksyoz-color-white);
 }
 
 #app .reply:hover .markdown {
