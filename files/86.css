@@ -1514,7 +1514,8 @@ html:has(.about) #app .wrap {
 
 /* /////////EXPERIMENTAL///////// */
 
-/*#app .medialist {
+/*
+#app .medialist {
     grid-template-columns: 1fr;
 }
 
@@ -1525,4 +1526,12 @@ html:has(.about) #app .wrap {
     scroll-behavior: smooth;
     display: flex;
     justify-content: flex-start;
-}*/
+}
+    
+#app .filters.mobile-nav-hidden>.filter-group>span {
+    flex: 0 0 auto;
+    width: 150px;
+    height: fit-content;
+    margin: 0 20px;
+}
+*/
