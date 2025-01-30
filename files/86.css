@@ -1511,3 +1511,18 @@ html:has(.about) #app .wrap {
         left: 72%;
     }
 }
+
+/* /////////EXPERIMENTAL///////// */
+
+#app .medialist {
+    grid-template-columns: 1fr;
+}
+
+#app .filter-group:nth-child(1) {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: unset;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: flex-start;
+}
