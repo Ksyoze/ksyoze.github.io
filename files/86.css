@@ -1521,7 +1521,7 @@ html:has(.about) #app .wrap {
 #app .filter-group:nth-child(1) {
     overflow-x: scroll;
     overflow-y: hidden;
-    width: unset;
+    width: 1350px;
     scroll-behavior: smooth;
     display: flex;
     justify-content: flex-start;
