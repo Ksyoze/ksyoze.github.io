@@ -1514,7 +1514,7 @@ html:has(.about) #app .wrap {
 
 /* /////////EXPERIMENTAL///////// */
 
-#app .medialist {
+/*#app .medialist {
     grid-template-columns: 1fr;
 }
 
@@ -1525,5 +1525,4 @@ html:has(.about) #app .wrap {
     scroll-behavior: smooth;
     display: flex;
     justify-content: flex-start;
-}
-
+}*/
