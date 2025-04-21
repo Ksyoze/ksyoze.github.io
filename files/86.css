@@ -1524,6 +1524,14 @@ html:has(.about) #app .wrap {
     content: "Handler One";
 }
 
+.header > a[href="/user/Kusogaki/"].name:after {
+    content: "Handler One";
+}
+
+.header > a[href="/user/Havee/"].name:after {
+    content: "Ancient";
+}
+
 /* /////////EXPERIMENTAL///////// */
 
 /*
