@@ -1512,6 +1512,18 @@ html:has(.about) #app .wrap {
     }
 }
 
+/* /////////BADGES///////// */
+
+.header > .name:after {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+    content: "Spearhead Squadron";
+}
+
+.header > a[href="/user/Ksyoz/"].name:after {
+    content: "Handler One";
+}
+
 /* /////////EXPERIMENTAL///////// */
 
 /*
