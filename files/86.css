@@ -1522,6 +1522,11 @@ html:has(.about) #app .wrap {
     padding: 2px;
 }
 
+.wrap:hover > .text > .header > .name:after {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
 .header > a[href="/user/Ksyoz/"].name:after {
     content: "Handler One";
 }
