@@ -1518,6 +1518,8 @@ html:has(.about) #app .wrap {
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
     content: "Spearhead Squadron";
+    margin-left: 8px;
+    padding: 2px;
 }
 
 .header > a[href="/user/Ksyoz/"].name:after {
@@ -1525,7 +1527,7 @@ html:has(.about) #app .wrap {
 }
 
 .header > a[href="/user/Kusogaki/"].name:after {
-    content: "Handler One";
+    content: none;
 }
 
 .header > a[href="/user/Havee/"].name:after {
