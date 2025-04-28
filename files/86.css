@@ -1304,6 +1304,13 @@
     background-color: var(--ksyoz-color-white);
 }
 
+#app .comment-wrap {
+    background: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
+}
+
+
+
 /* TEMP */
 
 #app .hohCount {
