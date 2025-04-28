@@ -1309,7 +1309,16 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .user-comments>.wrap>.title {
+    color: var(--ksyoz-color-white);
+    margin: 10px 0;
+    padding: 5px 5px;
+}
 
+#app .user-comments>.wrap>.title:hover {
+    color: var(--ksyoz-color-black);
+    background: var(--ksyoz-color-white);
+}
 
 /* TEMP */
 
