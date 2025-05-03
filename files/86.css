@@ -1320,6 +1320,14 @@
     background: var(--ksyoz-color-white);
 }
 
+#app .header>.user {
+    color: var(--ksyoz-color-black);
+}
+
+#app .header>.time {
+    color: var(--ksyoz-color-black);
+}
+
 /* TEMP */
 
 #app .hohCount {
@@ -1470,7 +1478,7 @@
 }
 
 #app .submission>.content>.time {
-    color: var(--ksyoz-color-white);
+    color: var(--ksyoz-color-black);
 }
 
 /* /////////FOOTER///////// */
