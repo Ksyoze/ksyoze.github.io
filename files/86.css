@@ -1210,6 +1210,23 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .stat-cards>.stat-card>.count {
+    background: var(--ksyoz-color-black);
+}
+
+#app .relations-wrap {
+    background: var(--ksyoz-color-black);
+}
+
+#app .stat-card>.title>.a {
+    color: var(--ksyoz-color-black);
+}
+
+#app .stat-card>.title>.a:hover {
+    color: var(--ksyoz-color-white);
+    background: var(--ksyoz-color-black);
+}
+
 /* /////////SOCIAL///////// */
 
 #app .container:has(>.user-social) {
