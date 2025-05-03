@@ -1198,6 +1198,18 @@
     grid-column-gap: 0px;
 }
 
+#app .stats>.stats-wrap>.overview>.header>.title {
+    color: var(--ksyoz-color-white);
+}
+
+#app .stat-cards>.stat-card {
+    background: var(--ksyoz-color-white);
+} 
+
+#app .details>.detail>.value, #app .details>.detail>.label {
+    color: var(--ksyoz-color-black);
+}
+
 /* /////////SOCIAL///////// */
 
 #app .container:has(>.user-social) {
