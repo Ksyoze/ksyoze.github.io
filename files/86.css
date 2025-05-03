@@ -1146,20 +1146,20 @@
         "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
 }
 
-#app .stats>.stats-wrap>.overview .heading .switch {
+#app .stats>.stats-wrap>.overview .heading .switch, #app .stats-wrap>.overview>.header>.switches>.switch {
     background: var(--ksyoz-color-white);
 }
 
-#app .stats>.stats-wrap>.overview .heading .switch .option {
+#app .stats>.stats-wrap>.overview .heading .switch .option, #app .stats-wrap>.overview>.header>.switches>.switch>.options>.option {
     color: var(--ksyoz-color-black);
 }
 
-#app .stats>.stats-wrap>.overview .heading .switch .option:hover {
+#app .stats>.stats-wrap>.overview .heading .switch .option:hover, #app .stats-wrap>.overview>.header>.switches>.switch>.options>.option:hover {
     color: var(--ksyoz-color-white);
     background: var(--ksyoz-color-black);
 }
 
-#app .stats>.stats-wrap>.overview .heading .switch .option.active {
+#app .stats>.stats-wrap>.overview .heading .switch .option.active, #app .stats-wrap>.overview>.header>.switches>.switch>.options>.option.active {
     color: var(--ksyoz-color-white);
     background: var(--ksyoz-color-black);
 }
