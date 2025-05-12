@@ -965,9 +965,13 @@
     background: var(--ksyoz-color-black);
 }
 
-#app .donatar-badsge {
+#app .donatar-badge {
     background: rgb(var(--ksyoz-color-blue));
     color: var(--ksyoz-color-white);
+}
+
+#app .list-editor-wrap .el-input__inner, .list-editor-wrap .el-textarea__inner {
+    background: var(--ksyoz-color-white);
 }
 
 /* /////////FAVORITE TAB///////// */
