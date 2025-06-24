@@ -35,6 +35,12 @@
     animation: up150dvh 0.5s ease-in-out forwards;
 }
 
+/* /////////GLOBAL///////// */
+
+a {
+    color: rgb(var(--ksyoz-color-blue));
+}
+
 /* /////////REMOVING SCROLLBARS///////// */
 
 .user .about>div.content-wrap {
