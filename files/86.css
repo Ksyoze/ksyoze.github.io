@@ -38,7 +38,7 @@
 /* /////////GLOBAL///////// */
 
 a {
-    color: rgb(var(--ksyoz-color-blue));
+    color: rgb(var(--ksyoz-color-blue)) !important;
 }
 
 /* /////////REMOVING SCROLLBARS///////// */
