@@ -1226,6 +1226,10 @@
     grid-column-gap: 0px;
 }
 
+#app .stats-wrap:hover {
+    background: var(--ksyoz-color-black);
+}
+
 #app .stats>.stats-wrap>.overview>.header>.title {
     color: var(--ksyoz-color-white);
 }
