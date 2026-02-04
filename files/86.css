@@ -288,7 +288,7 @@
     border-radius: 0px;
 }
 
-#app .about>.overview .content-wrap:hover {
+#app .about>.content-wrap:hover {
     background: black;
     color: white;
     transition: 0.5s;
