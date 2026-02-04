@@ -288,7 +288,7 @@
     border-radius: 0px;
 }
 
-#app .overview .content-wrap:hover {
+#app .about>.overview .content-wrap:hover {
     background: black;
     color: white;
     transition: 0.5s;
@@ -495,7 +495,7 @@
     color: var(--ksyoz-color-black);
 }
 
-#app .stats-wrap>.stat .value {
+#app .stats-wrap>.stat .value:hover {
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
     transition: 0.5s;
@@ -505,7 +505,7 @@
     color: var(--ksyoz-color-black);
 }
 
-#app .stats-wrap>.stat .label {
+#app .stats-wrap>.stat .label:hover {
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
     transition: 0.5s;
