@@ -288,6 +288,12 @@
     border-radius: 0px;
 }
 
+#app .overview .content-wrap:hover {
+    background: black;
+    color: white;
+    transition: 0.5s;
+}
+
 /* /////////BANNER///////// */
 
 #app .banner {
