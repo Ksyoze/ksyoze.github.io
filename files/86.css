@@ -495,7 +495,7 @@
     color: var(--ksyoz-color-black);
 }
 
-#app .stats-wrap>.stat .value:hover {
+#app .stats-wrap:hover>.stat .value {
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
     transition: 0.5s;
@@ -505,7 +505,7 @@
     color: var(--ksyoz-color-black);
 }
 
-#app .stats-wrap>.stat .label:hover {
+#app .stats-wrap:hover>.stat .label {
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
     transition: 0.5s;
