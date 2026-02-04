@@ -594,7 +594,7 @@
 #app .wrap>.list.small>div>div.status>a {
     width: 100%;
     max-width: 480px;
-    display: block;
+    display: table-caption;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
