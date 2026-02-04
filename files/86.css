@@ -489,8 +489,20 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .stats-wrap>.stat .value {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+    transition: 0.5s;
+}
+
 #app .stat .label {
     color: var(--ksyoz-color-black);
+}
+
+#app .stats-wrap>.stat .label {
+    background: var(--ksyoz-color-black);
+    color: var(--ksyoz-color-white);
+    transition: 0.5s;
 }
 
 /* /////////ACTIVITY HISTORY///////// */
