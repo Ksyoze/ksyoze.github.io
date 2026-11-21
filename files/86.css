@@ -1032,6 +1032,15 @@
     display: none;
 }
 
+#app .tagIndex p {
+    color: white;
+}
+
+#app .tagIndex .count {
+    opacity: 0.8;
+    color: white;
+}
+
 /* /////////FAVORITE TAB///////// */
 
 #app .container:has(>.favourites) {
