@@ -512,6 +512,14 @@
     color: var(--ksyoz-color-black);
 }
 
+#app .stats-wrap {
+    grid-column-gap: 0px;
+}
+
+/*#app .stats-wrap:hover {
+    background: var(--ksyoz-color-black);
+}*/
+
 #app .stats-wrap:hover>.stat .value {
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
@@ -1241,14 +1249,6 @@
     justify-content: center;
     align-items: center;
 }
-
-#app .stats-wrap {
-    grid-column-gap: 0px;
-}
-
-/*#app .stats-wrap:hover {
-    background: var(--ksyoz-color-black);
-}*/
 
 #app .stats>.stats-wrap>.overview>.header>.title {
     color: var(--ksyoz-color-white);
