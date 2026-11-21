@@ -297,11 +297,11 @@
     border-radius: 0px;
 }
 
-#app .about>.content-wrap:hover {
+/*#app .about>.content-wrap:hover {
     background: black;
     color: white;
     transition: 0.5s;
-}
+}*/
 
 #app .overview .content-wrap .markdown {
     font-family: YakuHanJP, "Barlow Condensed", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "游ゴシック", YuGothic, Arial, "メイリオ", Meiryo, sans-serif;
@@ -1246,9 +1246,9 @@
     grid-column-gap: 0px;
 }
 
-#app .stats-wrap:hover {
+/*#app .stats-wrap:hover {
     background: var(--ksyoz-color-black);
-}
+}*/
 
 #app .stats>.stats-wrap>.overview>.header>.title {
     color: var(--ksyoz-color-white);
