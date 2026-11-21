@@ -209,9 +209,16 @@
 #app #nav .primary-link:nth-child(1) {
     font-size: 0;
     top: -37px;
+    position: absolute;
+    display: block ruby;
+}
+
+/*#app #nav .primary-link:nth-child(1) {
+    font-size: 0;
+    top: -37px;
     left: -20px;
     position: absolute;
-}
+}*/
 
 #app #nav .primary-link:nth-child(1)::after {
     content: attr(href);
