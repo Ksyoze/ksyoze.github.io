@@ -985,6 +985,18 @@
     color: var(--ksyoz-color-white);
 }
 
+#app .layout-switch {
+    background: var(--ksyoz-color-white);
+}
+
+#app .layout-switch span {
+    color: black;
+}
+
+#app .layout-switch .active{
+    color: var(--ksyoz-color-blue);
+}
+
 #app .theme-switch {
     background: transparent;
     color: var(--ksyoz-color-white);
