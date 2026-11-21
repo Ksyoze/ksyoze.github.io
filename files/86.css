@@ -802,6 +802,7 @@
     display: none;
 }
 
+
 #app .markdown .markdown-spoiler.spoiler-visible span {
     color: var(--ksyoz-color-black);
     background: var(--ksyoz-color-white);
@@ -992,10 +993,6 @@
 #app .theme-switch:hover {
     background: var(--ksyoz-color-white);
     color: var(--ksyoz-color-black);
-}
-
-#app .hohExtraFilters {
-    display: none;
 }
 
 #app .compare-btn {
