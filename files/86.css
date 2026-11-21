@@ -393,6 +393,8 @@
     width: unset;
     padding-right: 35px;
     z-index: 1;
+    letter-spacing: var(--text-spacing);
+    max-width: unset;
 }
 
 #app .header-wrap>.nav-wrap {
