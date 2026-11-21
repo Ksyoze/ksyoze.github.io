@@ -508,10 +508,6 @@
 
 /* /////////STATS WRAP///////// */
 
-#app .stat .value {
-    color: var(--ksyoz-color-black);
-}
-
 #app .stats-wrap {
     grid-column-gap: 0px;
 }
@@ -520,21 +516,25 @@
     background: var(--ksyoz-color-black);
 }*/
 
-#app .stats-wrap:hover>.stat .value {
+#app .stat .value {
+    color: var(--ksyoz-color-black);
+}
+
+/*#app .stats-wrap:hover>.stat .value {
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
     transition: 0.5s;
-}
+}*/
 
 #app .stat .label {
     color: var(--ksyoz-color-black);
 }
 
-#app .stats-wrap:hover>.stat .label {
+/*#app .stats-wrap:hover>.stat .label {
     background: var(--ksyoz-color-black);
     color: var(--ksyoz-color-white);
     transition: 0.5s;
-}
+}*/
 
 /* /////////ACTIVITY HISTORY///////// */
 
