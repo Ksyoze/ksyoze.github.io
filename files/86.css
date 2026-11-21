@@ -13,6 +13,7 @@
     --left-side-width: 17%;
     --right-side-width: 83%;
     --feed-height: 4940px;
+    --text-spacing: 8px;
     --ksyoz-color-white: white;
     --ksyoz-color-black: black;
     --ksyoz-color-blue: 145, 199, 237;
@@ -94,6 +95,7 @@
     z-index: 1;
     color: var(--ksyoz-color-black);
     width: 100%;
+    letter-spacing: var(--text-spacing);
 }
 
 #app #nav .wrap>.links>.link::before {
